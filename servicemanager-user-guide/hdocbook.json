@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "audience": [
     "public"
   ],
@@ -14,7 +14,65 @@
   "navigation": {
     "items": [
       {
-        "text": "Introduction",
+       "text": "Overview",
+            "link": "servicemanager-user-guide/index"
+      },
+      {
+        "text": "Request List",
+        "expand": true,
+        "items": [
+          {
+            "text": "Overview",
+            "link": "servicemanager-user-guide/request-list/overview"
+          },
+          {
+            "text": "Views",
+            "link": "servicemanager-user-guide/request-list/views"
+          }
+        ]
+      },
+      {
+        "text": "Change Calendar",
+        "expand": true,
+        "items": [
+          {
+            "text": "Overview",
+            "link": "servicemanager-user-guide/index"
+          }
+        ]
+      },
+      {
+        "text": "Configuration Management",
+        "expand": true,
+        "items": [
+          {
+            "text": "Overview",
+            "link": "servicemanager-user-guide/index"
+          }
+        ]
+      },
+      {
+        "text": "Asset Management",
+        "expand": true,
+        "items": [
+          {
+            "text": "Overview",
+            "link": "servicemanager-user-guide/index"
+          }
+        ]
+      },
+      {
+        "text": "Service Portfolio",
+        "expand": true,
+        "items": [
+          {
+            "text": "Overview",
+            "link": "servicemanager-user-guide/index"
+          }
+        ]
+      },
+      {
+        "text": "Reports",
         "expand": true,
         "items": [
           {
