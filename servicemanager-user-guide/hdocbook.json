@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "audience": [
     "public"
   ],
@@ -15,7 +15,7 @@
     "items": [
       {
        "text": "Overview",
-            "link": "servicemanager-user-guide/index"
+            "link": "/servicemanager-user-guide/index"
       },
       {
         "text": "Request List",
@@ -23,33 +23,25 @@
         "items": [
           {
             "text": "Overview",
-            "link": "servicemanager-user-guide/request-list/overview"
+            "link": "/servicemanager-user-guide/request-list/overview"
           },
           {
             "text": "Views",
-            "link": "servicemanager-user-guide/request-list/views"
+            "link": "/servicemanager-user-guide/request-list/views"
+          },
+          {
+            "text": "My Dashboard",
+            "link": "/servicemanager-user-guide/request-list/my-dashboard"
           }
         ]
       },
       {
         "text": "Change Calendar",
-        "expand": true,
-        "items": [
-          {
-            "text": "Overview",
-            "link": "servicemanager-user-guide/index"
-          }
-        ]
-      },
+        "link": "/servicemanager-user-guide/change-calendar/overview"
+       },
       {
         "text": "Configuration Management",
-        "expand": true,
-        "items": [
-          {
-            "text": "Overview",
-            "link": "servicemanager-user-guide/index"
-          }
-        ]
+        "link": "/servicemanager-user-guide/configuration-management/overview"
       },
       {
         "text": "Asset Management",
@@ -57,7 +49,19 @@
         "items": [
           {
             "text": "Overview",
-            "link": "servicemanager-user-guide/index"
+            "link": "/servicemanager-user-guide/asset-management/overview"
+          },
+          {
+            "text": "Manage Assets",
+            "link": "/servicemanager-user-guide/asset-management/manage-assets"
+          },
+          {
+            "text": "Manage Asset Types",
+            "link": "/servicemanager-user-guide/asset-management/manage-asset-types"
+          },
+          {
+            "text": "Upload Assets",
+            "link": "/servicemanager-user-guide/asset-management/upload-assets"
           }
         ]
       },
@@ -67,17 +71,18 @@
         "items": [
           {
             "text": "Overview",
-            "link": "servicemanager-user-guide/index"
+            "link": "/servicemanager-user-guide/service-portfolio/services"
           }
         ]
       },
       {
         "text": "Reports",
+        "draft": true,
         "expand": true,
         "items": [
           {
             "text": "Overview",
-            "link": "servicemanager-user-guide/index"
+            "link": "/servicemanager-user-guide/index"
           }
         ]
       }
