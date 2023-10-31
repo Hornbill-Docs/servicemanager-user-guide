@@ -2,12 +2,20 @@
 layout: article-toc
 ---
 # Overview
-The Service Portfolio provides features and configuration settings for defining the Services that you offer to your customers. These options include services, request priorities, and Corporate Service Level Agreements.
+The Service Portfolio provides features and configuration for defining the Services that are offered to employees and customers. 
 
-Each defined service can include a combination of service levels, business process workflows, request routing, and subscriptions. The number of defined services may range from a single service used to define and manage all IT requests, to a collection of categorized services, with each one providing a particular focus.
+The portfolio consists of services that are in different states, from pipeline through to being retired.  Within the portfolio, services can be defined, planned, delivered, and reviewed for continual improvement. 
+
+## Service Catalog
+The Service Catalog contains those services are are active and available for employees and customers to consume.  These services can be accessed through the Customer and Employee portals.
 
 ## Services
-The Services List provides a list of the services that are being managed within Service Manager.
+The goal of a service is to deliver value to customers and employees through a number of mechanizims
 
-## Corporate Service Level Agreements
-The Corporate Service Level Agreements (SLA) tab allows you to define your corporate service level agreements which can be shared between services. Each Corporate SLA lets you define Service Levels, Service Level Targets and the rules for applying these to requests.
+* Communications between the service desk and the customers.
+* Incident reporting and management.
+* Request fulfillment.
+* Service availability.
+* Continual service improvements.
+* Service level agreements.
+* Self service access through portals.

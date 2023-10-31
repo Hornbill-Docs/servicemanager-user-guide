@@ -14,7 +14,6 @@ It is possible to upload assets of different asset Types but only those which ar
 4. Name and Type are mandatory attributes for each asset you wish to upload regardless of their type or class.
 5. Save the template file.
 
-
 Whilst other attributes are not mandatory to perform the import, it is good practice to populate the attribute fields to match those which you have enabled for each asset type, when you were defining the asset types. Examples being Usedby, or Site, should you want the assets to appear as linked to these entities when performing other Service Manager actions, such as logging requests through progressive capture and having the option to choose from a list of assets associated to the user.
 
 Used by requires the usedById, usedByName and usedByType attributes to be completed. usedByType should be populated with either:
