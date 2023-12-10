@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "audience": [
     "public"
   ],
@@ -107,14 +107,27 @@
                 "draft":true,
                   "items":[
                     {
-                      "text":"Request Types",
-                      "link":"/servicemanager-user-guide/service-portfolio/request-types"
+                      "text":"Request Configuration",
+                      "link":"/servicemanager-user-guide/service-portfolio/request-configuration"
                     },
                     {
                       "text":"Request Catalog",
                       "link": "/servicemanager-user-guide/service-portfolio/request-catalog"
                     }
                   ]
+              },
+              {
+                "text":"Requests",
+                "items":[
+                  {
+                    "text":"Request Types",
+                    "link":"/servicemanager-user-guide/service-portfolio/requests/request-types"
+                  },
+                  {
+                    "text":"Request Insights",
+                    "link":"/servicemanager-user-guide/service-portfolio/requests/request-insights"
+                  }
+                ]
               }
             ]
           }
