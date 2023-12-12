@@ -13,7 +13,7 @@ The status insights show how long the request had remained in each status.  Only
 The closed status is excluded from these charts.
 :::
 
-### Sub-statues
+### Sub-statuses
 If the request being viewed includes sub-statuses, an additional chart is displayed that shows the amount of time that was spent in each sub-status.
 
 ## Assignment

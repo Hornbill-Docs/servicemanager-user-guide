@@ -7,7 +7,7 @@ Incidents are used to manage unplanned interruptions or reductions in the qualit
 ## Service Requests
 Request fulfillment (or request management) focuses on fulfilling Service Requests, which are often minor (standard) changes (e.g., requests to change a password) or requests for information. The term "standard change" means pre-approved, repeatable, pre-defined, low-risk changes. If the change does not meet these criteria then it is not a standard change and should be defined as a request for change.
 
-## Problem Records
+## Problems
 Problems are used to manage the investigation of an issue where the root cause is unknown.  Problem records are typically not customer centric, but they can be used to capture the users that are impacted by the problem.  Problems can optionally be publish and made available as known issues articles that are available for users.  Temporary workarounds can be provided to help users continue with their work.
 
 ## Known Errors
@@ -16,5 +16,5 @@ Known Errors (KEs) are often created from a problem record once the root cause h
 ## Change Requests
 Change management aims to ensure that standardized methods and procedures are used for the efficient handling of all changes to your services and environment. Change requests are a way to manage the continual improvement of the services that you provide to users and customers.  Change management lets you plan and eliminate risk while providing an audit trail of the changes you make.
 
-## Releases Records
+## Releases
 Release Management allows for the planning and release several related changes under a single release record.
