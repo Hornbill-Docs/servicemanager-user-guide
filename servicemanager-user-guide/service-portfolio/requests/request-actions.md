@@ -1,12 +1,12 @@
 # Request Actions
-The action rar located at the top of each request contains the majority of functions that you can apply to a rquest. 
+The action bar located at the top of each request contains the majority of actions that you can apply to a request. 
 
-The actions can individually be made available based on how they are configured within the Service they are associated to.
+![Request Actions](_books/servicemanager-user-guide/service-portfolio/requests/images/action-bar.png)
 
-The supporting workflow that sits behind the request can control the focus of an action when that action is required to be completed.
-
-Use the Business Process Workflows to lock or unlock action items at any stage in a supporting workflow
-Global Request Settings control which of these options are enabled when an Incident is on-hold
+* The actions available on a request can be configured within the service they are associated with.
+* The supporting workflow that sits behind the request can control the focus of an action when that action is required to be completed.
+* Use the workflows to lock or unlock individual actions at any stage in a supporting workflow.
+* Global Request Settings control which of these options are enabled when an Incident is on hold.
 
 ## Update
 ----
