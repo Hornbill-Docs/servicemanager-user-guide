@@ -1,4 +1,4 @@
-# Link Action
+# Linked Requests Action
 The Link Action within a request enables two main functions. Firstly, the searching for and linking of existing requests, and secondly the raising of new linked requests.
 
 ### Linking Requests

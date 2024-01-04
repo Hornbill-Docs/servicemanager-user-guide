@@ -15,7 +15,7 @@ It is possible to @mention a co-worker in an update. The mentioned co-worker wil
 ## Customer Email Notifications
 Email notifications can be sent to the customer of the request each time an Update is added with the visibility level of Customer. These emails can contain links back to originating request to allow the customer to read and respond to the updates. Subsequent comments that are made below a customer visible update will also provide an email notification to the customer This is a great way to keep the customer up to date.
 
-### Setup
+:::note
 It is important that the following has been set up in order for the customer to receive the updates by email.
 * **Service Mailbox**<br>Set a default mailbox on the service and/or on the Request Types for the service
 * **Shared Mailbox Access**<br>Make sure that all the analysts that will be updating the request have access to the mailbox set on the service.
@@ -24,6 +24,7 @@ It is important that the following has been set up in order for the customer to 
 * **Email Notification Setting**<br>This setting guest.app.requests.notification.emailMailbox defaults to helpdesk on installation. This needs to be changed to the name of the mailbox that you wish to use for notifications from Service Manager.
 * **Notify Customer**
 Enable the Notify Customer option on the Request Action configuration.
+:::
 
 ## Update Linked Requests
 If there are linked requests associated to the request that you are working on, you are able to send an update to the Timeline of these linked requests

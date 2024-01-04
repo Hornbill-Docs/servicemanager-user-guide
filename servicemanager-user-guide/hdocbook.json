@@ -145,6 +145,10 @@
                       {
                         "text":"Link",
                         "link": "/servicemanager-user-guide/service-portfolio/requests/link-action"
+                      },
+                      {
+                        "text":"Linked Services",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/linked-services-action"
                       }
                     ]
                   },
