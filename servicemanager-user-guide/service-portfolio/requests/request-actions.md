@@ -8,6 +8,11 @@ The action bar located at the top of each request contains the majority of actio
 * Use the [Access Control automation](/servicemanager-config/customize/workflows/service-manager-workflows#access-control) to lock or unlock individual actions at any point within a workflow.
 * [Request Settings](/servicemanager-config/administration/request-settings#on-hold-settings) control which of these options are enabled when an incident is on hold.
 
+## Visibility
+Each time an action is used, an entry is added to the timeline.  Each action has a "visibility level" associated with it that controls who can see the entry in the timeline. This will typically be "Team" or "Customer". The user can select the visibility to decide if the timeline entry will be customer facing ("customer" visibility) or private to the team working on the request ("team" visibility).
+
+While a user can change this at the time of performing the action, the default visibility for each action item can be configured in Service Manager settings. The default visibility settings can be easily found by typing the word "visibility" in the Configuration Search. 
+
 <!--
 ## Linked Services
 Link other related Services to the request
