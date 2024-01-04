@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "audience": [
     "public"
   ],
@@ -121,15 +121,36 @@
                 "items":[
                   {
                     "text":"Request Types",
-                    "link":"/servicemanager-user-guide/service-portfolio/requests/request-types"
+                    "link": "/servicemanager-user-guide/service-portfolio/requests/request-types"
                   },
                   {
                     "text":"Request Actions",
-                    "link":"/servicemanager-user-guide/service-portfolio/requests/request-actions"
+                    "items":[
+                      {
+                        "text": "Overview",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/request-actions"
+                      },
+                      {
+                        "text":"Update",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/update-action"
+                      },
+                      {
+                        "text":"Phone Call",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/phone-call-action"
+                      },
+                      {
+                        "text":"Attachment",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/attachment-action"
+                      },
+                      {
+                        "text":"Link",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/link-action"
+                      }
+                    ]
                   },
                   {
                     "text":"Request Insights",
-                    "link":"/servicemanager-user-guide/service-portfolio/requests/request-insights"
+                    "link": "/servicemanager-user-guide/service-portfolio/requests/request-insights"
                   }
                 ]
               }
