@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "audience": [
     "public"
   ],
@@ -157,6 +157,10 @@
                       {
                         "text":"Email",
                         "link": "/servicemanager-user-guide/service-portfolio/requests/email-action"
+                      },
+                      {
+                        "text":"Customer",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/customer-action"
                       }
                     ]
                   },
