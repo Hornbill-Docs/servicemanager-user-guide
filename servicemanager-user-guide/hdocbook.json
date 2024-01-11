@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.13",
+  "version": "0.2.14",
   "audience": [
     "public"
   ],
@@ -161,6 +161,10 @@
                       {
                         "text":"Customer",
                         "link": "/servicemanager-user-guide/service-portfolio/requests/customer-action"
+                      },
+                      {
+                        "text":"Assign",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/assign-action"
                       }
                     ]
                   },
