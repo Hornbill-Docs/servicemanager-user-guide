@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "audience": [
     "public"
   ],
@@ -169,6 +169,10 @@
                       {
                         "text":"Connections",
                         "link": "/servicemanager-user-guide/service-portfolio/requests/connection-action"
+                      },
+                      {
+                        "text":"Assessment",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/assessment-action"
                       }
                     ]
                   },
