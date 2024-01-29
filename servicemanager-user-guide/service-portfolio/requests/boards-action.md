@@ -4,7 +4,7 @@ The Boards Action Item lets you both add a request to one or more Boards and spe
 ## Adding a request to a Board
 
 From the drop-down select the board and list you wish to add the request to.
-* The list of Boards displayed will be filtered to those which the viewing analyst has the rights to view and add too.
+* The list of Boards displayed will be filtered to those that the viewing analyst has the right to view and add to.
 
 ## Viewing the Boards a request is already present on
 Once the request has been added to one or multiple Boards, either manually from the request or through business process automation, the boards the request is on will be visible.
