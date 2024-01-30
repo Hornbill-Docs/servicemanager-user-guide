@@ -9,10 +9,10 @@ Priority is the default option for the assessment action and is available to all
 ![Request Priority](_books/servicemanager-user-guide/service-portfolio/requests/images/request-info-priority.png)
 
 ### Benefits of Using Priority
-Setting the priority of a request is all about having a focus on the most important requests. There are serveral visual tools and automations to help achieve this. 
+Setting the priority of a request is all about having a focus on the most important requests. There are several visual tools and automations to help achieve this. 
 * Visibility in the request list by displaying color-coded priority levels.
 * Sorting the request list by priority puts the most important requests at the top.
-* Determin the service level targets that will be used for the request.
+* Determine the service level targets that will be used for the request.
 * Drive workflow automation based on the selected priority.
 * Contribute to statistics and reports based on the priority levels.
 
