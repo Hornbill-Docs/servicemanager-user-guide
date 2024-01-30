@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.23",
+  "version": "0.2.24",
   "audience": [
     "public"
   ],
@@ -197,6 +197,10 @@
                       {
                         "text":"Cancel",
                         "link": "/servicemanager-user-guide/service-portfolio/requests/cancel-action"
+                      },
+                      {
+                        "text":"Print",
+                        "link": "/servicemanager-user-guide/service-portfolio/requests/print-action"
                       }
                     ]
                   },

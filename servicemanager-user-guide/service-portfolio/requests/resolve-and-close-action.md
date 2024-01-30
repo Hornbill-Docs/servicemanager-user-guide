@@ -1,4 +1,4 @@
-# Resolution
+# Resolve and Close
 The Resolve and Close Action Item is used to set the request status to either Resolved or Closed. In addition to changing the status, information about the solution or information supporting the status change can be added along with the selection of a Closure Category.
 
 ## Options
