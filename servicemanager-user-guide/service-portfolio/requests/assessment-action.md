@@ -1,15 +1,25 @@
-# Assessment
-The Escalate Action within a request enables the manual escalation or de-escalation of the request's priority.
+# Assessment Action
+The Assessment Action on a request is all about determining the importance of a request.  One or more criteria including priority, impact, and urgency can be used when making an assessment.
+
+![Assessment Action](_books/servicemanager-user-guide/service-portfolio/requests/images/assessment-action.png)
 
 ## Priority
-A Priority can either be set by a BPM Workflow automatically or it can be manually added as part of an assessment stage. The Escalate Action lets you set the initial Priority Level or change it at a later point in the life of a request if there is a need to escalate or downgrade the request to a different priority level.
+Priority is the default option for the assessment action and is available to all requests. A drop-down list of [priority levels](/servicemanager-config/administration/assessment-levels#default-levels) are available for selection. Once a priority has been selected and applied to the request, it will be displayed in the information panel.
 
-Select the priority from the list of available priorities
+![Request Priority](_books/servicemanager-user-guide/service-portfolio/requests/images/request-info-priority.png)
 
-* This action can be used to escalate to a higher priority or de-escalated to a lower priority
-* A comment to support the change in priority is mandatory
-* A post will be added to the request's timeline to record the change, who performed it and when it occurred
-* The post can have its level of visibility changed to be visible to the the customer of the request on the portals, team only, owner only etc
+### Benefits of Using Priority
+Setting the priority of a request is all about having a focus on the most important requests. There are serveral visual tools and automations to help achieve this. 
+* Visibility in the request list by displaying color-coded priority levels.
+* Sorting the request list by priority puts the most important requests at the top.
+* Determin the service level targets that will be used for the request.
+* Drive workflow automation based on the selected priority.
+* Contribute to statistics and reports based on the priority levels.
 
-## Impact Assessment
-A feature is available to enable an Impact Assessment which can be launched and updated from within the Escalation Action. The Assessment is triggered from the BPM workflow and is represented by an Impact Assessment button. When clicked on, the user will be taken through serveral questions. Each answer provided will have a score against it to automatically apply an Impact Level based on the responses to the questions.
+## Impact
+Using Impact is a way to determine the effect the request may have on your business.  Impact could be based on the number of users that might be affected by the issue or it may have a significant financial impact.
+
+Rather than a simple drop-down list to select from, a questionnaire is presented that can consist of one or more questions that help determine the impact. Each answer provided will have a score against it to automatically apply an Impact Level based on the responses to the questions.
+
+## Request Timeline
+Each time an assessment is added or changed on a request, a record is added to the timeline.
