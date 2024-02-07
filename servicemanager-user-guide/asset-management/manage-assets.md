@@ -28,19 +28,15 @@ The Asset List lets you access all the available assets. A number of features on
 ### Tool Bar Features
 * **Add a New Asset**<br>The New Asset button allows for the manual creation of an asset. This button is located on both the Asset Landing Page and the Asset List. Adding an Asset Manually.
     :::tip
-    * Information Batch processing or the adding of multiple assets can also be achieved by using the Upload Assets CSV
-    * Information Automated processing using an external data source can be achieved by using the Database Asset Import
+    * Batch processing or the adding of multiple assets can also be achieved by using the Upload Assets CSV
+    * Automated processing using an external data source can be achieved by using the Database Asset Import
     :::
 * **Quick Filter**<br>The filter can be used to quickly focus on those asset records that are important to you. The filter will operate on the asset records that appear in the current list and will return records where a match is found in any of the asset attributes.
     :::tip
-    To search on the Class-specific attributes of an asset record, you must be viewing a Class-specific list. It will search all asset attributes regardless of whether or not the attribute is displayed in your list view. The filter does not operate on attributes containing a date-time value, state, location type, acq. method, or depreciation method (however sorting on these columns should allow effective identification of the records of interest).
+    To search on the class-specific attributes of an asset record, you must be viewing a Class-specific list. It will search all asset attributes regardless of whether or not the attribute is displayed in your list view. The filter does not operate on attributes containing a date-time value, state, location type, acq. method, or depreciation method (however sorting on these columns should allow effective identification of the records of interest).
     :::
 * **Advanced Search**<br>Use the advanced search option to filter assets based on multiple definable conditions. Before adding your first Condition make sure you select the appropriate Asset Class from the Class Selector. Once you start adding the first Condition, the Asset Class will be locked to the current Asset Class and the matching fields for that Asset Class will be available when adding conditions. Once Conditions are set use either the search option to filter the results and or saved the search as one of your views.
 * **Class Selector**<br>Switch between Asset Classes or All assets by selecting the relevant option (Note the list columns will change to reflect those configured for each Asset Class).
-* **Add a New Asset**<br>The New Asset button allows for the manual creation of an asset. This button is located on both the Asset Landing Page and the Asset List. Adding an Asset Manually
-    :::
-    * Batch processing or the adding of multiple assets can also be achieved by using the Upload Assets CSV.
-    * Automated processing using an external data source can be achieved by using the Database Asset Import
 * **Views**<br>The Views provide a way of defining and storing a number of different views of the assets. The criteria builder lets you specify conditions based on information held in the asset records, giving you quick access to particular sets of important data. You can quickly change your Views by selecting from your list of defined views on the Asset List toolbar.
 * **Export Assets**<br>Export the contents of the Asset list to CSV
 Choose which of the available columns on the list you wish to export (the available options will be specific to the asset class)

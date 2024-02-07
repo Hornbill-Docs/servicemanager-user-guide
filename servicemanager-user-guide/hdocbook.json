@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.27",
+  "version": "0.2.28",
   "audience": [
     "public"
   ],
@@ -62,6 +62,10 @@
           {
             "text": "Upload Assets",
             "link": "/servicemanager-user-guide/asset-management/upload-assets"
+          },
+          {
+            "text": "Assets Details",
+            "link": "/servicemanager-user-guide/asset-management/asset-details"
           }
         ]
       },
