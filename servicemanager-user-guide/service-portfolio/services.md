@@ -10,14 +10,14 @@ The starting point to building a service catalog is to identify the services tha
 ## Details
 The details of a service provides some key values and settings to make a service operational. These options include setting the name, description, status, visibility, and more. Some of this information is mandatory on the creation of a Service so it is important to plan your service before starting.
 ### Name
-The name of your Service is a simple yet very important aspect of a service. The Service Name is mandatory on the creation of a service. When naming your service, some things to consider are:
+The name of your Service is a simple yet very important aspect of a service. The Service Name is mandatory for the creation of a service. When naming your service, some things to consider are:
 * The name is visible to subscribed customers on the Self Service Portals
-* The name is visible to support staff within Progressive Capture when using the Services Progressive Capture form
+* The name is visible to support staff within Intelligent Capture when using the Services Capture form
 * The name is visible within the Services column of the Request List
 * The name is visible on each request that has been raised for that service
 * Consider the length of the name and how it may be displayed in these different areas.
 * A unique service name is not enforced so it is possible for two distinct areas of a business to have a service by the same name.
-* If you need to support more than one language for users of the Service, be sure to create the different language versions of your Service Name and Description. Users of the Service will see the appropriate one based on the language assigned to their profile (if you provide the translation).
+* If you need to support more than one language for users of the Service, be sure to create different language versions of your Service Name and Description. Users of the Service will see the appropriate one based on the language assigned to their profile (if you provide the translation).
 
 ### Description
 A brief description of your service can be added to your Service. This allows you to add some additional information to describe the purpose or use of the service. This description is available for customers to read on the Self Service Portals when viewing their service information. It is also available to support staff on the Services Progressive Capture form when raising a request to provide that bit of extra information to make sure they are selecting the correct service.
@@ -26,7 +26,7 @@ A brief description of your service can be added to your Service. This allows yo
 Used to group your Services. Select one from the pre-defined list
 
 ### Portfolio Status
-The Service Portfolio Status uses some industry standard conventions for determining the state of the service. These statuses include Pipeline, Catalog, and Retired
+The Service Portfolio Status uses some industry standard conventions for determining the state of the service. These statuses include Pipeline, Catalog, and Retired.
 
 * **Pipeline**<br>This status is generally used as a planning state. While the status is Pipeline, the service will remain hidden from customers and support staff to allow for planning and setup of the service.
 * **Catalog**<br>Once all of the required configuration and setup is complete a service status can be set to Catalog. Once in the status of Catalog, the service will be live and available for selection by support staff when raising a request on the Services form in Progressive Capture, or for subscribers of the Service raising requests via the Self Service Portals.
