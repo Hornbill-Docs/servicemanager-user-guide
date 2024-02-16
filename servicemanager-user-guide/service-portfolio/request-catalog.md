@@ -1,19 +1,19 @@
 # Request Catalog
-The Request Catalogs provide a structured way of promoting the available types of requests for a particular Service. Requests in the catalog are available to subscribed users of a service on the Hornbill Portals and can also be accessed by support staff to provide a standard way of raising a particular type of request. 
+The Request Catalog provide a structured way of promoting the available types of requests for a particular Service. Requests in the catalog are available to subscribed users of a service on the Hornbill Portals and can also be accessed by support staff to provide a standard way of raising a particular type of request. 
 
 ## Before You Begin
 In order to create and manage the Request Catalogs the following user roles are needed to perform the different actions
 
 |Role|Description|
 |-|-|
-|Service Manager Role|Required to View and Access the Services forms where the Request Catalogs are created|
+|Services Manager Role|Required to View and Access the Services forms where the Request Catalogs are created|
 |Progressive Capture Manager Role|Required to create and modify and Capture Scripts to be used with a catalog request model|
 |Business Process Manager Role|Required to create and modify any workflow to be used with a catalog request model.|
 
 :::tip
 By default Change Requests can't be raised from the Customer or Employee Portal. Enabling the system setting: ***guest.servicemanager.portal.additionalRequestTypes.change*** will allow Changes marked wiht the visibility to `Portal` or `Both` to be visible on the portals.
 
-Please beware that enabling this setting will also allow customers to see any historical changes which have been raised and they have been set as the customer of the Changes (even if no Change Catalog Items were used on the Change records).
+Please beware that enabling this setting will also allow customers to see any historical changes that have been raised and they have been set as the customer of the Changes (even if no Change Catalog Items were used on the Change records).
 :::
 
 ## How to Access
@@ -58,7 +58,7 @@ The Service Details Form is required to give a support person the ability to sel
 * If one or more Catalog Items have been defined, either the Service can be selected to continue with the current progressive capture or one of the individual Catalog Items can be selected which will run a new progressive capture that is specific to that item.
 
 ### Portal Only Catalog Items
-The creation of a Progressive Capture Script that is only going to be available to users of the portals is as straight forward as going to Administration and creating collection of forms and questions that the user will be stepped through to raise the appropriate request.
+The creation of a Capture Script that is only going to be available to users of the portals is as straightforward as going to Administration and creating a collection of forms and questions that the user will be stepped through to raise the appropriate request.
 
 When building a Progressive Capture Script for this purpose there is only one thing to keep in mind. There are particular progressive capture forms that are not designed for use by portal users. If these forms are added to these progressive capture scripts they will simply be skipped and not visible to the user on the portals. These include the following forms:
 
@@ -71,12 +71,12 @@ When building a Progressive Capture Script for this purpose there is only one th
 * Analyst Assignment
 
 ### Support Staff Only Catalog Items
-When a support person begins the steps of raising a request, they will start by clicking on the `Raise New` option or select a particular type of request, such as an incident, or service request. Each of these will run its own capture script. Within any of these capture scripts the Service Details form may be included. It is this Service Details form that displays the Request Catalog for each Service. If one of these Catalog Items is selected, a new Progressive Capture Script will be launched.
+When a support person begins the steps of raising a request, they will start by clicking on the `Raise New` option or selecting a particular type of request, such as an incident, or service request. Each of these will run its own capture script. Within any of these capture scripts the Service Details form may be included. It is this Service Details form that displays the Request Catalog for each Service. If one of these Catalog Items is selected, a new Progressive Capture Script will be launched.
 
-It is possible that some of the information collected in the initial Capture Script will be relevant to the Catalog Model's specific Capture Script. In order to maintain this information between the two Capture Scripts, the same Capture forms must be included in both scripts. For example if you use the Customer Search form in the initial Progressive Capture, and you want retain the selected customer in the next script, the next script must also include the Customer Search form. If information collected in the initial script is no longer relevant to the Catalog Item, simple leave that form out of the Catalog Item script.
+It is possible that some of the information collected in the initial Capture Script will be relevant to the Catalog Model's specific Capture Script. In order to maintain this information between the two Capture Scripts, the same Capture forms must be included in both scripts. For example if you use the Customer Search form in the initial Progressive Capture, and you want to retain the selected customer in the next script, the next script must also include the Customer Search form. If information collected in the initial script is no longer relevant to the Catalog Item, simply leave that form out of the Catalog Item script.
 
 ### Shared Catalog Items
-In some cases you may be able to use the same Catalog Item in both the Portal and the for the Support Staff. Using the considerations mentioned in the previous two sections, you can build a progressive capture script that lets you include Support specific forms which are skipped and not visible in the portals, but they can be added to retain information that the support person needs.
+In some cases you may be able to use the same Catalog Item in both the Portal and the for the Support Staff. Using the considerations mentioned in the previous two sections, you can build a progressive capture script that lets you include Support specific forms that are skipped and not visible in the portals, but they can be added to retain information that the support person needs.
 
 ## Language
 If you are working in a multilingual environment you can publish each catalog model in a number of different languages. Any user that has a matching language set against their profile will see this in their preferred language.
@@ -84,7 +84,7 @@ If you are working in a multilingual environment you can publish each catalog mo
 ### Add a Translation
 The Language option provides a list of all of the different languages that this has been translated into. A new catalog model will only show the language that was selected at the time of creation. To add a new translation click on the `Add Translation` button which will expose the options for publishing this in another language.
 * **Language**<br>Select the new language that you wish to add.
-* **Translate**<br>Clicking this button will take the original title and description from the default language and automatically translate these fields using Google Translate. The title and description fields will be automatically populated with this translation. These fields can also be manually edited to either add your own translation or used to correct any mistakes made by the automatic translation.
+* **Translate**<br>Clicking this button will take the original title and description from the default language and automatically translate these fields using Google Translate. The title and description fields will be automatically populated with this translation. These fields can also be manually edited to either add your own translation or to correct any mistakes made by the automatic translation.
 Clicking on the `Translate` button will overwrite any information that is already held in the title and description fields.
 
 ### Update a Translation
