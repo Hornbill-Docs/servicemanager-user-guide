@@ -1,3 +1,4 @@
+# Publish Action
 The Publish Action item is a feature of the Problem and Known Error records that allows you to generate a customer friendly definition of an issue and have it published to the portals. The publishing of a Problem or Known Error record gives greater visibility to customers of potential issues that they may experience.
 
 ## Features
