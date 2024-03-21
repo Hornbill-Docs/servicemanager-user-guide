@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.35",
+  "version": "0.2.36",
   "audience": [
     "public"
   ],
@@ -132,6 +132,10 @@
               {
                 "text":"Request Insights",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-insights"
+              },
+              {
+                "text":"Custom Buttons",
+                "link": "/servicemanager-user-guide/service-portfolio/requests/request-custom-buttons"
               }
             ]
           }
