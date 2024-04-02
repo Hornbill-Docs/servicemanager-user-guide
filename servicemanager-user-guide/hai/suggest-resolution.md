@@ -6,7 +6,7 @@ layout: article-toc
 ---
 
 # Suggest Resolution
-Automatically generate user-friendly request resolutions from technical updated from team members.
+Automatically generate user-friendly request resolutions from technical updates from team members.
 
 ### Benefits to you
 * Agent assistance: Save time producing user-friendly resolution content that can be presented to the customer.
@@ -14,8 +14,8 @@ Automatically generate user-friendly request resolutions from technical updated 
 * User experience: Empower users to do more, faster. No waiting. Customers get back to being productive faster.
 
 ### What you can do
-* Simplify very techinical request resolutions into content that's suitable for end user consumption.
-* Generate a request resolutions from a post in a ticket timeline (top level; not comments to posts). 
+* Simplify very technical request resolutions into content that's suitable for end-user consumption.
+* Generate request resolutions from a post in a ticket timeline (top level; not comments to posts). 
 * Or simply paste a block of text into the Request Resolution box and click *Suggest Resolution* to generate user-friendly content.
 
 ### Where to find it

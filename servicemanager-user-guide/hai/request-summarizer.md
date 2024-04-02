@@ -25,7 +25,7 @@ Summarize a request/ticket at the click of a button. One fewer task for your age
 
 
 ### Where to find it
-In any request record you'll see the new Request Summary box. Simply click the HAi icon on the right hand side to generate the request summary.
+In any request record, you'll see the new Request Summary box. Simply click the HAi icon on the right-hand side to generate the request summary.
 <img src="/_books/servicemanager-user-guide/images/hai_logo_small.png" alt="Hornbill Ai" width="50px"></img>
 
 ### How to use it
@@ -40,5 +40,5 @@ OpenAI generates the content. Review and edit the content and then save by click
 
 
 ### Template Variables
-Request Summary can be used in email templates as the varible is available with the others.
+Request Summary can be used in email templates as the variable is available with the others.
 <img src="/_books/servicemanager-user-guide/images/hai_request_summarizer_3.png" alt="Hornbill Request Summarizer - Email"></img>

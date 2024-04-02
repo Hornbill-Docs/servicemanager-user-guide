@@ -19,6 +19,6 @@ Summarize a request record and timeline at the click of a button to allow quick 
 * **[Text Assist](/servicemanager-user-guide/hai/text-assist)**<br>
 Improve agent efficiency with a set of AI-driven tools for quick creation and manipulation of text content - covering a broad range of common service desk tasks.
 * **[Knowledge Generator](/servicemanager-user-guide/hai/knowledge-generator)**<br>
-Instantly and effortlessly create a new knowledge article after resolving a request.
+Instantly and effortlessly creates a new knowledge article after resolving a request.
 * **[Suggest Resolution](/servicemanager-user-guide/hai/suggest-resolution)**<br>
 Create user-friendly resolution content from complex technical content - at the click of a button.
