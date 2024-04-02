@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.35",
+  "version": "0.2.36",
   "audience": [
     "public"
   ],
@@ -14,8 +14,8 @@
   "navigation": {
     "items": [
       {
-       "text": "Overview",
-            "link": "/servicemanager-user-guide/index"
+        "text": "Overview",
+        "link": "/servicemanager-user-guide/index"
       },
       {
         "text": "Request List",
@@ -34,103 +34,103 @@
             "link": "/servicemanager-user-guide/request-list/my-dashboard"
           },
           {
-            "text":"Requests",
-            "items":[
+            "text": "Requests",
+            "items": [
               {
-                "text":"Request Types",
+                "text": "Request Types",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-types"
               },
               {
-                "text":"Request Actions",
-                "items":[
+                "text": "Request Actions",
+                "items": [
                   {
                     "text": "Overview",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/request-actions"
                   },
                   {
-                    "text":"Update",
+                    "text": "Update",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/update-action"
                   },
                   {
-                    "text":"Phone Call",
+                    "text": "Phone Call",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/phone-call-action"
                   },
                   {
-                    "text":"Attachment",
+                    "text": "Attachment",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/attachment-action"
                   },
                   {
-                    "text":"Link Requests",
+                    "text": "Link Requests",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/link-action"
                   },
                   {
-                    "text":"Link Services",
+                    "text": "Link Services",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/linked-services-action"
                   },
                   {
-                    "text":"Authorization",
+                    "text": "Authorization",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/authorization-action"
                   },
                   {
-                    "text":"Email",
+                    "text": "Email",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/email-action"
                   },
                   {
-                    "text":"Customer",
+                    "text": "Customer",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/customer-action"
                   },
                   {
-                    "text":"Assign",
+                    "text": "Assign",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/assign-action"
                   },
                   {
-                    "text":"Connections",
+                    "text": "Connections",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/connection-action"
                   },
                   {
-                    "text":"Assessment",
+                    "text": "Assessment",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/assessment-action"
                   },
                   {
-                    "text":"Category",
+                    "text": "Category",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/category-action"
                   },
                   {
-                    "text":"Assets",
+                    "text": "Assets",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/asset-action"
                   },
                   {
-                    "text":"Boards",
+                    "text": "Boards",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/boards-action"
                   },
                   {
-                    "text":"Solutions",
+                    "text": "Solutions",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/solutions-action"
                   },
                   {
-                    "text":"Resolve and Close",
+                    "text": "Resolve and Close",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/resolve-and-close-action"
                   },
                   {
-                    "text":"Cancel",
+                    "text": "Cancel",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/cancel-action"
                   },
                   {
-                    "text":"Print",
+                    "text": "Print",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/print-action"
                   },
                   {
-                    "text":"Publish",
+                    "text": "Publish",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/publish-action"
                   },
                   {
-                    "text":"Workaround",
+                    "text": "Workaround",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/workaround-action"
                   }
                 ]
               },
               {
-                "text":"Request Insights",
+                "text": "Request Insights",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-insights"
               }
             ]
@@ -140,7 +140,7 @@
       {
         "text": "Change Calendar",
         "link": "/servicemanager-user-guide/change-calendar/overview"
-       },
+      },
       {
         "text": "Configuration Management",
         "link": "/servicemanager-user-guide/configuration-management/overview"
@@ -181,8 +181,8 @@
           },
           {
             "text": "Service Level Agreements",
-            "draft":true,
-            "items":[
+            "draft": true,
+            "items": [
               {
                 "text": "Overview",
                 "link": "/servicemanager-user-guide/service-portfolio/service-level-agreements/overview"
@@ -202,33 +202,32 @@
             ]
           },
           {
-            "text":"Services",
-            "items":[
+            "text": "Services",
+            "items": [
               {
                 "text": "Service Details",
                 "link": "/servicemanager-user-guide/service-portfolio/services"
               },
               {
                 "text": "Configuration",
-                "draft":false,
-                  "items":[
-                    {
-                      "text":"Request Configuration",
-                      "link":"/servicemanager-user-guide/service-portfolio/request-configuration"
-                    },
-                    {
-                      "text":"Request Catalog",
-                      "link": "/servicemanager-user-guide/service-portfolio/request-catalog"
-                    },
-                    {
-                      "text":"Customer Feedback",
-                      "link": "/servicemanager-user-guide/service-portfolio/customer-feedback"
-                    }
-                  ]
-              }              
+                "draft": false,
+                "items": [
+                  {
+                    "text": "Request Configuration",
+                    "link": "/servicemanager-user-guide/service-portfolio/request-configuration"
+                  },
+                  {
+                    "text": "Request Catalog",
+                    "link": "/servicemanager-user-guide/service-portfolio/request-catalog"
+                  },
+                  {
+                    "text": "Customer Feedback",
+                    "link": "/servicemanager-user-guide/service-portfolio/customer-feedback"
+                  }
+                ]
+              }
             ]
           }
-          
         ]
       },
       {
@@ -239,6 +238,37 @@
           {
             "text": "Overview",
             "link": "/servicemanager-user-guide/index"
+          }
+        ]
+      },
+      {
+        "text": "Overview",
+        "link": "/servicemanager-user-guide/index"
+      },
+      {
+        "text": "HAi",
+        "draft": true,
+        "expand": true,
+        "items": [
+          {
+            "text": "Overview",
+            "link": "/servicemanager-user-guide/hai/overview"
+          },
+          {
+            "text": "Request Summarizer",
+            "link": "/servicemanager-user-guide/hai/request-summarizer"
+          },
+          {
+            "text": "Text Assist",
+            "link": "/servicemanager-user-guide/hai/text-assist"
+          },
+          {
+            "text": "Knowledge Generator",
+            "link": "/servicemanager-user-guide/hai/knowledge-generator"
+          },
+          {
+            "text": "Suggest Resolution",
+            "link": "/servicemanager-user-guide/hai/suggest-resolution"
           }
         ]
       }
