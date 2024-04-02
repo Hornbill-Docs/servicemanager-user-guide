@@ -37,7 +37,7 @@ Input and highlight the text you want to use as a prompt. Click "Knowledge Gener
 
 ## (2)
 OpenAI generates the content. Click the tick to add it to your knowledge article – where you can edit the content or use the HAi options to change tone, shorten, or listify.
-<img src="/_books/servicemanager-user-guide/images/hai_knowledge_generator_2" alt="Knowledge Generator"></img>
+<img src="/_books/servicemanager-user-guide/images/hai_knowledge_generator_2.png" alt="Knowledge Generator"></img>
 
 
 ### Tips and Tricks
