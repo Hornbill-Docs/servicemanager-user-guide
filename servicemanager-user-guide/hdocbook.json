@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.38",
+  "version": "0.2.39",
   "audience": [
     "public"
   ],
@@ -185,13 +185,8 @@
           },
           {
             "text": "Service Level Agreements",
-<<<<<<< HEAD
-            "draft": true,
-            "items": [
-=======
             "draft":false,
             "items":[
->>>>>>> 8c876e20c7d60043ec0ac341c125e4ecc1856993
               {
                 "text": "Overview",
                 "link": "/servicemanager-user-guide/service-portfolio/service-level-agreements/overview"
@@ -256,7 +251,7 @@
       },
       {
         "text": "HAi",
-        "draft": true,
+        "draft": false,
         "expand": true,
         "items": [
           {
