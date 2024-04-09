@@ -11,7 +11,11 @@ layout: article-toc
 HAi is a suite of Artificial intelligence (AI) tools to help Hornbill users who deliver and support services. HAi features automate a range of tasks to save time, reduce workload, boost operational productivity, and make more time for projects and innovations. HAi supports faster and more efficient request resolution, customer communications, knowledge management, and more.
 
 ## Access
-Any Hornbill user with existing rights to the parts of Service Manager where HAi features are present can access them. No additional setup of rights/roles is needed.
+To access the HAi capability of Hornbill Service Manager, your User Account must have one of the following roles associated.
+
+|Role|Description|
+|-|-|
+|HAi User|This role allows users to access HAi functionality inside of Service Manager|
 
 ## Features
 * **[Request Summarizer](/servicemanager-user-guide/hai/request-summarizer)**<br>
