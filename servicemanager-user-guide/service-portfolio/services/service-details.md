@@ -1,12 +1,7 @@
 ---
 layout: article-toc
 ---
-# Services
-The goal of a service is to deliver value to customers and employees through a variety of mechanisms.
-
-## Planning
-The starting point to building a service catalog is to identify the services that are being offered. This could vary from a single service that offers IT help to users through self serve, chat, and request management to a service catalog offering many servcies across different areas of the business.
-
+# Service Details
 ## Details
 The details of a service provides some key values and settings to make a service operational. These options include setting the name, description, status, visibility, and more. Some of this information is mandatory on the creation of a Service so it is important to plan your service before starting.
 ### Name
