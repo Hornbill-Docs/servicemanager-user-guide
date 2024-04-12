@@ -17,6 +17,9 @@ To access the HAi capability of Hornbill Service Manager, your User Account must
 |-|-|
 |HAi User|This role allows users to access HAi functionality inside of Service Manager|
 
+### Additional Rights
+To access generating a knowledge draft from a request the analysts will need the following app right `servicemanager:rightH.canCreateKnowledgeBaseArticles`
+
 ## Features
 * **[Request Summarizer](/servicemanager-user-guide/hai/request-summarizer)**<br>
 Summarize a request record and timeline at the click of a button to allow quick handover to another agent, team, or manager.
