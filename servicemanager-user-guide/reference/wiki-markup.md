@@ -10,3 +10,4 @@ Using the equal sign (=) on either side of a word creates a section heading. The
 ==Heading 2==
 ===Heading 3===
 ```
+=Heading 1=
