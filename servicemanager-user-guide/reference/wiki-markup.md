@@ -5,3 +5,8 @@ For easy formatting of text in Hornbill, a subset of wiki markup can be used for
 Using the equal sign (=) on either side of a word creates a section heading. The number of equal signs determines the size of the heading. Each heading is followed by a line break.
 
 
+```md
+=Heading 1=
+==Heading 2==
+===Heading 3===
+```
