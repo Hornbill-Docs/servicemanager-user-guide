@@ -16,5 +16,12 @@ Known Errors (KEs) are often created from a problem record once the root cause h
 ## Change Requests
 Change management aims to ensure that standardized methods and procedures are used for the efficient handling of all changes to your services and environment. Change requests are a way to manage the continual improvement of the services that you provide to users and customers.  Change management lets you plan and eliminate risk while providing an audit trail of the changes you make.
 
+### Logging a Change
+Changes can be raised in a number of different ways.
+An analyst with a minimum of the Change Management User role can raise a new Change record from the following places:
+* The Request List > Using the Raise Change drop down option next to the Raise New icon
+* Existing Incidents records > Using the Raise Change from the Raise New Linked Request option under the Link Action Bar or Using the Raise Change drop down option next to the Raise New icon
+* Existing Problem records > Using the Raise Change from the Raise New Linked Request option under the Link Action Bar or Using the Raise Change drop down option next to the Raise New icon
+
 ## Releases
 Release Management allows for the planning and release several related changes under a single release record.
