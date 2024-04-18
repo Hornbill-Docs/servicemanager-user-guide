@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.54",
+  "version": "0.2.55",
   "audience": [
     "public"
   ],
@@ -147,7 +147,16 @@
       },
       {
         "text": "Configuration Management",
-        "link": "/servicemanager-user-guide/configuration-management/overview"
+        "items": [
+            {
+              "text": "Overview",
+              "link": "/servicemanager-user-guide/configuration-management/overview"
+            },
+            {
+              "text": "Configuration Items",
+              "link": "/servicemanager-user-guide/configuration-management/configuration-items"
+            }
+        ]
       },
       {
         "text": "Asset Management",
