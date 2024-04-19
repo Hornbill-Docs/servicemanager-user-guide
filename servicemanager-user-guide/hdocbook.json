@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.55",
+  "version": "0.2.56",
   "audience": [
     "public"
   ],
@@ -250,6 +250,10 @@
               {
                 "text": "Bulletins",
                 "link": "/servicemanager-user-guide/service-portfolio/services/service-bulletins"
+              },
+              {
+                "text": "Connections",
+                "link": "/servicemanager-user-guide/service-portfolio/services/service-connections"
               },
               {
                 "text": "Service Level Agreements",
