@@ -1,4 +1,4 @@
-# Configurations Item Explorer
+# Configuration Item Explorer
 The Configuration Item Explorer provides a graphical representation of associated or linked CIs. The explorer can be launched from within the Configuration Manager app, or from other views where the Configuration App plug in is available. Typically this would be from Configuration Item views such as:
 * Service records
 * Request records
