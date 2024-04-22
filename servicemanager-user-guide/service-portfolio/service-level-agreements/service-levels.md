@@ -26,7 +26,7 @@ If you have a target that you advertise as 5 calendar days, you need to determin
 
 Therefore the target of 5 calendar days based on a 9.5 hour working day equates to 1 day, 23 hours, 31 minutes.
 
-More details of this along with some useful tools can be found in this FAQ article Setup and Configure Timers in Service Manager
+More details of this can be found in the [Service Level Workflow Automation](/servicemanager-user-guide/service-portfolio/service-level-agreements/automation) document.
 
 ## Escalation Actions
 Against each Service Level Target you can configure escalation actions which will get automatically invoked should the Service Level still be active at defined time intervals before and or after the specific Target of the Service Level.
