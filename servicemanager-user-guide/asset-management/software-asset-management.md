@@ -43,4 +43,43 @@ Data displayed:
 * Version
 * When Installed
 
+## Manage Vendors, Products, Versions
+For Software Assets it is possible to include the attributes for Vendor, Product and Version. In order to maintain an accurate set of data for each it is possible to define lists of the Vendors you work with, the Products they provide and any different Versions which are available for each product.
+
+Once the Lists are defined these will be presented when adding an Asset of the Software Class and where you have configured the Software Asset Type to use the Vendor, Product and or Version attributes.
+
+## Adding New Vendors, Products and Versions
+From the Manage Asset Types menu option select the + option on the Software Class title bar.
+
+### Configuration Options - Vendor
+
+From the Vendor tab:
+* New Vendor: Add the Vendor Name
+* Alias: Add an Alias the Vendor may also be known as
+
+Choose Create To add the Vendor to the list of defined Vendors.
+
+### Configuration Options - Product
+From the Product tab:
+
+* Vendor: Select the Vendor to which the New Product relates
+* New Product: Add the New Product Name
+
+Choose Create To add the Product to the list of defined Products.
+
+### Configuration Options - Version
+From the Version tab:
+
+* Vendor: Select the Vebdor to which the new version of a Product relates
+* Product: Select the Product, from the Vendors Products to which the New Version relates
+* New Version: Add the New Version Name
+
+Choose Create To add the Version to the list of defined Versions for the specific Product..
+
+
+### Edit and Delete Vendors, Products, and Versions
+* Edit: Select the Pencil icon next to the item you wish to edit
+* Delete: Select the Trash Can icon next to the item you wish to delete. If Assets are currently linked to the Version, Product or Vendor you will not be able to delete the item.
+
 <!-- https://wiki.hornbill.com/index.php?title=Software_Asset_Management -->
+<!-- https://wiki.hornbill.com/index.php?title=Manage_Vendors,_Products,_Versions -->
