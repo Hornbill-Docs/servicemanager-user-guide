@@ -197,6 +197,10 @@
           {
             "text": "Assets Details",
             "link": "/servicemanager-user-guide/asset-management/asset-details"
+          },
+          {
+            "text": "Software Asset Management",
+            "link": "/servicemanager-user-guide/asset-management/software-asset-management"
           }
         ]
       },

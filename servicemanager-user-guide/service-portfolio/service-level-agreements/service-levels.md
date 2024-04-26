@@ -62,3 +62,5 @@ You can specific one or more Actions which you want to be invoked against each E
 
 ## Managing Service Level Rules
 If you create more than one Service Level for any of your SLA's, you will enable the Manage Rules tab. This will allow you to configure rules to manage when the different Service Levels of your SLA should be used. Learn more about configuring rules for your Service Level Agreement here
+
+<!-- https://wiki.hornbill.com/index.php?title=Escalation_Actions -->
