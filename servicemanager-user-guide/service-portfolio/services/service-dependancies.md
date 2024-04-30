@@ -31,3 +31,5 @@ It is also possible to automatically update the status of related services, thro
 
 ## Launch Explorer (Configuration Manager Plugin)
 If you have installed the Configuration Manager application on your instance, explore the related services graphically - the Ciexplorer service Asset.png icon will open the configuration explorer in a new tab.
+
+<!-- https://wiki.hornbill.com/index.php?title=Service_Dependancies -->
