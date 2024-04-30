@@ -42,4 +42,40 @@ Along with any conditions you specify, the views automatically take into account
 Custom fields P-T are of type Text and are excluded from being available to build criteria from for performance reasons.
 :::
 
+## Columns
+The Columns tab lets you define which columns will be available in the request list when you select the View.
+
+* **Available Display Columns**<br>Click on any of the available columns to enable or disable them from being included in the Request List when this View is selected. The order of the columns can also be changed by a drag and drop of each of the available columns
+* **Revert**<br>The Revert button will put the list of selected columns back to the original default selection.
+* **+ Custom Column**<br>If Custom Fields have been used in the design of your request forms, this option provides the ability to add columns to display the information captured in your custom fields. When adding a custom column you will have the option to
+    * *Column*<br>Select one of the available custom fields that contains the information that you would like to display as a column on your View
+    * *Visible*<br>Turn this on in order to activate this new column on your Request List
+    * *Language*<br>Set the language for your Display Name. This can be useful when sharing your View with other users that might use a different language.
+    * *Display Name*<br>Provide a display name of your column which will be shown at the top of the column on the Request List when this View is selected
+
+:::tip
+Custom fields P-T are of type Text and are excluded from being available to display for performance reasons.
+:::
+
+## Charts
+It is possible to create one or multiple Charts against each View that you have defined. Once Charts are created they will be available for use in your own personal dashboard. Charts are also available with any shared Viewed. These charts will need to have the visibility enabled in order to show on the My Dashboards.
+
+## Share
+From time to time you may find a combination of criteria that would be useful to others. The Share option lets you give other Service Manager users visibility of your View. The Share option is accessible by hovering over a View in the View selector and selecting the 'cog' icon. Select the Share tab. Shared 'Views will be visible to users from their Views list, under a section title Shared Views.
+
+* **Team**<br>Select this option to share your View with an entire time. When searching for Teams the selection list is split into My Teams which are the teams that you belong to, and then the Supporting Teams which are teams that support the Services that you support.
+* **User**<br>Share your View with any other Service Manager User.
+* **Service**<br>Share your View with all the teams that support a selected Service
+A list of Users, Teams, and Services that you have shared the View with will be displayed on this same form. Remove any of the previous shares by selecting the delete icon next to the user, team, or service that you want to remove.
+
+:::tip
+Views can only be edited by the owner, user's who have had the View shared with them can't edit the View criteria nor create charts for their Personal Dashboards from shared views. A shared View in many cases will not result in the same results in the Request List as the user may have different access rights and visibility of requests. A User with whom the View is shared will only be able to view Custom Fields, these will only be available to the Creator of the View when exporting.
+:::
+
+## Manage Shared Views
+There may be occasions when a user is no longer using Hornbill and they have left behind Views which were shared with other users. A Hornbill User that has the Role Service Desk Admin will have an option from the Views menu, under Shared Views titled Manage from where they can manage all shared Views. These actions include
+
+* Change Owner
+* Make Me Owner
+* Delete
 <!-- https://wiki.hornbill.com/index.php?title=Request_List_Views -->
