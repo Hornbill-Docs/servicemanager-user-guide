@@ -1,6 +1,32 @@
 # Service Availability
 Analyze Service Availability in Hornbill. As the Status changes on a Service from one state to another, information is automatically collected to provide availability metrics.
 
+## Managing Service Status
+The default position is 'No Status', this will result in no status or message being displayed, this is important when Service Status is not relevant to a Service.
+
+The Three Status options are
+* Available - Indicated by a green icon
+* Impacted - indicated by an amber icon
+* Unavailable - indicated by a red icon
+
+When any of the above status's are chosen a default message will be displayed, and can be edited. Once saved the status and message will be visible to the subscribers of the service on the Service and or Customer Portals, and analysts who support the Service through the user app in the following places:
+* Services List
+* Request List
+* Request Details
+* Progressive Capture - Services Form
+
+Supporting Messages can be seen by Hovering over the Service Status Icon.
+* To Change the Status of the Service, simple select a different option from the drop down list and save.
+* To remove any Status, simply select the 'No Status' option from the drop down list and save.
+
+In the user app and the Request Details view, the Service Name will take you through to see more information about the service. The Level of information visible to you will depend on your rights to view the Service, including:
+* If the Service is Open or Private these rights will be respected
+* If you are the Owner, or a member of a team which supports the Service
+* If you do not have Services Manager right, you will still be able to see very basic Service Details but no edit rights.
+
+## Automatically Changing the Status of a Service
+Through the business process designer it is possible to automate the changing of the status of a service using the Automated Task node and the Request > Request Service > Update Service Status option from within business processes.
+
 ## Availability Metrics
 * **Mean time between failures (MTBF)**<br>The average time between instances of service unavailability
 * **Mean time to repair (MTTR)**<br>The average time to restore service availability
@@ -36,3 +62,4 @@ Change the SLA to view the Availability Metrics for the Service based on the wor
 Whilst it is possible to add custom service statuses via the servicestatus simple list, the availability metrics are only calculated on changes to the default statuses (Available, Unavailable and Impacted)
 :::
 <!-- https://wiki.hornbill.com/index.php?title=Service_Availability-->
+<!-- https://wiki.hornbill.com/index.php?title=Service_Status -->
