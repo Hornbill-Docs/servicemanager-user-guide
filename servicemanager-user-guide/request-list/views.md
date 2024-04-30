@@ -60,6 +60,42 @@ Custom fields P-T are of type Text and are excluded from being available to disp
 ## Charts
 It is possible to create one or multiple Charts against each View that you have defined. Once Charts are created they will be available for use in your own personal dashboard. Charts are also available with any shared Viewed. These charts will need to have the visibility enabled in order to show on the My Dashboards.
 
+It is possible to create one or multiple Charts against each View that you have defined. Once Charts are created they will automatically be added to your personal Dashboard, which will become accessible from a 'My Dashboard' Icon MyDashboardIcon.png on the Request list. This Icon will not be visible unless at least one Chart is created against one of your Views.
+
+You can toggle between your Request list view and your My Dashboard by clicking on the MyDashboardIcon.png icon when on your Request List view, and the MyList.png icon when on the My Dashboard View.
+
+### Creating Charts
+In order to create a Chart, firstly you must have defined a View on the Request List - Learn more about Views
+
+1. Click on the Charts tab from an existing View. Criteria for the Chart is inherited from the View, and you can review the criteria from the Criteria tab when creating a Chart.
+1. Start by giving the Chart a name.
+1. Select the type of Chart you wish to create from the Chart Type drop down. Depending on the Chart Type selected the Y and or X axis titles for the Chart will remain visible or be hidden if not relevant to the Chart type chosen.
+1. Decide how you want the Chart data to be displayed, and select the appropriate column from the X-Axis drop down. Depending on the Column selected from the X-Axis drop down, more selection criteria options may be presented. An example of this would be date columns such as Date Closed, or Last Updated. If Date columns are selected, an additional Date Type (Year, Month, Weekly, Week) Drop down will be available. Once a Date Type is selected a further Date Type specific drop down will be available to allow you to pick specific Years, Months, Week periods which you wish the Chart to represent.
+1. Preview the Chart data by selecting the Preview Chart button
+1. By Default the Chart will immediately be visible on your Dashboard, and this is represented by the Chart Visibility Icon (Eye) being Green. Should you which to hide a specific Chart from your Dashboard simply click on the Chart Visible Icon to hide the Chart. Chart visibility can be altered at any time
+1. Select Save to activate your Chart and to make this visible on your Dashboard.
+
+:::tip
+Custom fields P-T are of type Text and are excluded from being available to group chart data by for performance reasons.
+:::
+
+### Creating multiple Charts per View
+It is possible to reuse the defined criteria of a view, and create multiple charts based on this, but presenting the data from different perspectives, for example a series of Charts looking at a Change View by Source, Owner, or Priority.
+
+Once you have created your first Chart for a view, you have the option to create further Charts using the Create Charts button, and following the steps described above.
+Subsequent Charts will appear on the Charts tab of the View and if multiple Charts are defined, these will be available to view, edit, and delete through the paging option.
+
+### Managing Charts
+It is possible to edit, delete, and change the visibility of your Charts at any time.
+
+Edit the Chart by selecting the pencil icon on an existing Chart. Edit options include:
+* Changing the Chart Title
+* Changing the Chart Labels
+* Changing the Chart Type
+
+Delete Charts by Selecting the Cross icon.
+Change the visibility of the Chart by Selecting or unselecting the Eye icon.
+
 ## Share
 From time to time you may find a combination of criteria that would be useful to others. The Share option lets you give other Service Manager users visibility of your View. The Share option is accessible by hovering over a View in the View selector and selecting the 'cog' icon. Select the Share tab. Shared 'Views will be visible to users from their Views list, under a section title Shared Views.
 
@@ -79,3 +115,4 @@ There may be occasions when a user is no longer using Hornbill and they have lef
 * Make Me Owner
 * Delete
 <!-- https://wiki.hornbill.com/index.php?title=Request_List_Views -->
+<!-- https://wiki.hornbill.com/index.php?title=Charts -->
