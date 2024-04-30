@@ -29,3 +29,5 @@ On each Service form within the Service Portfolio, a Documents option lets you b
     * Updated Date
 
 Each document will have a Link option. When clicked, this will associate the document with the service. Documents already linked to a service ill have an option to Un-link. When clicked, this will remove the document from the service.
+
+<!-- https://wiki.hornbill.com/index.php?title=Service_Details#Documents -->

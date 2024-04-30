@@ -6,7 +6,50 @@ The Request List provides the visibility and management of the different request
 
 ## Tool Bar
 ### Filters
-Quickly filter your list to find and view requests
+A variety of filters let you control the information displayed in the Request List and can be used to quickly locate requests. The options for filtering are represented by a number of buttons in the Request List Toolbar. The active filter can be determined by which filter buttons are colored gray.
+
+#### Status Filter
+Links are available for the different statuses. Clicking on any of these links will filter the list by the selected status.
+* Total
+* New
+* Open
+* Resolved
+* On-hold
+
+#### Quick Filter
+The quick filter is used to refine your list to only show requests that contain the typed text. The fields in the requests which the quick filter uses to compare are
+* Reference
+* Summary
+* Details
+* Owner
+* Customer
+* External Reference
+* Priority
+
+:::tip
+An additional keyboard short-cut (CTRL+SHIFT+F) will present a popup search box for directly accessing a particular request. The full request ID must be entered. This can be accessed from anywhere in Hornbill.
+:::
+
+#### Request Type Filters
+The Request Type Filters options are represented by the icons that are associated to each request type.
+
+The available request types include incidents, problems, known errors, changes, and service requests. Depending on the rights you have, there may be one or more of these request types visible. Provided that you have rights to more than one request type, you will also see an 'All' option which will display all requests, independent of the type, in one list.
+
+:::tip
+By holding down the Shift key on the keyboard and clicking on the different request types, you can have more than one request type selected and displayed in your request list
+:::
+
+#### Group Filters
+The Group Filters provide quick access to requests based on the relationship to you or by the teams that you belong to.
+
+* **My Requests**<br>Displays requests where you are the owner
+* **I'm Following**<br>Displays requests that you are following
+* **I'm a Member**<br>Displays requests that you are a member of
+* **No Team Assigned**<br>Displays requests without a team assigned. This filter is only available to users who possess the Service Desk Admin role. If preferred, this can be made available to all users by enabling the setting webapp.view.ITSM.serviceDesk.requests.list.enableNoTeamAllUsers. A link is also added to the status bar to provide additional visibility of requests that have been raised with no team. This link will only be displayed when there is 1 or more requests with no teams assigned.
+* **All My Teams**<br>Displays requests belonging to all of your teams
+* **All My Services**<br>Displays requests belonging to any of the services your teams support
+
+Included on this list are the names of all the teams that you belong to. Selecting one of the teams in the list will display all requests that are assigned to that team, including requests assigned to you, other team members, or that are assigned to that team but do not have an owner.
 
 ## Views
 Create and select configurable your own lists of requests
@@ -109,3 +152,4 @@ The Request List does not include Closed or Canceled requests when using the sta
 :::
 
 <!-- https://wiki.hornbill.com/index.php?title=Export_List -->
+<!-- https://wiki.hornbill.com/index.php?title=Request_List_Filters -->
