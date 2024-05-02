@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.72",
+  "version": "0.2.73",
   "audience": [
     "public"
   ],
@@ -146,6 +146,10 @@
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-details-form-designer"
               }
             ]
+          },
+          {
+            "text": "Global Search for Requests",
+            "link": "/servicemanager-user-guide/request-list/global-search-for-requests"
           }
         ]
       },
