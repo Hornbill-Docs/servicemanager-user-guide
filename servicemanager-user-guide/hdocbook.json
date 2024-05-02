@@ -4,7 +4,7 @@
   "description": "A guide for the day to day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "hdocs",
-  "version": "0.2.71",
+  "version": "0.2.72",
   "audience": [
     "public"
   ],
@@ -264,6 +264,10 @@
                   {
                     "text": "Customer Feedback",
                     "link": "/servicemanager-user-guide/service-portfolio/customer-feedback"
+                  },
+                  {
+                    "text": "Request Sub-statuses",
+                    "link": "/servicemanager-user-guide/service-portfolio/services/request-sub-statuses"
                   }
                 ]
               },
