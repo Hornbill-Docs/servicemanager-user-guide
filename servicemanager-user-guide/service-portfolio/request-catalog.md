@@ -92,3 +92,25 @@ Clicking on the `Translate` button will overwrite any information that is alread
 * **Update**<br>If a manual change has been made to either the title or description fields, to save these changes by clicking on the `Update` button
 * **Preview Google Translate**<br>This is a sub-action of the Update button which is accessed by clicking on the arrow next to Update. This will translate the title and description fields using the default translation without saving it. This preview can then be saved using the main Update button.
 * **Update with Google Translate**<br>This is a sub-action of the `Update` button which is accessed by clicking on the arrow next to `Update`. This will automatically translate and save the title and description fields.
+
+## Request Catalog Visibility
+Manage which service subscribers will have visibility of individual catalog items, by default all catalog items are visible to all service subscribers. Visibility applies to both the Service and Customer Portals as well as which catalog items are visible for the user in the user app when agents are raising requests via progressive capture.
+
+### Configuring Visibility
+Against each catalog item select the Manage Catalog Visibility icon. This will present a list of all the subscribed users of the service.
+> By default all subscribed users will have visibility of all catalog items
+
+To remove a users or groups visibility to a catalog item, simple toggle their visibility setting from Included to Excluded
+
+* **Exclude All**<br>Choose this option to exclude all subscirbed users of the service from viewing a catalog item.
+* **Include All**<br>Choose this option to include all subscribed users of the service to view a catalog item.
+
+#### Use Case Example
+If you have a requirement to in exclude one or multiple users from viewing a catalog item, but they are not directly subscribed to the service, but are subscribed via a group subscription, then you will first need to subscribe them to the service as an individual and then include or exclude them individually from within the Subscribers' List for the relevant catalog item.
+
+### List Filters
+* **Filter**<br>Search for a specific user or grouping
+* **Subscribers**<br>Filter the list of subscribers by All Subscribers, Included Subscribers, Excluded Subscribers.
+* **Groupings**<br>Filter the list of subscribers by all groupings, or specific subscriber groupings.
+
+Combine any of the above filters and search options to manage the displayed list of service subscribers.
