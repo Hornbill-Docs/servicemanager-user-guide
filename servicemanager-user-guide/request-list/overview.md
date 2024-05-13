@@ -4,20 +4,43 @@ layout: article-toc
 # Overview
 The Request List provides the visibility and management of the different request types in Service Manager. This includes Incidents, Service Requests, Problems, Known Errors, Changes, and Releases. Each member of the Service Desk will use the request list to manage their queues. The requests available to each user is determined by the roles and teams that a user belongs to, in conjunction with the Services their teams support.
 
+![Request List](/_books/servicemanager-user-guide/request-list/images/request-list.png)
+
+## Accessing the Request List
+1. Locate the Service Manager icon on the left hand vertical tool bar.
+1. Click on the Service Manager icon to display the sub-menu.
+1. Select `Request List`.
+
+## Making the Request List Your Default View
+The request list can be a view where many users spend most of their time working. For quick access a user can set the request list as their default view.
+
+1. Access the request list.
+1. Click on your profile picture in the top right to open the Profile Menu.
+1. Select `Make this my defualt view`.
+
+Once set, you will be automatically taken to the request list when you log in to Hornbill.  You can also click on the Hornbill logo at any time to return to this view.
+
 ## Tool Bar
 ### Filters
 A variety of filters let you control the information displayed in the Request List and can be used to quickly locate requests. The options for filtering are represented by a number of buttons in the Request List Toolbar. The active filter can be determined by which filter buttons are colored gray.
 
 #### Status Filter
-Links are available for the different statuses. Clicking on any of these links will filter the list by the selected status.
+Links are available for the different statuses. Clicking on any of these links will filter the list by the selected status. 
+
+![Status Filter](/_books/servicemanager-user-guide/request-list/images/status-filter.png)
+
 * Total
 * New
 * Open
 * Resolved
 * On-hold
 
+:::tip
+The statuses of "closed" and "canceled" are not listed as filters, as they are typically considered archived requests that are no longer active or being addressed. To locate closed or canceled requests, the Advanced Filter or [Views](/servicemanager-user-guide/request-list/views) options can be utilized.
+:::
+
 #### Quick Filter
-The quick filter is used to refine your list to only show requests that contain the typed text. The fields in the requests which the quick filter uses to compare are
+The quick filter is used to refine your list to only show requests that contain the typed text. The fields in the requests which the quick filter uses to compare are:
 * Reference
 * Summary
 * Details
@@ -146,10 +169,6 @@ Response and Fix timer indicators can be displayed on the request list by exposi
 |Green|Met|
 |Blue|Ongoing|
 |Red|Breached and still open|
-
-:::tip
-The Request List does not include Closed or Canceled requests when using the standard Filters. Closed and Canceled Requests can only be accessed by creating a View or by using the Global Search for Requests
-:::
 
 <!-- https://wiki.hornbill.com/index.php?title=Export_List -->
 <!-- https://wiki.hornbill.com/index.php?title=Request_List_Filters -->
