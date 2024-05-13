@@ -12,19 +12,18 @@ The Request List provides the visibility and management of the different request
 1. Select `Request List`.
 
 ## Making the Request List Your Default View
-The request list can be a view where many users spend most of their time working. For quick access a user can set the request list as their default view.
+The request list can be a place where users spend most of their time working. For quick access, a user can set the request list as their default view.
 
 1. Access the request list.
 1. Click on your profile picture in the top right to open the Profile Menu.
 1. Select `Make this my defualt view`.
 
-Once set, you will be automatically taken to the request list when you log in to Hornbill.  You can also click on the Hornbill logo at any time to return to this view.
+Once set, you will be automatically taken to the request list after you log in to Hornbill.  You can also click on the Hornbill logo at any time to return to the request list.
 
-## Tool Bar
-### Filters
-A variety of filters let you control the information displayed in the Request List and can be used to quickly locate requests. The options for filtering are represented by a number of buttons in the Request List Toolbar. The active filter can be determined by which filter buttons are colored gray.
+## Tool Bar Filters
+A variety of filters let you control the information displayed in the Request List and can be used to quickly locate requests.
 
-#### Status Filter
+### Status Filter
 Links are available for the different statuses. Clicking on any of these links will filter the list by the selected status. 
 
 ![Status Filter](/_books/servicemanager-user-guide/request-list/images/status-filter.png)
@@ -38,9 +37,14 @@ Links are available for the different statuses. Clicking on any of these links w
 :::tip
 The statuses of "closed" and "canceled" are not listed as filters, as they are typically considered archived requests that are no longer active or being addressed. To locate closed or canceled requests, the Advanced Filter or [Views](/servicemanager-user-guide/request-list/views) options can be utilized.
 :::
+<br>
 
-#### Quick Filter
-The quick filter is used to refine your list to only show requests that contain the typed text. The fields in the requests which the quick filter uses to compare are:
+### Quick Filter
+The quick filter is used to refine your list to only show requests that contain the typed text.
+
+![Request List](/_books/servicemanager-user-guide/request-list/images/quick-filter.png)
+
+The fields in the requests that the quick filter uses to compare are:
 * Reference
 * Summary
 * Details
@@ -49,11 +53,7 @@ The quick filter is used to refine your list to only show requests that contain 
 * External Reference
 * Priority
 
-:::tip
-An additional keyboard short-cut (CTRL+SHIFT+F) will present a popup search box for directly accessing a particular request. The full request ID must be entered. This can be accessed from anywhere in Hornbill.
-:::
-
-#### Request Type Filters
+### Request Type Filters
 The Request Type Filters options are represented by the icons that are associated to each request type.
 
 The available request types include incidents, problems, known errors, changes, and service requests. Depending on the rights you have, there may be one or more of these request types visible. Provided that you have rights to more than one request type, you will also see an 'All' option which will display all requests, independent of the type, in one list.
@@ -62,7 +62,7 @@ The available request types include incidents, problems, known errors, changes, 
 By holding down the Shift key on the keyboard and clicking on the different request types, you can have more than one request type selected and displayed in your request list
 :::
 
-#### Group Filters
+### Group Filters
 The Group Filters provide quick access to requests based on the relationship to you or by the teams that you belong to.
 
 * **My Requests**<br>Displays requests where you are the owner
