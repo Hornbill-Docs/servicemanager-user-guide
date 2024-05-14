@@ -30,7 +30,6 @@ Across the top of the Editor there are some options to manage your design sessio
 ## Default Fields
 * **Summary**<br>The Summary field is used as a short description of the request.
 * **Description**<br>The Description provides a long text field for detailing the request
-* **Image**<br>If the request is raised from a Post, an image, if included on the post, will be added to the Description.
 * **Source**<br>This contains the source of the request. These include Email, Analyst, Posts, and Self Service. These are automatically populated based on how a request is raised.
 * **Site**<br>Used to capture the site at where the request has occurred
 * **Category**<br>Allows a user to select the Request Category.
