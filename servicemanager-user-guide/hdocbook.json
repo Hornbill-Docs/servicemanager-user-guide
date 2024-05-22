@@ -336,6 +336,10 @@
             "link": "/servicemanager-user-guide/hai/request-summarizer"
           },
           {
+            "text": "Sentiment Analysis",
+            "link": "/servicemanager-user-guide/hai/sentiment-analysis"
+          },
+          {
             "text": "Text Assist",
             "link": "/servicemanager-user-guide/hai/text-assist"
           },

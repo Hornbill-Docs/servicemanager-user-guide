@@ -25,17 +25,17 @@ Summarize a request/ticket at the click of a button. One fewer task for your age
 
 
 ### Where to find it
-In any request record, you'll see the new Request Summary box. Simply click the HAi icon on the right-hand side to generate the request summary.
+In any request record, you'll see the new HAi Overview box. Simply click the HAi icon on the right-hand side to generate the request overview including the summary.
 <img src="/_books/servicemanager-user-guide/images/hai_logo_small.png" alt="Hornbill Ai" width="50px"></img>
 
 ### How to use it
 
 1.
-Open a request record. Go to the *Request Summary* area and click the HAi icon.
+Open a request record. Go to the *HAi Overview* area and click the HAi icon.
 <img src="/_books/servicemanager-user-guide/images/hai_request_summarizer_1.png" alt="Hornbill Request Summarizer"></img>
 
 2.
-OpenAI generates the content. Review and edit the content and then save by clicking the icon in the bottom right corner. The summary will be automatically date and time stamped.
+HAi generates the content. Review and edit the content and then save by clicking the icon in the bottom right corner. The summary will be automatically date and time stamped.
 <img src="/_books/servicemanager-user-guide/images/hai_request_summarizer_2.png" alt="Hornbill Request Summarizer"></img>
 
 

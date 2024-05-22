@@ -23,6 +23,8 @@ To access generating a knowledge draft from a request the analysts will need the
 ## Features
 * **[Request Summarizer](/servicemanager-user-guide/hai/request-summarizer)**<br>
 Summarize a request record and timeline at the click of a button to allow quick handover to another agent, team, or manager.
+* **[Sentiment Analysis](/servicemanager-user-guide/hai/sentiment-analysis)**<br>
+Score the current customer sentiment against a request
 * **[Text Assist](/servicemanager-user-guide/hai/text-assist)**<br>
 Improve agent efficiency with a set of AI-driven tools for quick creation and manipulation of text content - covering a broad range of common service desk tasks.
 * **[Knowledge Generator](/servicemanager-user-guide/hai/knowledge-generator)**<br>
