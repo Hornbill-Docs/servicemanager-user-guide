@@ -1,6 +1,6 @@
 ---
 title: Hornbill AI - Sentiment Analysis
-description: HAi Sentiment Analysis will analyse the sentiment of a request/ticket at the click of a button. One fewer task for your agents.
+description: HAi Sentiment Analysis will analyze the sentiment of a request/ticket at the click of a button. One fewer task for your agents.
 coverImage: /_books/servicemanager-user-guide/images/hai_cover.jpg
 layout: article-toc
 ---
@@ -9,7 +9,7 @@ layout: article-toc
 Analysise the sentiment of a request/ticket at the click of a button. One fewer task for your agents.
 
 ### Benefits to you
-* Instantly analyse the sentiment of a customer on a request
+* Instantly analyze the sentiment of a customer on a request
 * Audited over the lifespan of the request
 
 ### What you can do
