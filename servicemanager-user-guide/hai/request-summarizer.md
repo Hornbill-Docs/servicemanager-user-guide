@@ -36,7 +36,7 @@ Open a request record. Go to the *HAi Overview* area and click the HAi icon.
 
 2.
 HAi generates the content. Review and edit the content and then save by clicking the icon in the bottom right corner. The summary will be automatically date and time stamped.
-<img src="/_books/servicemanager-user-guide/images/hai-request-ummarizer-2.png" alt="Hornbill Request Summarizer"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-request-summarizer-2.png" alt="Hornbill Request Summarizer"></img>
 
 
 ### Template Variables
