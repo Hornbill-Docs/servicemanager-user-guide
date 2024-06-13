@@ -1,7 +1,7 @@
 ---
 title: Hornbill AI - Sentiment Analysis
 description: HAi Sentiment Analysis will analyze the sentiment of a request/ticket at the click of a button. One fewer task for your agents.
-coverImage: /_books/servicemanager-user-guide/images/hai_cover.jpg
+coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
 ---
 
@@ -17,22 +17,22 @@ Analysise the sentiment of a request/ticket at the click of a button. One fewer 
 
 ### Where to find it
 In any request record, you'll see the new HAi Overview box. Simply click the HAi icon on the right-hand side to generate the request overview including the sentiment.
-<img src="/_books/servicemanager-user-guide/images/hai_logo_small.png" alt="Hornbill Ai" width="50px"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-logo-small.png" alt="Hornbill Ai" width="50px"></img>
 
 ### How to use it
 
 1.
     Open a request record. Go to the *HAi Overview* area and click the HAi icon.
-    <img src="/_books/servicemanager-user-guide/images/hai_sentiment_analysis_1.png" alt="Hornbill Sentiment Analysis"></img>
+    <img src="/_books/servicemanager-user-guide/images/hai-sentiment-analysis-1.png" alt="Hornbill Sentiment Analysis"></img>
 
 2.
     HAi generates the sentiment and automatically saves it, this value is audited for reporting on at a later stage
-    <img src="/_books/servicemanager-user-guide/images/hai_sentiment_analysis_2.png" alt="Hornbill Sentiment Analysis"></img>
+    <img src="/_books/servicemanager-user-guide/images/hai-sentiment-analysis-2.png" alt="Hornbill Sentiment Analysis"></img>
 
 
 ### Template Variables
 Request Sentiment can be used in email templates as the variable is available with the others.
-<img src="/_books/servicemanager-user-guide/images/hai_sentiment_analysis_3.png" alt="Hornbill Sentiment Analysis - Email"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-sentiment-analysis-3.png" alt="Hornbill Sentiment Analysis - Email"></img>
 
 ### Sentiment Values
 

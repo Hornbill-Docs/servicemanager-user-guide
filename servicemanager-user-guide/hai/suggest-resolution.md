@@ -1,7 +1,7 @@
 ---
 title: Hornbill AI - Suggest Resolution
 description: HAi Suggest Resolution will convert technical request resolutions into more user freindly versions.
-coverImage: /_books/servicemanager-user-guide/images/hai_cover.jpg
+coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
 ---
 
@@ -20,14 +20,14 @@ Automatically generate user-friendly request resolutions from technical updates 
 
 ### Where to find it
 In any request record. Accessible as a drop-down menu option in the Request Resolution field and any timeline posts.
-<img src="/_books/servicemanager-user-guide/images/hai_logo_small.png" alt="Hornbill Ai" width="50px"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-logo-small.png" alt="Hornbill Ai" width="50px"></img>
 
 ### How to use it
 
 ## (1)
 Open a request record. Identify a ticket timeline post that contains the resolution information. Click *Suggest Resolution*.
-<img src="/_books/servicemanager-user-guide/images/hai_suggest_resolution_1.png" alt="Suggest Resolution"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-suggest-resolution-1.png" alt="Suggest Resolution"></img>
 
 ## (2)
 HAi generates a user-friendly how-to solution. Click the tick to accept the resolution content.
-<img src="/_books/servicemanager-user-guide/images/hai_suggest_resolution_2.png" alt="Suggest Resolution"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-suggest-resolution-2.png" alt="Suggest Resolution"></img>

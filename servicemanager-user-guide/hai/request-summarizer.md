@@ -1,7 +1,7 @@
 ---
 title: Hornbill AI - Request Summarizer
 description: HAi Request Summarizer will summarize a request/ticket at the click of a button. One fewer task for your agents.
-coverImage: /_books/servicemanager-user-guide/images/hai_cover.jpg
+coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
 ---
 
@@ -26,19 +26,19 @@ Summarize a request/ticket at the click of a button. One fewer task for your age
 
 ### Where to find it
 In any request record, you'll see the new HAi Overview box. Simply click the HAi icon on the right-hand side to generate the request overview including the summary.
-<img src="/_books/servicemanager-user-guide/images/hai_logo_small.png" alt="Hornbill Ai" width="50px"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-logo-small.png" alt="Hornbill Ai" width="50px"></img>
 
 ### How to use it
 
 1.
 Open a request record. Go to the *HAi Overview* area and click the HAi icon.
-<img src="/_books/servicemanager-user-guide/images/hai_request_summarizer_1.png" alt="Hornbill Request Summarizer"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-request-summarizer-1.png" alt="Hornbill Request Summarizer"></img>
 
 2.
 HAi generates the content. Review and edit the content and then save by clicking the icon in the bottom right corner. The summary will be automatically date and time stamped.
-<img src="/_books/servicemanager-user-guide/images/hai_request_summarizer_2.png" alt="Hornbill Request Summarizer"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-request-ummarizer-2.png" alt="Hornbill Request Summarizer"></img>
 
 
 ### Template Variables
 Request Summary can be used in email templates as the variable is available with the others.
-<img src="/_books/servicemanager-user-guide/images/hai_request_summarizer_3.png" alt="Hornbill Request Summarizer - Email"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-request-summarizer-3.png" alt="Hornbill Request Summarizer - Email"></img>

@@ -1,12 +1,12 @@
 ---
 title: Hornbill AI (HAi) Overview
 description: HAi is a suite of Artificial intelligence (AI) tools to help Hornbill users who deliver and support services. HAi features automate a range of tasks to save time, reduce workload, boost operational productivity, and make more time for projects and innovations.
-coverImage: /_books/servicemanager-user-guide/images/hai_cover.jpg
+coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
 ---
 
 # Hornbill AI (HAi) Overview
-<img src="/_books/servicemanager-user-guide/images/hai_logo.png" alt="Hornbill Ai" width="100"></img>
+<img src="/_books/servicemanager-user-guide/images/hai-logo.png" alt="Hornbill Ai" width="100"></img>
 
 HAi is a suite of Artificial intelligence (AI) tools to help Hornbill users who deliver and support services. HAi features automate a range of tasks to save time, reduce workload, boost operational productivity, and make more time for projects and innovations. HAi supports faster and more efficient request resolution, customer communications, knowledge management, and more.
 
