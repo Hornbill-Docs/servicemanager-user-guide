@@ -5,8 +5,14 @@ Setting this to Enabled will make this request type available for use when raisi
 ## Workflow
 The Workflow is an optional setting that allows you to associate a workflow which will be used as the default Workflow for all Incidents associated to this service. If left blank, the workflows that are specified in the app.requests.defaultBPMProcess Service Manager Settings will be used. If a Request Catalog Item is used the workflow in the Catalog Item will supersede both these settings.
 
-## Email Template
-The Email Template is an optional setting that allows you to associate an email template which will be used when sending emails from within a request using the Email Action Item. If left blank, the email template specified in the app.email.template.request.sendMessage Service Manager Setting. If both the Email Template option and the Service Manager Setting are not set, a blank plain text email will be sent without a template.
+## Email Configuration
+The Email Configuration provides two options to set how email templates can be used on a the Email Action of a request.  
+
+### Grouping
+By selecting the different [grouping levels](/servicemanager-config/customize/email-templates#grouping), the email templates availabe on the request's email action can be managed. 
+
+### EMail Template
+Select an email template that will be used by default when sending emails from within a request using the Email Action Item. If left blank, the email template specified in the app.email.template.request.sendMessage Service Manager Setting. If both the Email Template option and the Service Manager Setting are not set, a blank plain text email will be sent without a template.
 
 ## Form Designer
 It is possible for you to define custom fields to use against each request type per service. Using the form designer you can edit which default fields will be displayed in the Details section of each request form, as well as add new fields, set field validation, configure mandatory options and using drag and drop to re-order how the required fields will be displayed.
