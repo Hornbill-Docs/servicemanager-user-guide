@@ -35,7 +35,7 @@ Request Sentiment can be used in email templates as the variable is available wi
 <img src="/_books/servicemanager-user-guide/images/hai-sentiment-analysis-3.png" alt="Hornbill Sentiment Analysis - Email"></img>
 
 ### Auto Updates
-Its possible to enable (auto updates)[/servicemanager-config/administration/hai-request-summariser] for Sentiment Analysis
+Its possible to enable [auto updates](/servicemanager-config/administration/hai-request-summariser) for Sentiment Analysis
 
 ### Request Insights
 Once a request is resolved or closed, the request insights tab can be used to show reports on the history of the sentiment against a given request over time.
