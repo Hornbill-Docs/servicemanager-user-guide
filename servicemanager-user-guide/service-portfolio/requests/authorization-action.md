@@ -1,7 +1,7 @@
 # Authorization Action
 The Authorization Action within a request allows for the selection of authorizers who will be sent an authorization task. Updates are recorded in the Timeline of the request, alongside the other update types to provide an audit trail of all actions for each request. This action item is only displayed when the Wait for List of Request Authorizers node has been used in a Workflow and this node has been reached.
 
-## Authorizor Search
+## Authorizer Search
 The Authorizer Search lets you search for individual Hornbill Users that you would like to have included in the authorization. Once a user has been located, click on the Add Authorizer button to add the user to the list of Authorizers.
 
 ## Associated Owners
