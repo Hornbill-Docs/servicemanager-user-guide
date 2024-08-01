@@ -25,9 +25,9 @@ Configuration Items which do not have a Tick or Cross can't be marked as in or o
 ### Viewing Relationship Links
 Inherited relationships between Configuration Items will be shown in the explorer. These could be based on Assets being linked to other Assets or Services in Service Manager, or where Assets have been linked to a Request, or where a Request has an Owner, or a document has been linked to an Asset.
 
-If no Dependancy Relationships exist between two Configuration Items then the link with say Not Set
-If an existing Dependancy and Impact Relationship exists between two Configuration Items then the link will show the Dependancy relationship and the color will indicate the impact level
-Clicking on a link will allow the Dependancy and Impact to be viewed and edited.
+If no Dependency Relationships exist between two Configuration Items then the link with say Not Set
+If an existing Dependency and Impact Relationship exists between two Configuration Items then the link will show the Dependency relationship and the color will indicate the impact level
+Clicking on a link will allow the Dependency and Impact to be viewed and edited.
 
 ## Explorer View Filters
 The displayed Configuration items in the explorer can be filtered on various criteria, this is detailed below.
@@ -69,16 +69,16 @@ Use the CI Legend.png icon to open the Explorer Legend and for an explanation of
 Click on the name of a Configuration Item in the explorer to see it's information displayed in the Details section on the explorer.
 
 Select the Title of the Configuration Item from the Details section to open the Configuration Item in a new tab
-Hide the Details section on the explorer view to create more space by selecting the Hide detailsaction item.
+Hide the Details section on the explorer view to create more space by selecting the Hide details action item.
 If the Details section is hidden select Show Details to show it again on the explorer
 
-## Defining Dependancy & Impact Relationships
+## Defining Dependency and Impact Relationships
 ### Relationship Definitions
-Define bi-directional relationships between Configuration Items by setting the Dependancy type and level of impact by selecting form the defined dependancy types and impact levels.
-* **Dependancy on the Parent**<br>Click on the Explorer and the arrow facing the Parent Configuration Item, choose the relevant Dependancy from the drop down and the Impact level and select Save to create the relationship
-* **Dependancy from the Parent**<br>Click on the Explorer and the arrow facing away from the Parent Configuration Item, choose the relevant Dependancy from the drop down and the Impact level and select Save to create the relationship
+Define bi-directional relationships between Configuration Items by setting the Dependency type and level of impact by selecting form the defined dependency types and impact levels.
+* **Dependency on the Parent**<br>Click on the Explorer and the arrow facing the Parent Configuration Item, choose the relevant Dependency from the drop down and the Impact level and select Save to create the relationship
+* **Dependency from the Parent**<br>Click on the Explorer and the arrow facing away from the Parent Configuration Item, choose the relevant Dependency from the drop down and the Impact level and select Save to create the relationship
 
-Edit or remove the relationships by clicking on either relationship link and changing the Dependancy or Impact and selecting Save to apply the change
+Edit or remove the relationships by clicking on either relationship link and changing the Dependency or Impact and selecting Save to apply the change
 
 The available relationship types can be set differently depending on the direction of the relationships, and be different depending on the type of Configuration Items being connected.
 
