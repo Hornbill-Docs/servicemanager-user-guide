@@ -1,5 +1,5 @@
 # Software Asset Management
-Import and view the installed software on our devices. Ratify installed software against license records held across all your vendors.
+Import and view the installed software on your devices. Ratify installed software against license records held across all your vendors.
 
 ## Roles
 * **Software Asset Management User**<br>Needed to view the Software Asset Management views
@@ -32,10 +32,7 @@ If you don't hold a corresponding Software Asset Record for the installed softwa
 
 
 ## View Installed Software per Device
-For Asset Types created under the Computer System and, or Mobile Device Classes, an Asset Administrator can enable the:
-
-Installed Software Information accordion section from the Manage Asset Types menu option.
-This will expose the Installed Software Information accordion section on any Asset Records, of that Asset Type.
+For Asset Types created under the Computer System and, or Mobile Device Classes, an Asset Administrator can enable the Installed Software Information accordion section from the Manage Asset Types menu option. This will expose the Installed Software Information accordion section on any Asset Records, of that Asset Type.
 
 Data displayed:
 * Software Product
@@ -43,12 +40,12 @@ Data displayed:
 * Version
 * When Installed
 
-## Manage Vendors, Products, Versions
+## Manage Vendors, Products, and Versions
 For Software Assets it is possible to include the attributes for Vendor, Product and Version. In order to maintain an accurate set of data for each it is possible to define lists of the Vendors you work with, the Products they provide and any different Versions which are available for each product.
 
 Once the Lists are defined these will be presented when adding an Asset of the Software Class and where you have configured the Software Asset Type to use the Vendor, Product and or Version attributes.
 
-## Adding New Vendors, Products and Versions
+## Adding New Vendors, Products, and Versions
 From the Manage Asset Types menu option select the + option on the Software Class title bar.
 
 ### Configuration Options - Vendor
@@ -70,11 +67,11 @@ Choose Create To add the Product to the list of defined Products.
 ### Configuration Options - Version
 From the Version tab:
 
-* Vendor: Select the Vebdor to which the new version of a Product relates
+* Vendor: Select the Vendor to which the new version of a Product relates
 * Product: Select the Product, from the Vendors Products to which the New Version relates
 * New Version: Add the New Version Name
 
-Choose Create To add the Version to the list of defined Versions for the specific Product..
+Choose Create To add the Version to the list of defined Versions for the specific Product.
 
 
 ### Edit and Delete Vendors, Products, and Versions
