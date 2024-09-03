@@ -30,7 +30,7 @@ Define which Actions are available on the Request Action toolbar when working on
 
 Not all actions on a request are available by default and in some cases there are actions that are visible but not needed for a particular type of request. 
 
-Enable or Disable an Action by clicking on the Enable or Disable Action button next to each action. 
+Enable or Disable an Action by clicking on the Enable or Disable Action button next to each action. See the [Request Action Overview](/servicemanager-user-guide/service-portfolio/requests/request-actions) for more information about each individual action.
 
 ![Request Actions](_books/servicemanager-user-guide/service-portfolio/services/images/request-actions.png)
 

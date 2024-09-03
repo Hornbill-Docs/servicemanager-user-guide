@@ -22,4 +22,4 @@ Once Services have been linked to a Request, you will be able to view and edit t
 ## Services View
 Once a Service has been linked to a Request, under the Services view and the Requests tab, you will see two tabs:
 * **Direct Requests**<br>This will show all requests which have been raised directly against the service
-* **Associated Requests**This will show all requests to which the Service has been linked, including the specific relationship it has to each request.
+* **Associated Requests**<br>This will show all requests to which the Service has been linked, including the specific relationship it has to each request.
