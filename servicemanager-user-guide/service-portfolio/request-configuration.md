@@ -24,11 +24,19 @@ Stages Only - Only the top level of the Process Tracker that shows the stages wi
 Stages and Checkpoints - This will show both the Stages and the checkpoints.
 
 ## Request Actions
-Define which Actions are available to users on the Request Action bar when working on requests raised against the Service.
-An example being you may choose not to enable the 'Escalation' Action against Service Requests if you are not using Priorities for requests of this type for a particular Service. However you have this available for Incidents and Problems where you have chosen to use priorities for those request types.
-Enable or Disable an Action by clicking on the Action Icon for each Request type
-Hover over each Action Icon to see a tooltip with the Action's purpose.
-Globally manage which Action items are enabled when a request is on-hold through Request Settings
+Define which Actions are available on the Request Action toolbar when working on requests raised against the Service.
+
+![Request Action Tool bar](_books/servicemanager-user-guide/service-portfolio/services/images/request-action-toolbar.png)
+
+Not all actions on a request are available by default and in some cases there are actions that are visible but not needed for a particular type of request. 
+
+Enable or Disable an Action by clicking on the Enable or Disable Action button next to each action. 
+
+![Request Actions](_books/servicemanager-user-guide/service-portfolio/services/images/request-actions.png)
+
+:::tip
+Actions that are available when a request is on hold are managed seperately through the [On Hold Settings](/servicemanager-config/administration/request-settings#on-hold-settings)
+:::
 
 ## Request Categories
 Define which logging and resolution categories are available per request type per service. It is possible to configure which level of the category tree will be the starting level (exposed) when choosing a category on a request, either using Progressive Capture or on the Request Details from. If a Category Level is not selected, the root of the category tree will be used.
