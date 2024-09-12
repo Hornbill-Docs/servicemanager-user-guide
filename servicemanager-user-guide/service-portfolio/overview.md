@@ -24,9 +24,9 @@ The goal of a service is to deliver value to customers and employees through a v
 * Self service access through portals.
 
 ## Request Catalog
-Each individual service allows a services manager to build a request catalog.  A request catelog contains one or more models that define the information to capture and the workflows to process the different types of requests.
+Each individual service allows a services manager to build a request catalog.  A request catalog contains one or more models that define the information to capture and the workflows to process the different types of requests.
 
-Models include
+Models include the following:
 * Request type
 * Intelligent Capture
 * Workflow

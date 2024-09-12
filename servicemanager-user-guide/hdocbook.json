@@ -1,7 +1,7 @@
 {
   "docId": "servicemanager-user-guide",
   "title": "Service Manager User Guide",
-  "description": "A guide for the day to day use of the Service Manager application",
+  "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
   "version": "0.2.93",
