@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.94",
+  "version": "0.2.95",
   "audience": [
     "public"
   ],
@@ -308,6 +308,57 @@
                 "link": "/servicemanager-user-guide/service-portfolio/services/service-documents"
               }
             ]
+          }
+        ]
+      },
+      {
+        "text": "Knowledge",
+        "draft":true,
+        "items":[
+          {
+            "text": "Search/Browse",
+            "link": "/servicemanager-user-guide/knowledge/search-and-browse"
+          },
+          {
+            "text": "Knowledge Bases",
+            "items":[
+              {
+                "text": "Details",
+                "link": "/servicemanager-user-guide/knowledge/details"
+              },
+              {
+                "text": "Topic Structure",
+                "link": "/servicemanager-user-guide/knowledge/topic-structure"
+              },
+              {
+                "text": "Contributor Access",
+                "link": "/servicemanager-user-guide/knowledge/contributor-access"
+              },
+              {
+                "text": "Subscriptions",
+                "link": "/servicemanager-user-guide/knowledge/subscriptions"
+              },
+              {
+                "text": "Activity & Audit Log",
+                "link": "/servicemanager-user-guide/knowledge/activity-and-audit"
+              },
+              {
+                "text": "Articles",
+                "link": "/servicemanager-user-guide/knowledge/articles"
+              },
+              {
+                "text": "Explore",
+                "link": "/servicemanager-user-guide/knowledge/explore"
+              },
+              {
+                "text": "Statistics",
+                "link": "/servicemanager-user-guide/knowledge/statistics"
+              }
+            ]
+          },
+          {
+            "text": "Dashboard",
+            "link": "/servicemanager-user-guide/knowledge/dashboard"
           }
         ]
       },
