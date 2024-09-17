@@ -1,1 +1,2 @@
 # Contributor Access
+Contributor access lets you control who can create and edit articles within the knowledge base.  If there are no entries in the contributer access, then this gives all users with the Knowledge Contributer role access to this knowledge base.
