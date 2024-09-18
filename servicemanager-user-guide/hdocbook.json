@@ -359,7 +359,11 @@
           {
             "text": "Dashboard",
             "link": "/servicemanager-user-guide/knowledge/dashboard"
-          }
+          },
+          {
+            "text": "Search Results",
+            "link": "/servicemanager-user-guide/knowledge/search-results"
+          }         
         ]
       },
       {
