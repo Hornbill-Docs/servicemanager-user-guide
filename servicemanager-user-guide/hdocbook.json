@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.96",
+  "version": "0.2.97",
   "audience": [
     "public"
   ],
@@ -313,15 +313,15 @@
       },
       {
         "text": "Knowledge",
-        "draft":true,
-        "items":[
+        "draft": true,
+        "items": [
           {
             "text": "Search/Browse",
             "link": "/servicemanager-user-guide/knowledge/search-and-browse"
           },
           {
             "text": "Knowledge Bases",
-            "items":[
+            "items": [
               {
                 "text": "Details",
                 "link": "/servicemanager-user-guide/knowledge/details"
@@ -363,7 +363,7 @@
           {
             "text": "Search Results",
             "link": "/servicemanager-user-guide/knowledge/search-results"
-          }         
+          }
         ]
       },
       {
