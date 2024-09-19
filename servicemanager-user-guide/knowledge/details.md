@@ -1,5 +1,5 @@
 # Knowledge Bases
-In the Details view, you can update an article's title, its visibility in portals, its status, and so on. You can also delete the article from this view.
+In the Details view, you can update an article's title, its visibility in portals, its status, and so on. You can also delete the article.
 
 * **Id.** The Knowledge Base (KB) number.
 * **Default Language.** The default language of the knowledge base (e.g. en-GB).
