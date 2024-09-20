@@ -5,4 +5,16 @@ search
 filter by status or type
 plus button to create a new article
 
-?? HOW DO YOU CONVERT EXISTING SM SERVICE FAQs INTO KB ARTICLES?
+## Moving FAQs into knowledge bases
+
+[to convert a FAQ to a knowledge article, you first need to have access to the service with the Services Manager role.  Once you have access to the service then you will need the Knowledge Contributer role to create the new article.]
+
+You must have the _____ role assigned to be able to convert FAQs to Knowledge articles.
+
+**To convert an existing FAQ to a knowledge base article:**
+1. In the left-hand menu bar, navigate to Service Management > Service Portfolio.
+1. In the Service Portfolio tab, find the service to which your existing FAQ applies, and click its name.
+1. In the top menu bar, click the **FAQs** button (the question mark icon).
+1. In the list of FAQs, click the name of the question you want to make into an article.
+1. In the Update FAQ dialog, scroll to the bottom and click **Knowledge > Convert to Article**.
+1. You are now taken to Knowledge, landing in the Configuration for a new knowledge base article. Make selections and entries to configure the article, then click **Create**.

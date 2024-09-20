@@ -12,7 +12,7 @@ The Search / Browse feature is where you land.
 The Search feature is also available in the Employee Portal and the Customer Portal. For details on how to control visibility of knowledge base articles on these portals, see ___________.
 
 ### Global Search
-Some Knowledge users may find that the quickest way to find articles they are looking for is by using the Global Search option.
+Some Knowledge users may find that the quickest way to find articles they are looking for is by using the Global Search option. Users can choose to search on tags or free text.
 
 ?? ANYTHING SPECIFIC TO NOTE re WHAT TO SEARCH BY? e.g. tag, title, article number? Or it's full free-text search identical to the Search feature from within Knowledge?
 ![Search Knowledge in Global Search](_books/servicemanager-user-guide/knowledge/images/global-search-knowledge.png)
