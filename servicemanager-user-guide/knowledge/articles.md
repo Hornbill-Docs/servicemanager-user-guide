@@ -9,6 +9,8 @@ plus button to create a new article
 
 To convert a FAQ to a knowledge article, you first need to have access to the relevant service with the Services Manager role. Once you have access to the service, then you will need the Knowledge Contributor role to create the new article.
 
+The conversion is a copy rather than a move. After you convert the content of a FAQ to a knowledge article, the original FAQ remains with the service.
+
 **To convert an existing FAQ to a knowledge base article:**
 1. In the left-hand menu bar, navigate to Service Management > Service Portfolio.
 1. In the Service Portfolio tab, find the service to which your existing FAQ applies, and click its name.
