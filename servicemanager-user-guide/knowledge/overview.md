@@ -28,4 +28,3 @@ Knowledge within Service Manager is a key component to organizing, storing, and 
 * Assiging support staff to help find solutions.
 * Portal widgets to promote popular articles.
 * Browsing knowledge bases and their topics.
-

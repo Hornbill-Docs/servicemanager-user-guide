@@ -1,7 +1,12 @@
 # Topic Structure
-If you want to give your knowledge base a structure, this is the place. 
+Topics are a type of categorization for knowledge base articles.  A heirarchical structure can be create using topics in order to provide a logical grouping of articles and a way to easily navigate through to the knowledge that they are looking for.
 
-To get to Topic Structure, first navigate to a knowledge base, then in the navigation pane, click the folder icon.
+## Before You Begin
+* To create and mange topics, either the Knowledge Administrator role or the Knowledge Manager role is required.
+
+## How To Access
+Topics and topic structures are unique to each knowledge base.  Before you begin adding topics, you must first create a knowledge base.  Once created, the Topic Structure option can be found in the navigation panel for the knowledge base.
+
 
 plus button to create a new KB topic (title, description, parent topic, status)
 
