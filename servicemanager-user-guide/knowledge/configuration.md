@@ -11,5 +11,5 @@ In the Configuration view, you can update an article's title, its visibility in 
 * **Use In Employee Portal.** Use this toggle to make the knowledge base visible in the Employee Portal.
 * **Use In Customer Portal.** Use this toggle to make the knowledge base visible in the Customer Portal.
 * **Owned By.** The owner of the knowledge base.
-* **Last Modified By.** When the knowledge base was last modified. ?? IS THIS WHEN THESE DETAILS WERE LAST MODIFIED, OR ANY ACTION TAKEN, e.g. an article was edited?
+* **Last Modified By.** When these knowledge base details were last modified, for example someone switches the toggle to show the knowledge base in the Customer Portal.
 
