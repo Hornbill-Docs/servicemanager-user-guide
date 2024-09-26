@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.101",
+  "version": "0.2.102",
   "audience": [
     "public"
   ],
@@ -19,7 +19,7 @@
       },
       {
         "text": "Request List",
-        "expand": true,
+        "expand": false,
         "items": [
           {
             "text": "Overview",
@@ -184,7 +184,7 @@
       },
       {
         "text": "Asset Management",
-        "expand": true,
+        "expand": false,
         "items": [
           {
             "text": "Overview",
@@ -218,7 +218,7 @@
       },
       {
         "text": "Service Portfolio",
-        "expand": true,
+        "expand": false,
         "items": [
           {
             "text": "Overview",
@@ -328,35 +328,35 @@
             "items": [
               {
                 "text": "Configuration",
-                "link": "/servicemanager-user-guide/knowledge/configuration"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration"
               },
               {
                 "text": "Topic Structure",
-                "link": "/servicemanager-user-guide/knowledge/topic-structure"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure"
               },
               {
                 "text": "Contributor Access",
-                "link": "/servicemanager-user-guide/knowledge/contributor-access"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access"
               },
               {
                 "text": "Subscriptions",
-                "link": "/servicemanager-user-guide/knowledge/subscriptions"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions"
               },
               {
                 "text": "Activity & Audit Log",
-                "link": "/servicemanager-user-guide/knowledge/activity-and-audit"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit"
               },
               {
                 "text": "Articles",
-                "link": "/servicemanager-user-guide/knowledge/articles"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles"
               },
               {
                 "text": "Explore",
-                "link": "/servicemanager-user-guide/knowledge/explore"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/explore"
               },
               {
                 "text": "Statistics",
-                "link": "/servicemanager-user-guide/knowledge/statistics"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/statistics"
               }
             ]
           },
@@ -373,7 +373,7 @@
       {
         "text": "Reports",
         "draft": true,
-        "expand": true,
+        "expand": false,
         "items": [
           {
             "text": "Overview",
@@ -384,7 +384,7 @@
       {
         "text": "HAi",
         "draft": false,
-        "expand": true,
+        "expand": false,
         "items": [
           {
             "text": "Overview",
