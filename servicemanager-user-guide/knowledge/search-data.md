@@ -1,5 +1,5 @@
 # Search Data
-The search data helps analyze what people are searching for.  This will help provide insight into what people are looking for.  
+The search data helps analyze what people are searching for.  This can help provide insight into how to organize your knowledge and identify gaps.
 
 ![Search Data](_books/servicemanager-user-guide/knowledge/images/search-data.png)
 
