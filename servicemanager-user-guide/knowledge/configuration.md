@@ -1,4 +1,4 @@
-# Knowledge Bases
+# Configuration
 In the Configuration view, you can update an article's title, its visibility in portals, its status, and so on. You can also delete the article.
 
 * **Id.** The Knowledge Base (KB) number.
