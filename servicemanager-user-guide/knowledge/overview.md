@@ -17,6 +17,8 @@ Knowledge within Service Manager is a key component to organizing, storing, and 
 * **Topics**<br>A heirarchical structure that is unique to each knowledge base providing an easy to navigate tree that contains knowledge articles.
 * **Articles**<br>Individual articles that contain your knowledge content.
 
+![Knowledge Structure](_books/servicemanager-user-guide/knowledge/images/knowledge-structure.png)
+
 ## Gathering Knowledge
 * Article creation based on research.
 * Reusable content based from the resolution of incidents.
