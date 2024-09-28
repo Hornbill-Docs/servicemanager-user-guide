@@ -2,15 +2,15 @@
 The goal of a service is to deliver value to customers and employees through a variety of mechanisms.
 
 ## Planning
-The starting point to building a service catalog is to identify the services that are being offered. This could vary from a single service that offers IT help to users through self-serve, chat, and request management for a service catalog offering many services across different areas of the business.
+The starting point to building a service catalog is to identify the services that are being offered. This could vary from a single service that offers IT help to users through self-serve, chat, and request management, to a large service catalog offering services across many different areas of the business.
 
 
-## Support Teams
-The Supporting Teams feature is used to assign the Service Desk teams who will be supporting this service. Supporting teams will have the right to view and manage requests for this service. When a service is first created, it is supported by all Service Desk teams. Once one or more teams have been allocated to a service, only those teams will have access to the service.
+## Supporting Teams
+The Supporting Teams feature is used to assign the service desk teams who will be supporting this service. Each supporting team will have the right to view and manage requests for this service. When a service is first created, it is supported by all service desk teams. Once one or more teams have been allocated to a service, only those teams will have access to the service.
 
-Members of Supporting Teams can:
+Members of supporting teams can:
 
-* View All requests raised against the Service from the Request list > Filters > All My Services.
+* View all requests raised against the service from the **Request list** > **Filters** > **All My Services**.
 * Be Assigned a request raised against the Service from Progressive Capture assignment forms, Request forms, and multi-select assignment options on the Request List view.
 * Only analysts who belong to those teams will be able to view and manage requests made against the Service.
 * It will only be possible to assign or reassign a request to another team or analyst in a team that supports the Service
