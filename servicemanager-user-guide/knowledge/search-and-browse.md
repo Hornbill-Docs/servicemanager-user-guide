@@ -38,4 +38,10 @@ search by article number (KBA)
 
 views, likes, dislikes, shares, match percentage
 
-link to Explore doc
+You can deploy a specialist Knowledge Base Articles widget that shows only the content the end user is allowed to see.
+
+**To deploy the Knowledge Base Articles widget:**
+1. 
+1.
+1. 
+

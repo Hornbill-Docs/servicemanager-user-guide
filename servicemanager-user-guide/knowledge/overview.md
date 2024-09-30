@@ -2,19 +2,15 @@
 layout: article-toc
 ---
 # Overview
-Knowledge within Service Manager is an invaluable resource for organizing, storing, and sharing your organization's information. With Knowledge, your organization's collective expertise can be developed collaboratively and shared internally and externally. You can use Knowledge to gather your staff's insights, know-how, and resolutions all in one place for everyone's use.  --- and see the immediate benefits of improved operational efficiency and providing assistance to everyone.
+Knowledge within Service Manager is an invaluable resource for organizing, storing, and sharing your organization's information. With Knowledge, your organization's collective expertise can be developed collaboratively and easily shared --- internally and externally. Use Knowledge to gather your staff's insights, know-how, and resolutions all in one place for everyone's use.
 
-Hornbill Knowledge was built for agent deflection and self-service. Knowledge is fully integrated into the self-service experience, as well as the Intelligent Capture logging experience for analysts. Everything your organization puts into your knowledge bases can be searched across the entire Hornbill platform using Global Search, with customizable gating in place to ensure Knowledge consumers see only the content meant for them. For more details on how end users can view the content of your knowledge bases, see [Search/Browse](/search-and-browse).
+Built for agent deflection and self-service, Knowledge is fully integrated into the self-service experience, as well as the Intelligent Capture logging experience for analysts. Everything your organization puts into your knowledge bases can be searched across the entire Hornbill platform using global search, with customizable gating in place to ensure Knowledge consumers see only the content meant for them. For more details on how end users can view the content of your knowledge bases, see [Search/Browse](/search-and-browse).
 
-Service-based entitlement gating customer access to appropriate content. CAN WE SAY SOMETHING HERE ABOUT HOW KNOWLEDGE RELATES TO SERVICES AND SUBSCRIPTIONS TO EXPLAIN A BIT ABOUT HOW KNOWLEDGE CONTENT IS CONSUMED BY END USERS?
+Hornbill Service Manager provides a join between knowledge bases and services; you can set up [a subscription model](/knowledge-bases/subscriptions) to meet your organization's specific needs based on the Knowledge content you have and the services you offer. When you first create a knowledge base, by default it's open to all. To restrict access, you add knowledge-base subscriptions to individual services. Users who can see an individual service can then see the knowledge bases that service subscribes to.
 
-There is a specialist Knowledge Base Articles widget that you can deploy. This widget only shows the content the end user is allowed to see.
+Roles determine who can do what to knowledge bases. Those with the Knowledge Manager role can further customize who can create content by controlling [*contributor access*](/knowledge-bases/contributor-access). Knowledge Base Managers can grant access for content creation to named teams or users. This access is independent of service subscriptions; for example, you could add the Finance department to your knowledge base to allow the staff of that department to contribute content and edits.
 
-Against the individual service, we have knowledge that is part of KBs that are a part of the service. We have made the join between services and KBs; that is, your subscription model. When creating a knowledge base, by default it's open to all. To restrict access, you add Knowledge subscriptions to individual services. If a user can see the individual service, then they can see the knowledge bases that service subscribes to.
-
-Publishing and auditing processes for ensuring quality and review stages
-
-Analytics for monitoring knowledge use and improving content and accessibility
+Hornbill Knowledge provides publishing and auditing processes for ensuring quality and review stages, as well as analytics for monitoring knowledge use and improving content and accessibility.
 
 ## Why does knowledge matter?
 * When information is not easily accessible within an organization, it can be time-consuming and costly when staff have to rediscover how something was configured, how a previous issue was resolved, or how something works. Having an organization's shared knowledge stored and readily accessible gives more time for staff to work on meaningful tasks.
@@ -44,5 +40,3 @@ At the top level of Knowledge is the knowledge base. Inside the knowledge base a
 * Assigning support staff to help find solutions.
 * Portal widgets to promote popular articles.
 * Browsing knowledge bases and their topics.
-
-Roles determine who can do what to KBs. Those with the Knowledge Manager role can further customize who can create content by controlling *contributor access*. Knowledge Managers can grant access for content creation to named teams or users. This access is independent of service subscriptions, for example, you could add the Finance department to your KB to allow them to contribute articles and edits.
