@@ -19,6 +19,7 @@ Analytics for monitoring knowledge use and improving content and accessibility
 ## Why does knowledge matter?
 * When information is not easily accessible within an organization, it can be time-consuming and costly when staff have to rediscover how something was configured, how a previous issue was resolved, or how something works. Having an organization's shared knowledge stored and readily accessible gives more time for staff to work on meaningful tasks.
 * When a knowledge system is well-implemented, all the experts in an organization can easily contribute. Capturing and sharing information can be key to the efficiency of those who are on both sides of the service desk.
+* By enabling efficient access to relevant information, reducing redundant efforts, and promoting self-service, Hornbill Knowledge can drive significant operational efficiencies for your organization. Use Knowledge to streamline incident resolution, improve service quality, and reduce costs, all while enhancing the overall productivity of both your staff and your service end-users.
 
 ## Before you begin
 * Review the available [knowledge roles](/servicemanager-config/setup/service-manager-roles#knowledge-roles) that can be assigned to the different types of users.
@@ -27,7 +28,7 @@ Analytics for monitoring knowledge use and improving content and accessibility
 ## About the Knowledge structure
 At the top level of Knowledge is the knowledge base. Inside the knowledge base are *topics*, which you can think of as folders that contain articles.
 * **Knowledge bases.** You may want to build out only one knowledge base, or you may want several. There is no limit to how many knowledge bases your organization can have.
-* **Topics.** A hierarchical structure that is unique to each knowledge base. Topics are not required, but when you do choose to use them, they provide an easy-to-navigate tree that contains Knowledge articles. Topics can be moved around in the structure of a knowledge base, and they can go up to five levels deep.
+* **Topics.** You can use topics to provide a hierarchical structure that is unique to each knowledge base. Topics are not required, but when you do choose to use them, they provide an easy-to-navigate tree that contains Knowledge articles. Topics can be moved around in the structure of a knowledge base, and they can go up to five levels deep.
 * **Articles.** Individual articles that contain your Knowledge content.
 
 ![Knowledge Structure](_books/servicemanager-user-guide/knowledge/images/knowledge-structure.png)
