@@ -9,7 +9,7 @@ To access the Search/Browse view:
 * You must have access to at least one active knowledge base to see the Search/Browse view.
 
 ## Accessing the Search/Browse view
-Depending on the user's Knowledge role, Search/Browse can be accessed in different ways. Note that users without a Knowledge role are unable to see the Search/Browse view, but can still search Hornbill Knowledge through global search, the Employee Portal, and the Customer Portal.
+Depending on the user's Knowledge role, Search/Browse can be accessed in different ways.
 
 ### Service Manager users
 If you have a subscription to use the Service Manager application, you can access Search/Browse from the Knowledge option under the Service Manager application menu.
@@ -25,9 +25,9 @@ If you have either a basic user account or if you are a regular user without a S
 
     ![Knowledge button in top bar](_books/servicemanager-user-guide/knowledge/images/knowledge-option-top-bar.png)
  
- :::tip
- Using [the Links widget](/esp-config/customize/employee-portal/employee-portal-widgets#links), an Employee Portal designer can create an easy-to-access link to Knowledge that can be added to any page.
- :::
+    :::tip
+    Using [the Links widget](/esp-config/customize/employee-portal/employee-portal-widgets#links), an Employee Portal designer can create an easy-to-access link to Knowledge that can be added to any page.
+    :::
 
 ## Browse Knowledge
 **To browse a knowledge base:**
