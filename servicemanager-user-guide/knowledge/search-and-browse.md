@@ -1,5 +1,10 @@
 # Search / Browse
-Here you can use the search/library toggle (**Browse by Knowledge Base** and **Search Knowledge**) to switch between exploring knowledge bases via their cards, and entering search terms in a free-text search filter.
+This view is shared by all users as a place where they can find and read the knowledge that is available to them.  From here users can browse through the knowledge bases using the topic trees or they can use the search to find specific articles.
+
+![Search and Browse Knowledge](_books/servicemanager-user-guide/knowledge/images/search-browse.png)
+
+## Before You Begin
+To access the Search/Browse view, you must have the [Knowledge User Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) assigned to your Hornbill account.
 
 ## Accessing Search
 
