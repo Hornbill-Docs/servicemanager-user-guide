@@ -8,7 +8,7 @@ The search data helps analyze what people are searching for.  This can help prov
 * **Results**<br>The number of articles that were returned in the search results.
 * **Source**<br>Where the search was initiated from.
 * **Searched by**<br>The user that performed the search.
-* **User Type**<br>Identify if the the person performing the search is a basic user, full user, or contact.
+* **User Type**<br>Identify if the person performing the search is a basic user, full user, or contact.
 
 A valuable aspect of search data is identifying when someone has searched for something, but they are not getting any results.  Getting no results or in some cases, too many results can impact the usefulness of your knowledge. Using this data can continually help you improve your knowledge content.
 * Are there any articles covering what they are looking for?
