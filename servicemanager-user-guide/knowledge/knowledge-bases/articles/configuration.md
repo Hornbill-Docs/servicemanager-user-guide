@@ -5,7 +5,7 @@ This section includes the main editor that is used for creating and updating the
 
 ### Article Editor
 * Toolbar
-* Section
+* Section context formatter
 
 ## Details
 The details section contains some key information about the article.  The settings and controls for the article can all be found here.
@@ -17,13 +17,13 @@ The details section contains some key information about the article.  The settin
 * **Date Published.** This is the date when the article initially changed from draft to published.
 * **Knowledge Base.** This is the current knowledge base.  If you wish to transfer this to a different knowledge base, you can choose from the list of existing knowledge bases.  When changing the knolwedge base, you will also need to change the topic.
 * **Topic.** The topic signifies where the article is located in the topic tree which can be seen when browswing the knowledge base.
-* **Knowledge Base Article Type.**
-* **External Reference.**
-* **Visible In Employee Portal.**
-* **External Source.**
-* **Visible In Customer Portal.**
-* **Created By.**
-* **Last Modified By.**
+* **Knowledge Base Article Type.** The selected article type which can be used for filtering.
+* **External Reference.** A free text field to record an external reference number.
+* **External Source.** A free text field to record an external source for this article.
+* **Visible In Employee Portal.** Provided that the knowledge base has been set to be visible in the Employee Portal, turning this setting off will hide this article in this portal
+* **Visible In Customer Portal.** Provided that the knowledge base has been set to be visible in the Customer Portal, turning this off will hide this article in this portal.
+* **Created By.**. Shows who was the original creator of the article.
+* **Last Modified By.** Shows who was the last person to modify the article.  
 
 ## Translations
 
