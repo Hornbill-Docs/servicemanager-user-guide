@@ -349,7 +349,28 @@
               },
               {
                 "text": "Articles",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles"
+                "items":[
+                  {
+                    "text": "Configuration",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration"
+                  },
+                  {
+                    "text": "Approvals",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals"
+                  },
+                  {
+                    "text": "Reviews",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/reviews"
+                  },
+                  {
+                    "text": "Activity and Audit Log",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/activity"
+                  },
+                  {
+                    "text": "Feedback",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/statistics"
+                  }
+                ]
               },
               {
                 "text": "Explore",
