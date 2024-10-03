@@ -4,7 +4,7 @@ Contributor Access lets you control who can create and edit articles within an i
 
 ## Before you begin
 * Only the knowledge base owner or a user with the Knowledge Administrator role can add contributors.
-* Users must have the Knowledge Contributor Role in order to have access to create and update articles.
+* Users must have the Knowledge Contributor Role to have access to create and update articles.
 * Users must have a subscription to the Service Manager app to have access to create and update articles.
 
 ## Where to set up contributor access

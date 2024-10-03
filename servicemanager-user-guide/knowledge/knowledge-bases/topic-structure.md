@@ -1,5 +1,5 @@
 # Topic Structure
-Topics are a type of categorization for knowledge base articles. You can create a hierarchical structure using topics in order to provide a logical grouping of articles and a way to easily navigate through to the knowledge that users are looking for.
+Topics are a type of categorization for knowledge base articles. You can create a hierarchical structure using topics to provide a logical grouping of articles and a way to easily navigate through to the knowledge that users are looking for.
 
 ## Before you begin
 * To create and manage topics, you must have either the Knowledge Administrator role or the Knowledge Manager role assigned to you.

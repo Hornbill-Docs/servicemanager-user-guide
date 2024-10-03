@@ -14,18 +14,18 @@ The creation of a review requires three simple pieces of information.
 ![Add Review](_books/servicemanager-user-guide/knowledge/images/add-review.png)
 
 :::tip
-The review is scheduled as an all day activity on the chosen date.  Once created, the activity can be edited to select a specific time on that date.
+The review is scheduled as an all-day activity on the chosen date.  Once created, the activity can be edited to select a specific time on that date.
 :::
 
 ## Viewing reviews
-Once a review has been added to an article, it is added to the Review List for that article.  You will likely want to also view this along side your other activities. The review activities can also be seen in the My Activities Popout Panel and the My Activities View.
+Once a review has been added to an article, it is added to the Review List for that article.  You will likely want to also view this alongside your other activities. The review activities can also be seen in the My Activities Popout Panel and the My Activities View.
 
 ### My Activities Popout Panel
 The Activities Popout Panel is accessed from the right-hand vertical bar which is available no matter where you are in Hornbill.  
 
 ![Activity in Popout Panel](_books/servicemanager-user-guide/knowledge/images/review-in-activity-panel.png)
 
-Using activities for reviews provides a way to manage your work along with other tasks and activites that you might have.
+Using activities for reviews provides a way to manage your work along with other tasks and activities that you might have.
 
 ### My Activities
 The My Activities View is a central location for all of your activities.  This includes your knowledge reviews.
@@ -39,5 +39,5 @@ Once in My Activities, you can use the filters to help locate your reviews.
 ![My Activities](_books/servicemanager-user-guide/knowledge/images/my-activities.png)
 
 :::tip
-Adding the Related Entity column to the list will provide a direct link to the article that is associated to the activity. 
+Adding the Related Entity column to the list will provide a direct link to the article that is associated with the activity. 
 :::
