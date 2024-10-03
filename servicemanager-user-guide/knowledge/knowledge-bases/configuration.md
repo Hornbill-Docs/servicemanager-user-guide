@@ -17,5 +17,5 @@ The Configuration options are only available to the owner of the knowledge base 
 * **Owned By.** The owner of the knowledge base.
 * **Last Modified By.** When these knowledge base details were last modified, for example someone switches the toggle to show the knowledge base in the Customer Portal.
 
-## Deleting a Knownledge Base
-A knowledge base can only be deleted if it doesn't contain any articles.  This is a safe guard to prevent the accidental deletion of multiple articles. Individual articles can be deleted or moved to a different knowledge base.
+## Deleting a knowledge base
+You can only delete a knowledge base if it doesn't contain any articles. This is a safeguard to prevent the accidental deletion of multiple articles. Individual articles can be deleted or moved to a different knowledge base.

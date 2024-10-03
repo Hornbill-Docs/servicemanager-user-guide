@@ -318,8 +318,26 @@
         "items": [
           {
             "text": "Overview",
-            "link": "/servicemanager-user-guide/knowledge/overview"
+            "items": [
+              {
+                "text": "Welcome to Hornbill Knowledge",
+                "link": "/servicemanager-user-guide/knowledge/overview/welcome"
+              },
+              {
+                "text": "Why knowledge management matters",
+                "link": "/servicemanager-user-guide/knowledge/overview/knowledge-management"
+              },
+              {
+                "text": "About the Knowledge structure",
+                "link": "/servicemanager-user-guide/knowledge/overview/structure"
+              },
+              {
+                "text": "Searching Knowledge",
+                "link": "/servicemanager-user-guide/knowledge/overview/searching-knowledge"
+              }
+            ]
           },
+        
           {
             "text": "Search/Browse",
             "link": "/servicemanager-user-guide/knowledge/search-and-browse"
