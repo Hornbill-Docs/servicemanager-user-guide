@@ -1,11 +1,4 @@
-# Articles
-
-cog icon - edit preferences for what you see in the KB's articles list
-search
-filter by status or type
-plus button to create a new article
-
-## Moving FAQs into knowledge bases
+# Moving FAQs into knowledge bases
 
 To convert a FAQ to a knowledge article, you first need to have access to the relevant service with the Services Manager role. Once you have access to the service, then you will need the Knowledge Contributor role to create the new article.
 
