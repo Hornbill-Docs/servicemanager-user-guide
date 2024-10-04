@@ -1,5 +1,5 @@
 # Configuration
-In the Configuration view, you can update the knowledge base title, its visibility in portals, its status, and other options.
+In the Knowledge Bases Configuration view, you can update the knowledge base title, its visibility in portals, its status, and other options.
 
 ## Before You Begin
 The Configuration options are only available to the owner of the knowledge base and to users that have the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles).

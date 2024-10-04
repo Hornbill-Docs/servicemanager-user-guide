@@ -1,12 +1,12 @@
 # Search/Browse
-This view is shared by all users as a place to find and read the Knowledge content that is available to them. From here, you can browse through knowledge bases by topic or use the search bar to find specific articles.
+This view is shared by all Knowledge users as a place to find and read the Knowledge content that is available to them. From here, you can browse through knowledge bases by topic, or use the search bar to find specific articles.
 
 ![Search and Browse Knowledge](_books/servicemanager-user-guide/knowledge/images/search-browse.png)
 
 ## Before you begin
 To access the Search/Browse view:
 * You must have the [Knowledge User Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) assigned to your Hornbill account.
-* You must have access to at least one active knowledge base to see the Search/Browse view.
+* You must have access to at least one active knowledge base.
 
 ## Accessing the Search/Browse view
 Depending on the user's Knowledge role, Search/Browse can be accessed in different ways.
@@ -20,7 +20,7 @@ If you have a subscription to use the Service Manager application, you can acces
 If you have either a basic user account or if you are a regular user without a Service Manager subscription, you can access Search/Browse from the Employee Portal.
 
 **To access Search/Browse as a basic user:**
- 1. Login to the Employee Portal.
+ 1. Log in to the Employee Portal.
  1. In the top horizontal bar, click **Knowledge**.
 
     ![Knowledge button in top bar](_books/servicemanager-user-guide/knowledge/images/knowledge-option-top-bar.png)
