@@ -321,91 +321,110 @@
             "items": [
               {
                 "text": "Welcome to Hornbill Knowledge",
-                "link": "/servicemanager-user-guide/knowledge/overview/welcome"
+                "link": "/servicemanager-user-guide/knowledge/overview/welcome",
+                "draft": true
               },
               {
                 "text": "Why knowledge management matters",
-                "link": "/servicemanager-user-guide/knowledge/overview/knowledge-management"
+                "link": "/servicemanager-user-guide/knowledge/overview/knowledge-management",
+                "draft": true
               },
               {
                 "text": "About the Knowledge structure",
-                "link": "/servicemanager-user-guide/knowledge/overview/structure"
+                "link": "/servicemanager-user-guide/knowledge/overview/structure",
+                "draft": true
               },
               {
                 "text": "Searching Knowledge",
-                "link": "/servicemanager-user-guide/knowledge/overview/searching-knowledge"
+                "link": "/servicemanager-user-guide/knowledge/overview/searching-knowledge",
+                "draft": true
               }
             ]
           },
           {
             "text": "Search/Browse",
-            "link": "/servicemanager-user-guide/knowledge/search-and-browse"
+            "link": "/servicemanager-user-guide/knowledge/search-and-browse",
+            "draft": true
           },
           {
             "text": "Knowledge Bases",
             "items": [
               {
                 "text": "Configuration",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration",
+                "draft": true
               },
               {
                 "text": "Topic Structure",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure",
+                "draft": true
               },
               {
                 "text": "Contributor Access",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access",
+                "draft": true
               },
               {
                 "text": "Subscriptions",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions",
+                "draft": true
               },
               {
                 "text": "Activity & Audit Log",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit",
+                "draft": true
               },
               {
                 "text": "Articles",
                 "items": [
                   {
                     "text": "Configuration",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration"
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration",
+                    "draft": true
                   },
                   {
                     "text": "Approvals",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals"
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals",
+                    "draft": true
                   },
                   {
                     "text": "Reviews",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/reviews"
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/reviews",
+                    "draft": true
                   },
                   {
                     "text": "Activity and Audit Log",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/activity"
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/activity",
+                    "draft": true
                   },
                   {
                     "text": "Feedback",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/statistics"
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/statistics",
+                    "draft": true
                   }
                 ]
               },
               {
                 "text": "Explore",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/explore"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/explore",
+                "draft": true
               },
               {
                 "text": "Statistics",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/statistics"
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/statistics",
+                "draft": true
               }
             ]
           },
           {
             "text": "Dashboard",
-            "link": "/servicemanager-user-guide/knowledge/dashboard"
+            "link": "/servicemanager-user-guide/knowledge/dashboard",
+            "draft": true
           },
           {
             "text": "Search Data",
-            "link": "/servicemanager-user-guide/knowledge/search-data"
+            "link": "/servicemanager-user-guide/knowledge/search-data",
+            "draft": true
           }
         ]
       },
