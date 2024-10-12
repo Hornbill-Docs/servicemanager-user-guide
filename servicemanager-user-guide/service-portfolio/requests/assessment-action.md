@@ -22,12 +22,12 @@ Impact is a way to determine the effect the request may have on your business.  
 Rather than a simple drop-down list to select from, a questionnaire is presented that can consist of one or more questions that help determine the impact. Each answer provided will have a score against it to automatically apply an Impact Level based on the responses to the questions.
 
 ## Urgency
-Urgency refers to the importance of how quickly the request needs to be resolved or closed. An incident may not be causing too much at the time it was raised, however, if it isn't resolved within a short timeframe it may cause further problems.
+Urgency refers to the importance of how quickly the request needs to be resolved or closed. An incident may not be causing too much at the time it was raised, however, if it isn't resolved within a short time frame it may cause further problems.
 
 Urgency is not available on the request’s assessment action by default. There are two options for configuring the use of urgency.
 
 * [Urgency level drop-down list](/servicemanager-config/administration/assessment-levels#urgency)
-* [Urgency questionnarire](/servicemanager-config/administration/assessment-questionnaires)
+* [Urgency questionnaire](/servicemanager-config/administration/assessment-questionnaires)
 
 ## Request Timeline
 Each time an assessment is added or changed on a request, a record is added to the timeline.
