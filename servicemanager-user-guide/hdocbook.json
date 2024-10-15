@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.109",
+  "version": "0.2.110",
   "audience": [
     "public"
   ],
@@ -314,117 +314,97 @@
       {
         "text": "Knowledge",
         "expand": false,
-        "draft": true,
         "items": [
           {
             "text": "Overview",
             "items": [
               {
                 "text": "Welcome to Hornbill Knowledge",
-                "link": "/servicemanager-user-guide/knowledge/overview/welcome",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/overview/welcome"
               },
               {
                 "text": "Why knowledge management matters",
-                "link": "/servicemanager-user-guide/knowledge/overview/knowledge-management",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/overview/knowledge-management"
               },
               {
                 "text": "About the Knowledge structure",
-                "link": "/servicemanager-user-guide/knowledge/overview/structure",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/overview/structure"
               },
               {
                 "text": "Accessing Knowledge content",
-                "link": "/servicemanager-user-guide/knowledge/overview/searching-knowledge",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/overview/searching-knowledge"
               }
             ]
           },
           {
             "text": "Search/Browse",
-            "link": "/servicemanager-user-guide/knowledge/search-and-browse",
-            "draft": true
+            "link": "/servicemanager-user-guide/knowledge/search-and-browse"
           },
           {
             "text": "Knowledge Bases",
             "items": [
               {
                 "text": "Configuration",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration"
               },
               {
                 "text": "Topic Structure",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure"
               },
               {
                 "text": "Contributor Access",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access"
               },
               {
                 "text": "Subscriptions",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions"
               },
               {
                 "text": "Activity & Audit Log",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit"
               },
               {
                 "text": "Articles",
                 "items": [
                   {
                     "text": "Configuration",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration",
-                    "draft": true
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration"
                   },
                   {
                     "text": "Approvals",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals",
-                    "draft": true
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals"
                   },
                   {
                     "text": "Reviews",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/reviews",
-                    "draft": true
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/reviews"
                   },
                   {
                     "text": "Activity and Audit Log",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/activity",
-                    "draft": true
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/activity"
                   },
                   {
                     "text": "Feedback",
-                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/statistics",
-                    "draft": true
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/statistics"
                   }
                 ]
               },
               {
                 "text": "Explore",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/explore",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/explore"
               },
               {
                 "text": "Statistics",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/statistics",
-                "draft": true
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/statistics"
               }
             ]
           },
           {
             "text": "Dashboard",
-            "link": "/servicemanager-user-guide/knowledge/dashboard",
-            "draft": true
+            "link": "/servicemanager-user-guide/knowledge/dashboard"
           },
           {
             "text": "Search Data",
-            "link": "/servicemanager-user-guide/knowledge/search-data",
-            "draft": true
+            "link": "/servicemanager-user-guide/knowledge/search-data"
           }
         ]
       },
