@@ -3,4 +3,4 @@ Users with the Knowledge Manager role can use the Explore view to see the full s
 
 This view provides a complete picture of a knowledge base, while also allowing for direct editing and other actions to be taken on individual articles.
 
-![Explore](_books/servicemanager-user-guide/knowledge/images/explore.png)
+![Explore](/_books/servicemanager-user-guide/knowledge/images/explore.png)

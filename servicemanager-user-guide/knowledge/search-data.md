@@ -1,7 +1,7 @@
 # Search Data
 The Knowledge search data helps analyze what people are searching for.  This can help provide insight into how to organize your knowledge and identify gaps.
 
-![Search Data](_books/servicemanager-user-guide/knowledge/images/search-data.png)
+![Search Data](/_books/servicemanager-user-guide/knowledge/images/search-data.png)
 
 * **Date.** The date/time that the search was run.
 * **Search Term.** The full search that was entered by the user.
@@ -19,4 +19,4 @@ A valuable aspect of search data is identifying instances of someone having sear
 Use the filter to show searches that contain a particular word.
 * How many times has this word been included in a search?
 
-![Search Data Filter](_books/servicemanager-user-guide/knowledge/images/search-data-filter.png)
+![Search Data Filter](/_books/servicemanager-user-guide/knowledge/images/search-data-filter.png)

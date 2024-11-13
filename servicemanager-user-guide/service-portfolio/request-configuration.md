@@ -26,13 +26,13 @@ Stages and Checkpoints - This will show both the Stages and the checkpoints.
 ## Request Actions
 Define which Actions are available on the Request Action toolbar when working on requests raised against the Service.
 
-![Request Action Tool bar](_books/servicemanager-user-guide/service-portfolio/services/images/request-action-toolbar.png)
+![Request Action Tool bar](/_books/servicemanager-user-guide/service-portfolio/services/images/request-action-toolbar.png)
 
 Not all actions on a request are available by default and in some cases there are actions that are visible but not needed for a particular type of request. 
 
 Enable or Disable an Action by clicking on the Enable or Disable Action button next to each action. See the [Request Action Overview](/servicemanager-user-guide/service-portfolio/requests/request-actions) for more information about each individual action.
 
-![Request Actions](_books/servicemanager-user-guide/service-portfolio/services/images/request-actions.png)
+![Request Actions](/_books/servicemanager-user-guide/service-portfolio/services/images/request-actions.png)
 
 :::tip
 Actions that are available when a request is on hold are managed seperately through the [On Hold Settings](/servicemanager-config/administration/request-settings#on-hold-settings)

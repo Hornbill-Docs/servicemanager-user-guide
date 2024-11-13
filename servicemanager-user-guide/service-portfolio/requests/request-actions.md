@@ -1,7 +1,7 @@
 # Request Actions Overview
 The action bar located at the top of each request contains the majority of actions that you can apply to a request. 
 
-![Request Actions](_books/servicemanager-user-guide/service-portfolio/requests/images/action-bar.png)
+![Request Actions](/_books/servicemanager-user-guide/service-portfolio/requests/images/action-bar.png)
 
 * The actions available on a request can be configured within the service they are associated with.
 * The supporting workflow that sits behind the request can control the focus of an action when that action is required to be completed.

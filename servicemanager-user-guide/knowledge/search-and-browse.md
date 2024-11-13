@@ -1,7 +1,7 @@
 # Search/Browse
 This view is shared by all Knowledge users as a place to find and read the Knowledge content that is available to them. From here, you can browse through knowledge bases by topic, or use the search bar to find specific articles.
 
-![Search and Browse Knowledge](_books/servicemanager-user-guide/knowledge/images/search-browse.png)
+![Search and Browse Knowledge](/_books/servicemanager-user-guide/knowledge/images/search-browse.png)
 
 ## Before you begin
 To access the Search/Browse view:
@@ -23,7 +23,7 @@ If you have either a basic user account or if you are a regular user without a S
  1. Log in to the Employee Portal.
  1. In the top horizontal bar, click **Knowledge**.
 
-    ![Knowledge button in top bar](_books/servicemanager-user-guide/knowledge/images/knowledge-option-top-bar.png)
+    ![Knowledge button in top bar](/_books/servicemanager-user-guide/knowledge/images/knowledge-option-top-bar.png)
  
     :::tip
     Using [the Links widget](/esp-config/customize/employee-portal/employee-portal-widgets#links), an Employee Portal designer can create an easy-to-access link to Knowledge that can be added to any page.
@@ -32,7 +32,7 @@ If you have either a basic user account or if you are a regular user without a S
 ## Browse Knowledge
 **To browse a knowledge base:**
 1. Make sure you are in Browse by setting the Search/Browse toggle to Browse.
-    ![Toggle to Browse from Search](_books/servicemanager-user-guide/knowledge/images/toggle-while-set-to-search.png)
+    ![Toggle to Browse from Search](/_books/servicemanager-user-guide/knowledge/images/toggle-while-set-to-search.png)
 1. Click the card that corresponds to the knowledge base you want to browse.
 
 When browsing knowledge, the view is split into two sections:  
@@ -42,7 +42,7 @@ When browsing knowledge, the view is split into two sections:
 ## Search Knowledge from within Browse/Search
 **To search the knowledge bases:**
 1. Make sure you are in Search by setting the Search/Browse toggle to the search icon.
-    ![Toggle to Search from Browse](_books/servicemanager-user-guide/knowledge/images/toggle-while-set-to-browse.png)
+    ![Toggle to Search from Browse](/_books/servicemanager-user-guide/knowledge/images/toggle-while-set-to-browse.png)
 1. In the Search box, enter your search text.
 
 ### Search results

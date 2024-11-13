@@ -1,7 +1,7 @@
 # Linked Services Action
 The Linked Services Action within a request allows for the linking of other Services to a request, over and above the service against which the request has been logged. This is useful in situations where you might want to record which other services were impacted.
 
-![Linked Services Action](_books/servicemanager-user-guide/service-portfolio/requests/images/linked-services-action.png)
+![Linked Services Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/linked-services-action.png)
 
 ## Before You Begin
 The visibility of the Linked Services Action on a request is controlled by the service that the request is raised under. If the Linked Services Action is not available, the Service Owner for that service will need to [enable it on the service](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions). 

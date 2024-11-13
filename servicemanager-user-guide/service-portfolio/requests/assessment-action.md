@@ -1,7 +1,7 @@
 # Assessment Action
 The assessment action is for determining the importance of a request. Multiple assessment types can be used to make an assessment; these include priority, impact, urgency, and risk.
 
-![Assessment Action](_books/servicemanager-user-guide/service-portfolio/requests/images/assessment-action.png)
+![Assessment Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/assessment-action.png)
 
 ::: important
 The only assessment type available by default is priority. Administrators must configure all the other assessment types. Administrators can navigate to Configuration > Administration and configure assessment types in [Levels](/servicemanager-config/administration/assessment-levels) and [Questionnaires](/servicemanager-config/administration/assessment-questionnaires).
@@ -10,7 +10,7 @@ The only assessment type available by default is priority. Administrators must c
 ## Priority
 Priority is the default option and is available to all requests that use the assessment action. Users choose from a drop-down list of [priority levels](/servicemanager-config/administration/assessment-levels#default-levels). Once a priority has been selected and applied to the request, it is displayed in the information panel.
 
-![Request Priority](_books/servicemanager-user-guide/service-portfolio/requests/images/request-info-priority.png)
+![Request Priority](/_books/servicemanager-user-guide/service-portfolio/requests/images/request-info-priority.png)
 
 ### Benefits of using the Priority assessment
 Setting the priority of a request allows users to focus on the most important requests. Users can:

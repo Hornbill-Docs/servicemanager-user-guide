@@ -10,7 +10,7 @@ Contributor Access lets you control who can create and edit articles within an i
 ## Where to set up contributor access
 To get to Contributor Access, first navigate to a knowledge base, then in the navigation pane, select the Contributor Access option.
 
-![Contributor Access](_books/servicemanager-user-guide/knowledge/images/contributor-access.png)
+![Contributor Access](/_books/servicemanager-user-guide/knowledge/images/contributor-access.png)
 
 ## Managing access
 1. From the list of contributors, click on the + button to add a new user or team.

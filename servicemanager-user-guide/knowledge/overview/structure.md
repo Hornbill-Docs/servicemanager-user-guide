@@ -7,4 +7,4 @@ At the top level of Knowledge is the knowledge base. Inside the knowledge base a
 * **Topics.** You can use [topics](/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure) to provide a hierarchical structure that is unique to each knowledge base. Topics are not required, but when you do choose to use them, they provide an easy-to-navigate tree that contains Knowledge articles. Topics can be moved around in the structure of a knowledge base, and they can go up to five levels deep.
 * **Articles.** Individual [articles](/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration) that contain your Knowledge content.
 
-![Knowledge Structure](_books/servicemanager-user-guide/knowledge/images/knowledge-structure.png)
+![Knowledge Structure](/_books/servicemanager-user-guide/knowledge/images/knowledge-structure.png)
