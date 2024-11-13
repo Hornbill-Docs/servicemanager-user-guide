@@ -128,8 +128,8 @@ Hyperlinks to other areas of Hornbill can be added. This includes the ability to
 
 | Markup        | Displayed As       |
 |---------------|:---------------------------------------------|
-| ```[[newsfeed]]``` | [newsfeed](newsfeed) |
-| ```[[newsfeed|Link to your Newsfeed]]``` |	[Link to your Newsfeed](Link to your Newsfeed) |
+| ```[[newsfeed]]``` | [newsfeed](#newsfeed) |
+| ```[[newsfeed\|Link to your Newsfeed]]``` |	[Link to your Newsfeed](#newsfeed) |
 
 The same concept will be available for external links using absolute URLs
 
