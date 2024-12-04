@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Upload Assets
-Manually upload multiple assets for specific Asset Classes from CSV files. This option is provided to allow the Insert of new assets into the Service Manager asset repository, this is generally used for static data. If you require the ability to schedule the importing of new or updates to existing assets from discovery tools or MSSQL or MySQL databases, please read more about our Asset Import utility Here
+Manually upload multiple assets for specific Asset Classes from CSV files. This option is provided to allow the Insert of new assets into the Service Manager asset repository, this is generally used for static data. If you require the ability to schedule the importing of new or updates to existing assets from discovery tools or MSSQL or MySQL databases. You can find more information about the Asset Import utility in the [Data Imports Guide](/data-imports-guide/assets/overview).
 
 As an Asset Management Administrator select the Asset Upload option from the Asset Management Icon on the Application navigation bar.
 
