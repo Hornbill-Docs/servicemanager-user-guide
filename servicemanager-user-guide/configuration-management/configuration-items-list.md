@@ -1,53 +1,53 @@
 # Configuration Items List
-The Configuration Item list shows all Configurations which can be managed and can be marked as being In Policy. Configuration Items which can be marked as In Policy are:
+The Configuration Items list shows all CIs that can be managed and marked as being in-policy. Configuration Items that can be marked as in-policy are:
 * Assets
 * Services
 
 ## Features
-The Configuration Item list allows you to manage Configuration Items which can be marked as In Policy.
+The Configuration Items list allows you to manage CIs that can be marked as in-policy.
 
 ## List Actions
-### Mark as In Policy
-Next to each Configuration Item will be a green Tick or red Cross to indicate if the Configuration Item is currently In Policy or not.
-* Click on this icon to change it from being in Policy or not.
-* Configuration Items marked as In Policy may unlock additional functionality on the Configuration Item, and this is covered in Configuration Items accessible from the Related Articles section
+### Mark as In-Policy
+Next to each CI is a green tick or red cross to indicate whether the CI is currently in policy or not.
+* Click this icon to change it to in-policy or not.
+* CIs marked as in-policy may unlock additional functionality on the configuration item.
 
 ### Launch Explorer
-Click on the CI Launch explorer.png icon next to a Configuration Item to launch the Explorer view.
+Click the CI Launch Explorer icon next to a CI to launch the Explorer view.
 
-* The explorer view will allow you to view and explore related Configuration Items
-* The Explorer view will use the chosen Configuration Item as it's root node
+* The Explorer view allows you to view and explore related configuration items.
+* The Explorer view uses the chosen CI as its root node.
 
 ## Filters
-Search and filter the displayed Configuration Items using the following options
+Search and filter the displayed configuration items using the options that follow.
 
 ### Quick Search
-Search for a Configuration Item using the Quick Filter search box
+Search for a configuration item using the Quick Filter search box.
 
-* Assets can be searched for based on Name, Asset Class or Asset Type
-* Services can be searched for based on Name, Description or Catalog Status
+* Search for assets based on name, class, or type.
+* Search services based on name, description, or catalog status.
 
 ### Policy Status
-Filter the displayed Configuration Items by:
+Filter the displayed configuration items by:
 
 * All
 * In Policy
 * Not in Policy
 
 ### Configuration Type
-Filter the displayed Configuration Items by either:
+Filter the displayed configuration items by:
 
 * Assets
 * Services
 
-### Additional Type Specific Filters
-Depending on the chosen Configuration Type the list will display different column attributes:
+### Additional Type-Specific Filters
+Depending on the chosen configuration type, the list displays different column attributes:
 * Assets - Name, Type, Class
 * Services - Name, Description
 
-Within Assets type selected, two additional filters will be displayed in the action bar
-* Class - Filter the list of Configuration Items based on Asset Class
-* Type - Filter the list of Configuration Items based on Asset Type
+Within Assets type selected, two additional filters are displayed in the action bar:
+* Class - Filter the list of configuration items based on asset class.
+* Type - Filter the list of configuration items based on asset type.
 
 ### Sorting
-Sort the order in which the Configuration Items are displayed by using the Arrow icons on the list columns
+Sort the order in which the configuration items are displayed by using the arrow icons on the list columns.
