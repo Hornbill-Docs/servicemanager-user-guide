@@ -1,5 +1,5 @@
 # Asset Details
-The Asset record will display the configured asset attributes for the given asset type, users with the appropriate rights can edit the attributes of the asset. It is possible to link assets to other assets, services and documents, and add attachments. In conjuction with Configuration Manager, it is also possible to schedule activities against the asset, collaborate on the asset timeline, follow the asset and graphically view the relationships the asset has to other entities.
+The Asset record will display the configured asset attributes for the given asset type, users with the appropriate rights can edit the attributes of the asset. It is possible to link assets to other assets, services and documents, and add attachments. In conjunction with Configuration Manager, it is also possible to schedule activities against the asset, collaborate on the asset timeline, follow the asset and graphically view the relationships the asset has to other entities.
 
 ## Asset Actions
 * **Update**<br>The update action will be visible if Configuration Manager has been installed on your instance and the asset is marked as In Policy. Use the update action to post to the asset's timeline, and collaborate on the asset with other users.
