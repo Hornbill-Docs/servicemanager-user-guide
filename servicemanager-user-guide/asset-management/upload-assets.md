@@ -2,29 +2,30 @@
 layout: article-toc
 ---
 # Upload Assets
-Manually upload multiple assets for specific Asset Classes from CSV files. This option is provided to allow the Insert of new assets into the Service Manager asset repository, this is generally used for static data. If you require the ability to schedule the importing of new or updates to existing assets from discovery tools or MSSQL or MySQL databases. You can find more information about the Asset Import utility in the [Data Imports Guide](/data-imports-guide/assets/overview).
+Manually upload multiple assets for specific asset classes from CSV files. This option is provided to allow the insert of new assets into the Service Manager asset repository, this is generally used for static data. If you require the ability to schedule the importing of new or updates to existing assets from discovery tools or MSSQL or MySQL databases, you can find more information about the Asset Import utility in the [Data Imports Guide](/data-imports-guide/assets/overview).
 
-As an Asset Management Administrator select the Asset Upload option from the Asset Management Icon on the Application navigation bar.
+As an Asset Management Administrator, select **Asset Upload** from the Asset Management icon in the application navigation bar.
 
-## Creating The Upload Template
-It is possible to upload assets of different asset Types but only those which are managed under the same asset Class from a single CSV template. If you require to upload assets for types which are managed under different asset classes, you are required to create different CSV templates for each asset class grouping.
-1. Firstly select the Asset Class from the drop down control against which you wish to import the new assets. In doing so the option to download the related asset class template will become enabled.
-2. Select to download the template file.
-3. Populate the template file rows and columns with the attributes for each asset you which to upload.
-4. Name and Type are mandatory attributes for each asset you wish to upload regardless of their type or class.
-5. Save the template file.
+## Creating the upload template
+You can upload assets of different asset types, but only those that are managed under the same asset class from a single CSV template. If you need to upload assets for types that are managed under different asset classes, you must create different CSV templates for each asset class grouping.
 
-Whilst other attributes are not mandatory to perform the import, it is good practice to populate the attribute fields to match those which you have enabled for each asset type, when you were defining the asset types. Examples being Usedby, or Site, should you want the assets to appear as linked to these entities when performing other Service Manager actions, such as logging requests through progressive capture and having the option to choose from a list of assets associated to the user.
+**To create your upload template:**
+1. From the dropdown control against which you wish to import the new assets, select the asset class. This enables the option to download the related asset class template.
+1. Select to download the template file.
+1. Populate the template file rows and columns with the attributes for each asset you want to upload. Name and Type are mandatory attributes for each asset you wish to upload, regardless of their type or class.
+1. Click **Save**.
 
-Used by requires the usedById, usedByName and usedByType attributes to be completed. usedByType should be populated with either:
-* 0 - if Used By is a coworker
-* 1 - if Used By is a contact
+While other attributes are not mandatory to perform the import, it is good practice to populate the attribute fields to match those that you enabled for each asset type (when you were defining the asset types). Examples being *Used by* or *Site*, should you want the assets to appear as linked to these entities when performing other Service Manager actions, such as logging requests through Intelligent Capture and having the option to choose from a list of assets associated to the user.
 
-Owned By requires both the ownedById, ownedByName and ownedByType attributes to be completed. ownedByType should be populated with either:
-* 0 - if Owned By is a coworker
-* 1 - if Owned By is a contact
+*Used by* requires the *usedById*, *usedByName*, and *usedByType* attributes to be completed. *usedByType* should be populated with either:
+* 0 - if *Used By* is a coworker
+* 1 - if *Used By* is a contact
 
-Site requires both the site and the siteId attributes to be completed. SiteId refers to the database numerical value not the display name
+*Owned By* requires both the *ownedById*, *ownedByName* and *ownedByType* attributes to be completed. *ownedByType* should be populated with either:
+* 0 - if *Owned By* is a coworker
+* 1 - if *Owned By* is a contact
+
+Site requires both the *site* and the *siteId* attributes to be completed. *SiteId* refers to the database numerical value not the display name.
 Date attributes are required in the following format: yyyy-mm-dd hh:mm:ssZ
 Country requires the ISO Alpha 2 codes as per the listing here - [1]
 The fields in the CSV file are mapped on the assets database table. To find what values and types need to be populated in the fields, navigate to Home > Applications > Service Manager > Entity Viewer. Select "Database Schema Viewer" and navigate to the the "h_cmdb_assets" table.
