@@ -68,15 +68,15 @@ Click **Create** to add the product to the list of defined products.
 ### Configuration options - Version
 From the Version tab:
 * Vendor. Select the vendor to which the new version of a product relates.
-* Product. Select the product, from the Vendors Products to which the New Version relates
+* Product. From the vendor's products, select the product to which the new version relates.
 * New Version. Add the name of the new version.
 
 Click **Create** to add the version to the list of defined versions for the specific product.
 
 
-### Edit and Delete Vendors, Products, and Versions
-* Edit: Select the Pencil icon next to the item you wish to edit
-* Delete: Select the Trash Can icon next to the item you wish to delete. If Assets are currently linked to the Version, Product or Vendor you will not be able to delete the item.
+### Edit and delete vendors, products, and versions
+* Edit. Click the pencil icon next to the item you wish to edit.
+* Delete. Click the **Delete** button (trash can icon) next to the item you wish to delete. If assets are currently linked to the version, product, or vendor, you will not be able to delete the item.
 
 <!-- https://wiki.hornbill.com/index.php?title=Software_Asset_Management -->
 <!-- https://wiki.hornbill.com/index.php?title=Manage_Vendors,_Products,_Versions -->
