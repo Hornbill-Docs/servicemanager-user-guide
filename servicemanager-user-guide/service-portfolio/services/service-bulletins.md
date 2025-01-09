@@ -1,3 +1,8 @@
+---
+title: Service Bulletins
+layout: article
+keywords: static content
+---
 # Service Bulletins
 Service Manager provides the ability to create and publish Bulletins to the subscribers of Services.
 
