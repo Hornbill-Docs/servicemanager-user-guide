@@ -28,4 +28,5 @@ Decide if the assign action post on the timeline of the request will be customer
 On the request's Information box, a button is made available that allows a user to quickly Take Ownership of the request without using the Assign action. This button is only visible when
 
 * The user is a member of the currently assigned team.
+* The user has [assignment enabled](/servicemanager-config/administration/service-desk#enable-assignment) for the currently assigned team.
 * The request is not currently assigned to an owner.
