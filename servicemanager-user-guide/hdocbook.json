@@ -448,6 +448,14 @@
           {
             "text": "Suggest Resolution",
             "link": "/servicemanager-user-guide/hai/suggest-resolution"
+          },
+          {
+            "text": "Email Processing",
+            "link": "/servicemanager-user-guide/hai/email-processing"
+          },
+          {
+            "text": "Email Attachment Labeling",
+            "link": "/servicemanager-user-guide/hai/email-attachment-labeling"
           }
         ]
       }
