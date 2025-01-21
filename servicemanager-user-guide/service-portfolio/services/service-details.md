@@ -18,7 +18,11 @@ The name of your Service is a simple yet very important aspect of a service. The
 A brief description of your service can be added to your Service. This allows you to add some additional information to describe the purpose or use of the service. This description is available for customers to read on the Self Service Portals when viewing their service information. It is also available to support staff on the Services Progressive Capture form when raising a request to provide that bit of extra information to make sure they are selecting the correct service.
 
 ### Category
-Used to group your Services. Select one from the pre-defined list
+Used to group your Services. Select one from the pre-defined list.
+
+:::tip
+The [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) can be modified within the Service Manager configuration. The categories are stored in a [Simple List](/servicemanager-config/setup/service-manager-simple-lists) called `serviceCategories`.
+:::
 
 ### Portfolio Status
 The Service Portfolio Status uses some industry standard conventions for determining the state of the service. These statuses include Pipeline, Catalog, and Retired.
