@@ -8,7 +8,7 @@ layout: article-toc
 
 A set of AI-driven tools for quick creation and manipulation of text content. Ask HAi to elaborate on a problem, suggest a solution, spell check and grammar check content, shorten, listify, or change the tone. These features are available anywhere you can post text or comments - accessible from a simple drop-down menu.
 
-![Hornbill AI Dashboard](/_books/servicemanager-user-guide/images/hai-text-assist.png" alt="Text Assist"></img>
+![Hornbill AI Dashboard](/_books/servicemanager-user-guide/images/hai-text-assist.png)
 
 ## What you can do
 
