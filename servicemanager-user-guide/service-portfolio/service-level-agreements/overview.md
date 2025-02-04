@@ -1,5 +1,15 @@
-# Overview
-Service Level Agreements allow you to define a combination of Service Levels and Service Level Targets which can be used across multiple services that share the same service level requirements. Where a Service Desk offers a standard set of Service Levels across all of its services, using Corporate Service Level Agreements can centralize the management of these Service Levels into one place rather than on a service by service basis.
+# Corporate Service Level Agreements
+Service level agreements (SLAs) allow you to define a combination of service levels and service level targets which can be used across multiple services that share the same SLA requirements. Using corporate service level agreements can centralize the management of these SLAs into one place rather than on a service-by-service basis.
+
+![Corporate Service Levels](/_books/servicemanager-user-guide/service-portfolio/images/corporate-sla.png)
+
+* Corporate service level agreements can be associated with one or more services.
+* A service can be associated with both a corporate SLA and its own SLA.
+* A service can have its own SLA without having a corporate SLA.
+
+:::info
+Corporate SLAs are read-only when being viewed from an associated service. This is to prevent changes that might impact other services.  Changes to a corporate SLA must be made by accessing the corporate SLA from the Service Level Agreements list. 
+:::
 
 ## Details
 The following SLA Details are required when first creating a new SLA and are available within the SLA form.
