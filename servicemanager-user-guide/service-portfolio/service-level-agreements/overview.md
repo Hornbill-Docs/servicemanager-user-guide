@@ -1,5 +1,5 @@
 # Corporate Service Level Agreements
-Service level agreements (SLAs) allow you to define a combination of service levels and service level targets which can be used across multiple services that share the same SLA requirements. Using corporate service level agreements can centralize the management of these SLAs into one place rather than on a service-by-service basis.
+Service level agreements (SLAs) allow you to define a combination of service levels and service-level targets that can be used across multiple services sharing the same SLA requirements. Using corporate SLAs can centralize the management of these SLAs into one place rather than on a service-by-service basis.
 
 ![Corporate Service Levels](/_books/servicemanager-user-guide/service-portfolio/images/corporate-sla.png)
 
@@ -7,17 +7,18 @@ Service level agreements (SLAs) allow you to define a combination of service lev
 * A service can be associated with both a corporate SLA and its own SLA.
 * A service can have its own SLA without having a corporate SLA.
 
-:::info
+:::note
 Corporate SLAs are read-only when being viewed from an associated service. This is to prevent changes that might impact other services.  Changes to a corporate SLA must be made by accessing the corporate SLA from the Service Level Agreements list. 
 :::
 
 ## Before you begin
-* A user must have the [Services Manager](/servicemanager-config/setup/service-manager-roles#services) role to access the Service Portfolio.
+* A user must have the [Services Manager](/servicemanager-config/setup/service-manager-roles#services) 
+role to access the Service Portfolio.
  
 ## Accessing corporate SLAs
-1. Click on the Service Manager icon in the left hand vertical menu bar.
-1. Select `Service Portfolio`.
-1. Selet the `Service Level Agreements` tab.
+1. In the [App toolbar](/esp-user-guide/navigation#app-toolbar), click the Service Management icon.
+1. Select **Service Portfolio**.
+1. Select the **Service Level Agreements** tab.
 
 ## Details
 The following SLA Details are required when first creating a new SLA and are available within the SLA form.
