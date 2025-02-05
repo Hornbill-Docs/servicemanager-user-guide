@@ -62,7 +62,4 @@ You can specify one or more actions that you want to be invoked against each esc
 * **Increase Priority by 1.** Whatever the priority is currently at, this will increase the priority by one level.
 * **Add to Board.** If you have boards configured, this option will add the request to a specified board, with the option to specify a particular list within the chosen board. If no list is specified, then the request will be added to the first (left-most) list on the board. Typically, this can be used to create a breach board, with lists representing the time left before the service level target will be missed.
 
-## Managing Service Level Rules
-If you create more than one service level for any of your SLAs, you will enable the **Manage Rules** tab. This will allow you to configure rules to manage when the different service levels of your SLA should be used.
-
 <!-- https://wiki.hornbill.com/index.php?title=Escalation_Actions -->
