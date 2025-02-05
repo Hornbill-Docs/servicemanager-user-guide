@@ -40,8 +40,3 @@ It is possible to define multiple rules per Service. When a request is raised us
 * Reorder the rules in the list by using the up and down arrows which will be visible once more than one Rule has been configured against the Service.
 * If no rules are matched, then No Service Level Agreement will be used or invoked on the request.
 * If no rules have been configured, the first Service Level Agreement in the list of Service Level Agreements linked to the Service will be used.
-
-### Editing and Deleting Rules
-* Click on the Rule in the list you wish to edit or delete.
-* Add, Amend or Remove Conditions of the Rule and Click Save to apply the edit
-* Click Delete to Delete the Rule from the Service
