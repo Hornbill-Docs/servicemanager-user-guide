@@ -11,6 +11,14 @@ Service level agreements (SLAs) allow you to define a combination of service lev
 Corporate SLAs are read-only when being viewed from an associated service. This is to prevent changes that might impact other services.  Changes to a corporate SLA must be made by accessing the corporate SLA from the Service Level Agreements list. 
 :::
 
+## Before you begin
+* A user must have the [Services Manager](/servicemanager-config/setup/service-manager-roles#services) role to access the Service Portfolio.
+ 
+## Accessing corporate SLAs
+1. Click on the Service Manager icon in the left hand vertical menu bar.
+1. Select `Service Portfolio`.
+1. Selet the `Service Level Agreements` tab.
+
 ## Details
 The following SLA Details are required when first creating a new SLA and are available within the SLA form.
 
