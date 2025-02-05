@@ -1,4 +1,4 @@
-# Service Levels
+# Service levels
 You can define one or more service levels (SLs) for each SLA. Each service level contains configurable service level targets and their associated automated escalations. Service levels are required if you need to automate and track targets such as response and resolution targets.
 
 * **Name.** The name of the service level is displayed along with the SLA on a request that it is associated to. This is used to help a support person understand the service level that they need to adhere to. An example of a common naming convention for service levels is *Bronze*, *Silver*, and *Gold*.
@@ -7,11 +7,11 @@ You can define one or more service levels (SLs) for each SLA. Each service level
 ## Service Level Targets
 Service level targets allow you to define the timing for your response and resolution targets. Providing these targets is optional, however using them is an important part of keeping track of the performance provided by the service desk. Both the response and resolution targets are calculated against the selected Working Hours Calendar. By selecting any of the existing SLs, you will be able to manage the associated targets for that service level.
 
-### Target Types
+### Target types
 * **Response Target.** The time in which a response to a new request needs to be made.
 * **Resolution Target.** The time in which a suitable resolution to a request has been completed and a normal level of service provided.
 
-#### Service Level Target Calculation
+#### Calculating service level targets
 The service level targets that you add to Hornbill relate to the working hours defined in the Working Time Calendar (WTC) specified against the SLA. This means that some calculation is required to ensure the targets you set represent the correct number of calendar days that you are advertising to your customers.
 
 #### Example
@@ -30,7 +30,7 @@ Therefore the target of 5 calendar days based on a 9.5 hour working day equates 
 
 More details of this can be found in [Service Level Workflow Automation](/servicemanager-user-guide/service-portfolio/service-level-agreements/automation).
 
-## Escalation Actions
+## Escalation actions
 Against each service level target, you can configure escalation actions that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
 
 ### Timers
