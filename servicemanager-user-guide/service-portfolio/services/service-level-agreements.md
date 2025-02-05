@@ -45,16 +45,3 @@ It is possible to define multiple rules per Service. When a request is raised us
 * Click on the Rule in the list you wish to edit or delete.
 * Add, Amend or Remove Conditions of the Rule and Click Save to apply the edit
 * Click Delete to Delete the Rule from the Service
-
-### When are SLA Rules Evaluated?
-* **BPM Start Response or Start Resolution Timer**<br>
-When a request is following a BPM Workflow that contains either of the Timer operations for Start Response Timer or Start Resolution Timer and these nodes are reached, the SLA rules will be evaluated and an SLA selected.
-* **BPM Request Update**<br>As part of your BPM workflow, you can request an update to the Service Level Agreement at set points. This is done as part of the Update Request operation when you select Service Level.
-* **Manually on a request**<br>On a request, you can select the listed SLA and View the available Service Level Agreements for this request.
-* **Automatically on Manual Update**<br>The setting guest.app.view.ITSM.serviceDesk.slm.enableAutomatedSLChanges can be enabled to provide automated changes to the Service Level Agreements when a request is updated by a user and one of the following has been changed.
-* Customer
-* Company
-* Team
-* Site
-* Priority
-* Category
