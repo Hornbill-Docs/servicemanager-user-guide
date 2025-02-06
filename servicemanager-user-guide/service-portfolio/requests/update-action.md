@@ -1,5 +1,9 @@
 # Update Action
-The update action is used for posting information into the timeline which can be used for collaborating with your team members.
+The update action is used for posting information into the timeline which can be used for collaborating with your team members and the customer.
+
+![Update-Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/update-action.png)
+
+This action can be enabled or disabled from within the [Service Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions)
 
 ## Links and Embedded Content
 The update supports text, images, and embedded multimedia/hyperlinks. Simply cut and paste the content, or link you wish to share in the update box. Examples include:
