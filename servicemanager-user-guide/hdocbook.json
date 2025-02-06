@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.126",
+  "version": "0.2.127",
   "audience": [
     "public"
   ],
@@ -225,7 +225,7 @@
             "link": "/servicemanager-user-guide/service-portfolio/overview"
           },
           {
-            "text": "Corporate SLAs",
+            "text": "Service Level Agreements",
             "draft": false,
             "items": [
               {
