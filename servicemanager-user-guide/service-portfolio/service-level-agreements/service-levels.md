@@ -4,7 +4,7 @@ You can define one or more service levels (SLs) for each SLA. Each service level
 * **Name.** The name of the service level is displayed along with the SLA on a request that it is associated to. This is used to help a support person understand the service level that they need to adhere to. An example of a common naming convention for service levels is *Bronze*, *Silver*, and *Gold*.
 * **Description.** Define the purpose of the SL and what it covers. This can be useful for service desk staff when changing an applied service level against a request.
 
-## Service Level Targets
+## Service level targets
 Service level targets allow you to define the timing for your response and resolution targets. Providing these targets is optional, however using them is an important part of keeping track of the performance provided by the service desk. Both the response and resolution targets are calculated against the selected Working Hours Calendar. By selecting any of the existing SLs, you will be able to manage the associated targets for that service level.
 
 ### Target types
@@ -30,7 +30,7 @@ Therefore the target of 5 calendar days based on a 9.5 hour working day equates 
 
 More details of this can be found in [Service Level Workflow Automation](/servicemanager-user-guide/service-portfolio/service-level-agreements/automation).
 
-## Escalation actions
+## Escalation events
 Against each service level target, you can configure escalation actions that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
 
 ### Timers

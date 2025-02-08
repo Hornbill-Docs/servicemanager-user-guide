@@ -1,4 +1,6 @@
 # Corporate Service Level Agreements
+A Service Level Agreement (SLA) is a contract between a service provider and a customer that outlines the expected level of service the customer will receive.
+
 Corporate service level agreements (SLAs) allow you to define a combination of service levels and service-level targets that can be used across multiple services sharing the same SLA requirements. By using corporate SLAs, you can centralize the management of all these SLAs into one place rather than on a service-by-service basis.
 
 ![Corporate Service Levels](/_books/servicemanager-user-guide/service-portfolio/images/corporate-sla.png)
@@ -22,6 +24,7 @@ role to access the Service Portfolio.
 1. Select **Service Portfolio**.
 1. Select the **Service Level Agreements** tab.
 
+
 ## Details
 The following SLA details are required when first creating a new SLA. These details are available within the SLA form.
 
@@ -29,6 +32,29 @@ The following SLA details are required when first creating a new SLA. These deta
 * **Description.** Define the purpose of the SLA and what it covers. This description may be used to help in the selection of the SLA.
 * **Working Time Calendar.** This is the defined work hours for the service desk that is responsible for fulfilling the SLA. A [Working Time Calendar (WTC)](/esp-config/customize/working-time-calendars) includes the timezone, days of the week, hours within each day, and exclusion days (such as holidays). The calculation of service-level targets is based on the selected WTC.
 
+## [Service levels](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels)
+A service level is a measurable performance metric that helps define the quality of a service provided to a customer. 
+
+![Service Levels](/_books/servicemanager-user-guide/service-portfolio/images/sla-levels-targets-events.png)
+
+### [Service level targets](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#service-level-targets)
+* **Response Time**. How quickly the service provider responds to a service request or issue.
+* **Resolution Time**. The time it takes to resolve a service issue or complete a request.
+
+### [Escalation events](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#escalation-events)
+Escalation procedures can be defined for both response and resolution targets using a collection of time based escalation events. 
+
+These events include:
+* Change in priority.
+* Communications using email and Hornbill notifications.
+* Re-assignments.
+* Add to a Board.
+
+## Linked services
+The list of linked services provides a view of all services that use the selected SLA.  Additional services can be added through this interface.  
+
+Before making any changes to an SLA, a review of all linked services should be undertaken.  Service owners should be made aware of any planned changes to the SLA.
+
 :::note
-Corporate SLAs are read-only when being viewed from an associated service. This is to prevent changes that might impact other services.  Changes to a corporate SLA must be made by accessing the corporate SLA from the list in the **Service Level Agreements** tab. 
+Corporate SLAs are read-only when being viewed from a linked service. This is to prevent changes that might impact other services.  Changes to a corporate SLA must be made by accessing the corporate SLA from the list in the **Service Level Agreements** tab. 
 :::
