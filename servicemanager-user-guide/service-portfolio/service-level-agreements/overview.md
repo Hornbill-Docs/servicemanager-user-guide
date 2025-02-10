@@ -42,7 +42,7 @@ A service level is a measurable performance metric that helps define the quality
 * **Resolution Time**. The time it takes to resolve a service issue or complete a request.
 
 ### [Escalation events](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#escalation-events)
-Escalation procedures can be defined for both response and resolution targets using a collection of time based escalation events. 
+Escalation procedures can be defined for both response and resolution targets using a collection of time-based escalation events. 
 
 These events include:
 * Change in priority.
