@@ -1,21 +1,23 @@
 # Service levels
-You can define one or more service levels (SLs) for each SLA. Each service level contains configurable service level targets and their associated automated escalations. Service levels are required if you need to automate and track targets such as response and resolution targets.
+A service level is a measurable performance indicator used to assess the quality or efficiency of a service provided to customers. It’s a metric that helps organizations evaluate how well they are meeting predefined goals and commitments.
 
-* **Name.** The name of the service level is displayed along with the SLA on a request that it is associated to. This is used to help a support person understand the service level that they need to adhere to. An example of a common naming convention for service levels is *Bronze*, *Silver*, and *Gold*.
-* **Description.** Define the purpose of the SL and what it covers. This can be useful for service desk staff when changing an applied service level against a request.
+You can define one or more service levels for each SLA. Each service level contains configurable service level targets and their associated automated escalations. Service levels are required if you need to automate and track targets such as response and resolution targets.
+
+* **Name.** The name of the service level is displayed along with the SLA on a request that it is associated with. This is used to help a support person understand the service level that they need to adhere to. An example of a common naming convention for service levels is *Bronze*, *Silver*, and *Gold*.
+* **Description.** Define the purpose of the service level and what it covers. This can be useful for service desk staff when changing an applied service level against a request.
 
 ## Service level targets
-Service level targets allow you to define the timing for your response and resolution targets. Providing these targets is optional, however using them is an important part of keeping track of the performance provided by the service desk. Both the response and resolution targets are calculated against the selected Working Hours Calendar. By selecting any of the existing SLs, you will be able to manage the associated targets for that service level.
+Service level targets allow you to define the timing for your response and resolution targets. These targets can be an important part of keeping track of the performance provided by the service desk. Both the response and resolution targets are calculated against the selected Working Time Calendar. By selecting any of the existing service levels, you will be able to manage the associated targets for that service level.
 
 ### Target types
-* **Response Target.** The time in which a response to a new request needs to be made.
-* **Resolution Target.** The time in which a suitable resolution to a request has been completed and a normal level of service provided.
+* **Response Target.** The time in which a response to a new request needs to be made. 
+* **Resolution Target.** The time in which a suitable resolution to a request has been completed and a normal level of service has be restored.
 
 #### Calculating service level targets
-The service level targets that you add to Hornbill relate to the working hours defined in the Working Time Calendar (WTC) specified against the SLA. This means that some calculation is required to ensure the targets you set represent the correct number of calendar days that you are advertising to your customers.
+The service level targets are calculated by only using the working hours defined in the [Working Time Calendar (WTC) set against the SLA](/servicemanager-user-guide/service-portfolio/service-level-agreements/overview#details). Any time outside of working hours is not included in the calculation. 
 
 #### Example
-If you have a target that you advertise as 5 calendar days, you need to determine what this equates to in days, hours, and minutes in relation to the hours defined in your WTC.
+If you have a target of 5 calendar days, you need to determine what this equates to in days, hours, and minutes based on the hours defined in the [WTC](/esp-config/customize/working-time-calendars) that is associated to the SLA.
 
 **To calculate the number of calendar days:**
 1. Begin by multiplying your target (in calendar days) by the working hours set in your WTC (your working day), i.e. 5 x 9.5.
@@ -33,8 +35,8 @@ More details of this can be found in [Service Level Workflow Automation](/servic
 ## Escalation events
 Against each service level target, you can configure escalation actions that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
 
-### Timers
-Against each service level target, you can configure timers that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
+### Timing
+Against each service level target, you can set the time that an escalation event will get automatically invoked should the service level still be active.
 * **Before the Target.** Specify in days/hours/minutes how long before the target has been reached that an event will take place.
 * **After the Target.** Specify in days/hours/minutes how long after the target has passed that an event will take place.
 
