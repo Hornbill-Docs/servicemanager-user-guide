@@ -12,7 +12,7 @@ The available classes include:
 * **All Assets.** All assets, independent of their class. The available information in this view is generic to all asset classes.
 * **Computer Peripherals.** Keyboards, monitors, and other types of computer peripherals.
 * **Computer Systems.** Servers, desktop computers, and other types of computer systems.
-* **General.** Assets types that don't fall under the standard classes can be listed here. This can things like desks and other office equipment.
+* **General.** Assets types that don't fall under the standard classes can be listed here. This can be things like desks and other office equipment.
 * **Mobile Devices.** Assets such as smartphones and tablets.
 * **Network Devices.** Routers, switches, physical firewalls, and other network devices.
 * **Printers.** Laser printers, inkjet printers, scanners, and fax machines.
