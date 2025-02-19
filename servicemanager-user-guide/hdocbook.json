@@ -242,6 +242,7 @@
               },
               {
                 "text": "Automation",
+                "draft": true,
                 "link": "/servicemanager-user-guide/service-portfolio/service-level-agreements/automation"
               }
             ]

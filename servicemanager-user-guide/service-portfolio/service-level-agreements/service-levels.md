@@ -7,30 +7,42 @@ You can define one or more service levels for each SLA. Each service level conta
 * **Description.** Define the purpose of the service level and what it covers. This can be useful for service desk staff when changing an applied service level against a request.
 
 ## Service level targets
-Service level targets allow you to define the timing for your response and resolution targets. These targets can be an important part of keeping track of the performance provided by the service desk. Both the response and resolution targets are calculated against the selected Working Time Calendar. By selecting any of the existing service levels, you will be able to manage the associated targets for that service level.
+Service level targets allow you to define the timing for your response and resolution targets. These targets can be an important part of keeping track of the performance provided by the service desk.
+
+![SLA Service Level Targets](/_books/servicemanager-user-guide/images/sla-service-level-targets.png)
 
 ### Target types
 * **Response Target.** The time in which a response to a new request needs to be made. 
-* **Resolution Target.** The time in which a suitable resolution to a request has been completed and a normal level of service has be restored.
+* **Resolution Target.** The time in which a suitable resolution needs to be provided and an acceptable level of service has been restored.
 
-#### Calculating service level targets
-The service level targets are calculated by only using the working hours defined in the [Working Time Calendar (WTC) set against the SLA](/servicemanager-user-guide/service-portfolio/service-level-agreements/overview#details). Any time outside of working hours is not included in the calculation. 
+:::info
+The starting, pausing, and marking of the service level targets are managed within a workflow using the [Timer Hornbill Automation](/servicemanager-config/customize/workflows/timer-automation).
+:::
 
-#### Example
-If you have a target of 5 calendar days, you need to determine what this equates to in days, hours, and minutes based on the hours defined in the [WTC](/esp-config/customize/working-time-calendars) that is associated to the SLA.
+### Calculating service level targets
+Each service level target allows you to set the number of days, hours, and minutes that will be used to determine the target time.  The service level targets are calculated using the working hours defined in the [Working Time Calendar (WTC)](/servicemanager-user-guide/service-portfolio/service-level-agreements/overview#details) set against the SLA. Any time outside of working hours is not included in the calculation. 
 
-**To calculate the number of calendar days:**
-1. Begin by multiplying your target (in calendar days) by the working hours set in your WTC (your working day), i.e. 5 x 9.5.
-1. Divide the result of that by 24 (i.e. (47.5)/24), which gives your Hornbill target in days (i.e. = 1.98 days).
-1. Enter *1* in the field representing "days".
-1. Now work out what .98 of a day is in hours. In this case, it would be 24 x 0.98 = 23.52 hours.
-1. Enter *23* in the field representing "hours".
-1. Finally, get the minutes from the answer of 23.52. 0.52 of an hour is 31.2 minutes (i.e. 60 x 0.52 = 31.2 minutes).
-1. Enter *31* in the field representing "minutes".
+![SLA New Resolution Target](/_books/servicemanager-user-guide/images/sla-new-resolution-target.png)
 
-Therefore the target of 5 calendar days based on a 9.5 hour working day equates to 1 day, 23 hours, and 31 minutes.
+#### Calculate days, hours, minutes from calendar days
+Use this calculation to work out the values for days, hours, and minutes when working from a desired number of calendar days. This example is based on having an 8.5 hour work day set in the WTC.
 
-More details of this can be found in [Service Level Workflow Automation](/servicemanager-user-guide/service-portfolio/service-level-agreements/automation).
+:::important
+The `Days` field represents 24 hours for each day specified. If the associated [WTC](/esp-config/customize/working-time-calendars) has each working day set to 8 hours, a value of 1 Day would equate to 3 working days (24/8).   
+:::
+
+1. Calculate the number of days.
+    1. Multiply the number of calendar days by the working hours for one day (5 calendar days x 8.5 working hours = 42.5).
+    1. Divide the result by 24 hours (42.5 working hours/24 hours = 1.77 days).
+    1. Enter `1` in the "days" field.
+1. Calculate the number of hours.
+    1. Multiply 24 hours by the remainder of the days calculation. (24 hours x 0.77 of a day = 18.48 hours).
+    1. Enter `18` in the "hours" field.
+1. Calculate the number of minutes.
+    1. Multiply 60 minutes by the remainder of the hours calculation (60 x 0.48 = 28.8 minutes).
+    1. Enter `30` in the "minutes" field (Minutes can only be entered in 5 minute increments).
+
+    ![SLA Target Time](/_books/servicemanager-user-guide/images/sla-target-time.png)
 
 ## Escalation events
 Against each service level target, you can configure escalation actions that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
