@@ -32,17 +32,18 @@ The following SLA details are required when first creating a new SLA. These deta
 * **Description.** Define the purpose of the SLA and what it covers. This description may be used to help in the selection of the SLA.
 * **Working Time Calendar.** This is the defined work hours for the service desk that is responsible for fulfilling the SLA. A [Working Time Calendar (WTC)](/esp-config/customize/working-time-calendars) includes the timezone, days of the week, hours within each day, and exclusion days (such as holidays). The calculation of service-level targets is based on the selected WTC.
 
-## [Service levels](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels)
-A service level is a measurable performance metric that helps define the quality of a service provided to a customer. 
+## Service levels
+A [service level](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels) is a measurable performance metric that helps define the quality of a service provided to a customer. 
 
 ![Service Levels](/_books/servicemanager-user-guide/service-portfolio/images/sla-levels-targets-events.png)
 
-### [Service level targets](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#service-level-targets)
+### Service level targets
+Each service level can include the following [service level targets](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels).
 * **Response Time**. How quickly the service provider responds to a service request or issue.
 * **Resolution Time**. The time it takes to resolve a service issue or complete a request.
 
-### [Escalation events](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#escalation-events)
-Escalation procedures can be defined for both response and resolution targets using a collection of time-based escalation events. 
+### Escalation events
+Escalation procedures can be defined for both response and resolution targets using a collection of time-based [escalation events](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#escalation-events). 
 
 These events include:
 * Change in priority.
