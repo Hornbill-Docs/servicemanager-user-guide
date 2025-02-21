@@ -28,7 +28,7 @@ role to access the Service Portfolio.
 ## Details
 The following SLA details are required when first creating a new SLA. These details are available within the SLA form.
 
-* **Name.** The name of the SLA is used to find and link to services and is visible on the requests that it is associated to. An unlimited number of SLAs can be created, so it is important to provide a name that is descriptive enough to reflect its use.
+* **Name.** The name of the SLA is used to find and link to services and is visible on the requests that it is associated with. An unlimited number of SLAs can be created, so it is important to provide a name that is descriptive enough to reflect its use.
 * **Description.** Define the purpose of the SLA and what it covers. This description may be used to help in the selection of the SLA.
 * **Working Time Calendar.** This is the defined work hours for the service desk that is responsible for fulfilling the SLA. A [Working Time Calendar (WTC)](/esp-config/customize/working-time-calendars) includes the timezone, days of the week, hours within each day, and exclusion days (such as holidays). The calculation of service-level targets is based on the selected WTC.
 

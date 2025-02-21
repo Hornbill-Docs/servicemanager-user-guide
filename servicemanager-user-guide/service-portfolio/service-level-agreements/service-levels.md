@@ -6,8 +6,10 @@ You can define one or more service levels for each SLA. Each service level conta
 * **Name.** The name of the service level is displayed along with the SLA on a request that it is associated with. This is used to help a support person understand the service level that they need to adhere to. An example of a common naming convention for service levels is *Bronze*, *Silver*, and *Gold*.
 * **Description.** Define the purpose of the service level and what it covers. This can be useful for service desk staff when changing an applied service level against a request.
 
+![Service Levels](/_books/servicemanager-user-guide/images/sla-service-levels.png)
+
 ## Service level targets
-Service level targets allow you to define the timing for your response and resolution targets. These targets can be an important part of keeping track of the performance provided by the service desk.
+Service level targets allow you to define the timing for your response and resolution targets for each service level. These targets can be an important part of keeping track of the performance provided by the service desk.
 
 ![SLA Service Level Targets](/_books/servicemanager-user-guide/images/sla-service-level-targets.png)
 
@@ -41,16 +43,22 @@ The `Days` field represents 24 hours for each day specified. If the associated [
 1. Calculate the number of minutes.
     1. Multiply 60 minutes by the remainder of the hours calculation (60 x 0.48 = 28.8 minutes).
     1. Enter `30` in the "minutes" field (Minutes can only be entered in 5 minute increments).
-
+ 
     ![SLA Target Time](/_books/servicemanager-user-guide/images/sla-target-time.png)
 
 ## Escalation events
-Against each service level target, you can configure escalation actions that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
+Against each service level target, you can configure escalation events that will get automatically invoked should the service level still be active at defined time intervals before and/or after the specific target of the service level.
+
+![Escalation Events](/_books/servicemanager-user-guide/images/sla-escalation-events.png)
 
 ### Timing
 Against each service level target, you can set the time that an escalation event will get automatically invoked should the service level still be active.
 * **Before the Target.** Specify in days/hours/minutes how long before the target has been reached that an event will take place.
 * **After the Target.** Specify in days/hours/minutes how long after the target has passed that an event will take place.
+
+:::important
+The `Days` field for escalation events works the same as the service level targets.  Please see the section for [calculating service level targets](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#calculating-service-level-targets) 
+:::
 
 ### Actions
 You can specify one or more actions that you want to be invoked against each escalation event. Configure the required actions by clicking on the icons to expose the configuration options for each action type.
@@ -59,9 +67,9 @@ You can specify one or more actions that you want to be invoked against each esc
     * Owner
     * Owner's Manager
     * Team (which the request is assigned to)
-    * Specified Recipients
-* **Post to Timeline.** Tick if you want the notification text to be posted on the timeline of the impacted request.
-* **Notification Text.** Specify the text that will appear in the Hornbill notification.
+    * Specified recipients
+    * Post to timeline.
+    * Notification text.
 * **Send Reminder.** This will send an email to the following(if this has been specified):
     * Owner
     * Owner's Manager
