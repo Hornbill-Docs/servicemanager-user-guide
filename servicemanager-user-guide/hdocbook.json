@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.135",
+  "version": "0.2.136",
   "audience": [
     "public"
   ],
@@ -120,10 +120,6 @@
                     "link": "/servicemanager-user-guide/service-portfolio/requests/cancel-action"
                   },
                   {
-                    "text": "Print",
-                    "link": "/servicemanager-user-guide/service-portfolio/requests/print-action"
-                  },
-                  {
                     "text": "Publish",
                     "link": "/servicemanager-user-guide/service-portfolio/requests/publish-action"
                   },
@@ -148,6 +144,10 @@
               {
                 "text": "Request Details Form Designer",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-details-form-designer"
+              },
+              {
+                "text": "Printing a Request",
+                "link": "/servicemanager-user-guide/service-portfolio/requests/print-action"
               }
             ]
           },
