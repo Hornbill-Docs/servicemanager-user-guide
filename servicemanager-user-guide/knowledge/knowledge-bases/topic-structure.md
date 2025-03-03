@@ -1,12 +1,14 @@
 # Topic Structure
-Topics are a type of categorization for knowledge base articles. You can create a hierarchical structure using topics to provide a logical grouping of articles and a way to easily navigate through to the knowledge that users are looking for.
+Topics are a type of categorization for knowledge base articles. You can create a hierarchical structure using topics to provide a logical grouping of articles and a way to easily navigate through the knowledge that users are looking for.
 
 ## Before you begin
-* To create and manage topics, you must have either the Knowledge Administrator role or the Knowledge Manager role assigned to you.
+* To create and manage topics, you must have either the [Knowledge Administrator](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role or the [Knowledge Manager](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role assigned to you.
 * To organize articles into a structure, you must first have created articles in your knowledge base. The articles don't need to be complete, but they need to have article IDs and titles.
 
 ## Accessing the Topic Structure view
 Topics and topic structures are unique to each knowledge base. Once you have created a knowledge base, you can find the Topic Structure option in the navigation panel for that knowledge base.
+
+![Topic Structure Menu](/_books/servicemanager-user-guide/knowledge/images/menu-topic-structure.png)
 
 ## Creating topic structures
 **To create a topic structure:**

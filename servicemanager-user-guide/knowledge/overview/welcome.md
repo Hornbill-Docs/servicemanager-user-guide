@@ -6,7 +6,7 @@ Knowledge within Service Manager is an invaluable resource for organizing, stori
 
 **Self-service.** Built for agent deflection and self-service, Knowledge is fully integrated into the self-service experience, as well as the Intelligent Capture logging experience for analysts. Everything your organization puts into your knowledge bases can be searched across the entire Hornbill platform using global search, with customizable gating in place to ensure Knowledge consumers see only the content meant for them. For more details on how end users can view the content of your knowledge bases, see [Search/Browse](/servicemanager-user-guide/knowledge/search-and-browse).
 
-**Subscriptions.** Hornbill Service Manager provides a join between knowledge bases and services; you can set up [a subscription model](/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions) to meet your organization's specific needs based on the Knowledge content you have and the services you offer. When you first create a knowledge base, by default it's open to all. To restrict access, you add knowledge-base subscriptions to individual services. Users who can see an individual service can then see the knowledge bases that service subscribes to.
+**Subscriptions.** Hornbill Service Manager provides a join between knowledge bases and services; you can set up [a subscription model](/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions) to meet your organization's specific needs based on the Knowledge content you have and the services you offer. When you first create a knowledge base, by default it's open to all. To restrict access, you add knowledge-base subscriptions to individual services. Users who are subscribed to a service can then see the knowledge bases that the service subscribes to.
 
 **Access.** [Roles](/servicemanager-config/setup/service-manager-roles#knowledge-roles) determine who can do what to knowledge bases. Those with the Knowledge Manager role can further customize who can create content by controlling [*contributor access*](/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access). Knowledge Base Managers can grant access for content creation to named teams or users. This access is independent of service subscriptions; for example, you could add the Finance department to your knowledge base to allow the staff of that department to contribute content and edits.
 
@@ -28,12 +28,12 @@ Your organization can build knowledge bases in many ways:
 * Capture staff know-how by granting [contributor access](/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access).
 * Create articles from requests.
 * Create articles based on research.
-* Use HAi for [automatic creation of articles](/servicemanager-user-guide/hai/knowledge-generator).
+* Use HAi for the [automatic creation of articles](/servicemanager-user-guide/hai/knowledge-generator).
 
 ## Sharing knowledge
 Using Hornbill Knowledge to share your organization's collective expertise, you can:
 * Suggest knowledge to end users during the raising of a request.
 * Assign support staff to help find solutions.
 * Promote popular articles via portal widgets.
-* Allow users to search Hornbill Knowledge globally within Hornbill as well as externally.
+* Allow users to search Hornbill Knowledge globally.
 * Provide the browsing of knowledge bases and their topics.
