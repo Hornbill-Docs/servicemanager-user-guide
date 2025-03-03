@@ -2,11 +2,13 @@
 In the Knowledge Bases Configuration view, you can update the knowledge base title, its visibility in portals, its status, and other options.
 
 ## Before you begin
-The Configuration options are only available to the owner of the knowledge base and to users that have the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles).
+* Users with the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the configuration on all knowledge bases.
+* Users with the [Knowledge Base Manager Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the configuration on the knowledge bases that they own.
+* Know the audience for the knowledge base.  Will the articles be for everyone, for support, for a particular team, or for external customers.
 
 ## How to access
-1. Select `Knowledge` from the Service Manager menu item in the left-hand menu bar.
-1. Select `Configuration` from the navigation pane.
+1. Select **Knowledge** from the Service Manager menu item in the left-hand menu bar.
+1. Select **Configuration** from the navigation pane.
 
 ![Configuration Navigation Menu](/_books/servicemanager-user-guide/knowledge/images/menu-configuration.png)
 
@@ -17,7 +19,7 @@ The Configuration options are only available to the owner of the knowledge base 
 * **Icon.** Select an icon for the knowledge base. This is most visible on the knowledge base cards on the Search/Browse View.
 * **Description.** Add a brief, helpful description of the knowledge base written with your audience in mind.
 * **Status.** The status of the knowledge base. Select from **Active**, **In Development**, or **Retired**. Only active knowledge bases will be visible to readers.
-* **New Articles Require Approval.** Use this toggle to require each new article added to this knowledge base to be approved before being published.
+* **New Articles Require Approval.** Use this toggle to require each new article to be [approved](/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals) before being published.
 * **Use In Employee Portal.** Use this toggle to make the knowledge base visible in the Employee Portal. This can ensure that the content is available for the correct audience.  Setting this option to `No` will prevent the knowledge base from being available on the Employee Portal, also known as the [Company Home](/esp-user-guide/company-home). 
 * **Use In Customer Portal.** Use this toggle to make the knowledge base visible in the Customer Portal. This can ensure that the content is available for the correct audience.  Setting this option to `No` will prevent the knowledge base from being available on the [customer portal](/esp-config/customize/customer-portal/configure-customer-portal).
 * **Owned By.** The owner of the knowledge base. Only users that have been assigned the [Knowledge Manager](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role will be availalbe as a knowledge base owner.
@@ -37,5 +39,5 @@ The translation option provides language translations for the name and descripti
 1. Click on `Create`.
 
 :::tip
-The `Translated Language` field will only list [supported languages](/esp-config/localization/supported-languages).
+The **Translated Language** field will only list [supported languages](/esp-config/localization/supported-languages).
 :::

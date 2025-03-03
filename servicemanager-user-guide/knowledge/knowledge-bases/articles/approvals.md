@@ -2,7 +2,7 @@
 Each knowledge base has a setting to enable approvals.  When this is turned on, any contributor will have to submit a new article for approval before it can be published and visible to readers.
 
 :::tip
-When approvals are turned on, the knowledge base owner is excluded from the approval process.  Articles created by the knowledge base owner can be published without approval.
+When approvals are turned on, the articles that are created by the knowledge base owner are excluded from the approval process.
 :::
 
 ## Draft Articles
