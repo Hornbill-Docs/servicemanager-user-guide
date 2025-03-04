@@ -1,5 +1,5 @@
 # Subscriptions
-The purpose of Subscriptions is to manage who can access a knowledge base.  The subscription access focuses on the readers. The starting point for all knowledge bases is that they are accessible to all users that have the Knowledge User role. You only need to add subscriptions if there is a need to restrict access.
+The purpose of Subscriptions is to manage who can consume the knowledge base and its articles. The starting point for all knowledge bases is that they are accessible to all users that have the [Knowledge User](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role. You only need to add subscriptions if there is a need to restrict access.
 
 ## Subscription Types
 ### Service

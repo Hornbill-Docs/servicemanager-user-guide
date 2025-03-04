@@ -4,7 +4,7 @@ In the Knowledge Bases Configuration view, you can update the knowledge base tit
 ## Before you begin
 * Users with the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the configuration on all knowledge bases.
 * Users with the [Knowledge Base Manager Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the configuration on the knowledge bases that they own.
-* Know the audience for the knowledge base.  Will the articles be for everyone, for support, for a particular team, or for external customers.
+* Know the audience for the knowledge base.  Will the articles be for everyone, for support, for a particular team, or for external customers?
 
 ## How to access
 1. Select **Knowledge** from the Service Manager menu item in the left-hand menu bar.
