@@ -11,6 +11,9 @@
   "languages": [
     "en"
   ],
+  "redirects": [
+    { "url": "/servicemanager-user-guide/service-portfolio/service-level-agreements/automation", "location": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#calculating-service-level-targets"}
+  ],
   "navigation": {
     "items": [
       {
