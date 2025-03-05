@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.141",
+  "version": "0.2.142",
   "audience": [
     "public"
   ],
@@ -12,7 +12,10 @@
     "en"
   ],
   "redirects": [
-    { "url": "/servicemanager-user-guide/service-portfolio/service-level-agreements/automation", "location": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#calculating-service-level-targets"}
+    { 
+      "url": "/servicemanager-user-guide/service-portfolio/service-level-agreements/automation",
+      "location": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#calculating-service-level-targets"
+    }
   ],
   "navigation": {
     "items": [
