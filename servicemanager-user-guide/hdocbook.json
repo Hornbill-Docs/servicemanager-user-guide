@@ -11,13 +11,7 @@
   "languages": [
     "en"
   ],
-  "redirects": [
-    { 
-      "url": "https://docs.hornbill.com/servicemanager-user-guide/service-portfolio/service-level-agreements/automation",
-      "location": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#calculating-service-level-targets"
-    }
-  ],
-  "navigation": {
+   "navigation": {
     "items": [
       {
         "text": "Overview",

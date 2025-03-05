@@ -6,5 +6,12 @@
   },
   "validation": {
     "exclude_links": []
-  }
+  },
+  "redirects": [
+    { 
+      "url": "/servicemanager-user-guide/service-portfolio/service-level-agreements/automation",
+      "location": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels",
+      "code": 301
+    }
+  ]
 }
