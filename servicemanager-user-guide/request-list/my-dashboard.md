@@ -4,7 +4,6 @@ layout: article-toc
 # My Dashboard
 My Dashboard provides each Service Manager user with a personal dashboard. My Dashboard displays charts that have been created against Views providing a visual perspective of the requests and information that is most important and relevant to each user along with the to ability drill down to the requests that make up each chart.
 
-My Dashboard is made up of charts which are defined against Views that contain criteria to define sets of related requests for display within your Request List Once a Chart has been created for a View, it can be enabled for display on the My Dashboard. It is possible to define one or multiple Charts against each View you have defined.
 ## Creating content for My Dashboard
 My Dashboard is made up of charts which are defined against Views that contain criteria to define sets of related requests for display within your Request List Once a chart has been created for a View, it can be enabled for display on the My Dashboard. It is possible to define one or multiple charts against each View you have defined.
 
