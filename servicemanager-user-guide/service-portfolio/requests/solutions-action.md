@@ -3,7 +3,7 @@ The Solutions Action on an incident identifies possible solutions for that parti
 
 If an incident is linked to one or more Problem, or Known Error records, and any of those have defined Workarounds, then these will be available as possible Solutions to the Incident.
 
-:::informaion
+:::info
 The solutions action can be enabled within the [Request Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions) for each service.
 :::
 
