@@ -17,6 +17,10 @@ Topics and topic structures are unique to each knowledge base. Once you have cre
 1. Assign a parent topic. If the topic is not acting as a sub-folder, set the parent topic to Root.
 1. Set the status to Active, In Development, or Retired.
 
+:::info 
+Sub-topics are automatically sorted in alphabetical order
+:::
+
 **To put an existing article into a topic:**
 1. When viewing the article in its Article view or Details view, click the edit button next to the Topic field.
 1. Select a topic from the list of topics you have created.
