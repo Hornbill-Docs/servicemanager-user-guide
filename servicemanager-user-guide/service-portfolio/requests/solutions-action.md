@@ -7,7 +7,7 @@ If an incident is linked to one or more Problem, or Known Error records, and any
 The solutions action can be enabled within the [Request Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions) for each service.
 :::
 
-## Solutions
+## Using solutions
 Solutions consist of information provided by linked known errors and problem records. When workaround information is provided by either of these and they are linked to this particular request, one or more Solutions can be listed, and each is available for review.
 
 * **Accepting a solution**<br>Using the drop-down, a Solution can be marked as accepted. In doing so the Solution will be highlighted in green and that solution will show as an Accepted Solution.
