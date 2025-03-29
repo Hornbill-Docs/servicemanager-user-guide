@@ -2,7 +2,7 @@
 To improve on the service you provide to your customers it is important to gather feedback on the level of service they have experienced when interacting with your teams. This feedback will enable you to highlight where exceptional services are being provided, as well as highlight areas where improvements can be made.
 
 With the customer feedback feature, you can invite your customers to provide feedback on their requests once the request has been closed.
-* Feedback can be provided through the Customer Portal and the Employee Portal.
+* Feedback is provided through the Customer Portal and the Employee Portal.
 * You can include a link in your closure email templates directing customers to where the feedback can be provided.
 * Feedback can be requested in the form of a simple star rating and configurable feedback questions.
 * Feedback can be enabled for incidents and services requests.
@@ -16,7 +16,12 @@ In each service record, under Request Configuration, there is an option to enabl
 
 When configuring the customer feedback options, it is important to remember that you are only enabling or disabling the options for the specific request type, and against the specific service. Changes configured here are not global and will not impact other request types on the same service or other services you offer.
 
+![Enable Feedbac](/_books/servicemanager-user-guide/images/enable-customer-feedback.png)
+
 * **Enable Star Rating**<br>With this enabled, the customer will simply be able to provide a 1-5 star rating to feedback for the service they have received.
+    :::tip
+    The Star Rating has the label **Please rate our service to you**.  This label can be changed using the [Service Manager Translations](/servicemanager-config/customize/service-manager-translations). ![Star Rating](/_books/servicemanager-user-guide/images/star-rating.png)
+    :::
 * **Enable Questions**<br>With this enabled any questions which have been configured will be presented to the customer when they are providing feedback. If you do not wish to show configured questions to the customer, simply disable this option you do not need to remove the questions themselves.
 * **Feedback Expiry**<br>If required you can define the number of days the customer has to provide the feedback. If the value is set to 0, the request for feedback will NOT expire. If a number of days are selected, the request for feedback on a request will automatically be removed once the specified number of days has passed.
 
