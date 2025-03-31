@@ -1,5 +1,5 @@
 # Customer Feedback
-To improve on the service you provide to your customers it is important to gather feedback on the level of service they have experienced when interacting with your teams. The Customer Feedback feature allows a customer to provide feedback on each incident or service request after it has been closed.  This feedback will enable you to highlight where exceptional services are being provided, as well as highlight areas where improvements can be made.
+To improve the service provided to your customers it is important to gather feedback on the level of service they have experienced when interacting with your teams. The Customer Feedback feature allows a customer to provide feedback on each incident or service request after it has been closed.  This feedback will enable you to highlight where exceptional services are being provided, as well as highlight areas where improvements can be made.
 
 With the customer feedback feature, you can invite your customers to provide feedback on their requests once the request has been closed.
 * Feedback is provided through the Customer Portal and the Employee Portal.
