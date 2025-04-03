@@ -17,7 +17,7 @@ From the Assets Action Item, you can use the drop-down to navigate between an As
 * Switching the drop-down to the Asset Type provides you with a search field, where you can search for an asset type and use the Link option to associate the Asset Type with the request.
 
 ## Visibility
-The default timeline visibility level is **Customer**.  When set to **Customer** the timeline entry for linking the asset to the request will be visible to the customer of the request when viewed in the Customer or Employee ortals. You can change the visibility level to say team or owner before posting if you do not wish for the post to be visible on the timeline to the customer of the request.
+The default timeline visibility level is **Customer**.  When set to **Customer** the timeline entry for linking the asset to the request will be visible to the customer of the request when viewed in the Customer or Employee portals. You can change the visibility level to say team or owner before posting if you do not wish for the post to be visible on the timeline to the customer of the request.
 
 ### Application Setting
 The default timeline visibility level can be changed by a Hornbill Administrator using the Service Manager Advanced Settings.
