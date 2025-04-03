@@ -33,4 +33,5 @@ Restrictions can be applied to both the type of files that you want to allow to 
 |-|-|-|
 |communications.maxfileUploadSize|Sets the maximum size (in bytes) of a file upload|1000000
 |security.fileUploadRestriction.webdav.types|This is a semicolon(;) separated list of the restricted file extensions (without the dots(.)) for file upload|exe;bat;cmd;js;vbs|
+|guest.ui.app.com.hornbill.servicemanager.operation.defaultVisibility.attachFile|Default Timeline visibility value when attaching a file to a request|Customer|
 <!-- https://wiki.hornbill.com/index.php?title=Attachment_Action_Item -->
