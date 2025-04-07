@@ -6,13 +6,13 @@ The action bar at the top of each request contains the actions you can apply to 
 * The actions available on a request can be configured within the service they are associated with.
 * The supporting workflow that sits behind the request can control the focus of an action when that action is required to be completed.
 * Use the [Access Control automation](/servicemanager-config/customize/workflows/service-manager-workflows#access-control) to lock or unlock individual actions at any point within a workflow.
-* [Request Settings](/servicemanager-config/administration/request-settings#on-hold-settings) control which of these options are enabled when an incident is on hold.
+* [Request settings](/servicemanager-config/administration/request-settings#on-hold-settings) control which of these options are enabled when an incident is on hold.
 
-## Visibility
-Each time an action is used, an entry is added to the timeline.  Each action has a "visibility level" associated with it that controls who can see the entry in the timeline. This will typically be "Team" or "Customer". The user can select the visibility to decide if the timeline entry will be customer facing ("customer" visibility) or private to the team working on the request ("team" visibility).
+## Visibility of actions in the timeline
+Each time an action is used, an entry is added to the timeline.  Each action has a *visibility level* associated with it that controls who can see the entry in the timeline. This will typically be **Team** or **Customer**. The user can select the visibility to decide whether the timeline entry will be customer-facing (**Customer** visibility) or private to the team working on the request (**Team** visibility).
 ![Visibility of actions in timeline](/_books/servicemanager-user-guide/service-portfolio/requests/images/visibility-request-action.png)
 
-While a user can change this at the time of performing the action, the default visibility for each action item can be configured in Service Manager settings. The default visibility settings can be easily found by typing the word "visibility" in the Configuration Search. 
+While a user can change this at the time of performing the action, the default visibility for each action item is configured in Service Manager settings. To find the default visibility settings, in Configuration Search, enter "visibility". 
 
 <!--
 ## Linked Services
