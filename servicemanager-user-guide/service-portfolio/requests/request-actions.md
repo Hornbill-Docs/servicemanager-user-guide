@@ -1,5 +1,5 @@
-# Request Actions Overview
-The action bar located at the top of each request contains the majority of actions that you can apply to a request. 
+# Overview of request actions 
+The action bar at the top of each request contains the actions you can apply to a request. 
 
 ![Request Actions](/_books/servicemanager-user-guide/service-portfolio/requests/images/action-bar.png)
 
@@ -10,6 +10,7 @@ The action bar located at the top of each request contains the majority of actio
 
 ## Visibility
 Each time an action is used, an entry is added to the timeline.  Each action has a "visibility level" associated with it that controls who can see the entry in the timeline. This will typically be "Team" or "Customer". The user can select the visibility to decide if the timeline entry will be customer facing ("customer" visibility) or private to the team working on the request ("team" visibility).
+![Visibility of actions in timeline](/_books/servicemanager-user-guide/service-portfolio/requests/images/visibility-request-action.png)
 
 While a user can change this at the time of performing the action, the default visibility for each action item can be configured in Service Manager settings. The default visibility settings can be easily found by typing the word "visibility" in the Configuration Search. 
 
