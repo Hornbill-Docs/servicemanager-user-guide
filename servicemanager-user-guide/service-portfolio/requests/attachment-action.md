@@ -20,7 +20,8 @@ Any attachment that has been added to a request can be accessed from the Attachm
 ### Downloading
 By clicking on the name of the attachment, it will be downloaded to your local computer. Browsers generally have settings to control the location and behavior of the downloads.
 ### Image Preview
-If an attachment is recognized as an image, an image icon appears next to the attachment's name.  Clicking on this icon will display a preview of the image without having to download it.
+If an attachment is recognized as an image, an image icon appears next to the attachment's name.  Clicking on this icon will display a thumbnail of the image without having to download it. Clicking on the thumbnail will then open a larger preview of the image.  
+
 ### Actions
 Each attachment has an Actions menu where the following can be done
 * Edit Description
@@ -35,3 +36,16 @@ Restrictions can be applied to both the type of files that you want to allow to 
 |security.fileUploadRestriction.webdav.types|This is a semicolon(;) separated list of the restricted file extensions (without the dots(.)) for file upload|exe;bat;cmd;js;vbs|
 |guest.ui.app.com.hornbill.servicemanager.operation.defaultVisibility.attachFile|Default Timeline visibility value when attaching a file to a request|Customer|
 <!-- https://wiki.hornbill.com/index.php?title=Attachment_Action_Item -->
+<!-->
+Introduction - done
+Action Image - done
+Enable/Disable through service
+Why Use this
+Feature specific functionality
+Request Section
+Lock/Unlock
+Visibility - link to overview + default
+Timeline
+Application Settings
+System Settings
+Automation

@@ -9,3 +9,17 @@ Use the text box to enter the workaround text, and the save button to create the
 
 ## Making the Workaround Available as a Possible Solution for related Incidents
 As described above once the workaround text is saved, this will immediately be available for the Incident owners, of linked Incidents to review and accept or reject as a solution to the Incident they own.
+
+<!-->
+Introduction
+Action Image
+Enable/Disable through service
+Why Use this
+Feature specific functionality
+Request Section
+Lock/Unlock
+Visibility - link to overview + default
+Timeline
+Application Settings
+System Settings
+Automation
