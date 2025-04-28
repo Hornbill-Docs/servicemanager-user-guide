@@ -1,10 +1,17 @@
 # Email Action
 The Email Action within a request enables the sending of emails directly from the request to any recipient that you wish to communicate with regarding that particular request. Email communication sent from a request is captured in the Timeline to help track and view all outbound emails sent about that request.
 
-## Mailboxes
-Emails sent from a request are sent from a Shared Mailbox rather than an individual user. This ensures a single point of email communication from the Service Desk.
-* **From**<br>The From field will be set automatically to the mailbox that has been set as the default mailbox for the service under which the request is logged.
-If the agent sending the email from the request has rights/access to more than one mailbox, a drop-down list will be available for them to manually change which mailbox the email will be sent from.
+![Request Email Action](/_books/servicemanager-user-guide/images/request-email-action.png)
+
+## Before you begin
+
+* **Has a shared mailbox been set up**? Emails sent from a request use a [Shared Mailbox](https://docs.hornbill.com/esp-config/email/shared-mailboxes) rather than an individual user's mailbox. This ensures a single point of email communication from the Service Desk.
+* **Do you have rights to a shared mailbox**? To use a shared mailbox, each user must be assigned [a role that provides access to a shared mailbox](https://docs.hornbill.com/esp-config/email/shared-mailboxes#associated-roles).
+* **Who is the email sent from**? Emails sent from a request use the [default email address](https://docs.hornbill.com/esp-config/email/shared-mailboxes#addresses) set on a shared mailbox as the sender.  
+
+    :::tip
+    If the user sending the email from the request has access to more than one shared mailbox, a drop-down list will be available for them to manually change which mailbox the email will be sent from.
+    :::
 
 ## Recipients
 The recipients of an e-mail can include Hornbill Users, and Hornbill Contacts, or if the recipient does not exist within Hornbill, you can simply provide their e-mail address.
@@ -45,12 +52,13 @@ Snippets provide the ability to define common responses that you want to include
 * Create and use service Snippets that can be used by all teams that support a service
 
 ## Settings
-These settings allow you to configure the use between having the full Template Editor or a simple Text email.
+These settings provide the default behavior for the Email Action. These settings can be accessed by a Hornbill Administrator in the [Service Manager Application Settings](https://docs.hornbill.com/servicemanager-config/advanced-tools-and-settings/application-settings).
 |Setting|Description|
 |-|-|
 |app.email.request.operation.composerType|This setting has a choice of Template Editior, Message Text, and Analyst Setting that determines which email editor is used. <br><br>**Template Editor** sets the Email Action to use the Email Template Editor and Preview. <br><br>**Message Text** sets the Email Action to use the basic Text field editor. It is mandatory that the email templates that are used when this setting is selected contain the variable {{message}} is positioned where the text is to be included on the email. <br><br>**Analyst Setting** allows each user to select and switch between both editors. It is mandatory that the email templates that are used when this setting is selected contain the variable {{message}} is positioned where the text is to be included on the email. In the case where the user uses the Template Editor, if the {{message}} variable is included in the template, it will be automatically removed for the user.
 |app.email.request.operation.templateEditor|If set to On, it will default to the Email Template Editor, false shows the old message text. This setting is used when the app.email.request.operation.composerType is set to Analyst Setting|
 |app.email.request.operation.templateSelectable|When the Email Template Editor is enabled, this setting will allow a user to select from a list of available Email Templates.|
+|guest.app.requests.notification.emailMailbox|The default shared mailbox to use when sending emails. This can be superceded by the [default mailbox set on a service](https://docs.hornbill.com/servicemanager-user-guide/service-portfolio/services/service-details#default-mailbox).|
 
 ## Timeline
 When an email has been sent, a record of the email is posted to the request timeline. To view the content of the sent email, select View Email from the more menu option on the timeline post.
