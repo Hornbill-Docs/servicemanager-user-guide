@@ -1,20 +1,20 @@
-# Update Action
-The update action is used for posting information into the timeline which can be used for collaborating with your team members and the customer.
+# Update action
+The Update action is for posting information into the timeline that can be used for collaborating with your team members and the customer.
 
 ![Update-Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/update-action.png)
 
-This action can be enabled or disabled from within the [Service Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions)
+This action can be enabled or disabled from within the [service configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions).
 
-## Links and Embedded Content
-The update supports text, images, and embedded multimedia/hyperlinks. Simply cut and paste the content, or link you wish to share in the update box. Examples include:
-* Sharing a youtube video, which can be viewed in the update from the timeline of the request.
-* Links (URL) to another request, workspace post, or document in Hornbill.
+## Links and embedded content
+The Update action supports text, images, and embedded multimedia/hyperlinks. In the Update box, copy and paste the content or link you wish to share. Examples include:
+* Sharing a YouTube video, which can be viewed in the update from the timeline of the request.
+* A link (URL) to another request, workspace post, or document in Hornbill.
 
-## Wiki Mark-Up
-For easy formatting of content, a sub-set of Wiki Markup can be used for decorating text, with italics and bold, creating bulleted or numbered lists etc. Use Ctrl+I or Ctrl+B keyboard shortcuts to enable/disable italic and bold text as you type.
+## Wiki markup
+For easy formatting of content, a subset of Wiki markup can be used for formatting text with italics and bold, creating bulleted or numbered lists, and so on. Use the CTRL+I or CTRL+B keyboard shortcuts to enable/disable italic and bold text as you type.
 
 ## Mentions
-It is possible to @mention a co-worker in an update. The mentioned co-worker will receive a Hornbill notification that includes a link to the request.
+You can *@mention* a coworker in an update so that the coworker receives a Hornbill notification with a link to the request.
 
 ## Customer Email Notifications
 Email notifications can be sent to the customer of the request each time an Update is added with the visibility level of Customer. These emails can contain links back to originating request to allow the customer to read and respond to the updates. Subsequent comments that are made below a customer visible update will also provide an email notification to the customer This is a great way to keep the customer up to date.
