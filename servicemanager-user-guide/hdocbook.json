@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.2.159",
+  "version": "0.2.160",
   "audience": [
     "public"
   ],
@@ -30,7 +30,7 @@
             "link": "/servicemanager-user-guide/request-list/views"
           },
           {
-            "text": "My Dashboard",
+            "text": "My Dashboards",
             "link": "/servicemanager-user-guide/request-list/my-dashboard"
           },
           {
