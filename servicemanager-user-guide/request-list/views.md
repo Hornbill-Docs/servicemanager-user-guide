@@ -45,9 +45,9 @@ Custom fields P-T are of type Text and are excluded from being available to buil
 ## Columns
 The Columns tab lets you define which columns will be available in the request list when you select the View.
 
-* **Available Display Columns**<br>Click on any of the available columns to enable or disable them from being included in the Request List when this View is selected. The order of the columns can also be changed by a drag and drop of each of the available columns
+* **Available display columns**<br>Click on any of the available columns to enable or disable them from being included in the Request List when this View is selected. The order of the columns can also be changed by a drag and drop of each of the available columns
 * **Revert**<br>The Revert button will put the list of selected columns back to the original default selection.
-* **+ Custom Column**<br>If Custom Fields have been used in the design of your request forms, this option provides the ability to add columns to display the information captured in your custom fields. When adding a custom column you will have the option to
+* **+ Custom column**<br>If Custom Fields have been used in the design of your request forms, this option provides the ability to add columns to display the information captured in your custom fields. When adding a custom column you will have the option to
     * *Column*<br>Select one of the available custom fields that contains the information that you would like to display as a column on your View
     * *Visible*<br>Turn this on in order to activate this new column on your Request List
     * *Language*<br>Set the language for your Display Name. This can be useful when sharing your View with other users that might use a different language.
@@ -64,7 +64,7 @@ It is possible to create one or multiple Charts against each View that you have 
 
 You can toggle between your Request list view and your My Dashboard by clicking on the MyDashboardIcon.png icon when on your Request List view, and the MyList.png icon when on the My Dashboard View.
 
-### Creating Charts
+### Creating charts
 In order to create a Chart, firstly you must have defined a View on the Request List - Learn more about Views
 
 1. Click on the Charts tab from an existing View. Criteria for the Chart is inherited from the View, and you can review the criteria from the Criteria tab when creating a Chart.
@@ -79,22 +79,30 @@ In order to create a Chart, firstly you must have defined a View on the Request 
 Custom fields P-T are of type Text and are excluded from being available to group chart data by for performance reasons.
 :::
 
-### Creating multiple Charts per View
+### Creating multiple charts per View
 It is possible to reuse the defined criteria of a view, and create multiple charts based on this, but presenting the data from different perspectives, for example a series of Charts looking at a Change View by Source, Owner, or Priority.
 
 Once you have created your first Chart for a view, you have the option to create further Charts using the Create Charts button, and following the steps described above.
 Subsequent Charts will appear on the Charts tab of the View and if multiple Charts are defined, these will be available to view, edit, and delete through the paging option.
 
-### Managing Charts
+### Managing charts
 It is possible to edit, delete, and change the visibility of your Charts at any time.
 
+#### Edit
 Edit the Chart by selecting the pencil icon on an existing Chart. Edit options include:
-* Changing the Chart Title
-* Changing the Chart Labels
-* Changing the Chart Type
+* **Chart Title**.  The chart title will be displayed along side the name of the View that the chart is associated with. The chart title is optional.
+* **Chart Type**. Select from comlumn, bar, pie, doughnut, area, or line charts.
+* **Y - Axis Label**. Change the label displayed on the Y-axis
+* **X Axis Label**.Changing the label displayed on the X-axis.
+* **Dashboard**. Select the dashboard on which this chart will be displayed. Optionally add an new dashboard.
 
-Delete Charts by Selecting the Cross icon.
-Change the visibility of the Chart by Selecting or unselecting the Eye icon.
+    ![Chart Properties](/_books/servicemanager-user-guide/request-list/images/chart-dashboard-selection.png)
+
+#### Delete
+Delete a chart by celecting the cross icon.
+
+#### Chart is visible
+Change the visibility of the chart by selecting or unselecting the eye icon.
 
 ## Share
 From time to time you may find a combination of criteria that would be useful to others. The Share option lets you give other Service Manager users visibility of your View. The Share option is accessible by hovering over a View in the View selector and selecting the 'cog' icon. Select the Share tab. Shared 'Views will be visible to users from their Views list, under a section title Shared Views.
