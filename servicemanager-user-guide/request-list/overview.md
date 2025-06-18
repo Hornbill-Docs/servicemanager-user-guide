@@ -44,7 +44,7 @@ The statuses of Closed and Canceled are not listed as filters, because these typ
 <br>
 
 ### Quick filter
-You can use the Quick filter to refine your list to show only requests that contain the typed text.
+You can use the quick filter to refine your list to show only requests that contain the typed text.
 
 ![Request List](/_books/servicemanager-user-guide/request-list/images/quick-filter.png)
 
@@ -56,6 +56,10 @@ The fields in the requests that the quick filter uses to compare are:
 * Customer
 * External Reference
 * Priority
+
+::: warning 
+To ensure that views remain responsive when using multiple criteria and filters, be careful when using the quick filter. Make sure you [understand how the quick filter works](/servicemanager-user-guide/request-list/filter-usage).
+:::
 
 ### Request Type filters
 The Request Type Filter options are represented by the icons that are associated to each request type.
