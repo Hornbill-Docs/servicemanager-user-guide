@@ -30,6 +30,10 @@
             "link": "/servicemanager-user-guide/request-list/views"
           },
           {
+            "text": "Optimizing filter usage in views",
+            "link": "/servicemanager-user-guide/request-list/filter-usage"
+          },
+          {
             "text": "My Dashboards",
             "link": "/servicemanager-user-guide/request-list/my-dashboard"
           },
