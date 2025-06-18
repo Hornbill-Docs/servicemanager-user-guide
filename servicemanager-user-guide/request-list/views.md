@@ -24,7 +24,11 @@ The view automatically changes to your new, copied view.
 1. Click **Delete**.
 
 ## Criteria
-The Criteria tab lets you add a variety of conditions to produce the desired view. The following options are available for defining a condition:
+The Criteria tab lets you add a variety of conditions to produce the desired view.
+
+Along with any conditions you specify, the views automatically take into account your team membership and the services that your team supports. If you are not a member of a team, or are not part of a team that supports the service against which the request is raised, then that request will not be visible to you.
+
+The following options are available for defining a condition:
 
 * **Source.** Select this first field to find a list of familiar titles that form the data stored on a request.
 * **Operator.** The available operators depend on the selected source. Source values that contain:
@@ -32,33 +36,29 @@ The Criteria tab lets you add a variety of conditions to produce the desired vie
     * Dates will include *before*, *before x days*, *after*, *today*, *yesterday*, *last 7 days*, *last 30 days*, *last x days*, *previous month*, *current month*, and *last x months*.
     * Free text values will include *is*, *is not*, *is less than*, *is greater than*, *contains*, and *does not contain*.
     * Counters will include operators such as *is*, *is not*, *is less than*, and *is greater than*.
-* **Value.** The value to compare the source with, based on the set operator. The value field will use a number of methods for entering a value, including pick lists, free text, auto-complete searches, and numeric inputs. This will vary depending on the selected source.
+* **Value.** The value to compare the source with, based on the set operator. The value field will use a number of methods for entering a value, including drop-down lists, free text, auto-complete searches, and numeric inputs. This will vary depending on the selected source.
 
-:::tip
-Along with any conditions you specify, the views automatically take into account your team membership and the services that your team supports. If you are not a member of a team, or are not part of a team that supports the service against which the request is raised, then that request will not be visible to you.
-:::
-
-:::tip
+:::note
 Custom fields P-T are of type Text. For performance reasons, these fields are excluded from being available to build criteria from.
 :::
 
 ## Columns
 The Columns tab lets you define which columns will be available in the request list when you select the view.
 
-* **Available display columns**<br>Click on any of the available columns to enable or disable them from being included in the Request List when this View is selected. The order of the columns can also be changed by a drag and drop of each of the available columns
-* **Revert**<br>The Revert button will put the list of selected columns back to the original default selection.
-* **+ Custom column**<br>If Custom Fields have been used in the design of your request forms, this option provides the ability to add columns to display the information captured in your custom fields. When adding a custom column you will have the option to
-    * *Column*<br>Select one of the available custom fields that contains the information that you would like to display as a column on your View
-    * *Visible*<br>Turn this on in order to activate this new column on your Request List
-    * *Language*<br>Set the language for your Display Name. This can be useful when sharing your View with other users that might use a different language.
-    * *Display Name*<br>Provide a display name of your column which will be shown at the top of the column on the Request List when this View is selected
+* **Available display columns.** Click on any of the available columns to enable or disable them from being included in the request list when this view is selected. Here, you can also change the order of the columns by dragging and dropping the columns.
+* **Revert.** Clicking the **Revert** button puts the list of selected columns back to the original default selection.
+* **+ Custom column.** If custom fields have been used in the design of your request forms, this option provides the ability to add columns to display the information captured in your custom fields. When adding a custom column, you will have options as follows:
+    * **Column.** Select one of the available custom fields that contains the information that you want to display as a column on your view.
+    * **Visible.** Toggle this ON to activate this new column on your Request List.
+    * **Language.** Set the language for your display name. This can be useful when sharing your view with other users that might use a different language.
+    * **Display Name.** Provide a display name of your column, which will be shown at the top of the column on the request list when this view is selected.
 
 :::tip
 Custom fields P-T are of type Text and are excluded from being available to display for performance reasons.
 :::
 
 ## Charts
-It is possible to create one or multiple Charts against each View that you have defined. Once Charts are created they will be available for use in your own personal dashboard. Charts are also available with any shared Viewed. These charts will need to have the visibility enabled in order to show on the My Dashboards.
+You can create one or more charts against each view that you have defined. Once charts are created, they are available for use in your own personal dashboard. Charts are also available with any shared view. These charts need to have the visibility enabled in order to show on in *My Dashboards*.
 
 It is possible to create one or multiple Charts against each View that you have defined. Once Charts are created they will automatically be added to your personal Dashboard, which will become accessible from a 'My Dashboard' Icon MyDashboardIcon.png on the Request list. This Icon will not be visible unless at least one Chart is created against one of your Views.
 
