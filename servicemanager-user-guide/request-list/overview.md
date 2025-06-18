@@ -22,7 +22,7 @@ The Request List can be a place where users spend most of their time working. Fo
 
 Once set, you will be automatically taken to the request list after you log in to Hornbill.  Also, now that this is your default view, you can click the Hornbill logo to return to the Request List.
 
-## Tool bar filters
+## Toolbar filters
 With filters, you can control the information displayed in the Request List and you can quickly locate requests.
 
 ### Status filter

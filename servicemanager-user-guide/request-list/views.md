@@ -2,48 +2,48 @@
 layout: article-toc
 ---
 # Views
-The Views provide a way of defining and storing a number of different views of the requests that you have access to. Using the Views data you can create multiple Charts which can be published to your Dashboard. The criteria builder lets you specify conditions based on information held in the request records, giving you quick access to particular sets of important data.
+With Request List Views, you have a way of defining and storing a number of different views of the requests to which you have access. Using the views' data, you can create multiple charts that can be published to your dashboard. The criteria builder lets you specify conditions based on information held in the request records, giving you quick access to particular sets of important data.
 
-You can quickly change your Views by selecting from your list of defined views on the Request List toolbar, this list will be made up of your own views, and views that have been shared with you.
+You can quickly change your views by selecting from your list of defined views on the Request List toolbar. This list is made up of your own views as well as any views that have been shared with you.
 
-## Manage
-### Create
-1. From the View drop down list located on the Request List tool bar, select Add New.
-1. Enter the name of the View. This name will be visible from the Views drop down list once saved.
-1. Add the desired #Criteria.
+## Managing your views
+**To create a new view:**
+1. From the Views dropdown list in the Request List tool bar, click **Add New**.
+1. Give the view a name. This name will be visible from the Views dropdown list once saved.
+1. Add your [criteria](/servicemanager-user-guide/request-list/views#criteria).
 
-### Copy
-1. From the Views drop down list located on Request List tool bar, move your mouse over the desired View and select the 'cog' icon to open the Edit View.
-1. Give the View a new name.
+**To copy a view:**
+1. From the Views dropdown list in Request List toolbar, move your mouse over the view you want to copy and click the cog icon to open the Edit View dialog.
+1. Give the copied view a new name.
 1. Change or add any additional criteria.
-1. Click on the 'Make a copy' button.
-1. Your view will automatically change to your new View.
+1. Click **Make a copy**.
+The view automatically changes to your new, copied view.
 
-### Delete
-1. From the Views drop down list located on Request List tool bar, move your mouse over the desired View and select the 'cog' icon to open the Edit View.
-1. Click on the Delete button.
+**To delete a view:**
+1. From the Views dropdown inn Request List toolbar, move your mouse over the view you want to delete and click the cog icon to open the Edit View dialog.
+1. Click **Delete**.
 
 ## Criteria
-The Criteria tab lets you add a variety of conditions to produce the desired view. Three options are available for defining a condition: Source, Operator, Value
+The Criteria tab lets you add a variety of conditions to produce the desired view. The following options are available for defining a condition:
 
-* **Source**<br>When you select this field you will see a number of familiar title which mostly form the data that is stored on a request.
-* **Operator**<br>The available operators will depend on the selected source. Source values that contain...
-    * Set values will include the operators is and is not.
-    * Dates will include before, before x days, after, today, yesterday, last 7 days, last 30 days, last x days, previous month, and current month.
-    * Free text values will include is, is not, is less than, is greater than, contains, and does not contain.
-    * Counters will include operators such as is, is not, less than, and greater than.
-* **Value**<br>The value to compare the source with, based on the set operator. The value field will use a number of methods for entering a value, including pick lists, free text, auto-complete searches, and numeric inputs. This will vary depending on the Source type.
+* **Source.** Select this first field to find a list of familiar titles that form the data stored on a request.
+* **Operator.** The available operators depend on the selected source. Source values that contain:
+    * Set values will include the operators IS and IS NOT.
+    * Dates will include *before*, *before x days*, *after*, *today*, *yesterday*, *last 7 days*, *last 30 days*, *last x days*, *previous month*, *current month*, and *last x months*.
+    * Free text values will include *is*, *is not*, *is less than*, *is greater than*, *contains*, and *does not contain*.
+    * Counters will include operators such as *is*, *is not*, *is less than*, and *is greater than*.
+* **Value.** The value to compare the source with, based on the set operator. The value field will use a number of methods for entering a value, including pick lists, free text, auto-complete searches, and numeric inputs. This will vary depending on the selected source.
 
 :::tip
-Along with any conditions you specify, the views automatically take into account your team membership and the Services that your team supports. If you are not a member of a team, or not part of a team that supports the service against which the request is raised, then that request will not be visible to you.
+Along with any conditions you specify, the views automatically take into account your team membership and the services that your team supports. If you are not a member of a team, or are not part of a team that supports the service against which the request is raised, then that request will not be visible to you.
 :::
 
 :::tip
-Custom fields P-T are of type Text and are excluded from being available to build criteria from for performance reasons.
+Custom fields P-T are of type Text. For performance reasons, these fields are excluded from being available to build criteria from.
 :::
 
 ## Columns
-The Columns tab lets you define which columns will be available in the request list when you select the View.
+The Columns tab lets you define which columns will be available in the request list when you select the view.
 
 * **Available display columns**<br>Click on any of the available columns to enable or disable them from being included in the Request List when this View is selected. The order of the columns can also be changed by a drag and drop of each of the available columns
 * **Revert**<br>The Revert button will put the list of selected columns back to the original default selection.
