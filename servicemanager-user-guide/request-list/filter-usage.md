@@ -17,7 +17,7 @@ The Filter box, highlighted in red below, is often misunderstood, leading to mis
 
 This filter performs a *double wildcard* search. This means it looks for the text you enter *anywhere* within the fields listed above. While this might seem convenient, it's actually **extremely inefficient** and can frequently return inaccurate results. In fact, it's the primary cause of performance slowdowns and why you might sometimes get no results at all. Although this functionality still exists, its use is strongly discouraged and may be removed or changed in future updates. 
 
-## The optimal filtering option is *not* the quick filter
+## The optimal filtering option is generally *not* the quick filter
 For narrowing down your existing view, there are two much better options than the quick filter. 
 
 For accurate and efficient searches, you should use the advanced search fields, highlighted in green. These fields allow you to target specific criteria, ensuring your search is precise and performs optimally. By using Advanced search, you can directly specify the field you want to match, which is much more effective than the broad, inefficient Filter function.

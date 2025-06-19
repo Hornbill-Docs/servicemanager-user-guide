@@ -49,7 +49,7 @@ The Columns tab lets you define which columns will be available in the request l
 * **Revert.** Clicking the **Revert** button puts the list of selected columns back to the original default selection.
 * **+ Custom column.** If custom fields have been used in the design of your request forms, this option provides the ability to add columns to display the information captured in your custom fields. When adding a custom column, you will have options as follows:
     * **Column.** Select one of the available custom fields that contains the information that you want to display as a column on your view.
-    * **Visible.** Toggle this ON to activate this new column on your Request List.
+    * **Visible.** Toggle this ON to activate this new column on your request list.
     * **Language.** Set the language for your display name. This can be useful when sharing your view with other users that might use a different language.
     * **Display Name.** Provide a display name of your column, which will be shown at the top of the column on the request list when this view is selected.
 
@@ -58,69 +58,52 @@ Custom fields P-T are of type Text and are excluded from being available to disp
 :::
 
 ## Charts
-You can create one or more charts against each view that you have defined. Once charts are created, they are available for use in your own personal dashboard. Charts are also available with any shared view. These charts need to have the visibility enabled in order to show on in *My Dashboards*.
+You can create one or more charts against each view that you have defined. Once charts are created, they are available for use in your own personal dashboard. Charts are also available with any shared view. These charts need to have the visibility enabled in order to show in *My Dashboards*.
 
-It is possible to create one or multiple Charts against each View that you have defined. Once Charts are created they will automatically be added to your personal Dashboard, which will become accessible from a 'My Dashboard' Icon MyDashboardIcon.png on the Request list. This Icon will not be visible unless at least one Chart is created against one of your Views.
-
-You can toggle between your Request list view and your My Dashboard by clicking on the MyDashboardIcon.png icon when on your Request List view, and the MyList.png icon when on the My Dashboard View.
+You can toggle between your request list view and your *My Dashboards* using the **Switch to My Dashboards** and **Switch to Request List** buttons.
 
 ### Creating charts
-In order to create a Chart, firstly you must have defined a View on the Request List - Learn more about Views
+In order to create a chart, you first must have [defined a view on the request list](/servicemanager-user-guide/request-list/views#managing-your-views).
 
-1. Click on the Charts tab from an existing View. Criteria for the Chart is inherited from the View, and you can review the criteria from the Criteria tab when creating a Chart.
-1. Start by giving the Chart a name.
-1. Select the type of Chart you wish to create from the Chart Type drop down. Depending on the Chart Type selected the Y and or X axis titles for the Chart will remain visible or be hidden if not relevant to the Chart type chosen.
-1. Decide how you want the Chart data to be displayed, and select the appropriate column from the X-Axis drop down. Depending on the Column selected from the X-Axis drop down, more selection criteria options may be presented. An example of this would be date columns such as Date Closed, or Last Updated. If Date columns are selected, an additional Date Type (Year, Month, Weekly, Week) Drop down will be available. Once a Date Type is selected a further Date Type specific drop down will be available to allow you to pick specific Years, Months, Week periods which you wish the Chart to represent.
-1. Preview the Chart data by selecting the Preview Chart button
-1. By Default the Chart will immediately be visible on your Dashboard, and this is represented by the Chart Visibility Icon (Eye) being Green. Should you which to hide a specific Chart from your Dashboard simply click on the Chart Visible Icon to hide the Chart. Chart visibility can be altered at any time
-1. Select Save to activate your Chart and to make this visible on your Dashboard.
+**To create a chart:**
+
+1. From an existing view, click the Charts tab. Criteria for the chart is inherited from the view; you can review the criteria from the Criteria tab when creating a chart.
+1. Give the chart a name.
+1. From the Chart Type dropdown, select the type of chart you wish to create. Depending on the type selected, the Y and X axis titles for the chart will be visible or be hidden based on their relevance.
+1. Decide how you want the chart data to be displayed. Select the appropriate column from the X-Axis dropdown. Depending on the column you select here, more selection criteria options may be presented. An example of this would be date columns such as *Date Closed* or *Last Updated*. If date columns are selected, an additional Date Type dropdown (e.g. *Month*) will be available, then once another date type is selected here , a further date type-specific dropdown will be available (e.g. for *Month* you get *Year*).
+1. Click **Preview Chart** to preview the data.
+   By default, the chart will immediately be visible on your dashboard. This is represented by the green **Chart Visible** button.
+1. (Optional) To hide a specific chart from your dashboard, click the **Chart Visible** button so that it toggles to a gray **Chart is Hidden** button. You can adjust chart visibility at any time.
+1. (Optional) In the Add Dashboard field, select a dashboard on which to display this chart. When no dashboard is selected here, the chart displays only on your own dashboard.
+1. Click **Save** to activate your chart and make it visible on your dashboard.
+
+![Chart Properties](/_books/servicemanager-user-guide/request-list/images/chart-dashboard-selection.png)
 
 :::tip
-Custom fields P-T are of type Text and are excluded from being available to group chart data by for performance reasons.
+Custom fields P-T are of type Text and are excluded from being available to group chart data by, for performance reasons.
 :::
 
-### Creating multiple charts per View
-It is possible to reuse the defined criteria of a view, and create multiple charts based on this, but presenting the data from different perspectives, for example a series of Charts looking at a Change View by Source, Owner, or Priority.
+### Creating multiple charts per view
+You can reuse the defined criteria of a view, and create multiple charts based on this, in order to present the data from different perspectives. One example could be a series of charts looking at a change view by *Source*, *Owner*, or *Priority*.
 
-Once you have created your first Chart for a view, you have the option to create further Charts using the Create Charts button, and following the steps described above.
-Subsequent Charts will appear on the Charts tab of the View and if multiple Charts are defined, these will be available to view, edit, and delete through the paging option.
-
-### Managing charts
-It is possible to edit, delete, and change the visibility of your Charts at any time.
-
-#### Edit
-Edit the Chart by selecting the pencil icon on an existing Chart. Edit options include:
-* **Chart Title**.  The chart title will be displayed along side the name of the View that the chart is associated with. The chart title is optional.
-* **Chart Type**. Select from comlumn, bar, pie, doughnut, area, or line charts.
-* **Y - Axis Label**. Change the label displayed on the Y-axis
-* **X Axis Label**.Changing the label displayed on the X-axis.
-* **Dashboard**. Select the dashboard on which this chart will be displayed. Optionally add an new dashboard.
-
-    ![Chart Properties](/_books/servicemanager-user-guide/request-list/images/chart-dashboard-selection.png)
-
-#### Delete
-Delete a chart by celecting the cross icon.
-
-#### Chart is visible
-Change the visibility of the chart by selecting or unselecting the eye icon.
+Once you have created your first chart for a view, you have the option to create further charts. Subsequent charts will appear in the Charts tab of the view, and can be viewed, edited, and deleted from there.
 
 ## Share
-From time to time you may find a combination of criteria that would be useful to others. The Share option lets you give other Service Manager users visibility of your View. The Share option is accessible by hovering over a View in the View selector and selecting the 'cog' icon. Select the Share tab. Shared 'Views will be visible to users from their Views list, under a section title Shared Views.
+From time to time, you may find a combination of criteria that would be useful to others. In the Share tab of the Edit View dialog, you can give other Service Manager users visibility of your view. Shared views are visible to users from their Views list, under a section titled *Shared Views*.
 
-* **Team**<br>Select this option to share your View with an entire time. When searching for Teams the selection list is split into My Teams which are the teams that you belong to, and then the Supporting Teams which are teams that support the Services that you support.
-* **User**<br>Share your View with any other Service Manager User.
-* **Service**<br>Share your View with all the teams that support a selected Service
-A list of Users, Teams, and Services that you have shared the View with will be displayed on this same form. Remove any of the previous shares by selecting the delete icon next to the user, team, or service that you want to remove.
+* **Team.** Select this option to share your view with an entire time. In the Team dropdown, the selection list is split into *My Teams*, which are the teams that you belong to, and *Supporting Teams* which are teams that support the services that you support.
+* **User.** Share your view with any other Service Manager user.
+* **Service.** Share your view with all the teams that support a selected service.
+
+A list of users, teams, and services that you have shared the view with will be displayed on this same form. Remove any of the previous shares by clicking the **X** button next to the user, team, or service that you want to remove.
 
 :::tip
-Views can only be edited by the owner, user's who have had the View shared with them can't edit the View criteria nor create charts for their Personal Dashboards from shared views. A shared View in many cases will not result in the same results in the Request List as the user may have different access rights and visibility of requests. A User with whom the View is shared will only be able to view Custom Fields, these will only be available to the Creator of the View when exporting.
+Views can only be edited by the owner. Users who have had a view shared with them can't edit the view's criteria; nor can they create charts for their personal dashboards from shared views.
+
+A shared view in many cases will not result in the same results in the request list, because the user may have different access rights and visibility of requests. A user with whom the view is shared will only be able to view custom fields; these will only be available to the creator of the view when exporting.
 :::
 
-## Manage Shared Views
-There may be occasions when a user is no longer using Hornbill and they have left behind Views which were shared with other users. A Hornbill User that has the Role Service Desk Admin will have an option from the Views menu, under Shared Views titled Manage from where they can manage all shared Views. These actions include
-
-* Change Owner
-* Make Me Owner
-* Delete
+### Managing shared views
+There may be occasions when a user is no longer using Hornbill and they have left behind views that were shared with other users. A Hornbill user that has the role Service Desk Admin will have an option from the Views menu, under *Shared Views*, titled *Manage*. Here, the admin can manage all shared views. The admin can take the following actions: **Delete**, **Change Owner**, and **Make Me Owner**.
 <!-- https://wiki.hornbill.com/index.php?title=Request_List_Views -->
 <!-- https://wiki.hornbill.com/index.php?title=Charts -->
