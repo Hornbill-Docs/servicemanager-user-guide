@@ -2,10 +2,10 @@
 layout: article-toc
 ---
 # My Dashboards
-My Dashboards provides each Service Manager user with a personal dashboard. My Dashboards display charts that have been created against [Views](/servicemanager-user-guide/request-list/views) providing a visual perspective of the requests and information that is most important and relevant to each user along with the to ability drill down to the requests that make up each chart.
+My Dashboards provides each Service Manager user with a personal dashboard. My Dashboards display charts that have been created against [Views](/servicemanager-user-guide/request-list/views) to provide a visual perspective of the requests and information that is most important and relevant to each user along with the to ability drill down to the requests that make up each chart.
 
 ## Creating content for My Dashboards
-My Dashboard is made up of charts that are defined against [Views](/servicemanager-user-guide/request-list/views) that contain criteria to define sets of related requests for display within your request list. Once a chart has been created for a View, it can be enabled for display on the My Dashboards. It is possible to define one or multiple charts against each View you have defined.
+My Dashboards is made up of charts that are defined against [Views](/servicemanager-user-guide/request-list/views) that contain criteria to define sets of related requests for display within your request list. Once a chart has been created for a View, it can be enabled for display in My Dashboards. It is possible to define one or multiple charts against each View you have defined.
 
 Please see the following links on how to define and manage Views and Charts.
 
@@ -13,14 +13,20 @@ Please see the following links on how to define and manage Views and Charts.
 * [Charts](/servicemanager-user-guide/request-list/views#charts)
 
 ## Managing My Dashboards
-Once you have one or more charts defined against one or more Views you can access these charts on My Dashboard by clicking on the the graph icon in the request list toolbar.
+Once you have one or more charts defined against one or more Views you can access these charts on My Dashboards by clicking on the the graph icon in the request list toolbar.
 
-* **Visibility**<br>Charts are only visible on My Dashboard if they have been marked as visible (Configurable from within the charts tab on the Views Configuration).
-* **Moving**<br>Charts can be moved around My Dashboard by selecting the 'move' icon on the chart you wish to move, and then dragging and dropping the chart into the desired location.
+![My Dashboards button](/_books/servicemanager-user-guide/images/my-dashboards-toolbar-button.png)
+
+:::tip
+Each dashboard allows for up to 9 charts to be displayed on one page before paging becomes available. As an alternative to paging within a single dashboard, charts can be moved to a different or new dashboard.
+:::
+
+* **Visibility**<br>Charts are only visible on a dashboard if they have been marked as visible (Configurable from within the charts tab on the Views Configuration).
+* **Moving**<br>Charts can be moved around a dashboard by selecting the 'move' icon on the chart you wish to move, and then dragging and dropping the chart into the desired location.
 * **Size**<br>Each Chart can have its size changed to provide the best fit for the data being displayed. When you place your mouse over any chart, a drop-down option is available to select a small, medium or large layout.
 
 ### Adding a new dashboard
-My Dashboards has a single default dashboard from where additional dashboards can be created. Each dashboard can be used to group related charts.
+My Dashboards has a single default dashboard called **Charts**. By clicking on the `+` button, additional dashboards can be added. Each new dashboard can be named and used to group related charts.
 
 ![My Dashbards](/_books/servicemanager-user-guide/request-list/images/my-dashboards-add.png)
 
