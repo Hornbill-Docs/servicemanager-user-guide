@@ -36,6 +36,10 @@ The status of changes and releases on the calendar can be easily seen by the fol
 ## Change Freeze Periods
 Users with the Full Change Management Access or the Full Release Management Access roles will be able to add and manage global change freeze periods on the Change Calendar.
 
+:::note
+A change freeze does not prevent a change from being raised within the freeze period. The freeze period only affects the scheduling of the change.
+::: 
+
 ### Adding a new Change Freeze period
 Users with the above roles will be able to select the Change Calendar Freeze period icon to add, edit or remove change freeze periods.
 
