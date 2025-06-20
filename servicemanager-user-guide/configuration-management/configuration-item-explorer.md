@@ -26,7 +26,7 @@ Inherited relationships between CIs are shown in the Explorer. Examples include 
 * Assets linked to other assets or services in Service Manager
 Assets linked to a request
 Requests that have an owner
-Documents linked to an asset
+Attachments linked to an asset
 
 If no dependency relationships exist between two CIs, then the link will say Not Set.
 
@@ -47,7 +47,7 @@ Choose which CI types are displayed in the Explorer CI Types list by enabling or
 By default, all CI types are displayed. The Configuration Item types are:
 * Assets
 * Requests
-* Documents
+* Attachments
 * Users
 * Services
 

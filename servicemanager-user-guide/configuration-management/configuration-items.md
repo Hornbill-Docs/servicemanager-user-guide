@@ -3,7 +3,7 @@ Configuration Management holds data relating to a collection of IT entities call
 
 A Configuration Item may be:
 
-* A physical asset (e.g. a server, switch, etc.), a user, a request, or a document
+* A physical asset (e.g. a server, switch, etc.), a user, a request, or an attachment
 * A logical asset (e.g. an instance of a database)
 * A conceptual asset (e.g. a service)
 
@@ -16,7 +16,7 @@ Configuration Management allows you to view relationships between CIs via its gr
 * Services
 * Requests
 * Users
-* Documents
+* Attachments
 
 You can launch the Explorer from the following Configuration Item views:
 

@@ -11,7 +11,7 @@ You can use Configuration Management to manage different Configuration Items in 
 * Assets
 * Requests
 * Co-workers
-* Documents
+* Attachments
 * Services
 
 ## Configuration Item Policy List
