@@ -1,5 +1,5 @@
 # Workaround Action
-The Workaround Action Item allows you to record the steps that can be followed to return to a business as normal status. Workarounds can also be published alongside known issues and presented as possible solutions to linked Incidents.
+The Workaround Action is a feature that is only available on problem records.  While a problem is being investigated, a temporary workaround can be added and made available to other members of the Service Desk or to customers through the support portals.
 
 ## Defining the Workaround
 Use the text box to enter the workaround text, and the save button to create the workaround. There are a couple of considerations to factor in when defining the content of the workaround with the potentially different audiences in mind.
