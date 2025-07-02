@@ -11,7 +11,7 @@ In order to create and manage the Request Catalogs the following user roles are 
 |Business Process Manager Role|Required to create and modify any workflow to be used with a catalog request model.|
 
 :::tip
-By default Change Requests can't be raised from the Customer or Employee Portal. Enabling the system setting: ***guest.servicemanager.portal.additionalRequestTypes.change*** will allow Changes marked wiht the visibility to `Portal` or `Both` to be visible on the portals.
+By default Change Requests can't be raised from the Customer or Employee Portal. Enabling the system setting: ***guest.servicemanager.portal.additionalRequestTypes.change*** will allow Changes marked wiht the visibility to `Portal` or `Both` to be visible on the portals. At least one request catalog item must exist for customers to raise a change.
 
 Please beware that enabling this setting will also allow customers to see any historical changes that have been raised and they have been set as the customer of the Changes (even if no Change Catalog Items were used on the Change records).
 :::
