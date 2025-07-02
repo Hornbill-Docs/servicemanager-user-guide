@@ -23,7 +23,7 @@ A request catalog can be created and managed for Incidents, Service Requests and
 1. From the list of services, select a service to view the details of that service.
 1. On the Service form select the Request Configuration tab.
 1. Select either incident, service request, or change from the available request types.
-1. Locate the section titled Reqeust Catalog.
+1. Locate the section titled Request Catalog.
 
 ## Features
 * **Title**<br>The name for the request, which will be displayed on the portals for customers, and to support staff in Intelligent Capture.
