@@ -1,4 +1,4 @@
-# Custom Buttons
+# Request Custom Buttons
 Custom Buttons provide a way to add your own buttons to a request to perform a particular action or set of actions.   can be added to requests and configured to allow one of three options
 
 * Open a URL
