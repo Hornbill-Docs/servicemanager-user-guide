@@ -31,10 +31,18 @@ To filter the list of services displayed, Hornbill administrators can turn on th
 Subscribers are the people who consume the service. You can subscribe customers to a service based on various organization groups. By default, subscription settings allow all customers to use the service.
 
 ### Subscription options
-* **Company.** Subscribes all internal customers to the service.
-* **Department.** Subscribes defined departments to the service.
+* **General.** Search and subscribe groups that belong to the **General** type.
 * **Team.** Subscribes defined teams to the service.
-* **General.** Subscribes a defined organizational group to the service.
+* **Department.** Search and subscribe groups that belong to the **Department** type.
+* **Cost Center.** Search and subscribe groups that belong to the **Cost Center** type.
+* **Division.** Search and subscribe groups that belong to the **Division** type.
+* **Company.** Search and subscribe groups that belong to the **Company** type.
+* **Business Unit.** Search and subscribe groups that belong to the **Business Unity** type.
+* **Directorate.** Search and subscribe groups that belong to the **Directorate** type.
+* **Branch.** Search and subscribe groups that belong to the **Branch** type.
+* **Board.** Search and subscribe groups that belong to the **Board** type.
+* **Subsidiary.** Search and subscribe groups that belong to the **Subsidiary** type.
+* **Function.** Search and subscribe groups that belong to the **Function** type.
 * **User.** Subscribes individual internal users to the service.
 * **Site.** Subscribes all users of a given site to the service.
 * **Contact Organization.** Subscribes specific external organizations to the service.
