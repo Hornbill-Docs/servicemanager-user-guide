@@ -14,10 +14,9 @@ The Email Action within a request enables the sending of emails directly from th
     :::
 
 ## Recipients
-The recipients of an email can include [Hornbill users](/esp-user-guide/co-workers) and Hornbill contacts, or if the recipient does not exist within Hornbill, you can simply type their email address.
+The recipients of an email can include [Hornbill users](/esp-user-guide/co-workers) and [Hornbill contacts](/exp-user-guide/ccustomers/ontact), or if the recipient does not exist within Hornbill, you can simply type their email address.
 * **To**<br>Add one or more recipients who will receive the email. The customer of the request is automatically added as a recipient as they are seen as the most common recipient, however, there is no restriction on who the email is sent to.
-* **CC/BCC**<br>Clicking on the CC/BCC option, these two fields will be exposed to allow additional recipients to be added as either a carbon copy or as a blind carbon copy.
-* **Connections**<br>For ease of communication with people who are connected to a request, you can quickly include connections as recipients of your email.
+* **CC/BCC**<br>Clicking on the CC/BCC option, will exposed these fields to allow additional recipients to be added as either a carbon copy or as a blind carbon copy recipient.
 
 ## Attachments
 For any outgoing email, a user can include attachments as part of the email. By Clicking on the Paper Clip button the file upload is displayed.
@@ -45,6 +44,9 @@ When an email is composed from within a request, a template is used to pre-popul
 * **Default Template**<br>The default email template used can be based on the request type, and service against which the request has been logged. The selected template name is displayed, and the email template content is made available. If a template is not set against a serivce, the RequestMessage template is used.
 * **Variables**<br>A template can contain variables that are automatically populated from information contained within the request. For , an email may start with Dear John where John is the first name of the customer on the request and the variable {{Customer Coworker.H_first_name}} was used. If a variable that is displayed within curly braces is visible as {{variable name}} this means that the variable has failed to populate. If this happens, the text representing the variable can be manually removed or replaced before sending, or the information required can be updated on the request and then the template reloaded into the email action. Alternatively, the template itself needs updating to either remove or change to the correct variable.
 * **Selecting a Template**<br>In some cases, the use of multiple templates may be required. The application setting app.email.request.operation.templateSelectable is available which can be enabled to allow a user to select from a list of available templates. This setting is enabled within Administration under Service Manager > Settings. This is a global setting and will apply to all request types and all services, and will return a list of all email templates.
+
+## Connections
+For ease of communication with people who are connected to a request, you can quickly include connections as recipients of your email.
 
 ## Snippets
 Snippets provide the ability to define common responses that you want to include in outgoing email content. The use of Snippets ensures that the same response does not need to be typed manually each time and ensures a consistent level of response is given by all analysts who use the snippets rather than manually entering responses each time.
