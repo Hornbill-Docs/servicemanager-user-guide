@@ -9,9 +9,6 @@ You can define one or more service levels for each SLA. Each service level conta
 
 ![Service Levels](/_books/servicemanager-user-guide/images/sla-service-levels.png)
 
-## Manage rules
-Once more than one service level has been defined, the **Manage Rules** option becomes available.  The rules define which service level to apply, based on information stored in the request.
-
 ## Service level targets
 Service level targets allow you to define the timing for your response and resolution targets for each service level. These targets can be an important part of keeping track of the performance provided by the service desk.
 
