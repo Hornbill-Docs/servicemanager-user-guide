@@ -3,10 +3,14 @@ A service level is a measurable performance indicator used to assess the quality
 
 You can define one or more service levels for each SLA. Each service level contains configurable service level targets and their associated automated escalations. Service levels are required if you need to automate and track targets such as response and resolution targets.
 
+## Details
 * **Name.** The name of the service level is displayed along with the SLA on a request that it is associated with. This is used to help a support person understand the service level that they need to adhere to. An example of a common naming convention for service levels is *Bronze*, *Silver*, and *Gold*.
 * **Description.** Define the purpose of the service level and what it covers. This can be useful for service desk staff when changing an applied service level against a request.
 
 ![Service Levels](/_books/servicemanager-user-guide/images/sla-service-levels.png)
+
+## Manage rules
+Once more than one service level has been defined, the **Manage Rules** option becomes available.  The rules define which service level to apply, based on information stored in the request.
 
 ## Service level targets
 Service level targets allow you to define the timing for your response and resolution targets for each service level. These targets can be an important part of keeping track of the performance provided by the service desk.
