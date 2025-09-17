@@ -1,4 +1,4 @@
-# Rules
+# Service Level Rules
 Once you have created an SLA, you may have a requirement for more than one service level and its associated targets to be available.
 
 ## Topics covered
