@@ -1,5 +1,5 @@
 # Request Custom Buttons
-Custom Buttons provide a way to add your own buttons to a request to perform a particular action or set of actions.   can be added to requests and configured to allow one of three options
+[Custom Buttons](/esp-config/customize/custom-buttons) provide a way to add your own buttons to a request to perform a particular action or set of actions.   Custom Buttons can be configured to do one of the following:
 
 * Open a URL
 * Create a popup contains an embeddable URL.
@@ -8,39 +8,45 @@ Custom Buttons provide a way to add your own buttons to a request to perform a p
 Custom Buttons can be personalized with descriptions, icons, tooltips, and optionally be set to only display on views if configurable conditions are met.
 
 ## Before you begin
+* Know how to configure [custom buttons](/esp-config/customize/custom-buttons).
+
 The following roles are need to create and manage custom buttons. 
 * **Form Designer**<br>A user will need this role to be able to configure and manage custom buttons.
 * **Business Process Manager**<br>A user will need this role to be able to link an Auto Task Process to a Custom Button
 
-## Configuring Custom Buttons
+## Adding a Custom Button
+Custom buttons are unique to each request type.  For example, when adding a custom button to an incident record, that custom button will be available to all incident records.
 
-### Creating a Custom Button
 Click on the `Cog` icon to add a new custom button
 * **Label**<br>Provide a label for the new custom button.
 * **Icon**<br>Optionally choose an icon to represent and sit alongside the custom button label on the entity form.
 * **Color**<br>Choose a background color for the custom button.
 * **Tooltip**<br>Optionally provide a more detailed explanation for the purpose of the custom button. This will be displayed when a user hovers over the custom button.
 
-### Conditions
-By default a custom button will appear on all requests of the same type. Conditions can be used to determine when the button is visisble. 
-* The available conditions will be relevant to the request type which you are adding the custom button.
-* Having multiple conditions will be treated as AND conditions, so all conditions will need to be met for the custom button to be displayed.
+### Show button if...
+Rules can be used to determine when the button is visisble. When adding a rule, you can select from a variaty of fields that are available on the request record. 
+
+There are three session variables that can be used to control visibility. These are particularily useful when you want a button to only be available to an individual or specifice group.
+* User
+* Role
+* Group
+
+When there is more than one rule, all rules must be met for the custom button to be displayed. 
 
 :::tip
 * Request status values need to entered in the following format: status.new, status.open, status.status.recolved, status.closed.
-* Request type values need to be entered in lower case.
 :::
 
 ### Actions
 Each custom button can be configured to be one of the following:
 
-* Open URL.
-* Open a popup that contains an embeddable URL.
-* Run an Auto Task process.
-
 #### Open URL
-* Add a URL which you wish to launch from the custom button.
+* Add a URL which you want to launch from the custom button.
 * Include variables from the entity in the URL.
+
+When adding the URL, you can construct parts of the URL using information in the request.
+
+![Request Custom Button user a URL](/_books/servicemanager-user-guide/images/request-custom-button-url.png)
 
 ### Auto Task
 The Business Process Manager role will be needed to be able to link an Auto Task Process to a Custom Button.
