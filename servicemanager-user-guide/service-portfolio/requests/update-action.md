@@ -21,8 +21,6 @@ Email notifications can be sent to the customer of the request each time an Upda
 
 :::note
 It is important that the following has been set up in order for the customer to receive the updates by email.
-* **Service Mailbox**<br>Set a default mailbox on the service and/or on the Request Types for the service
-* **Shared Mailbox Access**<br>Make sure that all the analysts that will be updating the request have access to the mailbox set on the service.
 * **Default Email Template**<br>A default Email Template called CustomerTimelineUpdateNotification has been provide for you. Emails sent to customers will be based on this template. You can modify this email template to suite your needs.
 * **Email Template Setting**<br>If you want to create a new email template for this purpose, update the system setting guest.app.requests.notification.emailTemplate.customerTimelineUpdate with the name of the new email template.
 * **Email Notification Setting**<br>This setting guest.app.requests.notification.emailMailbox defaults to helpdesk on installation. This needs to be changed to the name of the mailbox that you wish to use for notifications from Service Manager.
