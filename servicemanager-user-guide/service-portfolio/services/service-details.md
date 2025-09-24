@@ -73,6 +73,12 @@ Each Service allow you to configure the different the types of requests which wi
 Requests
 Any Requests which the Service has been raised directly against, or where it has an associated relationship to Requests will be displayed here.
 
+## Requests
+The Requests list provides a view of all the requests that have been raised and associated with the service. 
+
+* **Direct Requests**. The list provided under Direct Requests are requests where the selected service is the primary service for the request.
+* **Associated Requests**. The associated requests consist of requests that have had this service selected as a [linked service](/servicemanager-user-guide/service-portfolio/requests/linked-services-action). 
+
 ## Assets
 Associating the assets which support a service helps support quicker Incident and or Problem resolutions by making it quick and easy to understand what infrastructure is directly used to provide each service. Change management can benefit from visualizing impact when considering implementing changes to a service, or assets which support a service.
 
