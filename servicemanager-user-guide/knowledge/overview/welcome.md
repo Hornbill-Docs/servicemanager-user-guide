@@ -24,7 +24,7 @@ Knowledge within Service Manager is an invaluable resource for organizing, stori
 Your organization can build knowledge bases in many ways:
 
 * Reuse content from the resolution of incidents.
-* Migrate your Service Manager [FAQs](/servicemanager-user-guide/knowledge/knowledge-bases/articles#moving-faqs-into-knowledge-bases).
+* Migrate your Service Manager [FAQs](/servicemanager-user-guide/knowledge/knowledge-bases/articles/faq-to-article-transition).
 * Capture staff know-how by granting [contributor access](/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access).
 * Create articles from requests.
 * Create articles based on research.
