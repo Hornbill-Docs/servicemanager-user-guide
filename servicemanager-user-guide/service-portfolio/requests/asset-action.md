@@ -4,7 +4,7 @@ The Assets Action on a request provides the ability to search for [assets](/serv
 ![Asset Action](/_books/servicemanager-user-guide/images/request-asset-action.png)
 
 ## Before you begin
-* **Is the asset action enabled on the service?** The asset action can be enabled or disabled for each request type under the [Service Configuration](/serviceemanager-user-guide/service-portfolio/request-configuration#request-actions). If you can’t see the asset action, this might be because the service owner has disabled this feature.
+* **Is the asset action enabled on the service?** The asset action can be enabled or disabled for each request type under the [Service Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions). If you can’t see the asset action, this might be because the service owner has disabled this feature.
 
 ## Assets and Asset Types
 From the Assets Action, you can use the drop-down to navigate between an Asset Search and an Asset Type search, giving you the ability to associate both individual assets and also associate a specific type of asset with a request.
