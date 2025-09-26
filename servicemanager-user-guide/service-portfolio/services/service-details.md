@@ -83,7 +83,7 @@ The Requests list provides a view of all the requests that have been raised and 
 Associating the assets which support a service helps support quicker Incident and or Problem resolutions by making it quick and easy to understand what infrastructure is directly used to provide each service. Change management can benefit from visualizing impact when considering implementing changes to a service, or assets which support a service.
 
 ## Services
-Associating technical services which support/underpin business services helps support quicker Incident and or Problem resolutions by making it quick and easy to understand how services are related. Change management can benefit from visualizing impact when considering implementing changes to a technical or business service.
+Associating services that support or underpin other services can help support incident and or problem resolutions by making it quick and easy to understand how services are related and if there are any dependancies between them. Change management can benefit from visualizing impact when considering implementing changes to a service.
 
 ## FAQs
 Define Frequently Asked Questions (FAQs) which will be helpful to subscribers of the service on both the Customer and Service Portals.
