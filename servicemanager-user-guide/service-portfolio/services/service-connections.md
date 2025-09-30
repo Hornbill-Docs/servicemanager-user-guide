@@ -1,7 +1,7 @@
 # Connections configuration
-Users and contacts can be added to requests as connections. It is possible to allow those connected users to have visibility of the requests they are connected to via the Employee Portal.
+A Request in Service Manager is generally provided to support or fulfill a request for an individual. However, there can often be times when there are other people who may have a connection to a particular request. For example, a change request may have been raised for an individual, but over time, others might ask for the same change. These additional people can be added as connections.
 
-By default, connections do not have access to the requests that they are connected to.  This access has to be configured and enabled on each service.
+This document covers how to set up connections for each service.
 
 ![Connections Configuration](/_books/servicemanager-user-guide/images/service-connections-configuration.png)
 
@@ -9,52 +9,62 @@ By default, connections do not have access to the requests that they are connect
 * Read about the [Connections action](/servicemanager-user-guide/service-portfolio/requests/connection-action) on a request.
 * Read about the available [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#connections-settings).
 * Read about the [Connections Automation](/servicemanager-config/customize/workflows/request-connections-automation) for workflow.
+* Read about the [Connections Intelligent Capture form](/servicemanager-config/customize/service-manager-capture-forms#connections).
 
-## Where can connections view requests?
-If a connection is added to a request (via the request connections action, or via the business process connection options), you can define if connections of specific connection types and for specific request types, per service can view those requests via the My Services view or on the Employee Portal
+## Connection Types
+Connection types are a key part to controlling what a connected user can see or do on a request that they are connected to.
 
-This capability is not available in the following:
-* Customer Portal (customer.hornbill.com/<Your Instance>)
+The connection types are defined in a [Simple List](/servicemanager-config/setup/service-manager-simple-lists) called `requestConnectionType`. The entire list of connection types defined in the simple list will be dispayed in the service connections configuration. By default, all visibility options are disabled for each connection type.
 
-A connected user will see a new menu option in their list of requests, called Connections
+When adding a connection to a request, a connection type must be selected.  The selected connection type will determine what access is provided to the connected user.
 
-* A new Connection Type Filter will allow the user to filter the requests they are connected to via the available connection types
-Communication with request connections (emails) are managed via business process automation and or via the email action option on the request views.
+#### View request
+Each connection type has a toggle that allows a connection to have a read-only view of the selected types of requests on the Employee Portal.  This includes incidents, service requests, and change requests. 
 
-
-## Connections visibility options
-The default position is that connections of a request have No visibility of requests they are connected too.
-
-Connections can be granted one of two levels of visibility to requests they are connected too, configurable per service.
-
-The two levels can be applied for each of the following:
-* **By Request Type**<br>Connections of Incidents, Service Requests and Changes can be configured to be allowed visibility of requests, as these request types are visible via the My Services view or the employee portal.
-* **By Connection Type**<br>The available connection types are controlled by the connection types which you have configured on your instance. This is managed via a simple list in the admin console (Home > Service Manager > Simple Lists > RequestConnectionType)
-
-## Connection levels
-### View request
-If you provide this option for connections of a specific type and for one or all request types against a service, the connections will have the following levels of access on these requests:
-
-* View the request summary, description, status and date logged
-* View the Business Process Tracker (Head's Up Display)
-* View the questions section of the request
-* View who else is a connection to the request
-* The connected users will not be able to interact with the request, add updates or comments, add / view attachments, resolve, cancel or provide feedback on closure of the request
-
-### Allow collaboration
-If you provide this option for connections of a specific type and for one or all request types against a service, the connections will have all the View Requests visibility options plus the following:
-
-* View the Timeline (Audit trail of the request) and see any updates which are marked at Customer visibility level
-* Have the ability to add Comments to any customer facing updates in the request timeline
-* Have the ability to add New updates to the request
-* The connected users will NOT be able to add attachments, resolve, cancel or provide feedback on closure of the request.
+Connections will have the following levels of access on these requests:
+* View the request summary, description, status and date logged.
+* View the Business Process Tracker (Head's Up Display).
+* View the questions section of the request.
+* View who else is a connection to the request.
+* The connected users will not be able to interact with the request, add updates or comments, add / view attachments, resolve, cancel or provide feedback on closure of the request.
 
 :::tip
 In order for Connections to view and download attachments, the setting `guest.servicemanager.portal.request.canConnectionsViewAttachments` needs to be enabled.
 :::
 
-### Available to portal users
-Enabling this option will allow the customer of a request to add connections to their requests in the Employee Portal.
+#### Allow collaboration
+If you provide this option for connections of a specific type and for one or all request types against a service, the connections will have all the View Requests visibility options plus the following:
+
+* View the request's Timeline and see any update that is marked as visibile to the customer.
+* Have the ability to add comments to any customer facing updates in the request timeline.
+* Have the ability to add new updates to the request.
+* The connected users will NOT be able to add attachments, resolve, cancel or provide feedback on closure of the request.
+
+:::info
+To collaborate on a request the connection must also have view access.  When selecting a request type for collaboration, if the View Request is not enabled for that request type, it will be automatically enabled.
+:::
+
+#### Available to portal users
+When at least one connection type has the `Available to portal users` enabled, the customer of the request then has the ability to add connections to the request. Only the connection types that have this enable will be available to the customer to select from. 
+
+![Available to Portal User](/_books/servicemanager-user-guide/images/service-connections-portal-access.png)
+
+#### Get Email Request Updates
+This option enables two types of email notification.
+* Notify the connected user that they have been added as a connection.
+* Notify the connected user when there has been a customer facing update to the request and the Notify Customer option has been enabled.
+
+## Where can connections view requests?
+Anyone added as a connection can view the request on the Employee Portal, provided that visibility has been set to allow access.  
+
+:::note
+While contacts from external organization can be connected to a request, the Customer Portal does not provide visibility of these requests.
+:::
+
+A connected user will see a new menu option in their list of requests, called Connections
+
+* A new Connection Type Filter will allow the user to filter the requests they are connected to via the available connection types
+Communication with request connections (emails) are managed via business process automation and or via the email action option on the request views.
 
 ## Remove connection
 Connections will have an option via the Connections section on the request to remove themselves from being a connection to the request.
