@@ -1,12 +1,12 @@
 # Request Connections Action
-A Request in Service Manager is generally provided to support or fulfill a request for an individual. However, there can often be times when there are other people who may have a connection to a particular request. For example, a change request may have been raised for an individual, but over time, others might ask for the same change. These additional people can be added as Interested connections.
+A Request in Service Manager is generally provided to support or fulfill a request for an individual. However, there are times when other people might have a connection to a particular request. For example, an incident may have been raised for an individual, but others users might be impacted by this same incident. These additional people can be added as connections.
 
 ![Request Connections Action](/_books/servicemanager-user-guide/images/request-connections-action.png)
 
 ## Before you begin
+
 * Read about the how to [configure connections on a service](/servicemanager-user-guide/service-portfolio/services/service-connections).
-* Read about the available [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#connections-settings).
-* Read about the [connections automation](/servicemanager-config/customize/workflows/request-connections-automation) for workflow.
+* The Connections Action can be enabled on each type of request for a service.  If this action is not visible, it can be enabled under the [request configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions) for a service.
 
 ## Adding a Connection
 ### Search Customer

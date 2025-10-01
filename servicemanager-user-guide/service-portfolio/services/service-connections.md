@@ -1,25 +1,27 @@
 # Connections configuration
-A Request in Service Manager is generally provided to support or fulfill a request for an individual. However, there can often be times when there are other people who may have a connection to a particular request. For example, a change request may have been raised for an individual, but over time, others might ask for the same change. These additional people can be added as connections.
+A Request in Service Manager is generally provided to support or fulfill a request for an individual. However, there are times when other people might have a connection to a particular request. For example, an incident may have been raised for an individual, but others users might be impacted by this same incident. These additional people can be added as connections.
 
 This document covers how to set up connections for each service.
 
 ![Connections Configuration](/_books/servicemanager-user-guide/images/service-connections-configuration.png)
 
 ## Before you begin
-* Read about the [Connections action](/servicemanager-user-guide/service-portfolio/requests/connection-action) on a request.
+* Read about the [Connections Action](/servicemanager-user-guide/service-portfolio/requests/connection-action) on a request.
 * Read about the available [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#connections-settings).
 * Read about the [Connections Automation](/servicemanager-config/customize/workflows/request-connections-automation) for workflow.
 * Read about the [Connections Intelligent Capture form](/servicemanager-config/customize/service-manager-capture-forms#connections).
 
 ## Connection Types
-Connection types are a key part to controlling what a connected user can see or do on a request that they are connected to.
+Connection types are a key part to controlling what a connected user can see or do on a request that they are connected to. By default, all visibility options are disabled for each connection type.
 
-The connection types are defined in a [Simple List](/servicemanager-config/setup/service-manager-simple-lists) called `requestConnectionType`. The entire list of connection types defined in the simple list will be dispayed in the service connections configuration. By default, all visibility options are disabled for each connection type.
+:::info
+The connection types are defined in a [Simple List](/servicemanager-config/setup/service-manager-simple-lists) called `requestConnectionType`. The entire list of connection types defined in the simple list will be dispayed in the service connections configuration.
+:::
 
 When adding a connection to a request, a connection type must be selected.  The selected connection type will determine what access is provided to the connected user.
 
-#### View request
-Each connection type has a toggle that allows a connection to have a read-only view of the selected types of requests on the Employee Portal.  This includes incidents, service requests, and change requests. 
+#### View Request
+Each connection type allows you to select from incidents, service requests, and changes as request types that are visible to connections when that connection type is used.
 
 Connections will have the following levels of access on these requests:
 * View the request summary, description, status and date logged.
@@ -32,8 +34,8 @@ Connections will have the following levels of access on these requests:
 In order for Connections to view and download attachments, the setting `guest.servicemanager.portal.request.canConnectionsViewAttachments` needs to be enabled.
 :::
 
-#### Allow collaboration
-If you provide this option for connections of a specific type and for one or all request types against a service, the connections will have all the View Requests visibility options plus the following:
+#### Allow Collaboration
+If you allow collaboration on any of the available request types, the connections added using this connection type will have all the View Requests visibility options plus the following:
 
 * View the request's Timeline and see any update that is marked as visibile to the customer.
 * Have the ability to add comments to any customer facing updates in the request timeline.
@@ -41,7 +43,7 @@ If you provide this option for connections of a specific type and for one or all
 * The connected users will NOT be able to add attachments, resolve, cancel or provide feedback on closure of the request.
 
 :::info
-To collaborate on a request the connection must also have view access.  When selecting a request type for collaboration, if the View Request is not enabled for that request type, it will be automatically enabled.
+To collaborate on a request the connection must also have view access.  When selecting a request type under collaboration, if the View Request is not enabled for that request type, it will be automatically enabled.
 :::
 
 #### Available to portal users
