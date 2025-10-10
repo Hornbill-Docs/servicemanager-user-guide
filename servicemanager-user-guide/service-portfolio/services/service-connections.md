@@ -21,10 +21,10 @@ The connection types are defined in a [Simple List](/servicemanager-config/setup
 When adding a connection to a request, a connection type must be selected.  The selected connection type will determine what access is provided to the connected user.
 
 #### View Request
-Each connection type allows you to select from incidents, service requests, and changes as request types that are visible to connections when that connection type is used.
+Each connection type allows you to select from incidents, service requests, and changes as request types that can be viewed by the connected user on the Employee Portal when that connection type is used.
 
 Connections will have the following levels of access on these requests:
-* View the request summary, description, status and date logged.
+* View the request summary, description, status, and date logged.
 * View the Business Process Tracker (Head's Up Display).
 * View the questions section of the request.
 * View who else is a connection to the request.
