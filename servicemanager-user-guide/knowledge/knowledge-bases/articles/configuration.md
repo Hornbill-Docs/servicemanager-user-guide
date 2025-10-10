@@ -28,3 +28,41 @@ The Details section contains key information about the article. The settings and
 
 ## Translations
 Here you can add and view translations for the article.
+
+## Article status lifecycle
+Each article will work through several statuses throughout its life.  
+
+* **Draft**. An article that has the status of draft is not visible to users when browsing or searching a knowledge base.  All new articles will start with the draft status.
+* **Pending Approval**. Where approval is required, a contributor will need to submit a draft article to be approved by a knowledge manager before it is published. When approved, the status will automatically change to published.
+* **Published**. Published articles are available to users when browsing and searching a knowledge base.
+* **Retired**. When an article is no longer relevant, the status can be set to retired.  Retired articles are no longer available for users to browse or search. A retired article can be unretired.  When unretired by a knowledge manager, the status will change to being published.  When unretired by a contributor and the approval to publish articles is enabled, the article will need to be approved by a knowledge base manager before the status is set to published.  The option to `unretire` can be found on the details section of an article.
+
+```mermaid
+flowchart LR
+A@{ shape: sm-circ, label: New}
+B@{ shape: doc, label: "Draft"}
+C@{ shape: diamond, label: KB Manager?}
+D@{ shape: doc, label: "Published"}
+E@{ shape: diamond, label: Approval Needed?}
+F@{ shape: doc, label: "Pending Approval"}
+G@{ shape: diamond, label: Approved?}
+I@{ shape: doc, label: "Retired"}
+J@{ shape: trap-t, label: "Unretire" }
+A --> B
+B --> C
+C -- Yes --> D
+C -- No --> E
+D --> I
+E -- No --> D
+E -- Yes --> F
+F --> G
+G -- Yes --> D
+G -- No --> B
+I --> J
+J --> C
+```
+
+
+:::note
+At any point within the lifecycle, an article can be deleted.  This action cannot be reversed.  Deleting will permanently remove the article.
+:::
