@@ -179,3 +179,10 @@ Response and Fix Timer indicators can be displayed on the request list by exposi
 :::info
 The calculated target is achieved by taking the date and time that the timer started and adding the [**target duration**](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#service-level-targets) according to the [**working time calendar's**](/esp-config/customize/working-time-calendars) active time periods.  This target can be further extended based on any time that the request has spent on hold during an active working time period.
 :::
+
+## Request overview popup
+While looking through the request list, an overview pop-up is available that displays some  details about the request without having to view the entire request. 
+
+![Request Pop-up Overview](/_books/servicemanager-user-guide/images/request-list-popup.png)
+
+The pop-up overview lets you see the full details of the request while staying on the request list. The pop-up can be viewed by clicking on the request type icon next to the request's reference number. The reference column must be visible in to access this.
