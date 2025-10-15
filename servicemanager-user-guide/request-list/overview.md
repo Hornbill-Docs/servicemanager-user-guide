@@ -165,14 +165,16 @@ Select your color using the following Service Manager settings. By default, the 
 |`webapp.view.ITSM.serviceDesk.requests.list.lastUpdateByColor.customer`|Color to use as background of Updated By when user is a customer.|
 
 ## Service Level indicators
-Response and Fix Timer indicators can be displayed on the request list by exposing the Service Level column from the column selector.
+Response and Fix Timer indicators can be displayed on the request list by exposing the Service Level Target (SLT) column from the column selector.
+
+![SLT](/_books/servicemanager-user-guide/images/request-list-slt-column.png)
 
 |Color|Label|Description|
 |-|-|-|
-|Clear|Timer not in use|This indicates that either a [response timer](/servicemanager-config/customize/workflows/timer-automation#response-timers) or [resolution timer](/servicemanager-config/customize/workflows/timer-automation#resolution-timers) was not started for this request.|
-|Green|Met|The response or resolution timer was stopped before the calculated target was reached.|
+|Clear|Not in use|This indicates that either a [response timer](/servicemanager-config/customize/workflows/timer-automation#response-timers) or [resolution timer](/servicemanager-config/customize/workflows/timer-automation#resolution-timers) was not started for this request.|
+|Green|Target Met|The response or resolution timer was stopped before the calculated target was reached.|
 |Blue|Ongoing|The response or resolution timer is still running and the calculated target has not been reached yet.|
-|Red|Breached and still open|The respsonse or resolution timer is still running and the calculated target has passed.|
+|Red|Target Missed and still open|The respsonse or resolution timer is still running and the calculated target has passed.|
 
 :::info
 The calculated target is achieved by taking the date and time that the timer started and adding the [**target duration**](/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels#service-level-targets) according to the [**working time calendar's**](/esp-config/customize/working-time-calendars) active time periods.  This target can be further extended based on any time that the request has spent on hold during an active working time period.
