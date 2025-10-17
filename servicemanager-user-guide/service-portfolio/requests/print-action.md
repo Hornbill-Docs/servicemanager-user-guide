@@ -1,7 +1,10 @@
 # Print
-The Print Action within a request provides the facility to print all or selectable details of the request.
+The Print option within a request provides the facility to print all or selectable details of the request. This option can be accessed from the request menu located in the top right of the request form.
 
+![Print Action](/_books/servicemanager-user-guide/images/request-print-action.png)
 ## Options
+
+
 Choose which details of the request you wish to print:
 
 * **Customer Details / Raised By**<br>Depending on the request type and if a customer has been associated with a request, this section will show the details of either the customer or the person who raised the request.
