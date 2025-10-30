@@ -9,24 +9,6 @@ The goal of a service is to deliver value to customers and employees through a v
 ## Planning your service catalog
 The starting point to building a service catalog is to identify the services that are being offered. This could vary from a single service that offers IT help to users through self-serve, chat, and request management, to a large service catalog offering services across many different areas of the business.
 
-
-## Supporting teams
-The Supporting Teams feature is used to assign the service desk teams who will support the service. Each supporting team has the right to view and manage requests for the service. When a service is first created, it is supported by all service desk teams. Once one or more teams have been allocated to a service, only those teams have access to the service.
-
-Only analysts who belong to those teams are able to view and manage requests made against the service.
-
-Members of supporting teams can:
-
-* View all requests raised against the service. Navigate to **Request list > Filters > All My Services**.
-* Be assigned a request raised against the service from Intelligent Capture assignment forms, request forms, and multi-select assignment options on the Request List view.
-* Assign or reassign a request to another team or analyst in a team (as long as the team or analyst that supports the service).
-* Using the global search bar, see results for requests that are logged against services their teams support, or requests that are assigned to them, their teams, or where they have been added as members to the requests.
-
-### Filtering the list of services displayed
-Optionally, you can filter the list of services that are displayed on the Intelligent Capture > Services form. This could be to only display those services that belong to the customer they are logging the request for. You could also do this to display only those services the analyst supports (based on being a member of a team that supports one or more services). This could be useful, for example, if you only want the IT team to see the services they support, and equally you want the HR team to only see the services they support, when raising requests via Intelligent Capture.
-
-To filter the list of services displayed, Hornbill administrators can turn on the [`servicemanager.progressiveCapture.servicedetails.enableSupportVisibility` setting](/servicemanager-config/advanced-tools-and-settings/application-settings#service-manager-forms), which is off by default.
-
 ## Subscribers
 Subscribers are the people who consume the service. You can subscribe customers to a service based on various organization groups. By default, subscription settings allow all customers to use the service.
 

@@ -52,18 +52,22 @@ If the Service will be visible on the Employee, Customer and Service Portals for
 The Icon which will be used to represent the service on the Service and Customer Portals for the subscribers to this service
 
 ### Owner
-Each Service allows for an individual owner to be assigned. Being allocated as an owner offers some additional controls to how other Services Managers interact with the service.
+Each Service requires an owner.  When a service is first created, it automatically allocates the creator of the service as the owner. 
+* Only the owner can change the owner to another user.
+* Only the owner can change the Service Access option between `Private` and `Open`.
+* When selecting a new owner, only users that have the *[Services Manager](/servicemanager-config/setup/service-manager-roles#services)* role will be available
 
-* When a service has no owner, any user with the Services Manager role can set an owner
-* Only the owner can change the owner to another user once the owner has been set
-* Only the owner can change the Access option between Private and Open
-* When selecting an owner, only users that have the Services Manager role will be available
+### Service Access
+The Service Access option allows the [owner](#owner) of a service to control who can modify the service details and configuration by using the options `Open` or `Private`.
 
-### Access
-The Access option allows an owner of a service to control who can see and update information for the selected service by using the options of Open or Private.
+![Service Access Options](/_books/servicemanager-user-guide/images/service-access-option.png)
 
-* **Open**<br>All users with the role of Services Manager can update and manage the details and other options within a service excluding the removing or changing an existing Service Owner and setting the Access. The Service will be visible in the Services List to all users with the Services Manager role. Members of a team that supports the service will be able to add and update FAQs, Bulletins, and the Operational Status.
-* **Private**<br>This restricts the visibility in the Services List to just the owner and the members of the teams that support the service who have the Services Manager role. Only the owner will have the right to modify the service details and configuration. Members of a team that supports the service will be able to add and update FAQs, Bulletins, and the Operational Status. Only the owner can add or remove Supporting Teams and only the owner can add or remove subscriptions
+* **Open**<br>Users with the *Services Manager* role who have [visibility of the service](/servicemanager-user-guide/service-portfolio/overview#service-visibility) can update and manage the details and configuration, excluding the ability to change the owner and the service access option. 
+* **Private**<br>Users with the *Services Manager* role who have [visibility of the service](/servicemanager-user-guide/service-portfolio/overview#service-visibility) are limited from making configuration changes. They can only add and update FAQs, bulletins, and the operational status. This allows a service owner to maintain full control of the service.
+    
+:::tip
+A user that is a member of [a team that support the service](#supporting-teams), but doesn't have the *Services Manager* role, will have limited access to the details of the service when accessed from a request or the request list. They can update FAQs, bulletins, and the operational status. 
+:::
 
 ### Activities
 The Activities panel lets you create and managed tasks and activities against this service. This can be used for planning updates to any aspect of the service such as updating a BPM workflow or Progressive Capture.
@@ -133,7 +137,21 @@ It is possible to associate one or more Corporate Service Level Agreements to ea
 Use the Manage Rules options to determine which Service Level agreement is invoked under different conditions when raising requests against a Service.
 
 ## Supporting Teams
-The Supporting Teams feature is used to assign the Service Desk teams who will be supporting this service. Supporting teams will have the rights to view and manage requests for this service.
+The Supporting Teams feature is used to assign dedicated [service desk teams](/servicemanager-config/administration/service-desk) that will support the service. Each supporting team has the right to view and manage requests for the service. When a service is first created, it is supported by all service desk teams. Once one or more dedicated teams have been allocated to a service, only those teams can see and manage the requests for that service.
+
+![Supporting Teams](/_books/servicemanager-user-guide/images/service-supporting-teams.png)
+
+#### Members of supporting teams can:
+* View all requests raised against the service. Navigate to **Request list > Filters > All My Services**.
+* Be assigned a request raised against the service from Intelligent Capture assignment forms, request forms, and multi-select assignment options on the Request List view.
+* Assign or reassign a request to another team or analyst in a team (as long as the team or analyst that supports the service).
+* Using the global search bar, see results for requests that are logged against services their teams support, or requests that are assigned to them, their teams, or where they have been added as members to the requests.
+
+#### Filtering the list of services displayed
+Optionally, you can filter the list of services that are displayed on the Intelligent Capture > Services form. This could be to only display those services that belong to the customer they are logging the request for. You could also do this to display only those services the analyst supports (based on being a member of a team that supports one or more services). This could be useful, for example, if you only want the IT team to see the services they support, and equally you want the HR team to only see the services they support, when raising requests via Intelligent Capture.
+
+To filter the list of services displayed, Hornbill administrators can turn on the [`servicemanager.progressiveCapture.servicedetails.enableSupportVisibility` setting](/servicemanager-config/advanced-tools-and-settings/application-settings#service-manager-forms), which is off by default.
+
 
 ## Subscribers
 It is possible to subscribe customers to a service based on various organization groups. The default position for a service is that all customers will be entitled to use the Service.
