@@ -13,8 +13,8 @@ The portfolio consists of services in various stages, ranging from pipeline to r
 When viewing the service portfolio, the services displayed in the list are limited by ownership and by the membership of the [teams that support the service](/servicemanager-user-guide/service-portfolio/services/service-details#supporting-teams).
 
 * **Service owner**. The [service owner](/servicemanager-user-guide/service-portfolio/services/service-details#owner) can see all the services they own.
-* **A service without dedicated support teams**. A user with the *[Services Manager](/servicemanager-config/setup/service-manager-roles#services)* role can see any service that doesn't have dedicated [support teams](/servicemanager-user-guide/service-portfolio/services/service-details#supporting-teams). 
-* **A service with one or more dedicated support teams**. A user with the *[Services Manager](/servicemanager-config/setup/service-manager-roles#services)* role can only see the services where they are a member of one of the dedicated [support teams](/servicemanager-user-guide/service-portfolio/services/service-details#supporting-teams) for that service.
+* **A service without dedicated supporting teams**. A user with the *[Services Manager](/servicemanager-config/setup/service-manager-roles#services)* role can see any service that doesn't have dedicated [support teams](/servicemanager-user-guide/service-portfolio/services/service-details#supporting-teams). 
+* **A service with one or more dedicated supporting teams**. A user with the *[Services Manager](/servicemanager-config/setup/service-manager-roles#services)* role can only see the services where they are a member of one of the dedicated [support teams](/servicemanager-user-guide/service-portfolio/services/service-details#supporting-teams) for that service.
 
 ## Service Catalog
 The Service Catalog contains services that are active and available for employees and customers to consume.  These services can be accessed through the Customer and Employee portals.
