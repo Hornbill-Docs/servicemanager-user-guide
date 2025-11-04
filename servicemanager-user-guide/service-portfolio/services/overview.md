@@ -6,8 +6,13 @@ keywords: progressive capture
 # Services
 The goal of a service is to deliver value to customers and employees through a variety of mechanisms.
 
-## Planning your service catalog
-The starting point to building a service catalog is to identify the services that are being offered. This could vary from a single service that offers IT help to users through self-serve, chat, and request management, to a large service catalog offering services across many different areas of the business.
+* Communications between the service desk and the customers.
+* Incident reporting and management.
+* Request fulfillment.
+* Service availability.
+* Continual service improvements.
+* Service level agreements (SLAs).
+* Self-service access through portals.
 
 ## Subscribers
 Subscribers are the people who consume the service. You can subscribe customers to a service based on various organization groups. By default, subscription settings allow all customers to use the service.
