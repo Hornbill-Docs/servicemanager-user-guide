@@ -12,6 +12,12 @@
       "url": "/servicemanager-user-guide/service-portfolio/service-level-agreements/automation",
       "location": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels",
       "code": 301
+    },
+    { 
+      "url": "/servicemanager-user-guide/asset-management/upload-assets",
+      "location": "//servicemanager-config/assets/upload-assets",
+      "code": 301,
+      "skip_location_validation": true
     }
   ]
 }
