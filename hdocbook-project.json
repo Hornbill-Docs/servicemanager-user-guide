@@ -15,7 +15,7 @@
     },
     { 
       "url": "/servicemanager-user-guide/asset-management/upload-assets",
-      "location": "//servicemanager-config/assets/upload-assets",
+      "location": "/servicemanager-config/assets/upload-assets",
       "code": 301,
       "skip_location_validation": true
     }
