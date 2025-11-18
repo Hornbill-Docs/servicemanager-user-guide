@@ -1,4 +1,4 @@
-# Print
+# Printing a request
 The Print option within a request provides the facility to print all or selectable details of the request. This option can be accessed from the request menu located in the top right of the request form.
 
 ![Print Action](/_books/servicemanager-user-guide/images/request-print-action.png)
