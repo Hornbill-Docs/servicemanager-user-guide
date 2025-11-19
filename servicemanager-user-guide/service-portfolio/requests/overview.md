@@ -63,7 +63,15 @@ The name of the service level that has been assigned to this request.
 
 ### Substatus and On-hold
 ##### On-hold
-When a request does not have any substatuses defined, there will be an option to simply place the request on-hold.  When a request is placed on-hold, any service level timers are paused unti the request is taken off-hold.
+
+When a request does not have any substatuses defined, there will be an option to simply place the request on-hold.  When a request is placed on-hold, any service level timers are paused until the request is taken off-hold.
+
+![On-hold button](/_books/servicemanager-user-guide/images/request-on-hold-button.png)
+
+After clicking on the `Place On-Hold` button, options include
+* The Pause Until Date/Time when the request will automatically come off-hold.
+* The reason for placing the request on-hold.
+* The timeline visibility (Team or Customer).
 
 ![On-hold Options](/_books/servicemanager-user-guide/images/on-hold-options.png)
 
