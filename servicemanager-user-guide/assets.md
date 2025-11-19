@@ -1,5 +1,6 @@
 ---
 layout: article-toc
+draft: true
 ---
 # Manage Assets
 The Manage Assets feature lets you add, update, and remove assets. You do this within an asset list, where you can search for assets, then open and view them.
