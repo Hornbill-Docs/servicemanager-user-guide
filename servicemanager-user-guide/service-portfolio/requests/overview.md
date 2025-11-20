@@ -5,6 +5,9 @@ This document covers the main sections of the different types of requests.
 
 ## Title Bar
 The title bar extends across the top of a request form, containing several different elements.
+
+![Request Title Bar](/_books/servicemanager-user-guide/images/request-title-bar.png)
+
 #### Request ID
 The request ID is an automatically generated, unique identifier for the request.  The default format for this identifier is a two-letter abbreviation of the type of request followed by eight digits.
 * IN - Incident record
@@ -22,10 +25,18 @@ Custom request IDs can be constructed using [**Auto Values**](/esp-config/advanc
 The subtitle, located directly below the ruquest ID, is taken from the summary field on the request.  Providing a short but descriptive summary can add value throughout Service Manager as this is used in a wide variaty of places to help identify the request.
 
 #### Custom Buttons
-The [custom buttons](/servicemanager-user-guide/service-portfolio/requests/request-custom-buttons) are a series of actions that can be defined by a Service Manager administrator.  These custom buttons can open a URL, display a pop-up with an embedded URL, or run an automated workflow known as an [Auto Task](/servicemanager-config/customize/service-manager-auto-tasks). 
+The [custom buttons](/servicemanager-user-guide/service-portfolio/requests/request-custom-buttons) are a series of actions that can be defined by a Service Manager administrator.  These custom buttons can open a URL, display a pop-up with an embedded URL, or run an automated workflow known as an [Auto Task](/servicemanager-config/customize/service-manager-auto-tasks).
+
+The display of the custom buttons will vary depending on the size of the browser window.  Smaller windows will place all the custom buttons under a single drop-down option.
 
 #### Raise New
 The raise new button provides two main paths for raising a request.  The main button can be clicked on to start the process of raising a request when the request type hasn't been decided on yet. Alternatively, by clicking on the drop-down arrow, a request type can be selected.
+
+![Raise New](/_books/servicemanager-user-guide/images/request-raise-new-button.png)
+
+:::note
+The options available on the Raise New button may vary depending on the how this has been configured in the [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#raise-new-button).
+:::
 
 #### Options Menu
 * **Copy Request**.
