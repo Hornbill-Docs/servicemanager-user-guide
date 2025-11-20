@@ -18,11 +18,11 @@ The request ID is an automatically generated, unique identifier for the request.
 * RM - Release managment record
 
 :::tip
-Custom request IDs can be constructed using [**Auto Values**](/esp-config/advanced-tools-and-settings/auto-values)
+Custom request IDs can be constructed using [**Auto Values**](/esp-config/advanced-tools-and-settings/auto-values) which can provide a different format from the default.
 :::
 
 #### Subtitle
-The subtitle, located directly below the ruquest ID, is taken from the summary field on the request.  Providing a short but descriptive summary can add value throughout Service Manager as this is used in a wide variaty of places to help identify the request.
+The subtitle, located directly below the request ID, is taken from the summary field on the request.  Providing a short but descriptive summary can add value throughout Service Manager as this is used in a wide variety of places to help identify the request.
 
 #### Custom Buttons
 The [custom buttons](/servicemanager-user-guide/service-portfolio/requests/request-custom-buttons) are a series of actions that can be defined by a Service Manager administrator.  These custom buttons can open a URL, display a pop-up with an embedded URL, or run an automated workflow known as an [Auto Task](/servicemanager-config/customize/service-manager-auto-tasks).
@@ -52,7 +52,10 @@ The [print option](/servicemanager-user-guide/service-portfolio/requests/print-a
 The workflow tracker highlights the stages and checkpoints that the request will work through.
 
 ## Request Actions
-The [request actions](/servicemanager-user-guide/service-portfolio/requests/request-actions) are a series of updates or actions that can be applied to a request.  The available actions are defined by the service which the request was raised under.
+The [request actions](/servicemanager-user-guide/service-portfolio/requests/request-actions) are a series of updates or actions that can be applied to a request.  The available actions are defined by the service under which the request was raised.
+
+![Request Actions](/_books/servicemanager-user-guide/service-portfolio/requests/images/action-bar.png)
+
 
 ## Information panel
 The title and color at the top of the panel help identify the request type.
