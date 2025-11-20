@@ -35,7 +35,7 @@ The raise new button provides two main paths for raising a request.  The main bu
 ![Raise New](/_books/servicemanager-user-guide/images/request-raise-new-button.png)
 
 :::note
-The options available on the Raise New button may vary depending on the how this has been configured in the [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#raise-new-button).
+The options available on the Raise New button may vary depending on how this has been configured in the [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#raise-new-button).
 :::
 
 #### Options Menu
