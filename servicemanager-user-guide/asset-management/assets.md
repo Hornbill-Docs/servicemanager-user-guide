@@ -4,7 +4,7 @@ draft: false
 ---
 # Manage Assets
 ::: note
-This article is new, to support the preview release of the new Asset Management and its new UI. You can find documentation for the legacy UI [here](/servicemanager-user-guide/asset-management/asset-structure-legacy-doc).
+This article is new, to support the preview release of the new Asset Management and its new UI. You can find documentation for the legacy UI [here](/servicemanager-user-guide/asset-management/manage-assets).
 :::
 The Manage Assets feature lets you add, update, and remove assets. You do this within an asset list, where you can search for assets, then open and view them.
 
@@ -23,7 +23,7 @@ This section describes the actions you can take using the toolbar in the assets 
 ![Toolbar in assets list](/_books/servicemanager-user-guide/asset-management/images/toolbar-in-assets-list.png)
 * **Quick filter.** Use this filter to quickly focus on those asset records that are important to you. The filter operates on the asset records in the current list and returns records where a match is found in any of the asset attributes.
 
-    To search on the [class-specific attributes](/servicemanager-config/asset-management/assets/asset-structure#asset-classes) of an asset record, you must be viewing a class-specific list. The quick filter searches all asset attributes regardless of whether the attribute is displayed in your list view. The filter does not operate on attributes containing a date-time value, state, location type, acquisition method, or depreciation method. (You can, however, sort on these columns to identify the records of interest).
+    To search on the [class-specific attributes](/servicemanager-config/assets/asset-structure#asset-classes) of an asset record, you must be viewing a class-specific list. The quick filter searches all asset attributes regardless of whether the attribute is displayed in your list view. The filter does not operate on attributes containing a date-time value, state, location type, acquisition method, or depreciation method. (You can, however, sort on these columns to identify the records of interest).
 
 * **Advanced search.** Click **Advanced** (the search button to the right of the quick filter) to filter assets based on one or more conditions that you define. <!--Before adding your first condition, make sure you select the appropriate asset class from the class selector. -->Once you start adding the first condition, the asset class will be locked to the current asset class and the matching fields for that asset class will be available when adding conditions. Once conditions are set, use the quick filter to filter the results, or save the search as one of your views.
 <!--* **Class selector.** Switch between Asset Classes or All Assets by selecting the relevant option. (Note that the list columns will change to reflect those configured for each asset class).-->
