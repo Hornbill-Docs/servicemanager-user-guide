@@ -1,31 +1,17 @@
 ---
 layout: article-toc
-draft: true
+draft: false
 ---
 # Manage Assets
+::: note
+This article is new, to support the preview release of the new Asset Management and its new UI. You can find documentation for the legacy UI [here](/servicemanager-user-guide/asset-management/asset-structure-legacy-doc).
+:::
 The Manage Assets feature lets you add, update, and remove assets. You do this within an asset list, where you can search for assets, then open and view them.
 
 You can also copy asset records, create asset records in a batch, and apply changes to asset records in a batch. 
 
 ## Assets landing page
-<!--When you first select the Manage Assets option, a tiled Assets landing page is displayed, showing the different available asset classes. Clicking on any of the tiles  displays an asset list with all the assets belonging to that class.-->
-
 To access the Manage Assets feature, navigate to **Service Management > Assets**. A tiled Assets dashboard is displayed, showing the available asset types. Clicking on any of the tiles displays an asset list with all the assets belonging to that type.
-
-<!--The available classes include:
-
-* **All Assets.** All assets, independent of their class. The available information in this view is generic to all asset classes.
-* **Computer Peripherals.** Keyboards, monitors, and other types of computer peripherals.
-* **Computer Systems.** Servers, desktop computers, and other types of computer systems.
-* **General.** Assets types that don't fall under the standard classes can be listed here. This can be things like desks and other office equipment.
-* **Mobile Devices.** Assets such as smartphones and tablets.
-* **Network Devices.** Routers, switches, physical firewalls, and other network devices.
-* **Printers.** Laser printers, inkjet printers, scanners, and fax machines.
-* **Software.** Software applications.
-* **Telecoms.** Phone systems, desk phones, and other communication assets.
-* **Systems.** Business information such as ownership and authorizing contacts.
-* **Data Processing Record.** Record of Processing Activity (ROPA).-->
-
 
 ## Assets list
 The Assets list lets you access all the available assets. <!--The following features are available to help you locate your assets and view and export information about these assets.-->
@@ -37,28 +23,27 @@ This section describes the actions you can take using the toolbar in the assets 
 ![Toolbar in assets list](/_books/servicemanager-user-guide/asset-management/images/toolbar-in-assets-list.png)
 * **Quick filter.** Use this filter to quickly focus on those asset records that are important to you. The filter operates on the asset records in the current list and returns records where a match is found in any of the asset attributes.
 
-    To search on the class-specific attributes of an asset record, you must be viewing a class-specific list. The quick filter searches all asset attributes regardless of whether the attribute is displayed in your list view. The filter does not operate on attributes containing a date-time value, state, location type, acquisition method, or depreciation method. (You can, however, sort on these columns to identify the records of interest).
+    To search on the [class-specific attributes](/servicemanager-config/asset-management/assets/asset-structure#asset-classes) of an asset record, you must be viewing a class-specific list. The quick filter searches all asset attributes regardless of whether the attribute is displayed in your list view. The filter does not operate on attributes containing a date-time value, state, location type, acquisition method, or depreciation method. (You can, however, sort on these columns to identify the records of interest).
 
 * **Advanced search.** Click **Advanced** (the search button to the right of the quick filter) to filter assets based on one or more conditions that you define. <!--Before adding your first condition, make sure you select the appropriate asset class from the class selector. -->Once you start adding the first condition, the asset class will be locked to the current asset class and the matching fields for that asset class will be available when adding conditions. Once conditions are set, use the quick filter to filter the results, or save the search as one of your views.
 <!--* **Class selector.** Switch between Asset Classes or All Assets by selecting the relevant option. (Note that the list columns will change to reflect those configured for each asset class).-->
-* **Add assets manually.** See [Creating assets manually](/servicemanager-user-guide/assets#creating-assets-manually).
-* **Delete assets.** See [Deleting assets](/servicemanager-user-guide/assets#deleting-assets)
-* **Copy assets.** See [Copying assets](/servicemanager-user-guide/assets#copying-assets).
-    
-* **Bulk update.** See [Doing bulk updates](/servicemanager-user-guide/assets#doing-bulk-updates).
-    
+* **Create assets.** See [Creating assets manually](/servicemanager-user-guide/asset-management/assets#creating-assets-manually).
+* **Delete assets.** See [Deleting assets](/servicemanager-user-guide/asset-management/assets#deleting-assets).
+* **Copy assets.** See [Copying assets](/servicemanager-user-guide/asset-management/assets#copying-assets).
+* **Bulk update.** See [Doing bulk updates](/servicemanager-user-guide/asset-management/assets#doing-bulk-updates).
 * **Reload list.** To manually refresh the assets list, click **Reload list**.
-* **Views.** See [Adding views of assets](/servicemanager-user-guide/assets#adding-views-of-assets).
-* **Export List.** See [Exporting the assets list](/servicemanager-user-guide/assets#exporting-the-assets-list).
-<!--* **Home View.** Click **Home View** > **Set current view as my Home** to create a preferred or default view of your Assets List. Your Home View is displayed when you first visit your Assets List, and with a single click you can return to your Home View from any other filter or view that you have applied.-->
-* **Table Configuration.** See [Displaying columns in the assets list](/servicemanager-user-guide/assets#displaying-columns-in-the-assets-list).
+* **Views.** See [Adding views of assets](/servicemanager-user-guide/asset-management/assets#adding-views-of-assets).
+* **Export List.** See [Exporting the assets list](/servicemanager-user-guide/asset-management/assets#exporting-the-assets-list).<!--* **Home View.** Click **Home View** > **Set current view as my Home** to create a preferred or default view of your Assets List. Your Home View is displayed when you first visit your Assets List, and with a single click you can return to your Home View from any other filter or view that you have applied.-->
+* **Table Configuration.** See [Displaying columns in the assets list](/servicemanager-user-guide/asset-management/assets#displaying-columns-in-the-assets-list).
 
 ### List features
 * **Column sorting.** On each column header, you can re-order the list by clicking the column name.
 * **View an asset.** Each asset in the list contains links to open the asset details and the type details.
 
 ## Creating assets manually
-You can add an individual asset, or you can add assets in bulk by configuring one new asset and creating copies in the same batch. If you are creating assets in bulk, the batch will include one new asset (per your configuration in the New Asset dialog), plus copies of that asset.
+You can add an asset individually, or you can add assets in bulk.
+
+If you are creating assets in bulk, the batch will include one new asset (per your configuration in the New Asset dialog), plus copies of that asset.
 
 ![Creating assets in bulk](/_books/servicemanager-user-guide/asset-management/images/bulk-create-asset.png)
 
@@ -67,9 +52,9 @@ You can add an individual asset, or you can add assets in bulk by configuring on
 1. In the New Asset dialog, from the dropdown, select a partition to create the asset(s) in, or keep the default (Un-partitioned Assets).
 1. From the dropdown, select the asset type of the asset(s) you want to create.
 1. Enter a name for the asset(s).
-1. If you are creating a single asset, click **Create & Open**.
-1. If you are creating multiple assets, click **Create & Open > Bulk create asset**.
-1. If you are creating multiple assets, in the Bulk Create Asset dialog, enter the number of copies you want.
+    * If you are creating a single asset, click **Create & Open**.
+    * If you are creating multiple assets, click **Create & Open > Bulk create asset**.
+    * If you are creating multiple assets, in the Bulk Create Asset dialog, enter the number of copies you want.
 1. Click **Create**.
 1. In the dialog, when you receive confirmation, click **Close**.
 
@@ -98,19 +83,21 @@ The **Copy** button is invisible until one and only one asset has been selected 
 1.	When you are finished reading the confirmation message, click **Close**.
 
 ## Doing bulk updates
-You can make changes to multiple asset records at once.
+You can make changes to multiple asset records at once. You can update shared asset fields across assets of any type from the asset list.
+
+* **Common (shared) fields.** These can be updated across mixed asset types.
+* **Class-specific fields.** These can be updated when all selected assets share the same class.
+
 ![Creating assets in bulk](/_books/servicemanager-user-guide/asset-management/images/bulk-update-asset.png)
 
 **To do a bulk update:**
 1.	In the Assets list, select the checkbox for the assets you want to update, or to select the whole list, select the **Select All** checkbox at the top. 
-
-    If the assets you are updating all belong to the same asset class and asset type, then you can bulk update all the common fields and class-type fields. <!--What happens when they’re not of the same class and type?-->
 1.	Make changes as necessary.
 
     1.	From the Asset Bulk Update dialog, from the dropdown, select one or more fields that you want to change. For each one, click **Add Field**.
-    1.	When you are finished making changes to fields, run the update by clicking one of the two **Update** buttons.
-    *	**Batch Update (Fast).** This is a raw SQL statement: update these columns where assets match this.
-    *	**Audited Update (Slow).** This updates assets one at a time,creating an audit history record for the asset.
+    1.	When you are finished making changes to fields, run the update by clicking one of the two **Update** buttons:
+        * **Batch Update.** This update is very fast. It performs a direct database write.
+        * **Audited Update.** This is an API update that is slightly slower, but still fast. This one updates assets one at a time, creating a full audit history, including who made the change, when it occurred, and what data was modified.
 
 ## Adding views of assets
 You can define and store a number of different views of the assets.
@@ -118,7 +105,8 @@ You can define and store a number of different views of the assets.
 **To define views of assets:**
 1. Click **Views > Add New**.
 1. In the Create New View dialog, in the Criteria tab, you can specify conditions based on information held in the asset records.
-1. In the Columns tab, select the columns you want to show in your view. 1. When finished, click **Save**.
+1. In the Columns tab, select the columns you want to show in your view. 
+1. When finished, click **Save**.
     
 Now you can quickly access particular sets of important data by selecting from your list of defined views.
 
