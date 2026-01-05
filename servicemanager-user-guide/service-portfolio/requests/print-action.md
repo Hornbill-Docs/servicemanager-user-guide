@@ -10,6 +10,9 @@ Choose which details of the request you wish to print:
 * **Customer Details / Raised By**<br>Depending on the request type and if a customer has been associated with a request, this section will show the details of either the customer or the person who raised the request.
 * **Information**<br>When selected, an additional button is displayed on the form that lets you define what information you would like to include on the printout. This includes Team, Owner, Logged on, Status, Priority, Service, Service Level Agreement, Service Level, Response Target, and Resolution Target.
 * **Details**<br>Selecting this will include both the Summary and Description of the request in the Printout.
+* **Assets**. This option is available if assets have been linked to the request.  This will include the name, type, and class of asset.
+* **Linked Services**. This option is available if additional services have been linked to the request using the [Linked Services Action](/servicemanager-user-guide/service-portfolio/requests/linked-services-action).
+* **Connections**.  This option is available if connections have been added to the request using the [Connections Action](/servicemanager-user-guide/service-portfolio/requests/connection-action). Each connection will include the name of the connection along with their contact details.
 * **Questions**<br>If selected and if the Questions section is available, this section will be included on the printout.
 * **Timeline**<br>If Timeline is selected, an additional filter is available to decide which timeline updates you which to print, you the Timeline Options to set your preferences. This includes only printing updates that are set with the visibility of Customer.
 

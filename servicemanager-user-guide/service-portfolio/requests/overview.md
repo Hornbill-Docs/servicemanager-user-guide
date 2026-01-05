@@ -90,7 +90,7 @@ After clicking on the `Place On-Hold` button, options include
 ![On-hold Options](/_books/servicemanager-user-guide/images/on-hold-options.png)
 
 :::tip
-When the visibility option is set to `Customer`, an additional option becomes available that allows for an [email notification](/servicemanager-config/advanced-tools-and-settings/application-settings#email-request-on-hold-update-to-customer) to be sent to the customer.
+When the timeline visibility is set to **Customer**, an **Email Customer** option becomes available.  Selecting this option will send a **[predefined email notification that is based on a set email template](/servicemanager-config/advanced-tools-and-settings/application-settings#email-request-on-hold-update-to-customer)**.
 :::
 
 ##### Substatuses
