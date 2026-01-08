@@ -108,5 +108,11 @@ The activities panel consists of tasks and authorizations that have been created
 ## Members
 There may be times when you need to bring in some expertise from outside of the team to help with a request.  The Members feature can be used to add other Service Manager users and provide them with full access to the request.  
 
+## Email Contacts
+Email Contacts are recipients that can be associated with individual Service Manager requests. They are designed to improve speed and consistency when sending emails from a request by ensuring that relevant recipients are automatically included in communications.
+
+Email Contacts reduce the need for analysts to manually add the same recipients each time an email is sent from a request.
+
+
 ## Timeline
 The Timeline is an interactive timeline of events and discussions about the request.  
