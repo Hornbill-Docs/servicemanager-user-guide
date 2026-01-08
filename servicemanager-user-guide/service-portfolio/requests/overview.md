@@ -109,7 +109,7 @@ The activities panel consists of tasks and authorizations that have been created
 There may be times when you need to bring in some expertise from outside of the team to help with a request.  The Members feature can be used to add other Service Manager users and provide them with full access to the request.  
 
 ## Email Contacts
-Email Contacts contains a list of recipients that are associated with a Service Manager requests. They are designed to improve speed and consistency when sending emails from a request by ensuring that relevant recipients are automatically included in communications.
+[Email Contacts](/servicemanager-user-guide/service-portfolio/requests/request-email-contacts) contains a list of recipients that are associated with a request. They are designed to improve speed and consistency when sending emails from a request by ensuring that relevant recipients are automatically included in communications.
 
 ![Email Contacts](/_books/servicemanager-user-guide/images/request-email-contacts.png)
 
