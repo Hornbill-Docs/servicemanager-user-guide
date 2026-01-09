@@ -1,10 +1,16 @@
 # Email Contacts
-Email Contacts contains a list of recipients that are associated with a Service Manager request. They are designed to improve speed and consistency when sending emails from a request by ensuring that relevant recipients are automatically included in communications.
+Email Contacts contains a list of recipients that are associated with a Service Manager request. They are designed to improve speed and consistency when sending emails from a request by ensuring that the relevant recipients are automatically included in communications.
 
 ![Email Contacts](/_books/servicemanager-user-guide/images/request-email-contacts.png)
 
+## How Email Contacts work
+When a request is either manually or automatically raised from an email, if there are additional recipients in the To or Cc fields, they are automatically saved to the Email Contacts list. These recipients can then be used in future email communications when using the [Email Action](/servicemanager-user-guide/service-portfolio/requests/email-action) or when replying to an email in the request's timeline.  The recipients in the Email Contacts list will automatically be added to the To, Cc, or Bcc fields of these outgoing emails.
+
+This feature is particularly useful in environments where support teams and end users rely heavily on email communications. 
+
 ## Access
-The Email Contacts are available to any user who has permission to open and work on a request.
+* The Email Contacts are available to any user who has permission to open and work on a request.
+* A user must have access to a [Shared Mailbox](/esp-config/email/shared-mailboxes#associated-roles).
 
 ## Adding recipients to the Email Contacts
 Email recipients can be added to the Email Contacts in the following ways:
