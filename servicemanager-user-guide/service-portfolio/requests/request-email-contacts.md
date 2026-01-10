@@ -21,7 +21,7 @@ Email recipients can be added to the Email Contacts in the following ways:
 ## Exluding recipients
 Each recipient in the Email Contacts list displays an envelope icon that indicates whether they are automatically included or excluded from outgoing emails, based on the color. 
 * **Green envelope**. Email recipient showing a green envelope will be included in the relevant `To`, `CC`, or `Bcc` field of the outgoing email.
-* **Grey envelope**. Email recipients showing a grey envelop will not be included.
+* **Grey envelope**. Email recipients showing a gray envelop will not be included.
 
 :::note
 Inclution is enabled by default when an email recipient is added.
