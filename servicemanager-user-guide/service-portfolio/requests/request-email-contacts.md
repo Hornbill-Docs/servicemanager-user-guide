@@ -4,12 +4,12 @@ Email Contacts contains a list of recipients that are associated with a Service 
 ![Email Contacts](/_books/servicemanager-user-guide/images/request-email-contacts.png)
 
 ## How Email Contacts work
-When a request is either manually or automatically raised from an email, if there are additional recipients in the To or Cc fields, they are automatically saved to the Email Contacts list. These recipients can then be used in future email communications when using the [Email Action](/servicemanager-user-guide/service-portfolio/requests/email-action) or when replying to an email in the request's timeline.  The recipients in the Email Contacts list will automatically be added to the To, Cc, or Bcc fields of these outgoing emails.
+When a request is either manually or automatically raised from an email, if there are additional recipients in the `To` or `Cc` fields, they are saved to the Email Contacts list. These recipients can then be used in future email communications when using the [Email Action](/servicemanager-user-guide/service-portfolio/requests/email-action) or when replying to an email in the request's timeline.  The recipients in the Email Contacts list will be automatically added to the `To`, `Cc`, or `Bcc` fields of these outgoing emails.
 
 This feature is particularly useful in environments where support teams and end users rely heavily on email communications. 
 
 ## Access
-* The Email Contacts are available to any user who has permission to open and work on a request.
+* This feature is available to any user who has permission to view and work on a request.
 * A user must have access to a [Shared Mailbox](/esp-config/email/shared-mailboxes#associated-roles).
 
 ## Adding recipients to the Email Contacts
@@ -18,17 +18,16 @@ Email recipients can be added to the Email Contacts in the following ways:
 2. **When a request is manually raised from an email**. When a user manually raises a request from an email stored in a [mailbox](/esp-user-guide/email-overview), any additional recipients included in the To or Cc fields will be added as Email Contacts.
 3. **Manually adding Email Contacts**. From an existing request, users can add recipients to the Email Contacts using the plus `+` icon.
 
-## Using Email Contacts
-Each Email Contact has an envelope icon that indicates whether Auto Include is enabled or disabled.
-
-* **Auto Include enabled**. When an analyst selects the Email action on a request, any Email Contact with Auto Include enabled will automatically appear in the relevant To or CC field of the email.
-* **Auto Include disabled**. If Auto Include is disabled for an Email Contact, they will not be automatically added to the email recipients.
+## Exluding recipients
+Each recipient in the Email Contacts list displays an envelope icon that indicates whether they are automatically included or excluded from outgoing emails, based on the color. 
+* **Green envelope**. Email recipient showing a green envelope will be included in the relevant `To`, `CC`, or `Bcc` field of the outgoing email.
+* **Grey envelope**. Email recipients showing a grey envelop will not be included.
 
 :::note
-Auto Include is enabled by default when an email recipient is added.
+Inclution is enabled by default when an email recipient is added.
 :::
 
-The Auto Include setting is request-specific. Any analyst opening the same request will see the same Auto Include configuration, though they can modify it if required.
+Clicking on the envelope icon will toggle the setting between being included or excluded.  Any changes to these settings are stored and will apply to future email communications sent from this request.
 
 ## Editing or Removing Email Contacts
 For each Email Contact, the following actions are available:

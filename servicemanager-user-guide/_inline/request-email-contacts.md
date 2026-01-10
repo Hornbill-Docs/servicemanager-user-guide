@@ -1,2 +1,5 @@
-## Email Contacts
-[Email Contacts](https://docs.hornbill.com//servicemanager-user-guide/servicemanager-user-guide/service-portfolio/requests/request-email-contacts) are recipients that can be associated with individual requests. They are designed to improve speed and consistency when sending emails from a request by ensuring that relevant recipients are included in communications.
+# Email Contacts
+[Email Contacts](https://docs.hornbill.com//servicemanager-user-guide/servicemanager-user-guide/service-portfolio/requests/request-email-contacts) are email recipients that can be associated with individual requests. This is designed to improve speed and consistency when sending emails from a request by ensuring that the relevant recipients are included in communications.
+
+## How Email Contacts work
+When a request is either manually or automatically raised from an email, if there are additional recipients in the To or Cc fields, they are saved to the [Email Contacts](https://docs.hornbill.com//servicemanager-user-guide/servicemanager-user-guide/service-portfolio/requests/request-email-contacts) list. These recipients can then be used in future email communications when using the [Email Action](/servicemanager-user-guide/service-portfolio/requests/email-action) or when replying to an email in the request's timeline.  The recipients in the Email Contacts list will be automatically added to the To, Cc, or Bcc fields of these outgoing emails.
