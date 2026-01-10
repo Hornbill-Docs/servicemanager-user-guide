@@ -23,11 +23,13 @@ Each contact in the list displays an envelope icon that indicates whether they a
 * **Green envelope**. Email contacts showing a green envelope will be included in the relevant `To`, `CC`, or `Bcc` field of the outgoing email.
 * **Grey envelope**. Email contacts showing a gray envelop will not be included.
 
+![Excluding Contacts](/_books/servicemanager-user-guide/images/request-contact-exclude.png)
+
+Clicking on the envelope icon will toggle the setting between being included or excluded.  Any changes to these are saved and will still apply when the request is next viewed.
+
 :::note
 Inclution is enabled by default when a contact is added.
 :::
-
-Clicking on the envelope icon will toggle the setting between being included or excluded.  Any changes to these settings are stored and will apply to future email communications sent from this request.
 
 ## Editing or removing email contacts
 For each email contact, the following actions are available:
