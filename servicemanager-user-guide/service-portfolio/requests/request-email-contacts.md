@@ -1,5 +1,5 @@
 # Email Contacts
-The Email Contacts feature is like an email address book for a request. It contains a list of contacts that can be used with email communications.  This feature is designed to improve speed and consistency when sending emails from a request by ensuring that the relevant recipients are automatically included in communications.
+The Email Contacts feature is like an email address book for a request. It contains a list of contacts that can be used with email communications.  This feature is designed to improve speed and consistency when sending emails from a request by ensuring that the relevant contacts are automatically included in communications.
 
 ![Email Contacts](/_books/servicemanager-user-guide/images/request-email-contacts.png)
 
