@@ -18,7 +18,7 @@ Email contacts can be added in the following ways:
 2. **When a request is manually raised from an email**. When a user manually raises a request from an email stored in a [mailbox](/esp-user-guide/email-overview), any additional recipients included in the To or Cc fields will be added to the Email Contacts.
 3. **Manually adding Email Contacts**. From an existing request, users can add contacts using the plus `+` icon.
 
-## Exluding contacts
+## Excluding contacts
 Each contact in the list displays an envelope icon that indicates whether they are automatically included or excluded from outgoing emails, based on the color. 
 * **Green envelope**. Email contacts showing a green envelope will be included in the relevant `To`, `Cc`, or `Bcc` field of the outgoing email.
 * **Grey envelope**. Email contacts showing a gray envelope will not be included.
