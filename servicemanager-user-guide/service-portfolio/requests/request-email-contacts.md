@@ -6,7 +6,7 @@ The Email Contacts feature is like an email address book for a request. It conta
 This feature is particularly useful in environments where support teams and end users rely heavily on email communications. 
 
 ## How Email Contacts work
-When sending an email from a request using the [Email Action](/servicemanager-user-guide/service-portfolio/requests/email-action) the `To`, `Cc`, and `Bcc` fields are automatically populated with the email contacts. When replying to an email in the request's timeline, the email contacts can be included in the email by using the *Reply to Contacts* option.
+When sending an email from a request using the [Email Action](/servicemanager-user-guide/service-portfolio/requests/email-action) the `To`, `Cc`, and `Bcc` fields are automatically populated with the email contacts. When [replying to an email in the request timeline](/servicemanager-user-guide/service-portfolio/requests/request-timeline#email-posts), the email contacts can be included in the email by using the *Reply to Contacts* option.
 
 ## Access
 * This feature is available to any user who has permission to view and work on a request.
