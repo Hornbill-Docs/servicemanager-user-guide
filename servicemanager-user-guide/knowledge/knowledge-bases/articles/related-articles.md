@@ -1,4 +1,4 @@
-# Releated articles
+# Related articles
 Related articles provide supplemental information linked to a primary article. These related articles can help guide users through continuous reading paths.
 
 ![Related Knowledge Article](/_books/servicemanager-user-guide/images/related-knowledge-article.png)
