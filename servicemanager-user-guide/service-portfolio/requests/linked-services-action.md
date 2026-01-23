@@ -20,4 +20,4 @@ Once services have been linked to a request, you can view and edit their relatio
 * **Remove**<br>Use this option from the drop-down to remove the Service from the request. This action will be audited by a post to the request timeline.
 
 ## Service associated requests
-Once a service has been linked to a request, under the [details of the linked Service](/servicemanager-user-guide/service-portfolio/services/service-details#requests), the linked request can be viewed under the list of associated requests.
+Once a service has been linked to a request, under the [details of the linked Service](/servicemanager-user-guide/service-portfolio/services/overview#requests), the linked request can be viewed under the list of associated requests.

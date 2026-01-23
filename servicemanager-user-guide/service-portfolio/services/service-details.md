@@ -2,168 +2,53 @@
 layout: article-toc
 ---
 # Service Details
-## Details
-The details of a service provides some key values and settings to make a service operational. These options include setting the name, description, status, visibility, and more. Some of this information is mandatory on the creation of a Service so it is important to plan your service before starting.
+The details of a service provide key values and settings necessary to make the service operational. These options include setting the name, description, status, and more. Some of this information is mandatory when creating a service, so it is important to plan your service before starting.
+
+![Service Details](/_books/servicemanager-user-guide/images/service-details-tab.png)
+
 ### Name
-The name of your Service is a simple yet very important aspect of a service. The Service Name is mandatory for the creation of a service. When naming your service, some things to consider are:
-* The name is visible to subscribed customers on the Self Service Portals
-* The name is visible to support staff within Intelligent Capture when using the Services Capture form
-* The name is visible within the Services column of the Request List
-* The name is visible on each request that has been raised for that service
+The name of your service is a simple yet crucial aspect of the service. The service name is mandatory for its creation. When naming your service, consider the following:
+* The name is visible to subscribed customers on the Employee and Customer Portals.
+* The name is visible to support staff within Intelligent Capture when using the Services Capture form.
+* The name is visible within the Services column of the Request List.
+* The name is visible on each request that has been raised for that service.
 * Consider the length of the name and how it may be displayed in these different areas.
 * A unique service name is not enforced so it is possible for two distinct areas of a business to have a service by the same name.
-* If you need to support more than one language for users of the Service, be sure to create different language versions of your Service Name and Description. Users of the Service will see the appropriate one based on the language assigned to their profile (if you provide the translation).
+* If you need to support multiple languages for users of the service, ensure that you create different language versions of the service name and description. Users will see the provided translation version based on the language assigned to their profile.
 
 ### Description
-A brief description of your service can be added to your Service. This allows you to add some additional information to describe the purpose or use of the service. This description is available for customers to read on the Self Service Portals when viewing their service information. It is also available to support staff on the Services Progressive Capture form when raising a request to provide that bit of extra information to make sure they are selecting the correct service.
+You can add a brief description to your service, allowing you to provide additional information about its purpose or use. This description is available for customers to read on both the Employee and Customer Portals when they view their service information. It is also accessible to support staff on the Services Intelligent Capture form, providing extra information to ensure they select the correct service when raising a request.
+
+### Type
+The service types include the options *business* and *technical*. 
+* **Business Services**. A business service has a focus on supporting business users.  These services help businesses run more efficiently, reduce costs, and improve productivity by providing specialized support to essential functions such as IT, accounting, marketing, HR, legal, cleaning, or logistics.
+* **Technical Services**. A technical service is a specialized, often hands-on activity, providing technical knowledge, engineering expertise, or IT infrastructure support to enable business operations, maintenance, or systems functionality. These services include troubleshooting, repairing, installing, and managing technical systems to ensure operational continuity. Technical services are often put in place to underpin and support business services.
 
 ### Category
-Used to group your Services. Select one from the pre-defined list.
+Used to group your services. Select one from the pre-defined list.
 
 :::tip
 The [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) can be modified within the Service Manager configuration. The categories are stored in a [Simple List](/servicemanager-config/setup/service-manager-simple-lists) called `serviceCategories`.
 :::
 
 ### Portfolio Status
-The Service Portfolio Status uses some industry standard conventions for determining the state of the service. These statuses include Pipeline, Catalog, and Retired.
+The Service Portfolio Status employs several industry-standard conventions for determining the state of a service. These statuses include Pipeline, Catalog, and Retired.
 
-* **Pipeline**<br>This status is generally used as a planning state. While the status is Pipeline, the service will remain hidden from customers and support staff to allow for planning and setup of the service.
-* **Catalog**<br>Once all of the required configuration and setup is complete a service status can be set to Catalog. Once in the status of Catalog, the service will be live and available for selection by support staff when raising a request on the Services form in Progressive Capture, or for subscribers of the Service raising requests via the Self Service Portals.
-* **Retired**<br>When a service is no longer required the status can be changed to Retired. This will remove the service from support staff and subscribers of the service.
+* **Pipeline**<br>This status is typically used as a planning phase. While the status is set to "Pipeline", the service will remain hidden from customers and support staff to allow for its planning and setup.
+* **Catalog**<br>Once all the required configurations and setup are complete, a service status can be set to "Catalog". Once the status is set to "Catalog," the service will be live and available for selection by support staff when raising a request on the Services form in Intelligent Capture. It will also be available to subscribers of the service who are raising requests via the Employee or Customer Portals.
+* **Retired**<br>When a service is no longer needed, its status can be changed to "retired." This action will remove the service from the support staff and its subscribers.
 
 ### Employee Portal
-These options are used with the Employee Portal. These options will be needed for publishing your services to the Employee Portal.
+These options are needed for publishing your services to the Employee Portal.
 
 * **Service Domain**<br>Associated this service to a Service Domain. Domains are used for grouping related services that fall under areas such as IT, HR, and Facilities.
 * **Service Domain Category**<br>Select a category for this service. Service Domain Categories provide a category option for all applications that publish services to this Domain.
 
 ### Default Mailbox
-Define which mailbox any manually sent emails will be sent from on requests logged against the service
-* If no mailbox is selected then manually send emails will be sent from the mailbox selected by the agent sending the email on the request raised against the service
-* Agents need to have the rights to send emails from the default service, otherwise it will default to a mailbox the agent does have the rights to send from
-* Agents can manually override which mailbox emails are sent from when sending emails manually from a request logged against the service if they have the rights to more than one mailbox
-
-### Portal Visibility
-If the Service will be visible on the Employee, Customer and Service Portals for subscribed users.
-* **Visible**<br>Subscribed users will see, and have access to their requests raised against the Service, even if they you have restricted their ability to raise tickets from the portals for this Service.
-* **Hidden**<br>Subscribed users will not see the Service on the Customer or Service portal - Useful when defining a technical Service rather than a business Service.
+Define which mailbox any manually sent emails will be sent from on requests logged against the service.
+* If no mailbox is selected then manually send emails will be sent from the mailbox selected by the agent sending the email on the request raised against the service.
+* Agents need to have the rights to send emails from the default service, otherwise it will default to a mailbox the agent does have the rights to send from.
+* Agents can manually override which mailbox emails are sent from when sending emails manually from a request logged against the service if they have the rights to more than one mailbox.
 
 ### Service Icon
-The Icon which will be used to represent the service on the Service and Customer Portals for the subscribers to this service
-
-### Owner
-Each Service requires an owner.  When a service is first created, it automatically allocates the creator of the service as the owner. 
-* Only the owner can change the owner to another user.
-* Only the owner can change the Service Access option between `Private` and `Open`.
-* When selecting a new owner, only users that have the *[Services Manager](/servicemanager-config/setup/service-manager-roles#services)* role will be available
-
-### Service Access
-The Service Access option allows the [owner](#owner) of a service to control who can modify the service details and configuration by using the options `Open` or `Private`.
-
-![Service Access Options](/_books/servicemanager-user-guide/images/service-access-option.png)
-
-* **Open**<br>Users with the *Services Manager* role who have [visibility of the service](/servicemanager-user-guide/service-portfolio/overview#service-visibility) can update and manage the details and configuration, excluding the ability to change the owner and the service access option. 
-* **Private**<br>Users with the *Services Manager* role who have [visibility of the service](/servicemanager-user-guide/service-portfolio/overview#service-visibility) are limited from making configuration changes. They can only add and update FAQs, bulletins, and the operational status. This allows a service owner to maintain full control of the service.
-    
-:::tip
-A user that is a member of [a team that support the service](#supporting-teams), but doesn't have the *Services Manager* role, will have limited access to the details of the service when accessed from a request or the request list. They can update FAQs, bulletins, and the operational status. 
-:::
-
-### Activities
-The Activities panel lets you create and managed tasks and activities against this service. This can be used for planning updates to any aspect of the service such as updating a BPM workflow or Progressive Capture.
-
-## Request Configuration
-Each Service allow you to configure the different the types of requests which will be available. These included Incidents, Service Requests, Problems, Known Errors, and Changes. Each request type can be configured to meet the particular needs for the service, including BPM workflow, available actions, custom fields, and Request Catalog Itesm.
-Requests
-Any Requests which the Service has been raised directly against, or where it has an associated relationship to Requests will be displayed here.
-
-## Requests
-The Requests list provides a view of all the requests that have been raised and associated with the service. 
-
-* **Direct Requests**. The list provided under Direct Requests are requests where the selected service is the primary service for the request.
-* **Associated Requests**. The associated requests consist of requests that have had this service selected as a [linked service](/servicemanager-user-guide/service-portfolio/requests/linked-services-action). 
-
-## Assets
-Associating the assets which support a service helps support quicker Incident and or Problem resolutions by making it quick and easy to understand what infrastructure is directly used to provide each service. Change management can benefit from visualizing impact when considering implementing changes to a service, or assets which support a service.
-
-## Services
-Associating services that support or underpin other services can help support incident and or problem resolutions by making it quick and easy to understand how services are related and if there are any dependancies between them. Change management can benefit from visualizing impact when considering implementing changes to a service.
-
-## FAQs
-Define Frequently Asked Questions (FAQs) which will be helpful to subscribers of the service on both the Customer and Service Portals.
-
-## Bulletins
-Define Service specific announcements or news which will be shared with the subscribers of the Service on both the Customer and Service Portals
-
-## Documents
-Documents that are held within Document Manager can be associated to a Service. This is designed to provide document access to the subscribers of the service through the Customer and Employee Portals.
-
-:::note
-It is important to ensure that the documents linked to the service are held within a library that has been configured for access on the portals. Linking a document that is held in a library that is not configured for portal access will result in the document being listed, but not accessible by the service subscriber.
-:::
-
-### Sharing a Library with the Portals
-The option for sharing libraries is managed from within the Document Manager app.
-
-1. From the main Hornbill Tile Menu, select Document Manager -> Libraries.
-1. From the list of libraries, find the library that you would like to make available to the portals and select Properties.
-1. On the Share option start by selecting Role and then search for the Docmanager Portal.
-1. Select Can View Library Contents and then click Share.
-1. Repeat for each library that you would like make accessible on the portals
-
-### Library Visibility Options
-
-On the Library properties, visibility can be controlled so that a library is only visible to customers when viewing the Service details. By default, a library is visible within the Portals' Library List. In order remove the library from the library list and only have it show associated documents on the Service form, the two following options in Document Manager Libraries need to be un-checked.
-
-* **Show in User Library List**<br>Untick to hide the library in the employee portal and collaboration, this will only take effect if the user has been shared the library with read-only access (users with modify permissions will still be able to see this library). You will still be able to share documents in this library with users with read only permissions by giving them a direct link to the document
-* **Show in Customer Portal Library List**<br>Untick to hide the library in the customer portal, (the library must be shared with a guest role before it can be accessed in the customer portal). You will still be able to share documents in this library with customers even if this setting is unticked by giving them a direct link to the document.
-
-### Adding a Document to a Service
-On each Service form within the Service Portfolio, a Documents option lets you browse the list of all documents that belong to a particular library and link or unlink documents to the service. This action only be performed by the Service's owner.
-
-* **Select Library**<br>Select from the list of available libraries that you want to browse
-* **Order By**<br>To help locate a document, you can change the order of the list by
-    * Title
-    * Owner
-    * File Type
-    * Creation Date
-    * Updated Date
-
-Each document will have a Link option. When clicked, this will associate the document with the service. Documents already linked to a service ill have an option to Un-link. When clicked, this will remove the document from the service.
-
-## SLAs
-Service Level Agreements can be linked to each service, and rules defined to manage which SLA and Service Level's will be invoked when requests are raised against each service.
-It is possible to associate one or more Corporate Service Level Agreements to each Service, and or create Service Level Agreements which are specific to each service.
-Use the Manage Rules options to determine which Service Level agreement is invoked under different conditions when raising requests against a Service.
-
-## Supporting Teams
-The Supporting Teams feature is used to assign dedicated [service desk teams](/servicemanager-config/administration/service-desk) that will support the service. Each supporting team has the right to view and manage requests for the service. When a service is first created, it is supported by all service desk teams. Once one or more dedicated teams have been allocated to a service, only those teams can see and manage the requests for that service.
-
-![Supporting Teams](/_books/servicemanager-user-guide/images/service-supporting-teams.png)
-
-#### Members of supporting teams can:
-* View all requests raised against the service. Navigate to **Request list > Filters > All My Services**.
-* Be assigned a request raised against the service from Intelligent Capture assignment forms, request forms, and multi-select assignment options on the Request List view.
-* Assign or reassign a request to another team or analyst in a team (as long as the team or analyst that supports the service).
-* Using the global search bar, see results for requests that are logged against services their teams support, or requests that are assigned to them, their teams, or where they have been added as members to the requests.
-
-#### Filtering the list of services displayed
-Optionally, you can filter the list of services that are displayed on the Intelligent Capture > Services form. This could be to only display those services that belong to the customer they are logging the request for. You could also do this to display only those services the analyst supports (based on being a member of a team that supports one or more services). This could be useful, for example, if you only want the IT team to see the services they support, and equally you want the HR team to only see the services they support, when raising requests via Intelligent Capture.
-
-To filter the list of services displayed, Hornbill administrators can turn on the [`servicemanager.progressiveCapture.servicedetails.enableSupportVisibility` setting](/servicemanager-config/advanced-tools-and-settings/application-settings#service-manager-forms), which is off by default.
-
-
-## Subscribers
-It is possible to subscribe customers to a service based on various organization groups. The default position for a service is that all customers will be entitled to use the Service.
-
-## Service Status
-It is possible to set the status of each service, and an accompanying message so that subscribers to the service and those supporting the service can see the status and any supporting message.
-
-* Available
-* Impacted
-* Unavailable
-
-As the Status changes from one state to another, information is collected to provide availability metrics. This includes mean time between failures, average time to recovery, and percentage break down of the different statuses over a selected time period. The availability metrics can be accessed using the chart icon next to the service status. At least one change in the status is required in order to view the metrics.
-
-## Timeline
-Each service provides an area where users who have access to the service can have a discussion about the service. This is a great way to plan or make suggestions for the service.
+The Icon which will be used to represent the service on the Service and Customer Portals for the subscribers to this service.
