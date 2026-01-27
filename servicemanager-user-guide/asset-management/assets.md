@@ -10,6 +10,12 @@ The Manage Assets feature lets you add, update, and remove assets. You do this w
 
 You can also copy asset records, create asset records in a batch, and apply changes to asset records in a batch. 
 
+## Before you begin
+To manage assets, a user requires the following roles and rights.
+
+* The Asset Management User role including the `View Asset Management` application right, plus one or both of the rights `Create Assets` or `Edit Assets`; *or*
+* A custom role that includes the `View Asset Management` application right, plus one or both of the rights `Create Assets` or `Edit Assets`.
+
 ## Assets landing page
 To access the Manage Assets feature, navigate to **Service Management > Assets**. A tiled Assets dashboard is displayed, showing the available asset types. Clicking on any of the tiles displays an asset list with all the assets belonging to that type.
 
