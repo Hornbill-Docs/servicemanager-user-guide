@@ -55,7 +55,9 @@ If you are creating assets in bulk, the batch will include one new asset (per yo
 
 **To create one or more assets manually:**
 1. Click **+ New Asset**.
-1. In the New Asset dialog, from the dropdown, select a partition to create the asset(s) in, or keep the default (Un-partitioned Assets).
+    ::: note
+    If your Asset Management Admin has enabled partitioning on your Hornbill instance, then in the New Asset dialog, from the dropdown, select a partition to create the asset(s) in, or keep the default (Un-partitioned Assets).
+    :::
 1. From the dropdown, select the asset type of the asset(s) you want to create.
 1. Enter a name for the asset(s).
     * If you are creating a single asset, click **Create & Open**.
