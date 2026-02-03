@@ -1,54 +1,71 @@
 ---
 layout: article-toc
 ---
-# Service Details
-The details of a service provide key values and settings necessary to make the service operational. These options include setting the name, description, status, and more. Some of this information is mandatory when creating a service, so it is important to plan your service before starting.
+# Service details
+
+Service details define the settings and values required to make a service work. Set the name, description, status, and other required options when creating the service.
 
 ![Service Details](/_books/servicemanager-user-guide/images/service-details-tab.png)
 
-### Name
-The name of your service is a simple yet crucial aspect of the service. The service name is mandatory for its creation. When naming your service, consider the following:
-* The name is visible to subscribed customers on the Employee and Customer Portals.
-* The name is visible to support staff within Intelligent Capture when using the Services Capture form.
-* The name is visible within the Services column of the Request List.
-* The name is visible on each request that has been raised for that service.
-* Consider the length of the name and how it may be displayed in these different areas.
-* A unique service name is not enforced so it is possible for two distinct areas of a business to have a service by the same name.
-* If you need to support multiple languages for users of the service, ensure that you create different language versions of the service name and description. Users will see the provided translation version based on the language assigned to their profile.
+## Name
 
-### Description
-You can add a brief description to your service, allowing you to provide additional information about its purpose or use. This description is available for customers to read on both the Employee and Customer Portals when they view their service information. It is also accessible to support staff on the Services Intelligent Capture form, providing extra information to ensure they select the correct service when raising a request.
+The service name is required. It appears in several places:
 
-### Type
-The service types include the options *business* and *technical*. 
-* **Business Services**. A business service has a focus on supporting business users.  These services help businesses run more efficiently, reduce costs, and improve productivity by providing specialized support to essential functions such as IT, accounting, marketing, HR, legal, cleaning, or logistics.
-* **Technical Services**. A technical service is a specialized, often hands-on activity, providing technical knowledge, engineering expertise, or IT infrastructure support to enable business operations, maintenance, or systems functionality. These services include troubleshooting, repairing, installing, and managing technical systems to ensure operational continuity. Technical services are often put in place to underpin and support business services.
+- Visible to [subscribed customers](/servicemanager-user-guide/service-portfolio/services/overview#subscribers) on the Employee and Customer portals.
+- Visible to support staff in [Intelligent Capture](/esp-config/automation/intelligent-capture-designer) when using the Services Capture form.
+- Listed in the Services column of the [Request List](/servicemanager-user-guide/request-list/overview).
+- Shown on each request raised for the service.
 
-### Category
-Used to group your services. Select one from the pre-defined list.
+Consider name length and how it displays in different areas. Service names are not required to be unique; different services can use the same name.
+
+If you support multiple languages, provide translations for the name and description. Users see the translation that matches their profile language.
+
+## Description
+
+Add a brief description to explain the service purpose. Customers see this description on the Employee and Customer portals. Support staff see it in the Services Intelligent Capture form.
+
+## Type
+
+Service types: *business* and *technical*.
+
+- **Business services** - Support business users (for example IT, accounting, marketing, HR) to improve efficiency and productivity.
+- **Technical services** - Provide technical support such as troubleshooting, repair, installation, and maintenance to keep systems running.
 
 :::tip
-The [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) can be modified within the Service Manager configuration. The categories are stored in a [Simple List](/servicemanager-config/setup/service-manager-simple-lists) called `serviceCategories`.
+The service type can be used with the workflow [Services Automation](/servicemanager-config/customize/workflows/services-automation) to automatically update the status of related services based on the type.
 :::
 
-### Portfolio Status
-The Service Portfolio Status employs several industry-standard conventions for determining the state of a service. These statuses include Pipeline, Catalog, and Retired.
+## Category
 
-* **Pipeline**<br>This status is typically used as a planning phase. While the status is set to "Pipeline", the service will remain hidden from customers and support staff to allow for its planning and setup.
-* **Catalog**<br>Once all the required configurations and setup are complete, a service status can be set to "Catalog". Once the status is set to "Catalog," the service will be live and available for selection by support staff when raising a request on the Services form in Intelligent Capture. It will also be available to subscribers of the service who are raising requests via the Employee or Customer Portals.
-* **Retired**<br>When a service is no longer needed, its status can be changed to "retired." This action will remove the service from the support staff and its subscribers.
+Group services by selecting a category from the predefined list.
+
+:::tip
+Modify the [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) in Service Manager configuration. Categories are stored in the `serviceCategories` Simple List.
+:::
+
+### Portfolio status
+
+Portfolio statuses show a service's lifecycle: Pipeline, Catalog, and Retired.
+
+- **Pipeline** - Planning phase. The service is hidden from customers and support staff.
+- **Catalog** - The service is live. Support staff and subscribers can select it when raising requests.
+- **Retired** - The service is no longer active and is removed from view.
 
 ### Employee Portal
-These options are needed for publishing your services to the Employee Portal.
 
-* **Service Domain**<br>Associated this service to a Service Domain. Domains are used for grouping related services that fall under areas such as IT, HR, and Facilities.
-* **Service Domain Category**<br>Select a category for this service. Service Domain Categories provide a category option for all applications that publish services to this Domain.
+Settings to publish the service to the Employee Portal:
 
-### Default Mailbox
-Define which mailbox any manually sent emails will be sent from on requests logged against the service.
-* If no mailbox is selected then manually send emails will be sent from the mailbox selected by the agent sending the email on the request raised against the service.
-* Agents need to have the rights to send emails from the default service, otherwise it will default to a mailbox the agent does have the rights to send from.
-* Agents can manually override which mailbox emails are sent from when sending emails manually from a request logged against the service if they have the rights to more than one mailbox.
+- **Service Domain** - Associate the service with a domain (for example IT, HR, Facilities).
+- **Service Domain Category** - Select a category for services in this domain.
 
-### Service Icon
-The Icon which will be used to represent the service on the Service and Customer Portals for the subscribers to this service.
+### Default mailbox
+
+Choose the [mailbox](/esp-config/email/shared-mailboxes) used for manually sent emails on requests for this service.
+
+- If no mailbox is selected, emails are sent from the shared mailbox used by the agent.
+- Agents must have send rights for the default mailbox; otherwise, the system uses a mailbox they can send from.
+- Agents with rights to multiple mailboxes can override the default when sending manually.
+
+### Service icon
+
+Select an icon to represent the service on the Employee and Customer portals.
