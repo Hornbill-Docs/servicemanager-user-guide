@@ -16,6 +16,10 @@ To manage assets, a user requires the following roles and rights.
 * The Asset Management User role including the `View Asset Management` application right, plus one or both of the rights `Create Assets` or `Edit Assets`; *or*
 * A custom role that includes the `View Asset Management` application right, plus one or both of the rights `Create Assets` or `Edit Assets`.
 
+    ::: important
+    If the asset records you are working with are [in a partition set up by your assets admin](/servicemanager-config/assets/manage-partitions), then what you can do with assets is limited to the permissions granted to you. For example, if the permissions you have been granted do not include creating, editing, and deleting asset records, then you can view asset records, but take no other actions on them.
+    :::
+
 ## Assets landing page
 To access the Manage Assets feature, navigate to **Service Management > Assets**. A tiled Assets dashboard is displayed, showing the available asset types. Clicking on any of the tiles displays an asset list with all the assets belonging to that type.
 
