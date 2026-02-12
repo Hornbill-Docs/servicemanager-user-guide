@@ -56,7 +56,7 @@ Portfolio statuses show a service's lifecycle: Pipeline, Catalog, and Retired.
 Settings to publish the service to the Employee Portal:
 
 - **Service Domain** - Associate the service with a domain (for example IT, HR, Facilities).
-- **Service Domain Category** - Select a category for services in this domain.
+- **Domain Category** - Select a category for services in this domain.
 
 ### Default mailbox
 
