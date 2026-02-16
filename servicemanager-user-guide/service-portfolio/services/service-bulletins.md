@@ -6,7 +6,7 @@ keywords: static content
 
 Service bulletins are announcements you can create and publish to keep service subscribers informed. These bulletins appear on the Customer and Employee Portals.
 
-![Service Bulletin](/_books/servicemanager-user-guide/images/service-bulletin.png)
+![Service Details](/_books/servicemanager-user-guide/images/service-bulletins-tab.png)
 
 ## Create a bulletin
 
@@ -63,6 +63,8 @@ The following options only apply to the Customer Portal.
 ## View bulletins
 
 Subscribers can view published bulletins in the following locations on the Customer and Service Portals:
+
+![Service Bulletin](/_books/servicemanager-user-guide/images/service-bulletin.png)
 
 * **My Services view**: If a user has multiple bulletins across different services, they appear in a carousel at the top of the page.
 * **Service-specific view**: Bulletins related to a specific service appear on that service's page.
