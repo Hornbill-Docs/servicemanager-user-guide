@@ -23,7 +23,7 @@ Service names do not need to be unique. You can use the same name for different 
 Use the description to explain the purpose of the service. This information helps your users and support staff understand what the service offers. The description appears in the following locations:
 
 - The Employee and Customer portals.
-- The **Services Intelligent Capture** form used by support staff.
+- The [Services Intelligent Capture](/servicemanager-config/customize/service-manager-capture-forms#services) form used by support staff.
 
 ## Type
 
