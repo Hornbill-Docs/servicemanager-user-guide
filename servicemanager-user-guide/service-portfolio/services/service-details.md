@@ -16,7 +16,7 @@ The service name identifies your service. This is a required field. The name app
 - Listed in the Services column of the [Request List](/servicemanager-user-guide/request-list/overview).
 - Shown on each request raised for the service.
 
-Service names do not need to be unique. You can use the same name for different services. If you support multiple languages, provide translations for the name. Users see the translation that matches the language in their profile.
+Service names do not need to be unique. The same name can be used for different services. However, a unique name should be considered so the service can be easily identified.
 
 ## Description
 
@@ -25,7 +25,9 @@ Use the description to explain the purpose of the service. This information help
 - The Employee and Customer portals.
 - The [Services Intelligent Capture](/servicemanager-config/customize/service-manager-capture-forms#services) form used by support staff.
 
-## Type
+## Configuration
+
+### Type
 
 The service type helps you organize your portfolio. You can choose from two types:
 
@@ -36,7 +38,7 @@ The service type helps you organize your portfolio. You can choose from two type
 The service type can be used with the workflow [Services Automation](/servicemanager-config/customize/workflows/services-automation) to automatically update the status of related services based on the type.
 :::
 
-## Category
+### Category
 
 Group services by selecting a category from the predefined list.
 
@@ -44,7 +46,7 @@ Group services by selecting a category from the predefined list.
 Modify the [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) in Service Manager configuration. Categories are stored in the `serviceCategories` Simple List.
 :::
 
-## Portfolio status
+### Portfolio status
 
 The portfolio status tracks the lifecycle of your service. Choose the status that matches the current stage of the service:
 
@@ -52,12 +54,9 @@ The portfolio status tracks the lifecycle of your service. Choose the status tha
 - **Catalog**: Use this when the service is live. Support staff and subscribers can select the service when they raise requests.
 - **Retired**: Use this when the service is no longer active. The system removes the service from view.
 
-### Employee Portal
+### Service icon
 
-Settings to publish the service to the Employee Portal:
-
-- **Service Domain** - Associate the service with a domain (for example IT, HR, Facilities).
-- **Domain Category** - Select a category for services in this domain.
+Choose an icon to represent the service. This icon helps users visually identify the service on the Employee and Customer portals.
 
 ### Default mailbox
 
@@ -67,6 +66,9 @@ Select the [mailbox](/esp-config/email/shared-mailboxes) the system uses for ema
 - Agents must have permission to send from the default mailbox. If they do not have permission, the system uses a mailbox they are authorized to use.
 - Agents with permissions for multiple mailboxes can change the default mailbox when they send an email manually.
 
-## Service icon
+## Employee Portal
 
-Choose an icon to represent the service. This icon helps users visually identify the service on the Employee and Customer portals.
+Settings to publish the service to the Employee Portal:
+
+- **Service Domain** - Associate the service with a domain (for example IT, HR, Facilities).
+- **Domain Category** - Select a category for services in this domain.
