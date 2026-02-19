@@ -32,7 +32,7 @@ In the user app and the Request Details view, the Service Name will take you thr
 
 ## Automatically Changing the Status of a Service
 
-Through the business process designer it is possible to automate the changing of the status of a service using the Automated Task node and the Request > Request Service > Update Service Status option from within business processes.
+Through the workflow designer it is possible to automate the changing of the status of a service using the Automated Task node and the Request > Request Service > Update Service Status option from within workflows.
 
 ## Availability Metrics
 

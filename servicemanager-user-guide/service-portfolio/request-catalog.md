@@ -30,16 +30,16 @@ A request catalog can be created and managed for Incidents, Service Requests and
 
 ## Features
 
-* **Title**<br>The name for the request, that will be displayed on the portals for customers, and to support staff in Intelligent Capture.
-* **Description**<br>Provide information that describes the purpose of the request. This will be displayed on the portals for customers and to support staff in Intelligent Capture.
-* **Intelligent Capture**<br>Select from defined scripts that can ask the customer or support agent pertinent questions when raising a request using this model.
-* **Workflow**<br>Select which workflow will be invoked and followed when a request is raised.
-* **Icon**<br>Select an icon that will represent the request in portals and in intelligent capture.
-* **Visibility**<br>Decide if the request will be available on just the portals, or just to support staff, or to both.
-* **Language**<br>Select the language that it is being written in. This will default to the language that is currently being used in the user's session.
-* **Statuses**<br>
-    ***Draft***<br>Is not visible on the portals or in intelligent capture.<br>
-    ***Published***<br>Is visible on the portals or in intelligent capture.
+* **Title**: The name for the request, that will be displayed on the portals for customers, and to support staff in Intelligent Capture.
+* **Description**: Provide information that describes the purpose of the request. This will be displayed on the portals for customers and to support staff in Intelligent Capture.
+* **Intelligent Capture**: Select from defined scripts that can ask the customer or support agent pertinent questions when raising a request using this model.
+* **Workflow**: Select which workflow will be invoked and followed when a request is raised.
+* **Icon**: Select an icon that will represent the request in portals and in intelligent capture.
+* **Visibility**: Decide if the request will be available on just the portals, or just to support staff, or to both.
+* **Language**: Select the language that it is being written in. This will default to the language that is currently being used in the user's session.
+* **Statuses**: 
+    ***Draft***: Is not visible on the portals or in intelligent capture.: 
+    ***Published***: Is visible on the portals or in intelligent capture.
 
 ## Managing
 
@@ -52,8 +52,8 @@ Managing Catalog Visibility - it is possible to configure which service subscrib
 
 ### Update and Delete
 
-* **Update**<br>It is possible to edit the details or status or to add additional languages to the Catalog Item by selecting the update Cog icon
-* **Delete**<br>It is possible to permanently delete the Catalog Item by selecting the Delete Bin icon
+* **Update**: It is possible to edit the details or status or to add additional languages to the Catalog Item by selecting the update Cog icon
+* **Delete**: It is possible to permanently delete the Catalog Item by selecting the Delete Bin icon
 Information If this list is empty, subscribed users for this Service will not have an option to raise a request from the portals for this request type.
 
 ## Intelligent Capture
@@ -99,16 +99,16 @@ If you are working in a multilingual environment you can publish each catalog mo
 
 The Language option provides a list of all of the different languages that this has been translated into. A new catalog model will only show the language that was selected at the time of creation. To add a new translation click on the `Add Translation` button which will expose the options for publishing this in another language.
 
-* **Language**<br>Select the new language that you wish to add.
-* **Translate**<br>Clicking this button will take the original title and description from the default language and automatically translate these fields using Google Translate. The title and description fields will be automatically populated with this translation. These fields can also be manually edited to either add your translation or to correct any mistakes made by the automatic translation.
+* **Language**: Select the new language that you wish to add.
+* **Translate**: Clicking this button will take the original title and description from the default language and automatically translate these fields using Google Translate. The title and description fields will be automatically populated with this translation. These fields can also be manually edited to either add your translation or to correct any mistakes made by the automatic translation.
 Clicking on the `Translate` button will overwrite any information that is already held in the title and description fields.
 
 ### Update a Translation
 
-* **Delete Translation**<br>Clicking on this button will delete the language translation that is currently selected in the language pick list. The default language translation cannot be deleted, therefore this button is not available when the default language is selected. The default language is a fallback and is displayed to a user who is using a language that does not have an associated translation available.
-* **Update**<br>If a manual change has been made to either the title or description fields, save these changes by clicking on the `Update` button
-* **Preview Google Translate**<br>This is a sub-action of the Update button which is accessed by clicking on the arrow next to Update. This will translate the title and description fields using the default translation without saving it. This preview can then be saved using the main Update button.
-* **Update with Google Translate**<br>This is a sub-action of the `Update` button which is accessed by clicking on the arrow next to `Update`. This will automatically translate and save the title and description fields.
+* **Delete Translation**: Clicking on this button will delete the language translation that is currently selected in the language pick list. The default language translation cannot be deleted, therefore this button is not available when the default language is selected. The default language is a fallback and is displayed to a user who is using a language that does not have an associated translation available.
+* **Update**: If a manual change has been made to either the title or description fields, save these changes by clicking on the `Update` button
+* **Preview Google Translate**: This is a sub-action of the Update button which is accessed by clicking on the arrow next to Update. This will translate the title and description fields using the default translation without saving it. This preview can then be saved using the main Update button.
+* **Update with Google Translate**: This is a sub-action of the `Update` button which is accessed by clicking on the arrow next to `Update`. This will automatically translate and save the title and description fields.
 
 ## Request Catalog Visibility
 

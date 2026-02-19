@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.7.10",
+  "version": "0.7.11",
   "audience": [
     "public"
   ],
@@ -41,7 +41,7 @@
             "text": "Requests",
             "items": [
               {
-                "text": "Request Form Overview",
+                "text": "Request Overview",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/overview"
               },
               {
