@@ -60,8 +60,6 @@ Sometimes request details contain sensitive personal information. Authorized adm
 
 Only users with **Service Desk Admin** permissions can redact content. Redaction permanently removes the information from the record.
 
-[Image: Admin view showing the Redact option next to a field value]
-
 #### Redaction options for individual fields
 
 When viewing changes for a specific field, admins can choose to redact:
@@ -85,8 +83,6 @@ Redaction is permanent and cannot be undone. To prevent accidental data loss, th
 1. **Review the summary**: A warning screen appears showing exactly which fields the system will redact and how many fields are affected.
 2. **Provide a reason**: You must enter a reason for the redaction (for example: "GDPR erasure request #12345"). The **Confirm** button remains inactive until you provide a reason.
 3. **Confirm**: Click **Confirm** to permanently remove the data. Click **Cancel** if you want to close the warning without making changes.
-
-[Image: Redaction confirmation dialog showing the required reason field]
 
 #### After redaction
 
