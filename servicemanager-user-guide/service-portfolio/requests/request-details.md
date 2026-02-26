@@ -4,7 +4,7 @@ The **Details** section provides an overview of the request, including the summa
 
 ![Request details section showing the summary and description fields](/_books/servicemanager-user-guide/images/request-details-section.png)
 
-## Default fields
+## Standard fields
 
 - **Summary**: The summary provides a brief overview of the request, highlighting the key points and objectives of the request. The summary should be clear and specific to ensure that stakeholders can quickly grasp the essence of the request without needing to read through the entire description. This is a mandatory field that must be filled out when creating a request.
 
@@ -16,7 +16,7 @@ The **Details** section provides an overview of the request, including the summa
 
 ## Custom fields
 
-In addition to the default fields, you can also add custom fields to the request details section. Custom fields allow you to capture additional information that is specific to your organization's needs. You can create custom fields for various types of data, such as text, numbers, dates, or dropdown selections. This flexibility enables you to tailor the request details to better suit your processes and requirements.
+In addition to the default fields, you can also add custom fields to the request details section using the [Form Designer](/servicemanager-user-guide/service-portfolio/requests/request-details-form-designer). Custom fields allow you to capture additional information that is specific to your organization's needs. You can create custom fields for various types of data, such as text, numbers, dates, or dropdown selections. This flexibility enables you to tailor the request details to better suit your processes and requirements.
 
 ## Saving Changes
 
@@ -28,7 +28,7 @@ Each time the updated details of a request are saved, a timeline post is automat
 
 ### View changes to the details
 
-The **View Changes** feature allows you to see exactly what was modified when request details are updated. Whenever a user manually updates request details in the UI, the system automatically creates a timeline post with a **View Changes** option.
+The **View Changes** feature allows you to see exactly what was modified when request details are updated. Whenever a user manually updates the request details in the UI, the system automatically creates a timeline post with a **View Changes** option.
 
 ![Request timeline showing a post with the View Changes button highlighted](/_books/servicemanager-user-guide/images/request-timeline-view-changes.png)
 
@@ -52,9 +52,11 @@ This is the default view. it displays the old and new values next to each other:
 
 This view shows an inline comparison. It highlights the specific characters or words added or removed. This is helpful for reviewing small changes within long blocks of text.
 
-### Redact sensitive information
+### Redact sensitive data
 
 Sometimes request details contain sensitive personal information. Authorized administrators can remove this data for privacy compliance (such as GDPR), security, or policy reasons.
+
+![The View Changes window showing the redaction options for a specific field](/_books/servicemanager-user-guide/images/request-details-view-changes-redact.png)
 
 #### Permissions
 
@@ -88,11 +90,11 @@ Redaction is permanent and cannot be undone. To prevent accidental data loss, th
 
 Once you confirm the redaction, the system updates the record:
 
-- **Data removal**: The system replaces the sensitive values with the text **[REDACTED]** in italics.
+- **Data removal**: The system replaces the sensitive values with the text ***[REDACTED]***.
 - **Audit trail**: The change record remains visible so users can see that an update occurred, even though the specific values are hidden.
 - **Redaction details**: The system displays the following information below the field:
   - Who performed the redaction.
   - The date and time of the redaction.
   - The reason provided for the redaction.
 
-**Example**: *Redacted by John Smith on 15 Feb 2026, 14:30: GDPR erasure request #12345*
+![The View Changes window showing the result after redaction with the [REDACTED] text and redaction details](/_books/servicemanager-user-guide/images/request-details-view-changes-redacted.png)
