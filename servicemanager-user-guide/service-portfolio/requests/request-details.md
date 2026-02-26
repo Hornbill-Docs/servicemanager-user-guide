@@ -54,7 +54,7 @@ This view shows an inline comparison. It highlights the specific characters or w
 
 ### Redact sensitive data
 
-If sensitive data had been removed from the details of a request, this data can still exist within the View Changes logs.  Authorized administrators can redact this data from the Change logs for privacy compliance (such as GDPR), security, or policy reasons.
+If sensitive data had been removed from the details of a request, this data can still exist within the **View Changes** logs.  Authorized administrators can redact this data from these logs for privacy compliance (such as GDPR), security, or policy reasons.
 
 ![The View Changes window showing the redaction options for a specific field](/_books/servicemanager-user-guide/images/request-details-view-changes-redact.png)
 

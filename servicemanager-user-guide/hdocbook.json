@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "audience": [
     "public"
   ],

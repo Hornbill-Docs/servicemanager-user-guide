@@ -1,6 +1,8 @@
 # Request Details Form Designer
 
-The **Details** section of the requests can be customized using the Request Details Form Designer, allowing you to modify default fields and expose custom fields.
+The **Details** section of the requests can be customized using the Request Details Form Designer, allowing you to modify the standard fields and expose custom fields.
+
+![The Request Details Form Designer showing the default Summary field and a custom field called "Custom Text"](/_books/servicemanager-user-guide/images/request-details-form-designer.png)
 
 ## Before you begin
 
@@ -9,19 +11,13 @@ To access the form designer, the logged in user needs one of the following roles
 * Form Designer
 * Admin Role
 
-## Using the Request Details Form Designer
+:::important
+Changes made to the request details form will impact all requests of that type (Incident, Problem, Change, Service Request, Release) that come under the same service.
+:::
 
-The form designer can then be accessed wherever the "Design" button is displayed. In Service Manager, it is possible to manage the request details forms for each request type per service and where requests are not linked to services.
+## How to Access the Request Details Form Designer
 
-* Where services are not linked to a request type (Inc, Problem etc) you can open the form designer on any such request and edit and make changes there. These changes will apply to any other requests of that type (Inc, Problem etc) where a service is not linked.
-
-* However it is sometimes a requirement to have different custom fields on the Incident (or any other request type) form depending on the service against which the Incident or other request type has being raised (especially where multiple support teams are using the Incident forms but for their own services with different requirements).
-In this case each service owner's or those with the form designer role can use the form designer from within the Service > Request Configuration > Request Type view to manage the request details form for requests raised against that service.
-Or they can open up any request logged against that service and make the changes from the form designer on the request.
-
-Which ever route is taken these changes when made will apply to any requests of that type logged against that service.
-
-This means that you can manage any request form per service, allowing you to control the default fields and add custom fields to the Incident, Problem, Change, Service Requests and Release for each service, then any tickets raised against that service will use the request details form as configured against the service for the request type.
+The request details form designer can be accessed from any request or from the [service configuration form](/servicemanager-user-guide/service-portfolio/request-configuration#view-details-form).
 
 ## Tool Bar Options
 
@@ -33,13 +29,12 @@ Across the top of the Editor there are some options to manage your design sessio
 * **Apply Changes**: Any changes made during your edit will be saved and available for use.
 * **+ (Add Custom Fields)**: By clicking on the + button you can add Custom Fields to your form
 
-## Default Fields
+## Standard Fields
 
 * **Summary**: The Summary field is used as a short description of the request.
 * **Description**: The Description provides a long text field for detailing the request
 * **Source**: This contains the source of the request. These include Email, Analyst, Posts, and Self Service. These are automatically populated based on how a request is raised.
-* **Site**: Used to capture the site at where the request has occurred
-* **Category**: Allows a user to select the Request Category.
+* **Location**: Used to capture the location at where the request has occurred
 * **External Reference**: Record a reference number of an item that is used in another application or tool that relates to this request
 
 ## Custom Fields
@@ -53,14 +48,15 @@ If you would like to store some information within the Request Details and there
   * Fields Custom 26-30 are of type Integer
   * Fields Custom 31-40 are of type text with no character limit
 
-Once you have used a custom field it will not be visible in the list of available fields
-To remove and repurpose a custom field, firstly remove the custom field from the form and it will then appear again in the list of available fields
+Once you have used a custom field it will not be visible in the list of available fields.
+
+To repurpose a custom field that has already been used, you will need to remove the custom field from the form and it will then appear again in the list of available fields.
 
 * **Display Label**: Add a Display Label which will be visible to the users when viewing or editing this form.  To add different language translations for the Display Label on custom fields switch the UI into the required language and provide the values for that specific language, this can be repeated for any subsequently required languages.
 * **Control Type**: A number of Control Types can be used. These include Single Line Text Field, Multi-line Text Area, Drop Down List Box, Radio Option List, Check List Box, 5 Star Rating, Single Check Box, Date Selector, Date Time Selector
 
 :::tip
-The list of available Control Type you can use will depend on the field type of the custom field you have chosen to use
+The list of available Control Type you can use will depend on the field type of the custom field you have chosen to use.
 
 Information Some Control Types will provide additional Field Properties that will allow the defining of the options that accompany the Control Type.
 :::
