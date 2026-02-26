@@ -43,7 +43,7 @@ The service type can be used with the workflow [Services Automation](/serviceman
 Group services by selecting a category from the predefined list.
 
 :::tip
-Modify the [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) in Service Manager configuration. Categories are stored in the `serviceCategories` Simple List.
+Modify the [list of categories](/servicemanager-config/setup/service-manager-simple-lists#service-manager-simple-lists) in Service Manager configuration. Categories are stored in the `serviceCategory` Simple List.
 :::
 
 ### Portfolio status
