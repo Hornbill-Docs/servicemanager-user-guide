@@ -1,8 +1,9 @@
 # Request Details Form Designer
 
-On each request form the Details section can be configured using the Request Details Form Designer to manage the available fields within this section. This includes the ability to manage the existing default fields, plus allowing you to expose custom fields.
+The **Details** section of the requests can be customized using the Request Details Form Designer, allowing you to modify default fields and expose custom fields.
 
-Who can use the form designer?
+## Before you begin
+
 To access the form designer, the logged in user needs one of the following roles associated to their account:
 
 * Form Designer
