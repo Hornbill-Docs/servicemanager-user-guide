@@ -117,7 +117,11 @@ When substatuses are available, there will be a choice between active and on-hol
 
 ## Customer information
 
-This section of the request contains information about the customer for whom the request was created.  The customer section is only available on incidents, service requests, and changes (when enabled).
+The Customer section displays information about the person who is being supported. This section is available for incidents, service requests, and change requests. The section will only be displayed if the request has a customer associated with it.
+
+![Customer Information](/_books/servicemanager-user-guide/images/request-customer-information.png)
+
+The available fields can be configured in the [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#customer-information-section).
 
 ## Details
 

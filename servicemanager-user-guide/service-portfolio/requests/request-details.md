@@ -12,6 +12,8 @@ The **Details** section provides an overview of the request, including the summa
 
 - **Source**: The source section identifies the origin of the request, such as Self Service using one of the portals, email, or by another system. This is a read-only field that is automatically populated based on how the request was created.
 
+- **Location**: The location field allows you to specify the location associated with the request. This can be useful for tracking where the request needs to be addressed. The location can be selected from a predefined list that is managed in the [Location configuration](/esp-config/organizational-data/locations) section.
+
 - **External Reference**: The external reference section provides an option to store an ID that is external to the this request. This is useful for tracking the request in other systems or for referencing related information that is not stored within the request itself.
 
 ## Custom fields
