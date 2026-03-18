@@ -4,7 +4,21 @@ keywords: progressive capture
 ---
 # Services overview
 
-In an ITSM framework, **Services** act as the essential bridge between technical capabilities and business value, organized into a clear hierarchy for delivery and support. **Business Services** represent the customer-facing value (like email or payroll) accessible via the Service Catalog, while **Technical Services** provide the underlying infrastructure (like servers or networks) that makes them possible. This ecosystem is sustained by a dual-support model: the **Service Desk** manages the customer experience and business relationships, while **Operations and Engineering teams** maintain the technical health of the stack, ensuring that every service remains reliable and aligned with user needs.
+Services connect technical capabilities to business value. They use a clear hierarchy to help with delivery and support.
+
+## Service types
+
+There are two main types of services in an ITSM framework:
+
+* **Business Services**: These represent the value you see and use every day, such as email or payroll. You can access these through the Service Catalog.
+* **Technical Services**: These provide the underlying infrastructure that makes Business Services possible. Examples include servers and networks.
+
+## Support teams
+
+A dual-support model maintains the service ecosystem:
+
+* **Service Desk**: This team manages your experience and handles business relationships.
+* **Operations and Engineering**: These teams maintain the technical health of the stack. They ensure every service remains reliable and meets your needs.
 
 ```mermaid
 graph TD
@@ -40,7 +54,7 @@ graph TD
 
 ```
 
-## Planning a Service
+## Planning a service
 
 When planning a service, it’s important to follow a structured approach to ensure that the service meets the needs of its users and is sustainable in the long term. Here are the key steps to consider:
 
