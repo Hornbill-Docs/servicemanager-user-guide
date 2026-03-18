@@ -1,19 +1,60 @@
 ---
-title: Overview of Services
 layout: article
 keywords: progressive capture 
 ---
-# Services
+# Services overview
 
-The goal of a service is to deliver value to customers and employees through a variety of mechanisms.
+In an ITSM framework, **Services** act as the essential bridge between technical capabilities and business value, organized into a clear hierarchy for delivery and support. **Business Services** represent the customer-facing value (like email or payroll) accessible via the Service Catalog, while **Technical Services** provide the underlying infrastructure (like servers or networks) that makes them possible. This ecosystem is sustained by a dual-support model: the **Service Desk** manages the customer experience and business relationships, while **Operations and Engineering teams** maintain the technical health of the stack, ensuring that every service remains reliable and aligned with user needs.
 
-* Communications between the service desk and the customers.
-* Incident reporting and management.
-* Request fulfillment.
-* Service availability.
-* Continual service improvements.
-* Service level agreements (SLAs).
-* Self-service access through portals.
+```mermaid
+graph TD
+    %% User Layer
+    CU["👤 Business Users / Customers"]
+
+    %% Access Layer
+    SC["📋 Service Catalog / Portal"]
+
+    %% Service Layer
+    BS["💼 Business Services"]
+    TS["⚙️ Technical Services"]
+
+    %% Support Layer
+    ST["🎧 Service Desk"]
+    OT["🛠️ Operations / Engineering"]
+
+    %% Relationships
+    CU --- SC
+    SC --- BS
+    BS --- TS
+    
+    ST -.->|Manages Experience| BS
+    OT -.->|Maintains Infrastructure| TS
+    
+    %% Accessibility-focused Styling (Pure Black Text #000)
+    style CU fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
+    style SC fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
+    style BS fill:#009E73,stroke:#000,stroke-width:2px,color:#000
+    style TS fill:#009E73,stroke:#000,stroke-width:2px,color:#000
+    style ST fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
+    style OT fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
+
+```
+
+## Planning a Service
+
+When planning a service, it’s important to follow a structured approach to ensure that the service meets the needs of its users and is sustainable in the long term. Here are the key steps to consider:
+
+1. **Figure out the "Why".** Before building anything, make sure people actually need it.
+    * **Who is it for?** Identify your specific "customers" (e.g., the Accounting team or remote workers).
+    * **What problem does it solve?** Make sure the service makes their life easier (e.g., "This service lets people submit expenses from their phones").
+    * **Can we afford it?** Check if you have the budget for the tools and the people to run it long-term.
+1. **Design the "How".** Decide exactly how the service will work day-to-day.
+    * **The "4 Ps"**: Plan for the People (who runs it), Products (the software/tools), Partners (outside vendors), and Processes (the step-by-step instructions).
+    * **Set the "Promises"**: Agree on how fast it should be and how often it’s allowed to be "down" for maintenance.
+    * **Safety Check**: Make sure it’s secure and won't crash when too many people use it at once.
+1. **Plan the Handover**. Make sure the team is ready to support the users once it goes live.
+    * **The Help Plan**: Who does a user call when it breaks? Create a simple path for getting help.
+    * **The "Success" Test**: Decide now how you'll know if the service is a hit—is it based on how many people use it, or how happy they are?
 
 ## Portal Visibility
 
