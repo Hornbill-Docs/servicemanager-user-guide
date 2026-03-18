@@ -174,10 +174,6 @@
           {
             "text": "Global Search for Requests",
             "link": "/servicemanager-user-guide/request-list/global-search-for-requests"
-          },
-          {
-            "text": "Reports",
-            "link": "/servicemanager-user-guide/request-list/reports"
           }
         ]
       },
@@ -261,7 +257,7 @@
                 "link": "/servicemanager-user-guide/service-portfolio/service-level-agreements/service-levels"
               },
               {
-                "text": "Servcie Level Rules",
+                "text": "Service Level Rules",
                 "link": "/servicemanager-user-guide/service-portfolio/service-level-agreements/rules"
               }
             ]
@@ -326,6 +322,22 @@
               {
                 "text": "Documents",
                 "link": "/servicemanager-user-guide/service-portfolio/services/service-documents"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Reports",
+        "expand": false,
+        "items": [
+          {
+            "text": "Overview",
+            "items": 
+            [
+              {
+                "text": "Welcome to Hornbill Reports",
+                "link": "/servicemanager-user-guide/reports/reports"
               }
             ]
           }

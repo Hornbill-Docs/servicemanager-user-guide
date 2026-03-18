@@ -2,7 +2,7 @@
 layout: article-toc
 ---
 # Reports
-Service desk analysts can run in-app reports in Hornbill Service Manager to gather and review operational data from the system in order to understand service performance and activity. In-app report categories include *Performance*, *Productivity*, *Satisfaction*, and *Analytics*. Example in-app reports include *Open Requests by Age*, *Average Rating by Service*, and many others.
+You can run in-app reports in Hornbill Service Manager to gather and review operational data from the system in order to understand service performance and activity. In-app report categories include *Performance*, *Productivity*, *Satisfaction*, and *Analytics*. Example in-app reports include *Open Requests by Age*, *Average Rating by Service*, and many others.
 
 You access in-app reports in **Service Management > Reports**. From here, you can find default reports and run them. You can create custom versions of the default reports, focusing on system entities you choose and applying filters to extract the relevant data.
 
