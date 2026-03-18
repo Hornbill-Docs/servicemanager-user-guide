@@ -4,7 +4,42 @@ keywords: progressive capture
 ---
 # Services overview
 
-Services connect technical capabilities to business value. They use a clear hierarchy to help with delivery and support.
+Services connect technical capabilities to business value. They use a clear hierarchy to help with delivery and support. A service is primarily used to group and manage requests, but it also provides a way to organize the underlying assets and other services that support it. Services are the foundation of your service portfolio, and they help you understand how everything fits together.
+
+```mermaid
+%%{init: {'flowchart': {'nodeSpacing': 30, 'rankSpacing': 30}, 'themeVariables': { 'edgeLabelBackground': '#ffffff' }}}%%
+graph TD
+    %% User Layer
+    CU["`👤 Business Users / Customers`"]
+
+    %% Access Layer
+    SC["`📋 Service Catalog / Portal`"]
+
+    %% Service Layer
+    BS["`💼 Business Services`"]
+    TS["`⚙️ Technical Services`"]
+
+    %% Support Layer
+    ST["`🎧 Service Desk`"]
+    OT["`🛠️ Operations / Engineering`"]
+
+    %% Relationships
+    CU --- SC
+    SC --- BS
+    BS --- TS
+    
+    ST -.->|Manages Experience| BS
+    OT -.->|Maintains Infrastructure| TS
+    
+    %% Accessibility-focused Styling (Pure Black Text #000)
+    style CU fill:#56B4E9,stroke:#000,stroke-width:1px,color:#000
+    style SC fill:#56B4E9,stroke:#000,stroke-width:1px,color:#000
+    style BS fill:#00B140,stroke:#000,stroke-width:1px,color:#000
+    style TS fill:#00B140,stroke:#000,stroke-width:1px,color:#000
+    style ST fill:#56B4E9,stroke:#000,stroke-width:1px,color:#000
+    style OT fill:#56B4E9,stroke:#000,stroke-width:1px,color:#000
+
+```
 
 ## Service types
 
@@ -19,40 +54,6 @@ A dual-support model maintains the service ecosystem:
 
 * **Service Desk**: This team manages your experience and handles business relationships.
 * **Operations and Engineering**: These teams maintain the technical health of the stack. They ensure every service remains reliable and meets your needs.
-
-```mermaid
-graph TD
-    %% User Layer
-    CU["👤 Business Users / Customers"]
-
-    %% Access Layer
-    SC["📋 Service Catalog / Portal"]
-
-    %% Service Layer
-    BS["💼 Business Services"]
-    TS["⚙️ Technical Services"]
-
-    %% Support Layer
-    ST["🎧 Service Desk"]
-    OT["🛠️ Operations / Engineering"]
-
-    %% Relationships
-    CU --- SC
-    SC --- BS
-    BS --- TS
-    
-    ST -.->|Manages Experience| BS
-    OT -.->|Maintains Infrastructure| TS
-    
-    %% Accessibility-focused Styling (Pure Black Text #000)
-    style CU fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
-    style SC fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
-    style BS fill:#009E73,stroke:#000,stroke-width:2px,color:#000
-    style TS fill:#009E73,stroke:#000,stroke-width:2px,color:#000
-    style ST fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
-    style OT fill:#56B4E9,stroke:#000,stroke-width:2px,color:#000
-
-```
 
 ## Planning a service
 
