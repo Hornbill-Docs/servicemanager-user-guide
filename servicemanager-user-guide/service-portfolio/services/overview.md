@@ -94,7 +94,7 @@ The Supporting Teams feature is used to assign dedicated [service desk teams](/s
 
 ![Supporting Teams](/_books/servicemanager-user-guide/images/service-supporting-teams.png)
 
-#### Members of supporting teams can
+### Members of supporting teams can
 
 * View all requests raised against the service. Navigate to **Request list > Filters > All My Services**.
 * Be assigned a request raised against the service from Intelligent Capture assignment forms, request forms, and multi-select assignment options on the Request List view.
