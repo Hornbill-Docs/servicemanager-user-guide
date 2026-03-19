@@ -40,7 +40,7 @@ Three charts help to identify trends with your services.  These charts are avail
 
 ![Service Portfolio Trends](/_books/servicemanager-user-guide/images/service-portfolio-trends.png)
 
-* **Service Desmand**. Select up to five services to compare the number of requests made to to each service per month.
+* **Service Demand**. Select up to five services to compare the number of requests made to to each service per month.
 
 * **Service Availability**.  Select up to five services to compare which services have experienced the most time spent as impacted and unavailable.
 

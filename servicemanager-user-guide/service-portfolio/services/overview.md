@@ -2,7 +2,7 @@
 layout: article
 keywords: progressive capture 
 ---
-# Services overview
+# Service overview
 
 Services connect technical capabilities to business value. They use a clear hierarchy to help with delivery and support. A service is primarily used to group and manage requests, but it also provides a way to organize the underlying assets and other services that support it. Services are the foundation of your service portfolio, and they help you understand how everything fits together.
 
@@ -41,20 +41,6 @@ graph TD
 
 ```
 
-## Service types
-
-There are two main types of services in an ITSM framework:
-
-* **Business Services**: These represent the value you see and use every day, such as email or payroll. You can access these through the Service Catalog.
-* **Technical Services**: These provide the underlying infrastructure that makes Business Services possible. Examples include servers and networks.
-
-## Support teams
-
-A dual-support model maintains the service ecosystem:
-
-* **Service Desk**: This team manages your experience and handles business relationships.
-* **Operations and Engineering**: These teams maintain the technical health of the stack. They ensure every service remains reliable and meets your needs.
-
 ## Planning a service
 
 When planning a service, it’s important to follow a structured approach to ensure that the service meets the needs of its users and is sustainable in the long term. Here are the key steps to consider:
@@ -71,9 +57,78 @@ When planning a service, it’s important to follow a structured approach to ens
     * **The Help Plan**: Who does a user call when it breaks? Create a simple path for getting help.
     * **The "Success" Test**: Decide now how you'll know if the service is a hit. Is it based on how many people use it, or how happy they are?
 
+
+## Service types
+
+There are two main types of services in an ITSM framework:
+
+* **Business Services**: These represent the value you see and use every day, such as email or payroll. You can access these through the Service Catalog.
+* **Technical Services**: These provide the underlying infrastructure that makes Business Services possible. Examples include servers and networks.
+
+## Support teams
+
+A dual-support model maintains the service ecosystem:
+
+* **Service Desk**: This team manages your experience and handles business relationships.
+* **Operations and Engineering**: These teams maintain the technical health of the stack. They ensure every service remains reliable and meets your needs.
+
+The Supporting Teams feature allows you to assign dedicated service desk teams to a specific service. This ensures that the right people manage the correct requests.
+
+![Supporting Teams](/_books/servicemanager-user-guide/images/service-supporting-teams.png)
+
+### How team access works
+
+Access to service requests depends on whether you have assigned a team to the service:
+
+* **Default access**: When you create a new service, all service desk teams support it. Every team can view and manage the requests for that service.
+* **Restricted access**: When you assign one or more dedicated teams to a service, the system limits access. Only the assigned teams can see and manage the requests for that service.
+
+### Supporting team capabilities
+
+Members of a supporting team on a service can perform the following:
+
+* **View requests**: You can see the requests raised against your service. Role assignments will determine the types of request you can see.
+* **Request assignment**: You can be assigned requests that are associated with the service and reassign requests to other supporting team members.
+* **Search for requests**: You can use the global search bar to find specific information. The search results will include requests logged against services your team supports, requests assigned to you or your team, and requests where you are a member.
+
+## Service subscriptions
+
+Business users and customers subscribe to the service to use its features. You can manage these subscriptions for your users to ensure they have the access they need.
+
+You can subscribe customers to a service based on specific organization groups. By default, the subscription settings allow all customers to use the service.
+
+:::tip
+Only groups that contain users will be displayed.
+:::
+
+### Subscribing sub-groups
+
+By default, each organizational grouping needs to be added individually to a service for its members to be subscribed to the service. If your organizational structure utilizes sub-groups linked to a parent group --- for example, departments under a company grouping, and the members of each department are listed under the relevant department but not also in the company grouping --- you may want to subscribe all the departments and therefore all the members by simply subscribing the parent company grouping. To facilitate this approach you can do the following:
+
+To allow for subscribing of sub-groups, Hornbill administrators can turn on the `com.hornbill.servicemanager.services.subscriptions.allowSubgroupsInclusion` setting, which is off by default.
+
+This enables users to subscribe sub-groups to a service based on the parent grouping being subscribed.
+
+::: note
+This will NOT automatically apply to existing group subscriptions and new group subscriptions.
+
+With this setting enabled, you can choose to allow sub-group subscriptions when applying new group subscriptions and managing existing group subscriptions.
+:::
+
+When subscribing a new organizational grouping to a service, or managing an existing organizational group subscription to a service, a Sub-Grouping icon will now be visible. By default, this is disabled.
+
+**To enable sub-group subscriptions:**
+
+1. To subscribe all members of the sub-groups to the service based on the parent group's subscription, click the Sub-Grouping icon to enable the setting.
+1. (Optional) To disable subgroups and their members' subscription to the service based on the parent group subscription, click the Sub-Grouping icon to disable it.
+
+The sub-group option will not apply to non-organizational-based groupings such as sites, users, and contacts.
+
+Catalog item visibility in the request catalog for sub-group members subscribed via their parent organizational grouping respects the parent's inclusion or exclusion of each catalog item's visibility.
+
 ## Portal Visibility
 
-If the Service will be visible on the Employee, and Customer portals for subscribed users.
+If the Service will be visible on the Employee and Customer portals for subscribed users.
 
 * **Visible:** Subscribed users will see, and have access to their requests raised against the Service, even if they you have restricted their ability to raise tickets from the portals for this Service.
 * **Hidden:** Subscribed users will not see the Service on the Customer or Service portal - Useful when defining a technical Service rather than a business Service.
@@ -102,78 +157,6 @@ A user that is a member of a team that support the service, but doesn't have the
 ## Activities
 
 The Activities panel lets you create and managed tasks and activities against this service. This can be used for planning updates to any aspect of the service such as updating a workflow or Intelligent Capture.
-
-## Supporting Teams
-
-The Supporting Teams feature is used to assign dedicated [service desk teams](/servicemanager-config/administration/service-desk) that will support the service. Each supporting team has the right to view and manage requests for the service. When a service is first created, it is supported by all service desk teams. Once one or more dedicated teams have been allocated to a service, only those teams can see and manage the requests for that service.
-
-![Supporting Teams](/_books/servicemanager-user-guide/images/service-supporting-teams.png)
-
-### Members of supporting teams can
-
-* View all requests raised against the service. Navigate to **Request list > Filters > All My Services**.
-* Be assigned a request raised against the service from Intelligent Capture assignment forms, request forms, and multi-select assignment options on the Request List view.
-* Assign or reassign a request to another team or analyst in a team (as long as the team or analyst that supports the service).
-* Using the global search bar, see results for requests that are logged against services their teams support, or requests that are assigned to them, their teams, or where they have been added as members to the requests.
-
-#### Filtering the list of services displayed
-
-Optionally, you can filter the list of services that are displayed on the Intelligent Capture > Services form. This could be to only display those services that belong to the customer they are logging the request for. You could also do this to display only those services the analyst supports (based on being a member of a team that supports one or more services). This could be useful, for example, if you only want the IT team to see the services they support, and equally you want the HR team to only see the services they support, when raising requests via Intelligent Capture.
-
-To filter the list of services displayed, Hornbill administrators can turn on the [`servicemanager.progressiveCapture.servicedetails.enableSupportVisibility` setting](/servicemanager-config/advanced-tools-and-settings/application-settings#service-manager-forms), which is off by default.
-
-## Subscribers
-
-Subscribers are the people who consume the service. You can subscribe customers to a service based on various organization groups. By default, subscription settings allow all customers to use the service.
-
-### Subscription options
-
-* **General.** Search and subscribe groups that belong to the **General** type.
-* **Team.** Subscribes defined teams to the service.
-* **Department.** Search and subscribe groups that belong to the **Department** type.
-* **Cost Center.** Search and subscribe groups that belong to the **Cost Center** type.
-* **Division.** Search and subscribe groups that belong to the **Division** type.
-* **Company.** Search and subscribe groups that belong to the **Company** type.
-* **Business Unit.** Search and subscribe groups that belong to the **Business Unity** type.
-* **Directorate.** Search and subscribe groups that belong to the **Directorate** type.
-* **Branch.** Search and subscribe groups that belong to the **Branch** type.
-* **Board.** Search and subscribe groups that belong to the **Board** type.
-* **Subsidiary.** Search and subscribe groups that belong to the **Subsidiary** type.
-* **Function.** Search and subscribe groups that belong to the **Function** type.
-* **User.** Subscribes individual internal users to the service.
-* **Site.** Subscribes all users of a given site to the service.
-* **Contact Organization.** Subscribes specific external organizations to the service.
-* **Individual Contacts.** Subscribes individual contacts to the service.
-* **All Contacts.** Subscribes all defined contacts to all supported external organizations to the service.
-
-:::tip
-The Department, Team, and General options only appear in the dropdown list once they have been defined in **Configuration > Platform Configuration**.
-:::
-
-### Subscribing sub-groups
-
-By default, each organizational grouping needs to be added individually to a service for its members to be subscribed to the service. If your organizational structure utilizes sub-groups linked to a parent group --- for example, departments under a company grouping, and the members of each department are listed under the relevant department but not also in the company grouping --- you may want to subscribe all the departments and therefore all the members by simply subscribing the parent company grouping. To facilitate this approach you can do the following:
-
-To allow for subscribing of sub-groups, Hornbill administrators can turn on the `com.hornbill.servicemanager.services.subscriptions.allowSubgroupsInclusion` setting, which is off by default.
-
-This enables users to subscribe sub-groups to a service based on the parent grouping being subscribed.
-
-::: note
-This will NOT automatically apply to existing group subscriptions and new group subscriptions.
-
-With this setting enabled, you can choose to allow sub-group subscriptions when applying new group subscriptions and managing existing group subscriptions.
-:::
-
-When subscribing a new organizational grouping to a service, or managing an existing organizational group subscription to a service, a Sub-Grouping icon will now be visible. By default, this is disabled.
-
-**To enable sub-group subscriptions:**
-
-1. To subscribe all members of the sub-groups to the service based on the parent group's subscription, click the Sub-Grouping icon to enable the setting.
-1. (Optional) To disable subgroups and their members' subscription to the service based on the parent group subscription, click the Sub-Grouping icon to disable it.
-
-The sub-group option will not apply to non-organizational-based groupings such as sites, users, and contacts.
-
-Catalog item visibility in the request catalog for sub-group members subscribed via their parent organizational grouping respects the parent's inclusion or exclusion of each catalog item's visibility.
 
 ## Timeline
 
