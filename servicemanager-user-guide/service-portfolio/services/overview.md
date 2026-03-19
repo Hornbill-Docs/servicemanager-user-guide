@@ -7,7 +7,7 @@ keywords: progressive capture
 Services connect technical capabilities to business value. They use a clear hierarchy to help with delivery and support. A service is primarily used to group and manage requests, but it also provides a way to organize the underlying assets and other services that support it. Services are the foundation of your service portfolio, and they help you understand how everything fits together.
 
 ```mermaid
-%%{init: {'flowchart': {'nodeSpacing': 30, 'rankSpacing': 30}, 'themeVariables': { 'edgeLabelBackground': '#ffffff' }}}%%
+%%{init: {'flowchart': {'nodeSpacing': 30, 'padding': 20, 'rankSpacing': 30}, 'themeVariables': {'edgeLabelBackground': '#ffffff' }}}%%
 graph TD
     %% User Layer
     CU["`👤 Business Users / Customers`"]
@@ -60,20 +60,20 @@ A dual-support model maintains the service ecosystem:
 When planning a service, it’s important to follow a structured approach to ensure that the service meets the needs of its users and is sustainable in the long term. Here are the key steps to consider:
 
 1. **Figure out the "Why".** Before building anything, make sure people actually need it.
-    * **Who is it for?** Identify your specific "customers" (e.g., the Accounting team or remote workers).
-    * **What problem does it solve?** Make sure the service makes their life easier (e.g., "This service lets people submit expenses from their phones").
+    * **Who is it for?** Identify your specific "customers".
+    * **What problem does it solve?** Make sure the service makes their life easier.
     * **Can we afford it?** Check if you have the budget for the tools and the people to run it long-term.
 1. **Design the "How".** Decide exactly how the service will work day-to-day.
     * **The "4 Ps"**: Plan for the People (who runs it), Products (the software/tools), Partners (outside vendors), and Processes (the step-by-step instructions).
     * **Set the "Promises"**: Agree on how fast it should be and how often it’s allowed to be "down" for maintenance.
-    * **Safety Check**: Make sure it’s secure and won't crash when too many people use it at once.
+    * **Quality Check**: Make sure that all aspects of the service are working and that the demand for the service can be met.
 1. **Plan the Handover**. Make sure the team is ready to support the users once it goes live.
     * **The Help Plan**: Who does a user call when it breaks? Create a simple path for getting help.
-    * **The "Success" Test**: Decide now how you'll know if the service is a hit—is it based on how many people use it, or how happy they are?
+    * **The "Success" Test**: Decide now how you'll know if the service is a hit. Is it based on how many people use it, or how happy they are?
 
 ## Portal Visibility
 
-If the Service will be visible on the Employee, Customer and Service Portals for subscribed users.
+If the Service will be visible on the Employee, and Customer portals for subscribed users.
 
 * **Visible:** Subscribed users will see, and have access to their requests raised against the Service, even if they you have restricted their ability to raise tickets from the portals for this Service.
 * **Hidden:** Subscribed users will not see the Service on the Customer or Service portal - Useful when defining a technical Service rather than a business Service.
