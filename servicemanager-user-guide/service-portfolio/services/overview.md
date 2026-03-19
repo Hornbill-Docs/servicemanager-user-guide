@@ -65,7 +65,7 @@ There are two main types of services in an ITSM framework:
 * **Business Services**: These represent the value you see and use every day, such as email or payroll. You can access these through the Service Catalog.
 * **Technical Services**: These provide the underlying infrastructure that makes Business Services possible. Examples include servers and networks.
 
-## Support teams
+## Supporting teams
 
 A dual-support model maintains the service ecosystem:
 
@@ -91,7 +91,7 @@ Members of a supporting team on a service can perform the following:
 * **Request assignment**: You can be assigned requests that are associated with the service and reassign requests to other supporting team members.
 * **Search for requests**: You can use the global search bar to find specific information. The search results will include requests logged against services your team supports, requests assigned to you or your team, and requests where you are a member.
 
-## Service subscriptions
+## Subscribers
 
 Business users and customers subscribe to the service to use its features. You can manage these subscriptions for your users to ensure they have the access they need.
 
