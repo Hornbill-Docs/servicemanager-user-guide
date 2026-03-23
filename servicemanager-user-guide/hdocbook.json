@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.8.9",
+  "version": "0.8.10",
   "audience": [
     "public"
   ],
@@ -441,17 +441,6 @@
           {
             "text": "Search Data",
             "link": "/servicemanager-user-guide/knowledge/search-data"
-          }
-        ]
-      },
-      {
-        "text": "Reports",
-        "draft": true,
-        "expand": false,
-        "items": [
-          {
-            "text": "Overview",
-            "link": "/servicemanager-user-guide/index"
           }
         ]
       },
