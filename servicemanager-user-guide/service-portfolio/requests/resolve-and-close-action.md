@@ -2,6 +2,8 @@
 
 Use the **Resolve and Close** action to update a request status to **Resolved** or **Closed**. This action allows you to document the resolution details and select a **Closure Category** to help with reporting and tracking.
 
+<!-- [Visual Cue: Annotated screenshot showing the Resolve and Close action in the request action bar, highlighting the Closure Category dropdown and Resolution Text field.] -->
+
 ## Configuration options
 
 When you use this action, you can interact with the following elements:
