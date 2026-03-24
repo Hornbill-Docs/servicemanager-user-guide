@@ -135,6 +135,10 @@ Each Service Manager user has the ability to select which columns are visible on
 
 Each Service Manager user has the ability to select how often their Request List is automatically refreshed. This is a per-user setting so that each individual can have their own refresh interval. To disable the refresh, set this to 0.
 
+:::tip
+The Automatic refresh of the list is temporarily disabled when a Filter is entered into the Filter box
+:::
+
 ## Sorting requests
 
 Each column within the list can be sorted in either descending or ascending order by clicking on the column header. Arrows next to each column header indicate the currently applied order.
