@@ -1,28 +1,43 @@
-# Solutions
-The Solutions Action on an incident identifies possible solutions for that particular incident. The solutions icon is dynamic and is only displayed when a potential solution is available.
+# Solutions action
 
-If an incident is linked to one or more Problem, or Known Error records, and any of those have defined Workarounds, then these will be available as possible Solutions to the Incident.
+The Solutions action helps you identify and apply fixes to an incident. The **Solutions** icon is dynamic. It only appears in the interface when the system finds a potential solution for that specific incident.
 
-:::info
-The solutions action can be enabled within the [Request Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions) for each service.
-:::
+If an incident links to one or more problem or known error records that contain defined workarounds, the system displays these workarounds as possible solutions.
 
-## Using solutions
-Solutions consist of information provided by linked known errors and problem records. When workaround information is provided by either of these and they are linked to this particular request, one or more Solutions can be listed, and each is available for review.
+## Before you begin
 
-* **Accepting a solution**<br>Using the drop-down, a Solution can be marked as accepted. In doing so the Solution will be highlighted in green and that solution will show as an Accepted Solution.
-The Solution text is copied into the Resolution text box and is ready for the Incident Owner to resole the Incident.
-* **Not the solution**<br>If a Solution or Solutions are not the resolution for the Incident, these can be marked as such and will show as Not the Solution.
-* **Resolve using a solution**<br>The Solution text is copied into the Resolution text box and is ready for the Incident Owner to resole the incident if a Solution is accepted.
+An administrator must enable the solutions action within the [Request Configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions) for each service.
 
-## FAQs
-If an FAQ has been published against the same Service as the request is associated to and that FAQ has the visibility set to Service Desk, these FAQs will be visible on the Solution Action under the FAQ tab.
-* **Accepting a solution**<br>Using the drop-down, a Solution can be marked as accepted. In doing so the Solution will be highlighted in green and that solution will show as Accepted Solution.
-The Solution text is copied into the Resolution text box and is ready for the Incident Owner to resole the Incident.
-* **Not the solution**<br>If a Solution or Solutions are not the resolution for the Incident, these can be marked as such and will show as Not the Solution.
-* **Resolve using a solution**<br>The Solution text is copied into the resolution text box and is ready for the Incident Owner to resovle the Incident, if a Solution is accepted.
+## Use a solution
 
-## Knowledge articles
-Knowledge articles that are contained within a knowledge base that is linked to the same service as the request, will be displayed on the Solutions action.  A filter is provided to narrow down the articles to those that might help.
-* [Knowledge base subscriptions](/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions#service) to services can be configured to provide access based on the request's related service.
-* The filter applies only to the title of the articles.
+When a linked known error or problem record contains a workaround, you can review it in the **Solutions** tab.
+
+To manage these solutions, follow these steps:
+
+1. Open the incident and select the **Solutions** action.
+2. Review the list of available solutions.
+3. Select an action from the drop-down menu for a specific solution:
+    * **Accepting a solution**: Select this to mark the solution as accepted. The solution turns green and displays as an **Accepted Solution**. The system automatically copies the solution text into the **Resolution** text box.
+    * **Not the solution**: Select this if the solution does not resolve the incident. The record then displays as **Not the Solution**.
+4. If you accept a solution, the incident is ready for the incident owner to resolve using the copied text.
+
+<!-- [Visual Cue: Annotated screenshot showing the Solutions icon in the request action bar and the color change when a solution is accepted.] -->
+
+## Use FAQs as solutions
+
+If an FAQ is published against the same service as the request and has visibility set to **Service Desk**, it appears under the **FAQ** tab of the **Solutions** action.
+
+You can interact with FAQs in the same way as standard solutions:
+
+* **Accepting a solution**: Select this to highlight the FAQ in green. The text copies to the **Resolution** text box.
+* **Not the solution**: Select this to mark the FAQ as incorrect for this incident.
+* **Resolve using a solution**: Once you accept an FAQ, the text is ready in the **Resolution** box for the incident owner to complete the resolution.
+
+## Access knowledge articles
+
+Knowledge articles appear in the **Solutions** action if they belong to a knowledge base linked to the same service as the request.
+
+* You can use the provided filter to find specific articles. This filter searches the titles of the articles only.
+* [Knowledge base subscriptions](/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions#service) provide access based on the related service of the request.
+
+<!-- [Visual Cue: Diagram showing the relationship between Services, Knowledge Bases, and the Solutions action.] -->

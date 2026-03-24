@@ -57,7 +57,6 @@ When planning a service, it’s important to follow a structured approach to ens
     * **The Help Plan**: Who does a user call when it breaks? Create a simple path for getting help.
     * **The "Success" Test**: Decide now how you'll know if the service is a hit. Is it based on how many people use it, or how happy they are?
 
-
 ## Service types
 
 There are two main types of services in an ITSM framework:
