@@ -1,82 +1,86 @@
-# Resolve and Close
+# Resolve and close
 
-The Resolve and Close Action Item is used to set the request status to either Resolved or Closed. In addition to changing the status, information about the solution or information supporting the status change can be added along with the selection of a Closure Category.
+Use the **Resolve and Close** action to update a request status to **Resolved** or **Closed**. This action allows you to document the resolution details and select a **Closure Category** to help with reporting and tracking.
 
-## Options
+## Configuration options
 
-* Resolve
-* Close
-* Closure Category
-* Resolution Text
-* Editing
+When you use this action, you can interact with the following elements:
+
+* **Resolve**: Sets the request status to **Resolved**.
+* **Close**: Sets the request status to **Closed**.
+* **Closure Category**: A dropdown menu to categorize why or how the request was finished.
+* **Resolution Text**: A text field to provide details about the fix or the reason for the status change.
+* **Editing**: Allows for modifications to the resolution details.
 
 :::tip
-If the visibility is set to Customer, the resolution tab along with the resolution text is made available to the customer on the portal.
+If you set the visibility to **Customer**, the resolution tab and the resolution text become visible to the customer on the service portal.
 :::
 
-## Settings
+## System settings
 
-**Prevent resolution when there are outstanding Activities**
-This setting prevents a request from being resolved when there are outstanding activities. Additional activities can be added after the request has been resolved if required.
+You can customize how the **Resolve and Close** action behaves by adjusting settings in the administration area.
 
-`webapp.view.ITSM.serviceDesk.requests.resolve.denyWithOpenActivities`
+### Prevent resolution with outstanding activities
 
-* Default Setting is Off.
-* This will apply to all request types for all services.
+This setting stops a user from resolving a request if there are still open activities. You can still add more activities after the request is resolved if necessary.
 
-**Enforce the selection of a closure category**
-This setting prevents a request from being resolved or closed until a Closure Category has been selected.
+* **Key**: `webapp.view.ITSM.serviceDesk.requests.resolve.denyWithOpenActivities`
+* **Default**: Off
+* **Scope**: Applies to all request types and services.
 
-`servicemanager.request.closureCategory.default.required`
+### Enforce closure category selection
 
-* Default is set to 'Off.
-* This will apply to all request types for all services.
+This setting requires a user to select a **Closure Category** before they can resolve or close a request.
 
-**Enforce the selection of a last item closure category**
-Whether the user is forced to select the last tree element for the closure category.
+* **Key**: `servicemanager.request.closureCategory.default.required`
+* **Default**: Off
+* **Scope**: Applies to all request types and services.
 
-`guest.servicemanager.request.category.closure.enforceLastItem`
+### Enforce last item closure category
 
-* Default is set to Off.
-* This will apply to all request types for all services.
+This setting requires the user to select the final element (the "leaf" node) in the closure category tree.
 
-**Resolve Linked Requests**
-A Service Manager setting is available which enables a feature within the Request Close Action Item that allows an analyst to resolve one or more requests that are linked to the request that you are resolving or closing.
+* **Key**: `guest.servicemanager.request.category.closure.enforceLastItem`
+* **Default**: Off
+* **Scope**: Applies to all request types and services.
 
-`app.request.resolve.enableLinkedRequestAction`
+### Resolve linked requests
 
-* Default is set to Off
-* Resolve
-    When this setting is enabled, the Resolve button will include an additional drop-down option to Resolve Linked Requests. A list of the requests that are currently linked to the request you are resolving will be displayed. From this list, you can select which requests you would like to resolve at the same time.
-  * The requests displayed will be filtered to those that you have the right to resolve, based on if the linked requests are logged against Services that your teams support.
-  * Resolved/closed requests will not appear in the list.
-* Close
-    When this setting is enabled, the close button will include an additional drop-down option to Close Linked Requests if there are requests linked with the status of resolved. An additional option will be available to resolve requests if there are any linked requests that have a status of Open.
-  * The requests displayed will be filtered to those that you have the rights to close/resolve, based on if the linked requests are logged against Services which your teams support.
-  * Closed requests will not appear in the list.
+This feature allows an analyst to resolve or close multiple requests that are linked to the current request.
 
-## Two Stage Closure
+* **Key**: `app.request.resolve.enableLinkedRequestAction`
+* **Default**: Off
 
-Many customers like to operate what is known as a “Two Stage Closure” routine after a resolution to a request has been established. This typically involves changing the status of the request to “Resolved” when the initial resolution has been provided to the customer and closing the request only when either a confirmation of the resolution has been received from the customer, or a certain period has elapsed without action or response, and the request should be automatically closed e.g. 7 days. This can be incorporated into Hornbill Service Manager using the configured workflows against your requests and this article explains how to set this up.
+When you enable this setting:
 
-### Scenarios
+* **Resolve**: The **Resolve** button displays a dropdown menu titled **Resolve Linked Requests**. You can select specific linked requests to resolve simultaneously. The list only shows requests that you have permission to resolve and excludes those already resolved or closed.
+* **Close**: The **Close** button displays a dropdown menu titled **Close Linked Requests** (if linked requests are already resolved) or **Resolve Linked Requests** (if linked requests are still open). The list only shows requests you have permission to manage and excludes those already closed.
 
-Before configuring, its useful to consider the different scenarios when resolving and closing a request. What will be the same for every request is that it will be Resolved (i.e. have its status set to Resolved). This is typically performed by an Analyst entering a resolution within the Hornbill request, which may notify the customer.
+## Set up a two-stage closure workflow
 
-1. **Resolution Accepted**: The customer accepts the resolution, either via the Service portal or the Analyst closing on their behalf. This moves the status of the request to Closed
-2. **Resolution Rejected**: The customer advised the issue is not resolved or the resolution didn’t work, either by actioning this on the Service Portal or informing the Analyst who will reopen on their behalf. This moves the status of the request to Open
-3. **No Action**: There is no response from the customer. Instead of the analysts having to remember to manually close these requests, the system will automatically close any resolved request after “X” number of days. This moves the status of the request to Closed
+A two-stage closure routine helps you manage the gap between providing a fix and officially closing the record. This process typically involves setting a request to **Resolved** and then waiting for customer confirmation or a set period (such as 7 days) before the system automatically sets the status to **Closed**.
 
-### Two Stage Closure Workflow
+### Common scenarios
 
-The above scenarios need to be configured within the workflow of your request.
+1. **Resolution Accepted**: The customer accepts the resolution via the portal, or an analyst closes it for them. The status moves to **Closed**.
+2. **Resolution Rejected**: The customer indicates the issue is not fixed. The status moves to **Open**.
+3. **No Action**: The customer does not respond. The system automatically moves the status to **Closed** after a defined number of days.
 
-* **Suspend - Wait for Status Change**: The first node to be set up is “Suspend - Wait for Status Change”. We know that by the time it reaches this node, the status of the request will be “Resolved”. This pauses the process until the status changes to either Closed or back to Open – as per the scenarios above.
+### Configure the workflow nodes
 
-    Within the configuration of this node, you will also have the option to set an Expiry Period. This is the period that this Suspend node will stay active for, before it automatically moves on to the next node in the process – which is how it possible to set up the automatic closure after a defined number of days. The expiry period is in working hours and will adhere to the hours configured in the Working Time Calendar.
+To implement this, you must configure specific nodes within your request workflow.
 
-* **Decision Node**: Following the suspend node, the decision node will determine the status that the request has been changed to.
+**1. Suspend - Wait for Status Change**
+Place this node after the request status is set to **Resolved**. This node pauses the automated process until the status changes to **Closed** or **Open**.
 
-    1. **Reopened By Customer**: This decision criteria is based on if the status has been changed from Resolved to Open.
-    2. **Expired**: This decision criteria is based on if the status has remained as resolved and Expiry Time we provided has elapsed. The expiry time is in working hours and will adhere to the hours configured in the "ServiceDeskDefaultCalendar" working time calendar found in Hornbill Administration.
-    3. **No Match**: This refers to the only other option, which is that the request has been closed – and the criteria is based on if the status has been changed from resolved to closed.
+* **Expiry Period**: Use this field to set how long the node stays active before moving to the next step. This allows for automatic closure.
+* **Note**: The expiry period uses working hours based on your **Working Time Calendar**.
+
+**2. Decision Node**
+Place a decision node immediately after the suspend node to branch the process based on the new status.
+
+* **Reopened By Customer**: Create a branch for when the status changes from **Resolved** to **Open**.
+* **Expired**: Create a branch for when the **Expiry Period** elapses while the status is still **Resolved**. This branch typically leads to an automated **Close** action.
+* **No Match**: Create a branch for when the request status changes to **Closed**.
+
+<!--[Visual Suggestion: Add a workflow diagram showing the "Suspend" node branching into three paths: "Reopened," "Expired/Auto-close," and "Manually Closed."] -->
