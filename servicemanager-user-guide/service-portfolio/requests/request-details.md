@@ -10,7 +10,7 @@ The **Details** section provides an overview of the request, including the summa
 
 - **Description**: The description provides a more detailed explanation of the request, including the background, rationale, and any relevant information that stakeholders need to know. It should be comprehensive and well-structured, allowing stakeholders to fully understand the context and implications of the request.
 
-- **Source**: The source section identifies the origin of the request, such as Self Service using one of the portals, email, or by another system. This is a read-only field that is automatically populated based on how the request was created.
+- **Source**: The source section identifies the origin of the request, such as self service using one of the portals, email, or by another system. This is a read-only field that is automatically populated based on how the request was created.
 
 - **Location**: The location field allows you to specify the location associated with the request. This can be useful for tracking where the request needs to be addressed. The location can be selected from a predefined list that is managed in the [Location configuration](/esp-config/organizational-data/locations) section.
 
