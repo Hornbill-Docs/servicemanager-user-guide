@@ -1,29 +1,34 @@
 ---
 layout: article-toc
 ---
-# Asset Management
-Asset management involves the capturing and detailing of information for the assets within your organization. This includes tracking the ownership, costs, relationships, and life cycle of assets to support strategic decision-making for the IT environment.
+# Asset management overview
 
-Hornbill Service Manager Asset Management facilitates the recording of detailed hardware and software inventory information that can be used to assist IT with supporting the users of the assets and for making decisions about hardware and software purchases and redistribution.
+Use asset management to capture and detail information for your organization's assets. This process includes tracking ownership, costs, relationships, and the life cycle of assets to support strategic decision-making for your IT environment.
 
-The assets in Asset Management form the foundation of a Configuration Management Database (CMDB). Assets can be used as part of Incident, Problem, and Change processes to assist in incident classification, impact analysis, and change planning.
+Hornbill Service Manager Asset Management records hardware and software inventory information. This data helps IT teams support asset users and make informed decisions about hardware and software purchases and redistribution.
 
-## Access
-To access the Asset Management capabilities of Hornbill Service Manager, your user account must have one of the following roles associated.
+Assets form the foundation of a Configuration Management Database (CMDB). You can use assets within Incident, Problem, and Change processes to assist with incident classification, impact analysis, and change planning.
 
-|Role|Description|
-|-|-|
-|Asset Management User|This role includes rights to define  and edit assets as well as to add detailed asset information.|
-|Asset Management Admin|This role provides all the capabilities of the Asset Management User role, with additional rights to define and edit asset types.|
+<!-- [Visual Suggestion: A diagram showing how assets connect to Incident, Problem, and Change records to form a CMDB.] -->
 
-## Features
-* **Manage Assets.** Access to your organization's assets
-* **Manage Asset Types.** Define the types of assets that are used by your organization. Control the available fields and information used on each asset type.
-* **Upload Assets.** For small batch imports of assets, use our simple CSV import.
-* **Asset Tags.** Create and managed tags that can be used on individual assets. This includes an option to enable or disable the ability for a user to add their own tags, or force them to use a defined set of tags.
+## Access requirements
 
-## Integration
-If you already have an asset-discovery tool or a second asset database, you can set up automated imports and updates using the [Hornbill Asset Import utility](/data-imports-guide/assets/overview). This utility lets you connect to a local database within your network and push the information up to your Hornbill instance.
+To use the Asset Management capabilities in Hornbill Service Manager, your user account must have one of the following roles.
+
+| Role | Description |
+| :--- | :--- |
+| Asset Management User | Provides rights to define and edit assets and add detailed asset information. |
+| Asset Management Admin | Provides all capabilities of the Asset Management User role and adds rights to access asset configuration where asset types, categories, partitions, custom fields, and other settings can be managed. |
+
+## Key features
+
+* **Manage assets**: Access and update your organization's assets in one central location.
+* **Bulk update assets**: Update a field across multiple assets simultaneously.
+* **Assets under warranty**: View assets based on their warranty status.
+
+## Integration options
+
+If you use an asset-discovery tool or a separate asset database, you can set up automated imports and updates. Use the [Hornbill Asset Import utility](/data-imports-guide/assets/overview) to connect to a local database within your network and move information to your Hornbill instance.
 
 <!--
 Database Asset Import
