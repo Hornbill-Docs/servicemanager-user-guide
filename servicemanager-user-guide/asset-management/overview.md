@@ -1,7 +1,11 @@
 ---
 layout: article-toc
 ---
-# Asset management overview
+# Assets overview
+
+:::note
+[[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/service-manager/new-assets-note.md]]
+:::
 
 Use asset management to capture and detail information for your organization's assets. This process includes tracking ownership, costs, relationships, and the life cycle of assets to support strategic decision-making for your IT environment.
 
@@ -11,14 +15,16 @@ Assets form the foundation of a Configuration Management Database (CMDB). You ca
 
 <!-- [Visual Suggestion: A diagram showing how assets connect to Incident, Problem, and Change records to form a CMDB.] -->
 
-## Access requirements
+## Before you begin
 
-To use the Asset Management capabilities in Hornbill Service Manager, your user account must have one of the following roles.
+To manage assets, you must have one of the following roles and rights:
 
-| Role | Description |
-| :--- | :--- |
-| Asset Management User | Provides rights to define and edit assets and add detailed asset information. |
-| Asset Management Admin | Provides all capabilities of the Asset Management User role and adds rights to access asset configuration where asset types, categories, partitions, custom fields, and other settings can be managed. |
+* The **Asset Management User** role, including the `View Asset Management` application right and either the `Create Assets` or `Edit Assets` right.
+* A custom role that includes the `View Asset Management` application right and either the `Create Assets` or `Edit Assets` right.
+
+:::important
+If asset records are [in a partition set up by your assets admin](/servicemanager-config/assets/manage-partitions), your actions are limited to your granted permissions. If your permissions do not include creating, editing, or deleting, you can only view those records.
+:::
 
 ## Key features
 
@@ -26,26 +32,30 @@ To use the Asset Management capabilities in Hornbill Service Manager, your user 
 * **Bulk update assets**: Update a field across multiple assets simultaneously.
 * **Assets under warranty**: View assets based on their warranty status.
 
-## Integration options
+## Accessing Assets
 
-If you use an asset-discovery tool or a separate asset database, you can set up automated imports and updates. Use the [Hornbill Asset Import utility](/data-imports-guide/assets/overview) to connect to a local database within your network and move information to your Hornbill instance.
+From the left-hand application bar, select **Service Management** > **Assets**.
 
-<!--
-Database Asset Import
+## Partition selector
 
-:::note
-If Assets are added using data::entityAddRecord API, the Asset URN must be set against each individual Asset record. This can be achieved using data::entityUpdateRecord API. Please remember to replace [Asset Id] with the generated value in h_pk_asset_id column in h_cmdb_assets table.
+An [asset partition](/servicemanager-config/assets/manage-partitions) is a group of assets where the access is restricted to selected users or groups. If asset partitions have been set up, you can select a partition to view the assets within it. Any asset not belonging to a partition can be viewed by selecting the **Un-partitioned assets** option.
 
- <params>
-   <application>com.hornbill.servicemanager</application>
-   <entity>Asset</entity>
-   <primaryEntityData>
-     <record>
-       <h_pk_asset_id>[Asset Id]</h_pk_asset_id>
-       <h_asset_urn>urn:sys:entity:com.hornbill.servicemanager:Asset:" + [Asset Id]</h_asset_urn>
-     </record>
-   </primaryEntityData>
- </params>
+<!-- Visual suggestion: Annotated screenshot of the partition selector dropdown in the assets dashboard. -->
 
- :::
- -->
+## Dashboard
+
+The Assets dashboard displays tiles for available asset types. Click any tile to display a list of all assets belonging to that type.
+
+<!-- Visual suggestion: Annotated screenshot of the Assets dashboard highlighting the asset type tiles.-->
+
+## All assets view
+
+The All assets view displays all assets for the selected partition.
+
+## Assets under warranty view
+
+The Assets under warranty view displays assets that are currently under warranty for the selected partition.
+
+## Asset type navigation
+
+Assets are categorized by type, such as hardware or software. You can navigate to a specific asset type to view and manage assets of that type.

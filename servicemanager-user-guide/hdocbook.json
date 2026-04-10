@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.8.13",
+  "version": "0.9.0",
   "audience": [
     "public"
   ],
@@ -211,23 +211,11 @@
             "link": "/servicemanager-user-guide/asset-management/overview"
           },
           {
-            "text": "Asset Structure",
-            "link": "/servicemanager-user-guide/asset-management/asset-structure"
+            "text": "Asset list",
+            "link": "/servicemanager-user-guide/asset-management/asset-list"
           },
           {
-            "text": "Manage Assets",
-            "link": "/servicemanager-user-guide/asset-management/manage-assets"
-          },
-          {
-            "text": "Manage Assets - Preview",
-            "link": "/servicemanager-user-guide/asset-management/assets"
-          },
-          {
-            "text": "Manage Asset Types",
-            "link": "/servicemanager-user-guide/asset-management/manage-asset-types"
-          },
-          {
-            "text": "Assets Details",
+            "text": "Asset details",
             "link": "/servicemanager-user-guide/asset-management/asset-details"
           },
           {

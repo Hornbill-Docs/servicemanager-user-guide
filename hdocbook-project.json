@@ -18,6 +18,11 @@
       "location": "/servicemanager-config/assets/upload-assets",
       "code": 301,
       "skip_location_validation": true
+    },
+    {
+      "url": "/servicemanager-user-guide/asset-management/assets",
+      "location": "/servicemanager-user-guide/asset-management/asset-list",
+      "code": 301
     }
   ]
 }
