@@ -13,8 +13,6 @@ Hornbill Service Manager Asset Management records hardware and software inventor
 
 Assets form the foundation of a Configuration Management Database (CMDB). You can use assets within Incident, Problem, and Change processes to assist with incident classification, impact analysis, and change planning.
 
-<!-- [Visual Suggestion: A diagram showing how assets connect to Incident, Problem, and Change records to form a CMDB.] -->
-
 ## Before you begin
 
 To manage assets, you must have one of the following roles and rights:
@@ -40,19 +38,28 @@ From the left-hand application bar, select **Service Management** > **Assets**.
 
 An [asset partition](/servicemanager-config/assets/manage-partitions) is a group of assets where the access is restricted to selected users or groups. If asset partitions have been set up, you can select a partition to view the assets within it. Any asset not belonging to a partition can be viewed by selecting the **Un-partitioned assets** option.
 
-<!-- Visual suggestion: Annotated screenshot of the partition selector dropdown in the assets dashboard. -->
+![Partition selector](/_books/servicemanager-user-guide/images/assets-partition-selection.png)
 
-## Dashboard
+## Asset views
 
-The Assets dashboard displays tiles for available asset types. Click any tile to display a list of all assets belonging to that type.
+Three views are available to display assets: **Dashboard**, **All assets**, and **Assets under warranty**. You can switch between views by selecting the desired view from the navigation bar.
 
-<!-- Visual suggestion: Annotated screenshot of the Assets dashboard highlighting the asset type tiles.-->
+![Assets views](/_books/servicemanager-user-guide/images/assets-views.png)
 
-## All assets view
+### Dashboard
+
+The Assets dashboard displays tiles for available [asset types](/servicemanager-config/assets/manage-asset-types). Click any tile to display a list of all assets belonging to that type.
+
+* **Current**: Assets with this status are existing assets but are not currently in use.
+* **Active**: Assets with this status are currently in use.
+* **Archived**: Assets with this status are no longer in use and have been archived.
+  ![Assets dashboard](/_books/servicemanager-user-guide/images/assets-dashboard.png)
+
+### All assets
 
 The All assets view displays all assets for the selected partition.
 
-## Assets under warranty view
+### Assets under warranty
 
 The Assets under warranty view displays assets that are currently under warranty for the selected partition.
 
