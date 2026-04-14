@@ -55,14 +55,18 @@ The Assets dashboard displays tiles for available [asset types](/servicemanager-
 * **Archived**: Assets with this status are no longer in use and have been archived.
   ![Assets dashboard](/_books/servicemanager-user-guide/images/assets-dashboard.png)
 
-### All assets
+### All Assets
 
-The All assets view displays all assets for the selected partition.
+The All Assets view displays all assets for the selected partition in a flexible [Asset List](/servicemanager-user-guide/asset-management/asset-list)
 
-### Assets under warranty
+### Assets under Warranty
 
-The Assets under warranty view displays assets that are currently under warranty for the selected partition.
+The Assets under Warranty view displays assets that are currently under warranty for the selected partition. This view helps you quickly identify which assets are still covered by warranty, allowing you to manage maintenance and support effectively.
 
-## Asset type navigation
+![Assets warranty expiry counter](/_books/servicemanager-user-guide/images/assets-warranty-expiry-counters.png)
 
-Assets are categorized by type, such as hardware or software. You can navigate to a specific asset type to view and manage assets of that type.
+## Asset navigation
+
+Use the Assets navigation to browse assets by selecting from the list of available [asset types](/servicemanager-config/assets/manage-asset-types). Related asset types can be grouped under definable [categories](/servicemanager-config/assets/manage-asset-types#asset-categories) to make navigation easier. Selecting an asset type displays a [list](/servicemanager-user-guide/asset-management/asset-list) of all assets belonging to that type.
+
+![Assets navigation](/_books/servicemanager-user-guide/images/assets-navigation.png)
