@@ -7,28 +7,20 @@ layout: article-toc
 [[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/service-manager/new-assets-note.md]]
 :::
 
-Use asset management to capture and detail information for your organization's assets. This process includes tracking ownership, costs, relationships, and the life cycle of assets to support strategic decision-making for your IT environment.
+Use asset management to capture and detail information for your organization's assets. This includes tracking ownership, costs, relationships, and the life cycle of assets to support strategic decision-making for your IT environment.
 
-Hornbill Service Manager Asset Management records hardware and software inventory information. This data helps IT teams support asset users and make informed decisions about hardware and software purchases and redistribution.
+Asset data helps IT teams support asset users and make informed decisions about hardware and software purchases and redistribution.
 
-Assets form the foundation of a Configuration Management Database (CMDB). You can use assets within Incident, Problem, and Change processes to assist with incident classification, impact analysis, and change planning.
+Assets form the foundation of a Configuration Management Database (CMDB). You can use assets within incident, problem, and change processes to assist with incident classification, impact analysis, and change planning.
 
 ## Before you begin
 
 To manage assets, you must have one of the following roles and rights:
 
-* The **Asset Management User** role, including the `View Asset Management` application right and either the `Create Assets` or `Edit Assets` right.
-* A custom role that includes the `View Asset Management` application right and either the `Create Assets` or `Edit Assets` right.
-
-:::important
-If asset records are [in a partition set up by your assets admin](/servicemanager-config/assets/manage-partitions), your actions are limited to your granted permissions. If your permissions do not include creating, editing, or deleting, you can only view those records.
-:::
-
-## Key features
-
-* **Manage assets**: Access and update your organization's assets in one central location.
-* **Bulk update assets**: Update a field across multiple assets simultaneously.
-* **Assets under warranty**: View assets based on their warranty status.
+|Role|Description|
+|---|---|
+|Asset Management User|This role allows users to view and manage assets. It includes the `View Asset Management`, `Create Assets` and the `Edit Assets` application rights.|
+|Custom role|A custom role can be created with the necessary application rights to view and manage assets. This allows for more granular control over who can access and modify asset information.|
 
 ## Accessing Assets
 
@@ -39,6 +31,8 @@ From the left-hand application bar, select **Service Management** > **Assets**.
 An [asset partition](/servicemanager-config/assets/manage-partitions) is a group of assets where the access is restricted to selected users or groups. If asset partitions have been set up, you can select a partition to view the assets within it. Any asset not belonging to a partition can be viewed by selecting the **Un-partitioned assets** option.
 
 ![Partition selector](/_books/servicemanager-user-guide/images/assets-partition-selection.png)
+
+Each partition has its own set of permissions.  The ability to view, create, update, and delete assets within a partition will depend on the permissions that you have been given.
 
 ## Asset views
 
@@ -53,6 +47,7 @@ The Assets dashboard displays tiles for available [asset types](/servicemanager-
 * **Current**: Assets with this status are existing assets but are not currently in use.
 * **Active**: Assets with this status are currently in use.
 * **Archived**: Assets with this status are no longer in use and have been archived.
+
   ![Assets dashboard](/_books/servicemanager-user-guide/images/assets-dashboard.png)
 
 ### All Assets
