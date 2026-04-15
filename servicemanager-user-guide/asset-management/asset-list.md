@@ -26,8 +26,8 @@ Use the filter to find specific asset records in your current list. This tool he
 
 The attributes available for filtering depend on your current view:
 
-* **All Assets**: When you view the [All Assets](http://localhost:3000/servicemanager-user-guide/asset-management/overview#all-assets) list, the filter searches through common attributes shared by every asset type.
-* **Asset Type**: When you select a specific asset type from the [Asset navigation panel](http://localhost:3000/servicemanager-user-guide/asset-management/overview#asset-navigation), the filter searches through both common attributes and attributes unique to that asset type.
+* **All Assets**: When you view the [All Assets](/servicemanager-user-guide/asset-management/overview#all-assets) list, the filter searches through common attributes shared by every asset type.
+* **Asset Type**: When you select a specific asset type from the [Asset navigation panel](/servicemanager-user-guide/asset-management/overview#asset-navigation), the filter searches through both common attributes and attributes unique to that asset type.
 
 #### Excluded attributes
 
