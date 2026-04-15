@@ -18,7 +18,26 @@ This section describes the actions you can take using the toolbar in the assets 
 
 ### Filter
 
-The filter operates on the asset records in the current list and returns records where a match is found in any of the asset attributes. To filter on attributes that are specific to an asset type, you must be viewing a list of that asset type. The filter does not operate on attributes containing a date-time value, state, location type, acquisition method, or depreciation method. (You can, however, sort on these columns to identify the records of interest).
+![Filter in assets list](/_books/servicemanager-user-guide/images/asset-list-filter.png)
+
+Use the filter to find specific asset records in your current list. This tool helps you locate the exact information you need by searching for matching values across asset attributes.
+
+#### Searchable attributes
+
+The attributes available for filtering depend on your current view:
+
+* **All Assets**: When you view the [All Assets](http://localhost:3000/servicemanager-user-guide/asset-management/overview#all-assets) list, the filter searches through common attributes shared by every asset type.
+* **Asset Type**: When you select a specific asset type from the [Asset navigation panel](http://localhost:3000/servicemanager-user-guide/asset-management/overview#asset-navigation), the filter searches through both common attributes and attributes unique to that asset type.
+
+#### Excluded attributes
+
+You cannot filter by the following attributes:
+
+* Acquisition method
+* Date-time values
+* Depreciation method
+* Location type
+* State
 
 ### Advanced filter
 

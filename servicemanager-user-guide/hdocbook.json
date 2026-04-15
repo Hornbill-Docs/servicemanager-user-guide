@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "audience": [
     "public"
   ],
@@ -172,7 +172,7 @@
             ]
           },
           {
-            "text": "Global Search for Requests",
+            "text": "Searching for requests",
             "link": "/servicemanager-user-guide/request-list/global-search-for-requests"
           }
         ]
