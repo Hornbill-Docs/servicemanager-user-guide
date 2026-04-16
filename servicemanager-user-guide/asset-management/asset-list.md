@@ -60,8 +60,6 @@ You can add an asset individually, or you can add assets in bulk.
 
 If you are creating assets in bulk, the batch will include one new asset (per your configuration in the New Asset dialog), plus copies of that asset.
 
-![Creating assets in bulk](/_books/servicemanager-user-guide/asset-management/images/bulk-create-asset.png)
-
 **To create one or more assets manually:**
 
 1. Click **+ New Asset**.
