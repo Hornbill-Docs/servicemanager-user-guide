@@ -10,26 +10,22 @@ draft: false
 
 Asset lists are available when selecting the [All Assets view](/servicemanager-user-guide/asset-management/overview#asset-views) or when an [asset type](/servicemanager-user-guide/asset-management/overview#asset-navigation) is selected from the navigation panel.
 
-## Features
+![Asset list](/_books/servicemanager-user-guide/images/asset-list.png)
 
-This section describes the actions you can take using the toolbar in the assets list.
-
-![Toolbar in assets list](/_books/servicemanager-user-guide/asset-management/images/toolbar-in-assets-list.png)
-
-### Filter
+## Filter
 
 ![Filter in assets list](/_books/servicemanager-user-guide/images/asset-list-filter.png)
 
 Use the filter to find specific asset records in your current list. This tool helps you locate the exact information you need by searching for matching values across asset attributes.
 
-#### Searchable attributes
+### Searchable attributes
 
 The attributes available for filtering depend on your current view:
 
 * **All Assets**: When you view the [All Assets](/servicemanager-user-guide/asset-management/overview#all-assets) list, the filter searches through common attributes shared by every asset type.
 * **Asset Type**: When you select a specific asset type from the [Asset navigation panel](/servicemanager-user-guide/asset-management/overview#asset-navigation), the filter searches through both common attributes and attributes unique to that asset type.
 
-#### Excluded attributes
+### Excluded attributes
 
 You cannot filter by the following attributes:
 
@@ -39,11 +35,26 @@ You cannot filter by the following attributes:
 * Location type
 * State
 
-### Advanced filter
+## Advanced filter
 
-Click **Advanced** (the search button to the right of the quick filter) to filter assets based on one or more conditions that you define. <!--Before adding your first condition, make sure you select the appropriate asset class from the class selector. -->Once you start adding the first condition, the asset class will be locked to the current asset class and the matching fields for that asset class will be available when adding conditions. Once conditions are set, use the quick filter to filter the results, or save the search as one of your views.
+![Advanced filter in assets list](/_books/servicemanager-user-guide/images/asset-list-advanced-filter.png)
 
-### Creating assets manually
+The **Advanced** filter allows you to build one of more conditions to filter the list of assets. When more than one condition is added, all conditions must be met for an asset to be included in the results.
+
+![Advanced filter conditions](/_books/servicemanager-user-guide/images/asset-list-advanced-filter-condition.png)
+
+### Available identifiers
+
+* **All Assets**: When the advanced filter is used in the [All Assets](/servicemanager-user-guide/asset-management/overview#all-assets) list, the available identifiers for building conditions are common attributes shared by every asset type.
+* **Asset Type**: When the advanced filter is used in a specific asset type list, the available identifiers for building conditions include both common attributes and attributes unique to that asset type.
+
+### Saving advanced filters as views
+
+When you have built an advanced filter, you can save it as a **[View](#adding-views-of-assets)**. This allows you to quickly access the same set of conditions in the future without having to rebuild them each time.
+
+## Creating new assets
+
+![New Asset button](/_books/servicemanager-user-guide/images/assets-new-button.png)
 
 You can add an asset individually, or you can add assets in bulk.
 
@@ -72,7 +83,7 @@ If you are creating assets in bulk, the batch will include one new asset (per yo
 
 :::
 
-### Deleting assets
+## Deleting assets
 
 The **Delete** button is invisible until at least one asset has been selected using the multi-select checkboxes.
 
@@ -85,7 +96,7 @@ The **Delete** button is invisible until at least one asset has been selected us
 To select multiple assets, click on one asset, and then while holding down the Shift key, select another asset. All assets between these two assets will be selected and available for deleting.
 :::
 
-### Copying assets
+## Copying assets
 
 The **Copy** button is invisible until one and only one asset has been selected using the multi-select checkboxes.
 
@@ -96,7 +107,7 @@ The **Copy** button is invisible until one and only one asset has been selected 
 1. Click **Duplicate**.
 1. When you are finished reading the confirmation message, click **Close**.
 
-### Doing bulk updates
+## Doing bulk updates
 
 You can make changes to multiple asset records at once. You can update shared asset fields across assets of any type from the asset list.
 
@@ -115,7 +126,7 @@ You can make changes to multiple asset records at once. You can update shared as
         * **Batch Update.** This update is very fast. It performs a direct database write.
         * **Audited Update.** This is an API update that is slightly slower, but still fast. This one updates assets one at a time, creating a full audit history, including who made the change, when it occurred, and what data was modified.
 
-### Adding views of assets
+## Adding views of assets
 
 You can define and store a number of different views of the assets.
 
@@ -128,22 +139,22 @@ You can define and store a number of different views of the assets.
 
 Now you can quickly access particular sets of important data by selecting from your list of defined views.
 
-### Exporting the assets list
+## Exporting the asset list
 
-Export the contents of the assets list to CSV. Choose which of the available columns on the list you wish to export (the available options are specific to the asset class).
+Export the contents of the asset list to CSV. Choose which of the available columns on the list you wish to export (the available options are specific to the asset class).
 
-**To export the assets list:**
+**To export the asset list:**
 
 1. Click the **Export** button (the down arrow).
 1. In the dialog, in the Columns tab, select the columns you want to export.
 1. In the Settings tab, specify the export format and the number of records to export.
 1. When finished, click **Export**.
 
-### Displaying columns in the assets list
+## Displaying columns in the asset list
 
 The available columns are specific to the asset type the list is using. The available columns are a combination of the common attributes that all asset types share, and the type-specific attributes for the selected asset type. If you choose to display all assets, only the shared asset attributes will be available to select from.
 
-**To configure the display of columns in the assets list:**
+**To configure the display of columns in the asset list:**
 
 1. Click the cog icon next to the down arrow.
 1. In the Table Configuration dialog, in the Visibility tab, select the columns you want to show.
