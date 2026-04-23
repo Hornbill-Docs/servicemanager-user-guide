@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "0.9.5",
+  "version": "1.0.0",
   "audience": [
     "public"
   ],
@@ -215,7 +215,7 @@
             "link": "/servicemanager-user-guide/asset-management/asset-list"
           },
           {
-            "text": "Asset details",
+            "text": "Asset record",
             "link": "/servicemanager-user-guide/asset-management/asset-details"
           },
           {
