@@ -141,7 +141,7 @@ Now you can quickly access particular sets of important data by selecting from y
 
 ![Home view](/_books/servicemanager-user-guide/asset-management/images/asset-home-view.png)
 
-The Home view defines which area of the assets is displayed when you first open assets.  The drown lets you set the current view as the Home view.  Clicking on the Home icon will take you back to this view at any time. This option is available from any list and on the dashboard.
+The Home view defines which area of the assets is displayed when you first open assets.  The drop-drown lets you set the current view as the Home view.  Clicking on the Home icon will take you back to this view at any time. This option is available from any list and on the dashboard.
 
 ## Exporting the asset list
 

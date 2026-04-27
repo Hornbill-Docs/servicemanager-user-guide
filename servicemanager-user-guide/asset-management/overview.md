@@ -50,6 +50,12 @@ The Assets dashboard displays tiles for available [asset types](/servicemanager-
 
   ![Assets dashboard](/_books/servicemanager-user-guide/images/assets-dashboard.png)
 
+#### Home view
+
+![Home view](/_books/servicemanager-user-guide/asset-management/images/asset-home-view.png)
+
+The Home view defines which area of the assets is displayed when you first open assets.  The drop-down lets you set the current view as the Home view.  Clicking on the Home icon will take you back to this view at any time. This option is available from any list and on the dashboard.
+
 ### All Assets
 
 The All Assets view displays all assets for the selected partition in a flexible [Asset List](/servicemanager-user-guide/asset-management/asset-list)
