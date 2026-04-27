@@ -137,6 +137,12 @@ You can define and store a number of different views of the assets.
 
 Now you can quickly access particular sets of important data by selecting from your list of defined views.
 
+## Home view
+
+![Home view](/_books/servicemanager-user-guide/asset-management/images/asset-home-view.png)
+
+The Home view defines which area of the assets is displayed when you first open assets.  The drown lets you set the current view as the Home view.  Clicking on the Home icon will take you back to this view at any time. This option is available from any list and on the dashboard.
+
 ## Exporting the asset list
 
 Export the contents of the asset list to CSV. Choose which of the available columns on the list you wish to export (the available options are specific to the asset class).

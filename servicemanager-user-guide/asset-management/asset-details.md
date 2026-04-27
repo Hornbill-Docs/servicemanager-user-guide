@@ -89,7 +89,7 @@ Tags provide a way to specify keywords or attributes on an asset for easy search
 
 Customizable actions for an asset can be added through what is known as custom buttons.  The availability of custom buttons may vary on each asset.
 
-Asset administrators can add [custom buttons](/esp-config/customize/custom-buttons) to asset forms that open a URL, displays a popup, or runs an Auto Task workflow. 
+Asset administrators can add [custom buttons](/esp-config/customize/custom-buttons) to asset records that open a URL, displays a popup, or runs an Auto Task workflow. s
 
 ![Custom buttons on an asset record](/_books/servicemanager-user-guide/asset-management/images/asset-record-custom-buttons.png)
 
