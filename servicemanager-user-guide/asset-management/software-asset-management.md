@@ -1,45 +1,43 @@
 # Software Asset Management
 
-Import and view the installed software on your devices. Ratify installed software against license records held across all your vendors.
+View the installed software on your devices. Ratify installed software against license records held across all your vendors.
 
-## Roles
+## Before you begin
 
-* **Software Asset Management User.** Needed to view the Software Asset Management views.
-* **Asset Management Admin.** Needed to enable the Installed Software accordion view.
+The following role is required to view the Software Asset Management.
 
-## Import installed software
+|Role|Description|
+|---|---|
+|Software Asset Management User|Needed to access the Software Asset Management views.|
 
-You can import installed software from devices from third-party discovery solutions in two ways:
+## Filters
 
-* Using the [Hornbill Asset Import utility](/data-imports-guide/assets/overview).
-* Directly from the Hornbill ITOM app using the scheduled [Asset Import job](/itom-user-guide/jobs/job-queue#creating-new-jobs)
-    Do this for managed devices once discovered through the Hornbill ITOM app. (ITOM is a subscribable app, separate to the Service Manager app.)
+* **Select Vendor**: Use the dropdown to select a specific vendor to filter the list of installed software to only show products from that vendor.
+* **Partitions**: If you have partitions set up, use the dropdown to select a specific partition to filter the list of installed software to only show products with assets in that partition.
 
-## View installed software
+## Installed software
 
-Here you can see software installed on devices in your estate/ Once installed software is imported against your hardware assets, the list will show all software with the following:
+### Installed software chart
 
-* Vendor
-* Product
-* Version
-* Installs. This is the count of the number of devices the software is installed on.
-* Software Assets. This is the count of any corresponding software asset records.
-* Actions. Hover over the column to manually create a corresponding software asset record in the CMDB (to record license count, type, and date information).
+The chart at the top of the page gives you a breakdown of the installed software by  product and the number of installations. The chart is interactive, so you can click on a specific product to view the [Software Product Details](#software-product-details).
 
-Use the **Vendor** dropdown to filter the installed software list to see only that vendor's products.
+### Installed software list
 
-### View which devices software is installed on
+The list below the chart gives you a breakdown of the installed software by product, vendor, version, and the number of installs. You can click on a specific product to view the [Software Product Details](#software-product-details).
 
-Highlight a software product in the list to open the right-hand side panel, which shows:
+### Software product details
 
-* Product Information
-* Installed On. The devices the software product is installed on.
-* Matching Software Assets. Any existing asset records of type *Software Asset* that match the software product.
+When you click on a specific product from either the chart or the list, you can view more details about that product in the right-hand side panel. This includes the vendor, version, and the devices it is installed on. You can also view any matching software assets that are held in the Service Manager asset repository for that product.
 
-### Add corresponding software license product
+#### Installed On
 
-If you don't hold a corresponding software asset record for the installed software, you can manually add one. Hover over the Actions column for the corresponding software product in the list, and click **+ New Asset**.
+The **Installed On** section shows the devices that the software product is installed on. This information is pulled through from the **Installed Software Information** section on the asset record for each device that has the software product installed.
 
+#### Matched Software Assets
+
+This list shows any software assets that are held in the Service Manager asset repository that match the product you have selected. This is based on the attributes you have configured for the software asset type. You can click on a specific asset to view the asset details.
+
+<!-- #JA Needs reviewing to see where this belongs...
 ## View installed software per device
 
 For asset types created under the Computer System or Mobile Device classes, an asset administrator can enable the Installed Software Information accordion section from the Manage Asset Types menu option. This exposes the Installed Software Information accordion section on any asset records of that asset type.
@@ -93,6 +91,17 @@ Click **Create** to add the version to the list of defined versions for the spec
 
 * Edit. Click the pencil icon next to the item you wish to edit.
 * Delete. Click the **Delete** button (trash can icon) next to the item you wish to delete. If assets are currently linked to the version, product, or vendor, you will not be able to delete the item.
-
+-->
 <!-- https://wiki.hornbill.com/index.php?title=Software_Asset_Management -->
 <!-- https://wiki.hornbill.com/index.php?title=Manage_Vendors,_Products,_Versions -->
+
+<!-- #JA - Not sure why this is here.  Need to find somewhere in config doc to add this to.
+
+Import installed software
+
+You can import installed software from devices from third-party discovery solutions in two ways:
+
+* Using the [Hornbill Asset Import utility](/data-imports-guide/assets/overview).
+* Directly from the Hornbill ITOM app using the scheduled [Asset Import job](/itom-user-guide/jobs/job-queue#creating-new-jobs)
+    Do this for managed devices once discovered through the Hornbill ITOM app. (ITOM is a subscribable app, separate to the Service Manager app.)
+-->>
