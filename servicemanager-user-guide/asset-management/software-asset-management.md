@@ -19,6 +19,8 @@ The following role is required to view the Software Asset Management.
 
 ### Installed software chart
 
+![Installed software chart](/_books/servicemanager-user-guide/asset-management/images/sam-install-chart.png)
+
 The chart at the top of the page gives you a breakdown of the installed software by  product and the number of installations. The chart is interactive, so you can click on a specific product to view the [Software Product Details](#software-product-details).
 
 ### Installed software list
@@ -29,25 +31,21 @@ The list below the chart gives you a breakdown of the installed software by prod
 
 When you click on a specific product from either the chart or the list, you can view more details about that product in the right-hand side panel. This includes the vendor, version, and the devices it is installed on. You can also view any matching software assets that are held in the Service Manager asset repository for that product.
 
+![Software product details](/_books/servicemanager-user-guide/asset-management/images/sam-product-information.png)
+
 #### Installed On
 
-The **Installed On** section shows the devices that the software product is installed on. This information is pulled through from the **Installed Software Information** section on the asset record for each device that has the software product installed.
+The **Installed On** section shows the devices that the software product is installed on. This information is pulled through from the **Installed Software Information** section on the asset record that has the software product installed. You can click on a specific asset to view the full asset record. 
+
+When viewing an asset record that has software products installed, an Installed Software list will displayed.
+
+![Installed Software list](/_books/servicemanager-user-guide/asset-management/images/sam-asset-installed-software-list.png)
 
 #### Matched Software Assets
 
-This list shows any software assets that are held in the Service Manager asset repository that match the product you have selected. This is based on the attributes you have configured for the software asset type. You can click on a specific asset to view the asset details.
+This list shows any software assets that are held in the Service Manager asset repository that match the product you have selected. You can click on a specific software asset to view the full software asset record.
 
-<!-- #JA Needs reviewing to see where this belongs...
-## View installed software per device
-
-For asset types created under the Computer System or Mobile Device classes, an asset administrator can enable the Installed Software Information accordion section from the Manage Asset Types menu option. This exposes the Installed Software Information accordion section on any asset records of that asset type.
-
-Data displayed:
-
-* Software Product
-* Vendor
-* Version
-* When Installed
+<!--
 
 ## Manage vendors, products, and versions
 
@@ -104,4 +102,4 @@ You can import installed software from devices from third-party discovery soluti
 * Using the [Hornbill Asset Import utility](/data-imports-guide/assets/overview).
 * Directly from the Hornbill ITOM app using the scheduled [Asset Import job](/itom-user-guide/jobs/job-queue#creating-new-jobs)
     Do this for managed devices once discovered through the Hornbill ITOM app. (ITOM is a subscribable app, separate to the Service Manager app.)
--->>
+-->
