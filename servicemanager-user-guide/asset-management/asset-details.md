@@ -63,6 +63,14 @@ The asset's audit history lists all actions, and who performed the action.
 
 ![Asset history](/_books/servicemanager-user-guide/asset-management/images/asset-record-history.png)
 
+## Asset Depreciation Calculator
+
+With specific fields enabled and populated, an Asset Depreciation Calculator is shown in the right-hand panel of the asset view.
+
+This video explains how to set up and use the calculator:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V-_Bp19m4Ek?si=jz_OoFr53byrUQYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Used by vs Shared with
 
 An option is available to toggle between the asset being used by a single user or shared among multiple users.
