@@ -3,6 +3,7 @@
 ![Asset Structure](/_books/servicemanager-user-guide/asset-management/images/asset-structure.png)
 
 ## Asset Classes
+
 At the top of the hierarchy are the pre-defined asset classes: Computer, Computer Peripheral, General, Mobile Device, Network Device, Printer, Software, Telecoms. The Asset Classes are predefined and cannot be modified.
 
 The Asset Class is an important consideration when creating a new Asset Type, as the Class chosen dictates which attributes are available to populate when adding your individual Assets beneath an Asset Type.
