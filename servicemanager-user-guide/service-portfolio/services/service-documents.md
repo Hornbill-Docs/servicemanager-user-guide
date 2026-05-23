@@ -23,7 +23,7 @@ On the Library properties, visibility can be controlled so that a library is onl
 
 ## Adding a Document to a Service
 
-On each Service form within the Service Portfolio, a Documents option lets you browse the list of all documents that belong to a particular library and link or unlink documents to the service. This action only be performed by the Service's owner.
+On each Service form within the Service Portfolio, a Documents option lets you browse the list of all documents that belong to a particular library and link or unlink documents to the service. This action can only be performed by the Service's owner.
 
 * **Select Library**: Select from the list of available libraries that you want to browse
 * **Order By**: To help locate a document, you can change the order of the list by
@@ -33,4 +33,4 @@ On each Service form within the Service Portfolio, a Documents option lets you b
   * Creation Date
   * Updated Date
 
-Each document will have a Link option. When clicked, this will associate the document with the service. Documents already linked to a service ill have an option to Un-link. When clicked, this will remove the document from the service.
+Each document will have a Link option. When clicked, this will associate the document with the service. Documents already linked to a service will have an option to Un-link. When clicked, this will remove the document from the service.

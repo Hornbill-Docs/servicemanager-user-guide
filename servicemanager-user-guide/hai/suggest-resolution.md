@@ -1,6 +1,6 @@
 ---
 title: Hornbill AI - Suggest Resolution
-description: HAi Suggest Resolution will convert technical request resolutions into more user freindly versions.
+description: HAi Suggest Resolution will convert technical request resolutions into more user friendly versions.
 coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
 ---

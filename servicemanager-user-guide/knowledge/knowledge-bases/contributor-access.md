@@ -14,5 +14,5 @@ To get to Contributor Access, first navigate to a knowledge base, then in the na
 ## Managing access
 1. From the list of contributors, click on the + button to add a new user or team.
 1. From the `Type` field select either User or Team.
-1. In the `Selection(s) field choose the user or team that you wish to add.
+1. In the `Selection(s)` field choose the user or team that you wish to add.
 

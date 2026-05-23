@@ -14,7 +14,7 @@ Choose which details of the request you wish to print:
 * **Linked Services**. This option is available if additional services have been linked to the request using the [Linked Services Action](/servicemanager-user-guide/service-portfolio/requests/linked-services-action).
 * **Connections**.  This option is available if connections have been added to the request using the [Connections Action](/servicemanager-user-guide/service-portfolio/requests/connection-action). Each connection will include the name of the connection along with their contact details.
 * **Questions**<br>If selected and if the Questions section is available, this section will be included on the printout.
-* **Timeline**<br>If Timeline is selected, an additional filter is available to decide which timeline updates you which to print, you the Timeline Options to set your preferences. This includes only printing updates that are set with the visibility of Customer.
+* **Timeline**<br>If Timeline is selected, an additional filter is available to decide which timeline updates you wish to print, use the Timeline Options to set your preferences. This includes only printing updates that are set with the visibility of Customer.
 
 ## Timeline Options
 When printing the details of the timeline you can choose to include all timeline updates and all updates with any visibility levels or selectively choose the update types and visibility levels to be included when printing.

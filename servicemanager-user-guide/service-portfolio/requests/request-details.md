@@ -14,7 +14,7 @@ The **Details** section provides an overview of the request, including the summa
 
 - **Location**: The location field allows you to specify the location associated with the request. This can be useful for tracking where the request needs to be addressed. The location can be selected from a predefined list that is managed in the [Location configuration](/esp-config/organizational-data/locations) section.
 
-- **External Reference**: The external reference section provides an option to store an ID that is external to the this request. This is useful for tracking the request in other systems or for referencing related information that is not stored within the request itself.
+- **External Reference**: The external reference section provides an option to store an ID that is external to this request. This is useful for tracking the request in other systems or for referencing related information that is not stored within the request itself.
 
 ## Custom fields
 
@@ -45,7 +45,7 @@ When you open **View Changes**, you'll see:
 
 #### Side-by-side view
 
-This is the default view. it displays the old and new values next to each other:
+This is the default view. It displays the old and new values next to each other:
 
 - **Was**: The original value before the update (highlighted in red).
 - **Now**: The new value after the update (highlighted in green).
@@ -56,7 +56,7 @@ This view shows an inline comparison. It highlights the specific characters or w
 
 ### Redact sensitive data
 
-If sensitive data had been removed from the details of a request, this data can still exist within the **View Changes** logs.  Authorized administrators can redact this data from these logs for privacy compliance (such as GDPR), security, or policy reasons.
+If sensitive data has been removed from the details of a request, this data can still exist within the **View Changes** logs.  Authorized administrators can redact this data from these logs for privacy compliance (such as GDPR), security, or policy reasons.
 
 ![The View Changes window showing the redaction options for a specific field](/_books/servicemanager-user-guide/images/request-details-view-changes-redact.png)
 

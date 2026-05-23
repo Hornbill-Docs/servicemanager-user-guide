@@ -16,7 +16,7 @@ The Email Action within a request enables the sending of emails directly from th
 ## Recipients
 The recipients of an email can include [Hornbill users](/esp-user-guide/co-workers) and [Hornbill contacts](/exp-user-guide/ccustomers/ontact), or if the recipient does not exist within Hornbill, you can simply type their email address.
 * **To**<br>Add one or more recipients who will receive the email. The customer of the request is automatically added as a recipient as they are seen as the most common recipient, however, there is no restriction on who the email is sent to.
-* **CC/BCC**<br>Clicking on the CC/BCC option, will exposed these fields to allow additional recipients to be added as either a carbon copy or as a blind carbon copy recipient.
+* **CC/BCC**<br>Clicking on the CC/BCC option, will expose these fields to allow additional recipients to be added as either a carbon copy or as a blind carbon copy recipient.
 
 ## Attachments
 For any outgoing email, a user can include attachments as part of the email. By Clicking on the Paper Clip button the file upload is displayed.
@@ -27,12 +27,12 @@ For any outgoing email, a user can include attachments as part of the email. By 
 Depending on the settings configured in Service Manager there are two options for the editor that is used when writing the main body of the email. 
 
 ### Message Text
-The Message Text is a simple text editor that doesn't include any formatting options. The text that is typed by the user gets inserted into an email template when the email is sent. This can assure that the email formats and content are consistant. There are no options to view the email template or select an alternative email template.
+The Message Text is a simple text editor that doesn't include any formatting options. The text that is typed by the user gets inserted into an email template when the email is sent. This can assure that the email formats and content are consistent. There are no options to view the email template or select an alternative email template.
 * Simple, quick, and easy to use.
-* No concerns about formatting or consistancy.  Just write and send.
+* No concerns about formatting or consistency.  Just write and send.
 
 ### Template Editor
-The Template Editor loads the email template into view so the user can see exactly what will be sent to the recipient.  The editor includes a tool bar with a number of formating options. 
+The Template Editor loads the email template into view so the user can see exactly what will be sent to the recipient.  The editor includes a tool bar with a number of formatting options.
 * Format the font by applying different font types and colors.
 * Include links.
 * Add images, either by pasting or providing a URL to an image source.
@@ -41,8 +41,8 @@ The Template Editor loads the email template into view so the user can see exact
 
 ## Email Templates
 When an email is composed from within a request, a template is used to pre-populate the subject and body of the email. This is a great way to provide a standard format for all of the outgoing emails.
-* **Default Template**<br>The default email template used can be based on the request type, and service against which the request has been logged. The selected template name is displayed, and the email template content is made available. If a template is not set against a serivce, the RequestMessage template is used.
-* **Variables**<br>A template can contain variables that are automatically populated from information contained within the request. For , an email may start with Dear John where John is the first name of the customer on the request and the variable {{Customer Coworker.H_first_name}} was used. If a variable that is displayed within curly braces is visible as {{variable name}} this means that the variable has failed to populate. If this happens, the text representing the variable can be manually removed or replaced before sending, or the information required can be updated on the request and then the template reloaded into the email action. Alternatively, the template itself needs updating to either remove or change to the correct variable.
+* **Default Template**<br>The default email template used can be based on the request type, and service against which the request has been logged. The selected template name is displayed, and the email template content is made available. If a template is not set against a service, the RequestMessage template is used.
+* **Variables**<br>A template can contain variables that are automatically populated from information contained within the request. For example, an email may start with Dear John where John is the first name of the customer on the request and the variable {{Customer Coworker.H_first_name}} was used. If a variable that is displayed within curly braces is visible as {{variable name}} this means that the variable has failed to populate. If this happens, the text representing the variable can be manually removed or replaced before sending, or the information required can be updated on the request and then the template reloaded into the email action. Alternatively, the template itself needs updating to either remove or change to the correct variable.
 * **Selecting a Template**<br>In some cases, the use of multiple templates may be required. The application setting app.email.request.operation.templateSelectable is available which can be enabled to allow a user to select from a list of available templates. This setting is enabled within Administration under Service Manager > Settings. This is a global setting and will apply to all request types and all services, and will return a list of all email templates.
 
 ## Connections
@@ -59,10 +59,10 @@ Snippets provide the ability to define common responses that you want to include
 These settings provide the default behavior for the Email Action. These settings can be accessed by a Hornbill Administrator in the [Service Manager Application Settings](/servicemanager-config/advanced-tools-and-settings/application-settings).
 |Setting|Description|
 |-|-|
-|app.email.request.operation.composerType|This setting has a choice of Template Editior, Message Text, and Analyst Setting that determines which email editor is used. <br><br>**Template Editor** sets the Email Action to use the Email Template Editor and Preview. <br><br>**Message Text** sets the Email Action to use the basic Text field editor. It is mandatory that the email templates that are used when this setting is selected contain the variable {{message}} is positioned where the text is to be included on the email. <br><br>**Analyst Setting** allows each user to select and switch between both editors. It is mandatory that the email templates that are used when this setting is selected contain the variable {{message}} is positioned where the text is to be included on the email. In the case where the user uses the Template Editor, if the {{message}} variable is included in the template, it will be automatically removed for the user.
+|app.email.request.operation.composerType|This setting has a choice of Template Editor, Message Text, and Analyst Setting that determines which email editor is used. <br><br>**Template Editor** sets the Email Action to use the Email Template Editor and Preview. <br><br>**Message Text** sets the Email Action to use the basic Text field editor. It is mandatory that the email templates that are used when this setting is selected contain the variable {{message}} is positioned where the text is to be included on the email. <br><br>**Analyst Setting** allows each user to select and switch between both editors. It is mandatory that the email templates that are used when this setting is selected contain the variable {{message}} is positioned where the text is to be included on the email. In the case where the user uses the Template Editor, if the {{message}} variable is included in the template, it will be automatically removed for the user.
 |app.email.request.operation.templateEditor|If set to On, it will default to the Email Template Editor, false shows the old message text. This setting is used when the app.email.request.operation.composerType is set to Analyst Setting|
 |app.email.request.operation.templateSelectable|When the Email Template Editor is enabled, this setting will allow a user to select from a list of available Email Templates.|
-|guest.app.requests.notification.emailMailbox|The default shared mailbox to use when sending emails. This can be superceded by the [default mailbox set on a service](/servicemanager-user-guide/service-portfolio/services/service-details#default-mailbox).|
+|guest.app.requests.notification.emailMailbox|The default shared mailbox to use when sending emails. This can be superseded by the [default mailbox set on a service](/servicemanager-user-guide/service-portfolio/services/service-details#default-mailbox).|
 
 ## Timeline
 When an email has been sent, a record of the email is posted to the request timeline. To view the content of the sent email, select View Email from the more menu option on the timeline post.

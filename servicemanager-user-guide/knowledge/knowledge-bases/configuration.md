@@ -22,7 +22,7 @@ In the Knowledge Bases Configuration view, you can update the knowledge base tit
 * **New Articles Require Approval.** Use this toggle to require each new article to be [approved](/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals) before being published.
 * **Use In Employee Portal.** Use this toggle to make the knowledge base visible in the Employee Portal. This can ensure that the content is available for the correct audience.  Setting this option to `No` will prevent the knowledge base from being available on the Employee Portal, also known as the [Company Home](/esp-user-guide/company-home). 
 * **Use In Customer Portal.** Use this toggle to make the knowledge base visible in the Customer Portal. This can ensure that the content is available for the correct audience.  Setting this option to `No` will prevent the knowledge base from being available on the [customer portal](/esp-config/customize/customer-portal/configure-customer-portal).
-* **Owned By.** The owner of the knowledge base. Only users that have been assigned the [Knowledge Manager](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role will be availalbe as a knowledge base owner.
+* **Owned By.** The owner of the knowledge base. Only users that have been assigned the [Knowledge Manager](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role will be available as a knowledge base owner.
 * **Last Modified By.** When these knowledge base details were last modified, for example, someone switches the toggle to show the knowledge base in the Customer Portal.
 
 ### Deleting a knowledge base

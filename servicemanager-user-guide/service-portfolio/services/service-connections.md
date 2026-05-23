@@ -77,7 +77,7 @@ While contacts from external organizations can be connected to a request, the Cu
 A connected user will see a new menu option in their list of requests, called Connections.
 
 * A new Connection Type Filter will allow the user to filter the requests they are connected to via the available connection types.
-* Email communication with request connections can added using the [Request Connections Automation](/servicemanager-config/customize/workflows/request-connections-automation) in a workflow or from the [email action](/servicemanager-user-guide/service-portfolio/requests/email-action) option on the requests.
+* Email communication with request connections can be added using the [Request Connections Automation](/servicemanager-config/customize/workflows/request-connections-automation) in a workflow or from the [email action](/servicemanager-user-guide/service-portfolio/requests/email-action) option on the requests.
 
 ## Remove connection
 

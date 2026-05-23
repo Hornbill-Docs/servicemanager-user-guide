@@ -45,5 +45,5 @@ Create new knowledge articles in 2 simple steps:
 
 ## Tips and Tricks
 
-1. Highlighting text to use as a prompt - If you already have a knowledge document that needs some additional material you can ask using the Ask HAi instruction with the prompt highlighted and the rest of the knowledge document will be sent as additional context to the generated response makes sense and is formatted accordingly, once generated the response will overwrite the highlighted text instead of being appended to the end.
+1. Highlighting text to use as a prompt - If you already have a knowledge document that needs some additional material you can ask using the Ask HAi instruction with the prompt highlighted and the rest of the knowledge document will be sent as additional context so the generated response makes sense and is formatted accordingly, once generated the response will overwrite the highlighted text instead of being appended to the end.
     ![Knowledge Context Tip](/_books/servicemanager-user-guide/images/hai-knowledge-context.png)

@@ -32,4 +32,4 @@ Teams in Service Manager are restricted to full users who are subscribed to Horn
 1. In the list of services, select a service.
 1. Click the Knowledge Bases button (the book spines).
 
-    Any knowledge-base subscriptions attached to service will be displayed in a list. You can go straight to the subscribed knowledge base by clicking the eye icon.
+    Any knowledge-base subscriptions attached to the service will be displayed in a list. You can go straight to the subscribed knowledge base by clicking the eye icon.

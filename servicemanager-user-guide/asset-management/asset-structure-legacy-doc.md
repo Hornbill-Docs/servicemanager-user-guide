@@ -173,7 +173,7 @@ The list of attributes below has primarily been made available to assist in the 
 | serialNumber       | string         | optional      | The serial number for the asset.           |
 | simNumber          | string         | optional      | The SIM card number for the asset.         |
 | simType            | string         | optional      | The SIM card type for the asset.           |
-| IMSI Number        | Sring          | Optional      | The IMSI number for the asset.           |
+| IMSI Number        | String         | Optional      | The IMSI number for the asset.           |
 | MTPAS Access Class | String         | Optional      | The MTPAS access class for the asset.               |
 | SIM Type           | String         | Optional      | The SIM type for the asset.                         |
 
@@ -219,7 +219,7 @@ The list of attributes below has primarily been made available to assist in the 
 | Yellow Toner Code      | String | Optional | Code for the Yellow toner of the printer.      |
 | Quantity Yellow Toner  | String | Optional | Quantity of the yellow toner.                  |
 | Yellow Toner Level     | String | Optional | Toner level.                                   |
-| Image Fuser            | Sting  | Optional | Image Fuser for printer                       |
+| Image Fuser            | String | Optional | Image Fuser for printer                       |
 | Image Transfer Roller  | String | Optional | Image Transfer Roller for the printer.         |
 
 ### Software Class

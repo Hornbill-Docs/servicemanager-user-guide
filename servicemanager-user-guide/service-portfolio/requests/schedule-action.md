@@ -8,11 +8,11 @@ The Schedule Action can be used for both adding and removing a schedule.
 Both a From and a To date are required when scheduling a change or release. Once the dates are entered you can click on the Schedule Change button to add the schedule and have it display on the Calendar.
 
 ### Change Freeze Periods
-When attempting to schedule a change, if a change freeze exist and the dates collide, the user will automatically be notified.
+When attempting to schedule a change, if a change freeze exists and the dates collide, the user will automatically be notified.
 * The Change Freeze icon will remain clear if no collision is detected, but it will turn red if the dates are during a change freeze. Users can click on the freeze icon at any time to manually view any clashes or upcoming change freeze periods.
 * If a user attempts to schedule a change during a change freeze period, the Add Schedule button will remain inactive. 
     > The exception to this rule is for any user who has either the Full Change Management Access or the Full Release Management Access roles, and they will be prompted and warned about the collision with any change freeze periods, but will have the rights to proceed with the scheduled dates.
-    > Change Freeze periods can be added and managed via the forward schedule of change calendar view by users whom have the above roles.
+    > Change Freeze periods can be added and managed via the forward schedule of change calendar view by users who have the above roles.
 * Schedule Action Icon
 Once a request has been scheduled, the icon for the Schedule Action on a request will turn Green to provide an indicator when viewing the request that a schedule has been set.
 

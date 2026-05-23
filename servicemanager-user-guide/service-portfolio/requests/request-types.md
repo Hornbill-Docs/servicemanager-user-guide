@@ -8,7 +8,7 @@ Incidents are used to manage unplanned interruptions or reductions in the qualit
 Request fulfillment (or request management) focuses on fulfilling Service Requests, which are often minor (standard) changes (e.g., requests to change a password) or requests for information. The term "standard change" means pre-approved, repeatable, pre-defined, low-risk changes. If the change does not meet these criteria then it is not a standard change and should be defined as a request for change.
 
 ## Problems
-Problems are used to manage the investigation of an issue where the root cause is unknown.  Problem records are typically not customer centric, but they can be used to capture the users that are impacted by the problem.  Problems can optionally be publish and made available as known issues articles that are available for users.  Temporary workarounds can be provided to help users continue with their work.
+Problems are used to manage the investigation of an issue where the root cause is unknown.  Problem records are typically not customer centric, but they can be used to capture the users that are impacted by the problem.  Problems can optionally be published and made available as known issues articles that are available for users.  Temporary workarounds can be provided to help users continue with their work.
 
 ## Known Errors
 Known Errors (KEs) are often created from a problem record once the root cause has been found, but a permanent fix is not available. An example of a KE may be to record an error with an existing software package that is waiting for a permanent fix to be released.  In some cases, where the software package is no longer being developed, the KE may remain in place until the software is replaced with  
@@ -24,4 +24,4 @@ An analyst with a minimum of the Change Management User role can raise a new Cha
 * Existing Problem records > Using the Raise Change from the Raise New Linked Request option under the Link Action Bar or Using the Raise Change drop down option next to the Raise New icon
 
 ## Releases
-Release Management allows for the planning and release several related changes under a single release record.
+Release Management allows for the planning and releasing of several related changes under a single release record.

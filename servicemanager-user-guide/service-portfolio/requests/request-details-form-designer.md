@@ -67,9 +67,9 @@ Both Default and Custom Fields include a properties option. This is accessed by 
 
 * **Show the field in the form**: This will make this field available when in Edit mode on the form. This can also be enabled/disabled using the Eye icon located on the field.
 * **The field value cannot be blank when saving**: Checking this option will make this field mandatory. As long as the field is blank, you will not be able to save any updates to the form.
-* **The field cannot be edited**: When a field is contains a value that you don't want changes, use this option to prevent this.
+* **The field cannot be edited**: When a field contains a value that you don't want changed, use this option to prevent this.
 * **Show the field in view mode even if the value is blank**: In order to keep a clean and uncluttered details section, if a field is empty the label is not displayed. Once a field is populated the Label and the content of the field are displayed. If you would like the label to be displayed even when the field is empty, tick this box.
-* **Field Label**: This is the label that is displayed on the form. The label can be changed to suite the terminology that you prefer to use. In parentheses the current language code is displayed. You are able to provide a translation for the language that you are currently using in your session.
+* **Field Label**: This is the label that is displayed on the form. The label can be changed to suit the terminology that you prefer to use. In parentheses the current language code is displayed. You are able to provide a translation for the language that you are currently using in your session.
 * **Validate Input with RegEx Expression**: Including a RegEx Expression you can control how the user is to input the information into the field. Use the ? button to open the RegEx Selector to help with building your Expression.
 * **Test Regex Expression With Value**: This field lets you take your RegEx Expression for a test run to make sure that it works as expected.
 * **Message to display to user when validation fails**: If a user enters a value that does not match the provided RegEx Expression you can present them with a message. This can be used to guide them with the correct format that needs to be used.

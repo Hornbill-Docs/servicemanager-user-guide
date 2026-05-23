@@ -16,7 +16,7 @@ Once the request has been added to one or multiple Boards, either manually from 
 
 ## Removing a request from a Board
 
-Each Board listed in the Boards action item provides an X which when selected the request that you are currently viewing will be removed from that board. This option is not available to users that Read Only access to a board.
+Each Board listed in the Boards action item provides an X which when selected the request that you are currently viewing will be removed from that board. This option is not available to users that have Read Only access to a board.
 
 ## Advanced setting
 

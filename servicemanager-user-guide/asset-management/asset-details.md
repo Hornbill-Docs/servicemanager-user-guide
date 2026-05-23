@@ -10,7 +10,7 @@ The asset record provides a comprehensive overview of the asset's attributes, re
 
 ## Summary
 
-The Summary section displays a overview of the most important asset attributes. The attributes displayed here are configurable and can be managed by the asset administrator. This includes deciding which asset attributes to make visible and which asset attributes are mandatory. This is covered in more detail in [Asset Types](/servicemanager-config/assets/manage-asset-types#summary-fields).
+The Summary section displays an overview of the most important asset attributes. The attributes displayed here are configurable and can be managed by the asset administrator. This includes deciding which asset attributes to make visible and which asset attributes are mandatory. This is covered in more detail in [Asset Types](/servicemanager-config/assets/manage-asset-types#summary-fields).
 
 ![Asset summary section](/_books/servicemanager-user-guide/asset-management/images/asset-record-summary.png)
 
@@ -67,6 +67,23 @@ The asset's audit history lists all actions, and who performed the action.
 
 With specific fields enabled and populated, an Asset Depreciation Calculator is shown in the right-hand panel of the asset view.
 
+![Asset depreciation calculator](/_books/servicemanager-user-guide/asset-management/images/asset-depreciation-calculator.png)
+
+The required fields to enable the calculator are:
+
+* **Cost**: The original cost of the asset when it was purchased. This is a crucial input for calculating depreciation, as it serves as the starting point for determining the asset's value over time.
+* **Depreciation Method**: The method used to calculate the asset's depreciation over time. Methods include straight-line and reducing balance. The choice of method will determine if the depreciation value is calculated as a fixed amount or as a percentage of the asset's remaining value.
+* **Depreciation Value (percentage or amount)**: The amount by which the asset's value decreases over time. If the depreciation method is straight-line, this will be a fixed amount. If the method is reducing balance, this will be a percentage of the asset's remaining value.
+* **Depreciation Frequency (months)**: The interval at which depreciation is calculated.
+* **Depreciation Start Date**: The date when the asset's depreciation calculations begin.
+* **Depreciation Term (months)**: The total duration over which the asset will be depreciated.
+
+Modifying any of the required fields will automatically update the depreciation schedule in the calculator. The calculator will display the current value of the asset based on the depreciation calculations, as well as a schedule showing how the asset's value will change over time.
+
+![Asset depreciation fields](/_books/servicemanager-user-guide/images/asset-depreciation-fields.png)
+
+The location of these fields on the asset record will vary, depending on how the asset type is configured by the asset administrator.
+
 This video explains how to set up and use the calculator:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V-_Bp19m4Ek?si=jz_OoFr53byrUQYh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -83,7 +100,7 @@ When the asset is set to **Used By** the used by field indicates the primary use
 
 ### Shared with
 
-When the asset it set to **Shared with**, the asset can be shared between multiple users. This is typically used for assets that are not assigned to a specific individual, such as a conference room or a shared printer.
+When the asset is set to **Shared with**, the asset can be shared between multiple users. This is typically used for assets that are not assigned to a specific individual, such as a conference room or a shared printer.
 
 ## Tags
 
@@ -97,7 +114,7 @@ Tags provide a way to specify keywords or attributes on an asset for easy search
 
 Customizable actions for an asset can be added through what is known as custom buttons.  The availability of custom buttons may vary on each asset.
 
-Asset administrators can add [custom buttons](/esp-config/customize/custom-buttons) to asset records that open a URL, displays a popup, or runs an Auto Task workflow. s
+Asset administrators can add [custom buttons](/esp-config/customize/custom-buttons) to asset records that open a URL, display a popup, or run an Auto Task workflow.
 
 ![Custom buttons on an asset record](/_books/servicemanager-user-guide/asset-management/images/asset-record-custom-buttons.png)
 
@@ -106,36 +123,6 @@ Example uses for asset custom buttons may include:
 * Launching a third-party online remote control application.
 * Viewing further asset information held in a third-party discovery tool.
 * Link to the vendor's website for more information on the asset.
-* Running an Auto Task workflow to preform a specific action on the asset.
+* Running an Auto Task workflow to perform a specific action on the asset.
 
 Custom buttons can be set to only show if certain conditions are met, for example if the asset has a certain status or if a particular user is viewing the asset record.
-
-<!-- #JA Items for review 
-
-* **Asset Attribute Lookups.** Certain attribute fields will be free text, others will be lookup fields. Guidance is given on the key lookup fields that follow.
-  * **Used by.** An asset can either be used by a single active user (not a contact), or if the Sharing option is enabled. The used asset by will display as shared and a new Shared With option will appear, allowing the asset to be shared with multiple users, contacts, internal groupings, and external organizations. If an asset is shared, it will appear as a selectable asset on requests and Intelligent Capture asset forms for those it has been shared with.
-  * **Owned by.** User lookup based on active user accounts (not contacts). The users returned in the Owned By lookup will be based on the Company Group specified in the Company field if this is already populated.
-  * **Site.** The list of sites defined in Configuration. The list will be filtered by sites linked to a Company Group if the Company field is already populated.
-  * **Company.** List of defined Company Groups set up in  Configuration, under Organization Data.
-  * **Vendor.** Software-class specific, lookup is defined from vendors created from the Manage Asset Types and Manage Vendors, Products, Versions button on the Software Asset Class.
-  * **Product.** Software-class specific, lookup is filtered based on the previously chosen Vendor field. Products are created from the Manage Asset Types and Manage Vendors, Products, Versions button on the Software Asset Class.
-  * **Version.** Software-class specific, lookup is filtered based on the previously chosen Product field. Versions are created from the Manage Asset Types and Manage Vendors, Products, Versions button on the Software Asset Class.
-
-  ### Linked entities
-
-If the asset has been linked to other entities in Hornbill, they will be visible in the Linked Entities section.
-
-* **Linked Requests.** View all requests the asset has been linked to.
-* **Assets.** View any other linked assets.
-* **Services.** View any services the asset is linked to.
-* **Documents.** View, download or unlink any documents the asset is linked to.
-
-## Timeline
-
-Collaborate on and follow assets. The timeline will be visible on an asset view if Configuration Manager is installed and the asset is marked as under policy.
-
-## Activities
-
-Schedule and manage asset activities such as reviews and PAT testing. The Activities option will be visible if Configuration Manager is installed and the asset is marked as under policy.
-
--->

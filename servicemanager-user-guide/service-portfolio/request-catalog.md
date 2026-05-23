@@ -71,7 +71,7 @@ The Service Details Form is required to give a support person the ability to sel
 
 The creation of a Capture Script that is only going to be available to users of the portals is as straightforward as going to Administration and creating a collection of forms and questions that the user will be stepped through to raise the appropriate request.
 
-When building a Intelligent Capture Script for this purpose there is only one thing to keep in mind. There are particular Intelligent Capture forms that are not designed for use by portal users. If these forms are added to these Intelligent Capture scripts they will simply be skipped and not visible to the user on the portals. These include the following forms:
+When building an Intelligent Capture Script for this purpose there is only one thing to keep in mind. There are particular Intelligent Capture forms that are not designed for use by portal users. If these forms are added to these Intelligent Capture scripts they will simply be skipped and not visible to the user on the portals. These include the following forms:
 
 * Customer Search
 * Co-worker Search
@@ -89,7 +89,7 @@ Some of the information collected in the initial Capture Script may be relevant 
 
 ### Shared Catalog Items
 
-In some cases, you may be able to use the same Catalog Item in both the Portal and for the Support Staff. Using the considerations mentioned in the previous two sections, you can build a Intelligent Capture script that lets you include support-specific forms that are skipped and not visible in the portals, but they can be added to retain information that the support person needs.
+In some cases, you may be able to use the same Catalog Item in both the Portal and for the Support Staff. Using the considerations mentioned in the previous two sections, you can build an Intelligent Capture script that lets you include support-specific forms that are skipped and not visible in the portals, but they can be added to retain information that the support person needs.
 
 ## Language
 

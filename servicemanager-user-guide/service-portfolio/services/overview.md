@@ -129,7 +129,7 @@ Catalog item visibility in the request catalog for sub-group members subscribed 
 
 If the Service will be visible on the Employee and Customer portals for subscribed users.
 
-* **Visible:** Subscribed users will see, and have access to their requests raised against the Service, even if they you have restricted their ability to raise tickets from the portals for this Service.
+* **Visible:** Subscribed users will see, and have access to their requests raised against the Service, even if you have restricted their ability to raise tickets from the portals for this Service.
 * **Hidden:** Subscribed users will not see the Service on the Customer or Service portal - Useful when defining a technical Service rather than a business Service.
 
 ## Owner
@@ -155,7 +155,7 @@ A user that is a member of a team that support the service, but doesn't have the
 
 ## Activities
 
-The Activities panel lets you create and managed tasks and activities against this service. This can be used for planning updates to any aspect of the service such as updating a workflow or Intelligent Capture.
+The Activities panel lets you create and manage tasks and activities against this service. This can be used for planning updates to any aspect of the service such as updating a workflow or Intelligent Capture.
 
 ## Timeline
 

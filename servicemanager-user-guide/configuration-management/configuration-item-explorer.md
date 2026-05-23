@@ -10,7 +10,7 @@ The Explorer can be used to view and define relationships between CIs.
 When you open the Explorer view, its root defaults to the CI from which it was launched.
 
 ## Explorer View
-If the CI has existing defined relationships to other CIs , then the first level of these relationships will be visible.
+If the CI has existing defined relationships to other CIs, then the first level of these relationships will be visible.
 
 * If further levels exist, click the + icon of a CI in the Explorer to get to the next level.
 * To hide or contract an Explorer level, click the - icon of a CI.

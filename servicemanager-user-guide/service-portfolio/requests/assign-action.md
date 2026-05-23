@@ -1,8 +1,8 @@
 # Assign
-The Assign Action allows a request to be to a team or individual.
+The Assign Action allows a request to be assigned to a team or individual.
 
 ## Available Teams
-When viewing the teams to which you can assign the request too, the drop-down will only display the teams that support the Service which the request has been logged. Read more about Supporting teams here.
+When viewing the teams to which you can assign the request, the drop-down will only display the teams that support the Service which the request has been logged. Read more about Supporting teams here.
 
 ## Analysts Presence and Availability
 When deciding which analyst to assign the request to, you can view both the analyst's presence and their availability.

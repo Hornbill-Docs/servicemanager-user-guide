@@ -23,9 +23,9 @@ When more than one service level has been defined within your SLA, the **Manage 
 1. In the [**Manage Rules** tab](/servicemanager-user-guide/service-portfolio/service-level-agreements/rules#manage-rules-tab), click **+New Rule**.
 1. Give the rule a name and fill in the following fields:
     * **Name.** The name of the rule.
-    * **Service Level.** The service level to to be invoked should the conditions of this rule be met.
+    * **Service Level.** The service level to be invoked should the conditions of this rule be met.
     * **All.** Configure one or more conditions, all of which must match in order for the rule to be met and the defined service level to be invoked.
-    * **Any.** Configure one or more conditions where any of the the conditions can match, in addition to any "All must match" conditions, in order for the rule to be met and the defined service level to be invoked.
+    * **Any.** Configure one or more conditions where any of the conditions can match, in addition to any "All must match" conditions, in order for the rule to be met and the defined service level to be invoked.
 
 ### Configuring rule conditions
 
@@ -41,7 +41,7 @@ When more than one service level has been defined within your SLA, the **Manage 
 
 ### Managing the order in which rules are evaluated
 
-You can define multiple rules per SLA. When a request is raised using the SLA, the system logic will start by evaluating the first rule in the list looking for a match. If no match is found with the first rule, it will evaluate the remaining rules in list order until the first rules match is found.
+You can define multiple rules per SLA. When a request is raised using the SLA, the system logic will start by evaluating the first rule in the list looking for a match. If no match is found with the first rule, it will evaluate the remaining rules in list order until the first rule match is found.
 
 If no rules are matched, then no service level will be used or invoked on the request.
 
@@ -73,7 +73,7 @@ The high-level steps are as follows:
 The application logic then takes over and performs the following:
 
 1. Checks the service against which the request is logged.
-1. If there are multiple SLAs associated to the service, the application first evaluates the SLA rules and determine which SLA should be invoked. If there is only one SLA associated to the service, this one will be chosen.
+1. If there are multiple SLAs associated to the service, the application first evaluates the SLA rules and determines which SLA should be invoked. If there is only one SLA associated to the service, this one will be chosen.
 1. The application logic then focuses on the SLA that has been identified, and works through the service-level rules. Once a rule that contains matching conditions is found, service level targets are set against the request.
 
 ### Update via workflow request

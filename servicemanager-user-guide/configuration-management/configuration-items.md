@@ -33,7 +33,7 @@ Why mark CIs as In Policy? You may wish to manage your servers and understand wh
 On the other hand, you may have several thousand computer peripherals (e.g. mice) that are worth little and hold no business value in terms dependencies or relationships to other CIs. You may want to mark this kind of CI as Not in Policy.
 
 ### Assets
-You can already records your assets if you have Service Manager installed on your instance. This includes the following functionality:
+You can already record your assets if you have Service Manager installed on your instance. This includes the following functionality:
 * Defining each asset's class and type.
 * Defining the attributes that you wish to record for the assets.
 * Automatically tracking and auditing all changes to the asset's attributes through the History feature.

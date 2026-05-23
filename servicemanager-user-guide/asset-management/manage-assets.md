@@ -12,7 +12,7 @@ The available classes include:
 * **All Assets.** All assets, independent of their class. The available information in this view is generic to all asset classes.
 * **Computer Peripherals.** Keyboards, monitors, and other types of computer peripherals.
 * **Computer Systems.** Servers, desktop computers, and other types of computer systems.
-* **General.** Assets types that don't fall under the standard classes can be listed here. This can be things like desks and other office equipment.
+* **General.** Asset types that don't fall under the standard classes can be listed here. This can be things like desks and other office equipment.
 * **Mobile Devices.** Assets such as smartphones and tablets.
 * **Network Devices.** Routers, switches, physical firewalls, and other network devices.
 * **Printers.** Laser printers, inkjet printers, scanners, and fax machines.
@@ -37,7 +37,7 @@ The Assets List lets you access all the available assets. The following features
     :::
 * **Advanced search.** Click **Advanced** (the search button to the right of the quick filter) to filter assets based on one or more conditions that you define. Before adding your first condition, make sure you select the appropriate asset class from the class selector. Once you start adding the first condition, the asset class will be locked to the current asset class and the matching fields for that asset class will be available when adding conditions. Once conditions are set, use the quick filter to filter the results, or save the search as one of your views.
 * **Class selector.** Switch between Asset Classes or All Assets by selecting the relevant option. (Note that the list columns will change to reflect those configured for each asset class).
-* **Views.** The Views feature lets you define and store a number of different views of the assets. The criteria builder lets you specify conditions based on information held in the asset records, giving you quick access to particular sets of important data. In the the Assets List toolbar, you can quickly change views by selecting from your list of defined views.
+* **Views.** The Views feature lets you define and store a number of different views of the assets. The criteria builder lets you specify conditions based on information held in the asset records, giving you quick access to particular sets of important data. In the Assets List toolbar, you can quickly change views by selecting from your list of defined views.
 * **Export List.** Export the contents of the assets list to CSV. Choose which of the available columns on the list you wish to export (the available options are specific to the asset class).
 * **Home View.** Click **Home View** > **Set current view as my Home** to create a preferred or default view of your Assets List. Your Home View is displayed when you first visit your Assets List, and with a single click you can return to your Home View from any other filter or view that you have applied.
 * **Customize columns.** The available columns are specific to the asset type the list is using. The available columns are a combination of the common attributes that all asset types share, and the type-specific attributes for the selected asset type. If you choose to display all assets, only the shared asset attributes will be available to select from.

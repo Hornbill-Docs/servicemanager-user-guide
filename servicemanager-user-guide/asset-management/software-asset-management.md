@@ -37,7 +37,7 @@ When you click on a specific product from either the chart or the list, you can 
 
 The **Installed On** section shows the devices that the software product is installed on. This information is pulled through from the **Installed Software Information** section on the asset record that has the software product installed. You can click on a specific asset to view the full asset record. 
 
-When viewing an asset record that has software products installed, an Installed Software list will displayed.
+When viewing an asset record that has software products installed, an Installed Software list will be displayed.
 
 ![Installed Software list](/_books/servicemanager-user-guide/asset-management/images/sam-asset-installed-software-list.png)
 

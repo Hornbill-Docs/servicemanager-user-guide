@@ -34,7 +34,7 @@ On each of the lists, a select box is available to select one or more Snippets t
 You can edit or alter a Snippet by clicking on the Snippet's name within the lists. This will open the Snippet Editor where you can make your changes and select Update to save your changes.
 
 ### Using Request Variables
-When creating Snippets it can be useful to include Variable content from the request, this could include inserting the Reference Number, Customer Name, or other variables into the Snippet to remove the need to manual add these each time you wish to send an email from the request.
+When creating Snippets it can be useful to include Variable content from the request, this could include inserting the Reference Number, Customer Name, or other variables into the Snippet to remove the need to manually add these each time you wish to send an email from the request.
 
 Available Variables:
 * Customer First Name

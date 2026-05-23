@@ -79,7 +79,7 @@ You can manage substates using the configuration button on the top of the Asset 
 
 **To make an asset substate visible:**
 1. From the Manage Asset Types option, open an asset type.
-1. Click **Edit**.**
+1. Click **Edit**.
 1. Expand the section called *General Asset Information*.
 1. Select **Visible** if you don't want to hide the field.
 1. Select **Mandatory** if information must be entered in the field.

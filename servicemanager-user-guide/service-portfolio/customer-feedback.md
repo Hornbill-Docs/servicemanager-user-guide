@@ -5,7 +5,7 @@ With the customer feedback feature, you can invite your customers to provide fee
 * Feedback is provided through the Customer Portal and the Employee Portal.
 * You can include a link in your closure email templates directing customers to where the feedback can be provided.
 * Feedback can be requested in the form of a simple star rating and configurable feedback questions.
-* Feedback can be enabled for incidents and services requests.
+* Feedback can be enabled for incidents and service requests.
 * Feedback on a request can be open-ended or time-limited.
 * Feedback information can be viewed on the related request or reported on using the [reports](/servicemanager-config/reporting/reports) and advanced analytics.
 
@@ -16,7 +16,7 @@ In each service record, under Request Configuration, there is an option to enabl
 
 When configuring the customer feedback options, it is important to remember that you are only enabling or disabling the options for the specific request type, and against the specific service. Changes configured here are not global and will not impact other request types on the same service or other services you offer.
 
-![Enable Feedbac](/_books/servicemanager-user-guide/images/enable-customer-feedback.png)
+![Enable Feedback](/_books/servicemanager-user-guide/images/enable-customer-feedback.png)
 
 * **Enable Star Rating**<br>With this enabled, the customer will simply be able to provide a 1-5 star rating to feedback for the service they have received.
     :::tip
@@ -45,7 +45,7 @@ The same technique can be used to offer the available answers in different langu
 The customer's language will automatically be picked up from their profile, and the questions presented to them in the correct language (if this has been configured, alternatively they will be presented in the default language for your instance).
 
 * You can easily choose to reorder how the questions are presented to the customer on the Customer or Employee Portals, by simply dragging and dropping the questions into the desired order on the list of questions.
-* You can change the maximum number of questions which can be defined via the the admin tool. Under Service Manager > Settings and the app.request.customerFeedback.maxQuestion setting.
+* You can change the maximum number of questions which can be defined via the admin tool. Under Service Manager > Settings and the app.request.customerFeedback.maxQuestion setting.
 
 ## Providing Feedback
 On both the Customer and Employee Portals, customers will see a new Awaiting Feedback option on their request lists, when one or more of their closed requests is awaiting feedback. There is also a Drop Down option on their request list views to move between Active, Closed and Awaiting Feedback requests.

@@ -52,7 +52,7 @@ When there is more than one rule, all rules must be met for the custom button to
 
 :::tip
 
-* Request status values need to entered in the following format: status.new, status.open, status.status.recolved, status.closed.
+* Request status values need to entered in the following format: status.new, status.open, status.resolved, status.closed.
 
 :::
 
@@ -80,7 +80,7 @@ The Business Process Manager role will be needed to be able to link an [Auto Tas
 #### Response
 
 * Display Autotask progress in timeline - tick this option if you want a post to be added to the entity timeline to audit the running of the Auto Task process and its progress and success.
-* Open pop-up with Autotask progress - tick this option if you want a pop-up to display when the custom buttons is selected, and to show the user the progress of the executed Auto Task.
+* Open pop-up with Autotask progress - tick this option if you want a pop-up to display when the custom button is selected, and to show the user the progress of the executed Auto Task.
 
 ## Manage Custom Buttons
 

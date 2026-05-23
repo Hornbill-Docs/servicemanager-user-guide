@@ -12,7 +12,7 @@ The Three Status options are
 * Impacted - indicated by an amber icon
 * Unavailable - indicated by a red icon
 
-When any of the above status's are chosen a default message will be displayed, and can be edited. Once saved the status and message will be visible to the subscribers of the service on the Service and or Customer Portals, and analysts who support the Service through the user app in the following places:
+When any of the above statuses are chosen a default message will be displayed, and can be edited. Once saved the status and message will be visible to the subscribers of the service on the Service and or Customer Portals, and analysts who support the Service through the user app in the following places:
 
 * Services List
 * Request List
@@ -21,7 +21,7 @@ When any of the above status's are chosen a default message will be displayed, a
 
 Supporting Messages can be seen by Hovering over the Service Status Icon.
 
-* To Change the Status of the Service, simple select a different option from the drop down list and save.
+* To Change the Status of the Service, simply select a different option from the drop down list and save.
 * To remove any Status, simply select the 'No Status' option from the drop down list and save.
 
 In the user app and the Request Details view, the Service Name will take you through to see more information about the service. The Level of information visible to you will depend on your rights to view the Service, including:
@@ -46,7 +46,7 @@ The availability metrics can be accessed using the chart icon next to the servic
 
 To compliment the availability metrics a full list of all changes in the Services Status (Availability) are recorded and displayed under the Data option.
 
-* **Status:** The status the Service was sat in (Available, Unavailable, Impacted)
+* **Status:** The status the Service was in (Available, Unavailable, Impacted)
 * **From:** The date and time the Service was in this status
 * **To:** The date and time the Service changed from this status
 * **Duration:** The total time the service was in this status
@@ -67,7 +67,7 @@ By Default the Availability Metrics will be set to look at the previous 3 months
 
 ## SLA
 
-By default the Availability Metrics will be based on a 247 clock, however it is possible to display the Availability Metrics based on the working days / hours of the working time calendar which underpins any SLA which is available on the Service.
+By default the Availability Metrics will be based on a 24/7 clock, however it is possible to display the Availability Metrics based on the working days / hours of the working time calendar which underpins any SLA which is available on the Service.
 
 Change the SLA to view the Availability Metrics for the Service based on the working hours of the SLA.
 

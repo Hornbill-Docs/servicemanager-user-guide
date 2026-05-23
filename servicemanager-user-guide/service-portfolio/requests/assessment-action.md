@@ -38,7 +38,7 @@ Urgency is not available on the request's assessment action by default. Administ
 
 ## Risk
 
-Risk refers to the probability and or impact of this change being completed successfully.
+Risk refers to the probability and/or impact of this change being completed successfully.
 
 Risk is not available on the request's assessment action by default. Administrators have two options for configuring the use of risk:
 

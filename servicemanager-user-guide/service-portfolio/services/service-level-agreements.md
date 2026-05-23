@@ -12,7 +12,7 @@ A service can link to one or more existing Corporate Service Level Agreements. C
 A Service Level Agreement that is specific to this service can be created using the + New Service Level Agreement button.
 
 * **Name**<br>The Name provides visibility of this Service Level Agreement and can be used from within the Service, BPM Operations, Reports, and other areas.
-* **Description**<br>Provide a description to allow other users that have access to the Service to have an understanding of the use of the service. level agreement.
+* **Description**<br>Provide a description to allow other users that have access to the Service to have an understanding of the use of the service level agreement.
 * **Working Time Calendar**<br>The Working Time Calendar will indicate the working periods that the team(s) that support the service are available. The selected calendar will be used to calculate target times for the Service Levels that come under this Service Level Agreement
 * **Service Levels**<br>This option is only available once the Service Level Agreement has been created. Service Levels can be added which allows Service Level Targets and automated escalation actions to be defined.
 
@@ -23,7 +23,7 @@ Once you have created or associated more than one Service Level Agreement to a s
 * **Name**<br>Add a name to the rule that will allow it to be easily identified in the list of rules.
 * **Service Level Agreement**<br>Select the Service Level Agreement which you would like to be invoked should the conditions of this rule be met.
 * **All** of these conditions must match<br>Configure one or multiple conditions which All must match for the rule to be met and the defined Service Level Agreement to be invoked.
-* **Any** of these conditions must match<br>Configure one or multiple conditions where Any of the the conditions can match, in addition to any All must match conditions for the rule to be met and the defined Service Level Agreement to be invoked.
+* **Any** of these conditions must match<br>Configure one or multiple conditions where Any of the conditions can match, in addition to any All must match conditions for the rule to be met and the defined Service Level Agreement to be invoked.
 
 ### Configuring Rule Conditions
 An extensive condition builder is available to determine which SLA should be invoked under these conditions.
@@ -36,7 +36,7 @@ An extensive condition builder is available to determine which SLA should be inv
 Repeat the above for any additional Conditions you wish to set against the Rule, and click on Create when finished configuring the conditions for the Rule.
 
 ### Managing the Order Rules are Evaluated
-It is possible to define multiple rules per Service. When a request is raised using the Service the system logic will start by evaluating the first rule in the list looking for a match, if no match is found with the first rule, it will evaluate the remaining rules in list order until the a rule match is found.
+It is possible to define multiple rules per Service. When a request is raised using the Service the system logic will start by evaluating the first rule in the list looking for a match, if no match is found with the first rule, it will evaluate the remaining rules in list order until a rule match is found.
 * Reorder the rules in the list by using the up and down arrows which will be visible once more than one Rule has been configured against the Service.
 * If no rules are matched, then No Service Level Agreement will be used or invoked on the request.
 * If no rules have been configured, the first Service Level Agreement in the list of Service Level Agreements linked to the Service will be used.

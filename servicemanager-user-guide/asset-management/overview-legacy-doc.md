@@ -20,7 +20,7 @@ To access the Asset Management capabilities of Hornbill Service Manager, your us
 * **Manage Assets.** Access to your organization's assets
 * **Manage Asset Types.** Define the types of assets that are used by your organization. Control the available fields and information used on each asset type.
 * **Upload Assets.** For small batch imports of assets, use our simple CSV import.
-* **Asset Tags.** Create and managed tags that can be used on individual assets. This includes an option to enable or disable the ability for a user to add their own tags, or force them to use a defined set of tags.
+* **Asset Tags.** Create and manage tags that can be used on individual assets. This includes an option to enable or disable the ability for a user to add their own tags, or force them to use a defined set of tags.
 
 ## Integration
 If you already have an asset-discovery tool or a second asset database, you can set up automated imports and updates using the [Hornbill Asset Import utility](/data-imports-guide/assets/overview). This utility lets you connect to a local database within your network and push the information up to your Hornbill instance.

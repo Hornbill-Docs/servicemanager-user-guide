@@ -16,7 +16,7 @@ As well as linking the request to other existing requests, you can use the `Rais
     * The summary and description from the original request will be populated into the Request Details Intelligent Capture form fields if selected in the capture flow.
 
 ### Linked requests
-As soon as the request is either linked to other existing requests or a new request is created from the request, a new collapsable section will appear on the request view.
+As soon as the request is either linked to other existing requests or a new request is created from the request, a new collapsible section will appear on the request view.
 * All linked requests will be added to this section.
 * Options to unlink or edit the relationship link (If Relationship Links have been configured and used) will be presented.
 * The request that is linked will also have a request section created when a link to it is added.
@@ -24,7 +24,7 @@ As soon as the request is either linked to other existing requests or a new requ
 ![Linked Requests Section](/_books/servicemanager-user-guide/images/request-link-section.png)
 
 :::tip
-After a linked request has been added, an addition option on the [Update Action](/servicemanager-user-guide/service-portfolio/requests/update-action#update-linked-requests) becomes available where you can provide an update to all the linked requests.
+After a linked request has been added, an additional option on the [Update Action](/servicemanager-user-guide/service-portfolio/requests/update-action#update-linked-requests) becomes available where you can provide an update to all the linked requests.
 :::
 
 <!-- https://wiki.hornbill.com/index.php?title=Link_Action_Item -->

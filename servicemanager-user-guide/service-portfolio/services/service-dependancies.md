@@ -20,7 +20,7 @@ From the list of services, choose the Associate option next to each service to s
 * With No Dependencies - Relate the services, but indicate no dependencies between the services
 * With this depending on xxx - Relate this service and indicate this service depends on the service you are relating it to.
 * With xxx depending on this - Relate this service and indicate the service you are relating this to, depend on it
-* As Mutually Dependant - Relate the services, and indicate they are mutually dependant on each other
+* As Mutually Dependent - Relate the services, and indicate they are mutually dependent on each other
 
 xxx = The name of the service you are viewing when relating other services to it.
 

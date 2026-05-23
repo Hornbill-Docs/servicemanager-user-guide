@@ -39,7 +39,7 @@ You cannot filter by the following attributes:
 
 ![Advanced filter in assets list](/_books/servicemanager-user-guide/images/asset-list-advanced-filter.png)
 
-The **Advanced** filter allows you to build one of more conditions to filter the list of assets. When more than one condition is added, all conditions must be met for an asset to be included in the results.
+The **Advanced** filter allows you to build one or more conditions to filter the list of assets. When more than one condition is added, all conditions must be met for an asset to be included in the results.
 
 ![Advanced filter conditions](/_books/servicemanager-user-guide/images/asset-list-advanced-filter-condition.png)
 
@@ -141,7 +141,7 @@ Now you can quickly access particular sets of important data by selecting from y
 
 ![Home view](/_books/servicemanager-user-guide/asset-management/images/asset-home-view.png)
 
-The Home view defines which area of the assets is displayed when you first open assets.  The drop-drown lets you set the current view as the Home view.  Clicking on the Home icon will take you back to this view at any time. This option is available from any list and on the dashboard.
+The Home view defines which area of the assets is displayed when you first open assets.  The drop-down lets you set the current view as the Home view.  Clicking on the Home icon will take you back to this view at any time. This option is available from any list and on the dashboard.
 
 ## Exporting the asset list
 

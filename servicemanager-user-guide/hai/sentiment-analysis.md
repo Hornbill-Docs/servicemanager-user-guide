@@ -41,7 +41,7 @@ Request Sentiment can be used in email templates as the variable is available wi
 
 ## Auto Updates
 
-Its possible to enable [auto updates](/servicemanager-config/administration/hai-request-summariser) for Sentiment Analysis
+It's possible to enable [auto updates](/servicemanager-config/administration/hai-request-summariser) for Sentiment Analysis
 
 ## Request Insights
 
