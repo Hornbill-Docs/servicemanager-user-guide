@@ -60,11 +60,31 @@ The Home view defines which area of the assets is displayed when you first open 
 
 The All Assets view displays all assets for the selected partition in a flexible [Asset List](/servicemanager-user-guide/asset-management/asset-list)
 
-### Assets under Warranty
+### Assets under warranty
 
-The Assets under Warranty view displays assets that are currently under warranty for the selected partition. This view helps you quickly identify which assets are still covered by warranty, allowing you to manage maintenance and support effectively.
+The **Assets under warranty** view displays assets currently covered by a warranty within your selected partition. This view helps you track coverage so you can manage maintenance and support requests effectively.
 
-![Assets warranty expiry counter](/_books/servicemanager-user-guide/images/assets-warranty-expiry-counters.png)
+![Assets under warranty view](/_books/servicemanager-user-guide/images/assets-under-warranty-view.png)
+
+#### View requirements
+
+For an asset to appear in this view, the **Warranty Expires** field must contain a date.
+
+If you do not see the **Warranty Expires** field on your asset form, you can add it by customizing the [asset type](/servicemanager-config/assets/manage-asset-types).
+
+#### Warranty summary
+
+The top of the view features summary counters that provide a quick look at your upcoming expirations. These counters show how many assets fall into the following categories:
+
+![Warranty summary counters](/_books/servicemanager-user-guide/images/assets-warranty-expiry-counters.png)
+
+* Expired
+* Expiring within 30 days
+* Expiring within 60 days
+* Expiring within 90 days
+* Expiring within 180 days
+
+To view the specific list of assets for a time frame, select the corresponding counter or use the **Warranty Expiry** filter. This allows you to take proactive steps for maintenance before coverage ends.
 
 ## Asset navigation
 
