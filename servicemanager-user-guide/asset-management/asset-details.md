@@ -6,7 +6,7 @@
 [[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/service-manager/new-assets-note.md]]
 :::
 
-The asset record provides a comprehensive overview of the asset's attributes, relationships, and history. The information displayed is based on the asset type and class, and can be configured by the asset administrator.
+The asset record provides a comprehensive overview of the asset's attributes, relationships, and history. The asset record is organized into several sections, each providing different types of information about the asset.
 
 ## Summary
 
@@ -14,21 +14,21 @@ The Summary section displays an overview of the most important asset attributes.
 
 ![Asset summary section](/_books/servicemanager-user-guide/asset-management/images/asset-record-summary.png)
 
-Each attribute can be updated by clicking in the field and entering the new value. Changes are applied without having to click a save button. A revert option is available to return the field to its previous value.
+Each attribute can be updated by selecting the field and entering the new value. Changes are applied without having to select a save button. A revert option is available to return the field to its previous value.
 
 ## Details
 
-The Details section provides a comprehensive view of all the asset's attributes, including those not displayed in the Summary section. The attributes are organized into logical groupings based on the asset type and class. This allows users to easily find and understand the information related to the asset.
+The Details section provides a comprehensive view of all the asset's attributes, including those not displayed in the Summary section. The attributes are organized into logical groupings, allowing you to easily find and understand the information related to the asset.
 
 ![Asset details section](/_books/servicemanager-user-guide/asset-management/images/asset-record-details.png)
 
-Each attribute can be updated by clicking in the field and entering the new value. Changes are applied without having to click a save button. A revert option is available to return the field to its previous value.
+Each attribute can be updated by selecting the field and entering the new value. Changes are applied without having to select a save button. A revert option is available after making a change to return the field to its previous value.
 
 ## Services
 
-Link to a service that is supported by this asset.
+Link to a [service](/servicemanager-user-guide/service-portfolio/services/overview) that is supported by this asset.
 
-Associating the services an asset supports or underpins can support quicker resolution of incidents and problems by making it quick and easy to understand which infrastructure is directly used to provide each service. Change management can benefit from visualizing which services will be impacted when implementing changes to an asset, where the asset is linked to, and if it supports one or more services.
+Associating the services an asset supports or underpins can provide quicker resolution of incidents and problems by making it easy to understand which assets are used to provide each service. Change management can benefit from visualizing which services will be impacted when implementing changes to an asset, where the asset is linked to, and if it supports one or more services.
 
 ![Asset services section](/_books/servicemanager-user-guide/asset-management/images/asset-record-services.png)
 
@@ -40,7 +40,7 @@ Link this asset to other related or connected assets. For example, you may want 
 
 ## Requests
 
-View any requests that this asset is linked to. This includes any requests that have been linked to the asset from the request form. Linking assets to requests can be done to provide more context to the request, and to allow for better reporting on the assets that are most commonly linked to requests. For example, if a particular model of laptop is frequently linked to incident records, this may indicate a common issue with that model that needs to be addressed.
+View any requests that this asset is linked to. Linking assets to requests can be done to provide more context to the request, and to allow for better reporting on the assets that are most commonly linked to requests. For example, if a particular model of laptop is frequently linked to incident records, this may indicate a common issue with that model that needs to be addressed.
 
 ![Asset linked requests section](/_books/servicemanager-user-guide/asset-management/images/asset-record-requests.png)
 
@@ -52,7 +52,7 @@ Upload files and documents from your local file system. Attachments can be added
 
 ## Asset history
 
-View all changes to the asset's attributes by clicking on the **History** icon.
+View all changes to the asset's attributes by selecting the **History** icon.
 
 The asset's audit history lists all actions, and who performed the action.
 
@@ -114,7 +114,7 @@ Tags provide a way to specify keywords or attributes on an asset for easy search
 
 Customizable actions for an asset can be added through what is known as custom buttons.  The availability of custom buttons may vary on each asset.
 
-Asset administrators can add [custom buttons](/esp-config/customize/custom-buttons) to asset records that open a URL, display a popup, or run an Auto Task workflow.
+Asset administrators can add [custom buttons](/esp-config/customize/custom-buttons) to asset records that open a URL, display a popup, or run an [Auto Task](/servicemanager-config/customize/service-manager-auto-tasks) workflow.
 
 ![Custom buttons on an asset record](/_books/servicemanager-user-guide/asset-management/images/asset-record-custom-buttons.png)
 

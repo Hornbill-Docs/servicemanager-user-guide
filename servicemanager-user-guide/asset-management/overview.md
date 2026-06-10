@@ -13,14 +13,16 @@ Asset data helps IT teams support asset users and make informed decisions about 
 
 Assets form the foundation of a Configuration Management Database (CMDB). You can use assets within incident, problem, and change processes to assist with incident classification, impact analysis, and change planning.
 
+![Asset management view](/_books/servicemanager-user-guide/images/assets-view.png)
+
 ## Before you begin
 
 To manage assets, you must have one of the following roles and rights:
 
 |Role|Description|
 |---|---|
-|Asset Management User|This role allows users to view and manage assets. It includes the `View Asset Management`, `Create Assets` and the `Edit Assets` application rights.|
-|Custom role|A custom role can be created with the necessary application rights to view and manage assets. This allows for more granular control over who can access and modify asset information.|
+|Asset Management User|This role allows users to view and manage assets. It includes the **View Asset Management**, **Create Assets** and the **Edit Assets** application rights.|
+|Custom role|A custom role can be created with the necessary application rights to view and manage assets. This allows for more granular control over who can access and modify asset information. For example, a custom role can be created with just the **View Asset Management** right|
 
 ## Accessing Assets
 
