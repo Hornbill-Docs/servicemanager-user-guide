@@ -48,7 +48,6 @@ The available statuses include:
 :::tip
 The statuses of Closed and Canceled are not listed as filters, because these typically represent archived requests that are no longer active or being addressed. To locate closed or canceled requests, use the Advanced filter or [Views](/servicemanager-user-guide/request-list/views) options.
 :::
-<br>
 
 ### Quick filter
 
