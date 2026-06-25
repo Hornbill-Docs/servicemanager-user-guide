@@ -199,6 +199,28 @@ Select your color using the following Service Manager settings. By default, the 
 |`webapp.view.ITSM.serviceDesk.requests.list.lastUpdateByColor.system`|Color to use as background of Updated By when user is a system user.|
 |`webapp.view.ITSM.serviceDesk.requests.list.lastUpdateByColor.customer`|Color to use as background of Updated By when user is a customer.|
 
+## Last Updated
+
+This field can be added to the request list to help identify the date and time of when the last update to the request was made.  Actions that signify an update include the following:
+
+* A Timeline Post or Comment is Added, Edited, or Deleted
+* The Status or Sub-Status are changed
+* The Request is placed On Hold or taken Off Hold
+* The Category is changed
+* The Priority is changed
+* The Urgency is changed
+* The Request is Escalated
+* An Asset or Asset Type is linked/unlinked
+* A file attachment is added
+* Customers or Connections are Changed/Added/Removed
+* An email is sent
+* A Request is linked/unlinked or a Linked Request is created
+* The Request is Resolved, Closed, Reopened or has the Resolution Details updated
+* A Member is added or removed
+* A Workaround is set
+* The Request's standard or custom fields are updated
+* For Changes/Releases; the Request is scheduled/unscheduled
+
 ## Service Level indicators
 
 Response and Fix Timer indicators can be displayed on the request list by exposing the Service Level Target (SLT) column from the column selector.
