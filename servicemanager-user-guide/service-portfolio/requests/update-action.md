@@ -1,47 +1,75 @@
-# Update action
-The Update action is designed for posting information on the timeline, facilitating collaboration between your team members and the customer.
+# Update Action
 
-![Update-Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/update-action.png)
+Use the Update action to post information to the request timeline. This feature helps you collaborate with team members and customers.
 
-This action can be enabled or disabled from within the [service configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions).
+![Update action screenshot](/_books/servicemanager-user-guide/service-portfolio/requests/images/update-action.png)
 
-## Links and embedded content
-The Update action supports text, images, and embedded multimedia/hyperlinks. In the Update box, simply copy and paste the content or link you wish to share. Examples include: 
-* Sharing a YouTube video, which can be viewed directly in the update from the request's timeline.
-* Providing a link (URL) to another request, workspace post, or document within Hornbill.
+Administrators can enable or disable this action in the [service configuration](/servicemanager-user-guide/service-portfolio/request-configuration#request-actions).
 
-## Wiki markup
-For easy formatting of content, a subset of Wiki markup can be used for formatting text with italics and bold, creating bulleted or numbered lists, and so on. Use the CTRL+I or CTRL+B keyboard shortcuts to enable/disable italic and bold text as you type.
+## Add a comment
 
-## Mentions
-You can *@mention* a coworker in an update so that the coworker receives a Hornbill notification with a link to the request.
+You can include text, images, and embedded multimedia or hyperlinks in your updates.
 
-## Customer Email Notifications
-Email notifications can be sent to the customer each time an update is added with a visibility level set to "Customer." These emails can include links back to the original request, enabling the customer to read and respond to the updates. Any subsequent comments made on a customer-visible update will also trigger an email notification to the customer. This is an excellent way to keep the customer informed and up to date.
+### Links and embedded content
 
-:::note
-It is important that the following has been set up in order for the customer to receive the updates by email.
-* **Default Email Template**<br>A default Email Template called CustomerTimelineUpdateNotification has been provided for you. Emails sent to customers will be based on this template. You can modify this email template to suite your needs.
-* **Email Template Setting**<br>If you want to create a new email template for this purpose, update the system setting guest.app.requests.notification.emailTemplate.customerTimelineUpdate with the name of the new email template.
-* **Email Notification Setting**<br>This setting guest.app.requests.notification.emailMailbox defaults to helpdesk on installation. This needs to be changed to the name of the mailbox that you wish to use for notifications from Service Manager.
-* **Notify Customer**
-Enable the Notify Customer option on the Request Action configuration.
-:::
+To share content or links, paste them directly into the Update box. Examples of supported content include:
 
-## Update Linked Requests
-If there are linked requests associated to the request that you are working on, you are able to send an update to the Timeline of these linked requests
+* YouTube videos that users can view directly from the timeline.
+* Hyperlinks to other Hornbill requests, workspace posts, or documents.
 
-### Setting
-This feature is turned off by default and can be enabled in Service Manager Application Settings.
-* **app.request.update.enableLinkedRequestAction**<br>Enable the option to update linked requests against a request through the Update tab.
+### Wiki markup
 
-### Using
-If there are requests linked to the request you are working on, the Update button within the Update Action will include an arrow that exposes the option to update the linked requests. Selecting the option to Update this and linked requests... will display a dialog box that lists the linked requests.
+Use wiki markup to format your text. You can apply formatting like italics and bold, or create bulleted and numbered lists.
 
-* **Select All**<br>Use this to select or deselect all of the requests in the list
-* **Check Boxes**<br>Use the individual check boxes to select individual requests to include in the update
-* **Request Type Filter**<br>Filter the list of linked requests to only show the selected type
-* **Update**<br>Click to apply the update text to all of the selected requests
+* Use the **CTRL+B** keyboard shortcut for bold text.
+* Use the **CTRL+I** keyboard shortcut for italic text.
+
+Select the **Preview wiki markup** button ![wiki preview button](/_books/servicemanager-user-guide/service-portfolio/requests/images/wiki-preview-button.png) to see how your content will appear before you post it to the timeline.
+
+### Mentions
+
+To notify a coworker about an update, use an @mention. Type the **@** symbol followed by the first few letters of the coworker's name. Select the correct person from the list that appears. The coworker will receive a notification that includes a link to the request.
+
+## HAi Text Assist
+
+![HAi Assist logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) [HAi Text Assist](/servicemanager-user-guide/hai/text-assist) is an AI tool that helps you write request updates. Clear and concise updates improve communication with your team and customers. These updates also provide data for request summarization and knowledge article generation.
+
+* **Ask HAi**: Enter an open-ended prompt to find solutions for common issues. For example, type "How to set up an email signature in Outlook in Office 365."
+* **Change Tone**: Adjust the tone of your text to suit your audience. Options include Apologetic, Professional, Friendly, and Technical.
+* **Improve Text**: Correct spelling and grammar mistakes to improve readability.
+* **Shorten Text**: Remove unnecessary words from your update.
+* **Listify**: Convert blocks of text into a list format.
+
+## Customer email notifications
+
+Email notifications can be automatically sent to customers when you add an update with the visibility level set to *Customer*. These emails include links to the original request so the customer can read and respond. Any subsequent comments on a customer-visible update also trigger a notification.
+
+To ensure customers receive these emails, verify the following configurations:
+
+* **Default Email Template**: Use the provided **CustomerTimelineUpdateNotification** template or a custom version.
+* **Email Template Setting**: If you use a custom template, update the **guest.app.requests.notification.emailTemplate.customerTimelineUpdate** system setting with the new template name.
+* **Email Notification Setting**: Change the **guest.app.requests.notification.emailMailbox** setting to the name of the mailbox you want to use for Service Manager notifications. This defaults to "helpdesk" upon installation.
+* **Notify Customer**: Enable the **Notify Customer** option in the Request Action configuration.
+
+## Update linked requests
+
+If a request has linked records, you can send updates to the timelines of those linked requests simultaneously.
+
+### Settings
+
+This feature is disabled by default. You can enable it in the [Service Manager Application Settings](/servicemanager-config/advanced-tools-and-settings/application-settings) by changing the following system setting:
+
+* **app.request.update.enableLinkedRequestAction**: Set this to enabled to allow updates to linked requests from the Update tab.
+
+### Usage
+
+When linked requests exist, the **Update** button includes an arrow. Select **Update this and linked requests...** to open a dialog box.
+
+* **Select All**: Select or deselect all requests in the list.
+* **Check boxes**: Select specific requests to include in the update.
+* **Request Type Filter**: Filter the list to show only specific request types.
+* **Update**: Apply the text to all selected requests.
+
 :::tip
-Updating linked requests is a one way update. If comments are made on the update in the linked requests, the originating request will not have visibility of these comments.
+Updates to linked requests are one-way. If a user comments on the update within a linked request, that comment does not appear in the original request.
 :::

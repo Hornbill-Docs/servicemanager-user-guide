@@ -1,54 +1,70 @@
 ---
-title: Hornbill AI - Text Assist
 description: HAi Text Assist is a set of AI-driven tools for the quick creation and manipulation of text content.
 coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
 ---
-# Text Assist
+# Text assist
 
-A set of AI-driven tools for quick creation and manipulation of text content. Ask HAi to elaborate on a problem, suggest a solution, spell check and grammar check content, shorten, listify, or change the tone. These features are available anywhere you can post text or comments - accessible from a simple drop-down menu.
+Text assist is a collection of AI-powered tools that help you create and edit content quickly. You can use HAi to expand on problems, suggest solutions, check spelling and grammar, or change the tone of your writing. These features are available in text and comment areas through a drop-down menu.
 
-![Hornbill AI Dashboard](/_books/servicemanager-user-guide/images/hai-text-assist.png)
+![HAi Text Assist](/_books/servicemanager-user-guide/images/hai-text-assist.png)
 
-## What you can do
+## Before you begin
 
-* Ask HAi - An open-ended prompt for getting how-to solutions to common issues - for example "How to set up an email signature in Outlook in Office 365".
-* Change the tone of the text in the box to suit the audience:
+To use HAi services, you must meet the following requirements:
+
+* **Register for the closed beta program**: HAi features are currently in a closed beta. You can access these features after you register. Contact your Hornbill customer success representative to join the program.
+* **Review fundamentals**: Read the [HAi fundamentals](/esp-fundamentals/core-capabilities/integration/hai-services) documentation to understand the core concepts.
+
+## Capabilities
+
+You can use Text assist to perform the following actions:
+
+* **Ask HAi**: Enter an open-ended prompt to receive solutions for common issues. For example, "How do I set up an email signature in Outlook?"
+* **Change tone**: Adjust the text to suit your audience. Options include:
   * Apologetic
   * Professional
   * Friendly
   * Technical
-* Improve Text - Correct spelling, and grammar, and improve readability/clarity.
-* Shorten Text - Remove unnecessary words.
-* Listify - Restructure the content in the box in list form rather than blocks of text.
+* **Improve text**: Correct spelling and grammar while improving readability.
+* **Shorten text**: Remove unnecessary words to make the content concise.
+* **Listify**: Convert blocks of text into a bulleted list.
 
-## Where you can use it
+## Supported areas
 
-Text areas within Hornbill records:
+You can use Text assist in the following Hornbill record areas:
 
-* Adding a post to a request timeline
-* Adding a documented resolution to a request
-* Writing an email update to the customer
-Bulk update requests from the request list view
+* Timeline posts
+* Documented resolutions
+* Email updates
+* Bulk update requests from the request list view
 * Knowledge articles
 
-## Output format
+## Output formats
 
-Text Assist returns content in the format that the text area uses. For example, when updating a timeline or resolving a request, it will return Wiki Markup. When adding an email update or knowledge, it will output HTML.
+Text assist provides content in the format required by the specific text area:
 
-### Tips and Tricks
+* **Wiki Markup**: Used for timeline updates and request resolutions.
+* **HTML**: Used for email updates and knowledge articles.
 
-1. Snippets - You can use snippets with request variables and the Ask HAi instruction to store custom prompts, one example is to use the following snippet for producing an initial response to a user's request.
+## Usage tips
 
-  ```TEXT
-  {{summary}}
-  {{description}}
-  Write 4 clarifying question to solve this issue.
-  ```
+### Use snippets for custom prompts
+
+You can combine snippets with request variables and the **Ask HAi** instruction to create custom prompts. For example, use the following snippet to generate an initial response to a user request:
+
+```text
+{{summary}}
+{{description}}
+Write 4 clarifying questions to solve this issue.
+```
 
 ![Snippet Tip](/_books/servicemanager-user-guide/images/hai-snippet.png)
+
 ![Snippet Response](/_books/servicemanager-user-guide/images/hai-snippet-2.png)
 
-2. Ask HAi prompt is sent as additional context to enrich the response.
+### Contextual enrichment
+
+When you use the **Ask HAi** prompt, the system sends additional context from the record to improve the accuracy and relevance of the response.
 
 ![Context Tip](/_books/servicemanager-user-guide/images/hai-context.png)
