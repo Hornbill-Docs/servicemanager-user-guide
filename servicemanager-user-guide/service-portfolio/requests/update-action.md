@@ -53,7 +53,7 @@ To ensure customers receive these emails, verify the following configurations:
 
 ## Update linked requests
 
-If a request has linked records, you can send updates to the timelines of those linked requests simultaneously.
+If a request has linked requests, you can send updates to the timelines of those linked requests simultaneously. After linking a request, the **Update** button includes an arrow.
 
 ### Settings
 
@@ -63,11 +63,16 @@ This feature is disabled by default. You can enable it in the [Service Manager A
 
 ### Usage
 
-When linked requests exist, the **Update** button includes an arrow. Select **Update this and linked requests...** to open a dialog box.
+When [linked requests](/servicemanager-user-guide/service-portfolio/requests/link-action) exist, the **Update** button includes an arrow. Select **Update this and linked requests...** to open a dialog box.
+
+![Update linked requests button](/_books/servicemanager-user-guide/service-portfolio/requests/images/update-action-linked-requests.png)
+
+Select **Update this and linked requests...** to open a dialog box.  From the dialog box you can select which linked requests to include in the update.
+
+![Update linked requests dialog box](/_books/servicemanager-user-guide/service-portfolio/requests/images/update-linked-requests-dialog-box.png)
 
 * **Select All**: Select or deselect all requests in the list.
 * **Check boxes**: Select specific requests to include in the update.
-* **Request Type Filter**: Filter the list to show only specific request types.
 * **Update**: Apply the text to all selected requests.
 
 :::tip
