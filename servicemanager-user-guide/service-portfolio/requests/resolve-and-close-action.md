@@ -2,8 +2,6 @@
 
 Use the **Resolve and Close** action to update a request status to **Resolved** or **Closed**. This action allows you to document the resolution details and select a **Closure Category** to help with reporting and tracking.
 
-<!-- [Visual Cue: Annotated screenshot showing the Resolve and Close action in the request action bar, highlighting the Closure Category dropdown and Resolution Text field.] -->
-
 ## Configuration options
 
 When you use this action, you can interact with the following elements:
@@ -17,6 +15,16 @@ When you use this action, you can interact with the following elements:
 :::tip
 If you set the visibility to **Customer**, the resolution tab and the resolution text become visible to the customer on the service portal.
 :::
+
+## HAi Text Assist
+
+![HAi Assist logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) [HAi Text Assist](/servicemanager-user-guide/hai/text-assist) is an AI tool that helps you write resolution information. Clear and concise resolutions improve communication with your team and customers.
+
+* **Ask HAi**: Enter an open-ended prompt to find solutions for common issues. For example, type "How to set up an email signature in Outlook in Office 365."
+* **Change Tone**: Adjust the tone of your text to suit your audience. Options include Apologetic, Professional, Friendly, and Technical.
+* **Improve Text**: Correct spelling and grammar mistakes to improve readability.
+* **Shorten Text**: Remove unnecessary words from your update.
+* **Listify**: Convert blocks of text into a list format.
 
 ## System settings
 

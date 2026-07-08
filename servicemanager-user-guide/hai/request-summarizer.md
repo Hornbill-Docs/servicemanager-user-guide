@@ -1,5 +1,4 @@
 ---
-title: Hornbill AI - Request Summarizer
 description: HAi Request Summarizer will summarize a request/ticket at the click of a button. One fewer task for your agents.
 coverImage: /_books/servicemanager-user-guide/images/hai-cover.jpg
 layout: article-toc
@@ -8,6 +7,11 @@ layout: article-toc
 # Request Summarizer
 
 Summarize a request/ticket at the click of a button. One fewer task for your agents.
+
+## Before you begin
+
+* You must have the [HAi feature enabled](/servicemanager-config/administration/hai) in your Hornbill instance.
+* You must have the [HAi Request User role](/servicemanager-config/setup/service-manager-roles) assigned to your user account.
 
 ## Benefits to you
 
@@ -29,6 +33,7 @@ Summarize a request/ticket at the click of a button. One fewer task for your age
 ## Where to find it
 
 In any request record, you'll see the new HAi Overview box. Simply click the HAi icon on the right-hand side to generate the request overview including the summary.
+
 ![Hornbill AI](/_books/servicemanager-user-guide/images/hai-logo-small.png)
 
 ## How to use it
