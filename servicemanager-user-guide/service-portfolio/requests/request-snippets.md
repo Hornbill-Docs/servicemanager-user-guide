@@ -1,63 +1,106 @@
-# Request Snippets
-Snippets provide the ability to define common responses that can be included in an update, outgoing email, or as part of a resolution. The use of Snippets ensures that the same response does not need to be typed manually each time, and to ensure a consistent level of response is given by all analysts who use the snippets rather than manually entering responses each time.
-* Snippets can include text and variables
-* Snippets can be shared with other Teams and Services
+# Request snippets
 
-## Manage Snippets
-From the Update, Email, or Resolution actions on a request you will be able to access Snippets. From the Snippet drop down you can select Manager to create, update, share, or delete a Snippet.
+Snippets are pre-defined responses that you can include in request updates, outgoing emails, or resolutions. Use snippets to save time and ensure your team provides consistent information to customers.
 
-### Add New
-From the Manage option you can then choose Add New.
+- Snippets can include plain text and request variables.
+- You can share snippets with specific teams and services.
 
-#### Snippet Attributes
-* **Title**<br>This is used to define or name the Snippet and any text entered here will not be inserted, this will simply be used to describe the Snippet for you or other analysts to select.
-* **Content**<br>This is the text which will be inserted into the body of the email, when the Snippet is chosen.
-* **Available On**<br>Select if the snippet will be available on the Update, Email Action, Resolution Action, or all three.
-* **Available For**<br>This will allow you to either create the Snippet for yourself, or to choose to share and make the Snippet available to analysts in other teams, or for those analysts whose team's support specific services.
-    * Myself: Choose this option to only make the Snippet Available to yourself
-    * Teams: Choose one or multiple teams to make this Snippet available to
-    * Services: Choose one or multiple Services to make the Snippet available to the teams which are supporting these Services.
-Once the Mandatory selections have been made, select Save to create and make the Snippet available.
+## Manage snippets
 
-### Snippet Lists
-* **All**<br>This list is only available to users with the Service Desk Admin role. From here all Snippets belonging to any user can be managed.
-* **Shared**<br>This list shows all the Snippets that have been shared with you, and you are not the owner.
-* **My Snippets**<br>This list shows all of the Snippets that you own.
+You can access the snippet manager from the **Update**, **Email**, or **Resolution** actions on any request.
 
-#### Select Box Options
-On each of the lists, a select box is available to select one or more Snippets to perform one of the following options.
-* **Change Owner**<br>This option is only available if you have the Service Desk Admin role. This will allow you to change the Owner of the selected Snippets.
-* **Make Me Owner**<br>This option is only available if you have the Service Desk Admin role. This is a quick option to set you as the owner of all the selected Snippets.
-* **Delete**<br>This will permanently delete the Snippet.
+1. Open a request.
+2. Select the **Snippet** dropdown menu.
+3. Select **Manage** to create, update, share, or delete snippets.
 
-### Edit
-You can edit or alter a Snippet by clicking on the Snippet's name within the lists. This will open the Snippet Editor where you can make your changes and select Update to save your changes.
+### Add a new snippet
 
-### Using Request Variables
-When creating Snippets it can be useful to include Variable content from the request, this could include inserting the Reference Number, Customer Name, or other variables into the Snippet to remove the need to manually add these each time you wish to send an email from the request.
+To create a new snippet, select **Add New** from the **Manage** menu. You must complete the following attributes:
 
-Available Variables:
-* Customer First Name
-* Customer Last Name
-* Reference
-* Summary
-* Description
-* Owner Name
-* Service Name
-* Priority
-* Response Target
-* Resolve Target
-* Current Time
-* Current Date
-* Current Date / Time
+- **Title**: Enter a name for the snippet. This title helps you and other analysts identify the snippet in the list. It does not appear in the final message.
+- **Content**: Enter the text that the system inserts into the email or update body.
+- **Available On**: Select whether the snippet appears in the **Update** action, **Email** action, **Resolution** action, or all three.
+- **Available For**: Define who can use the snippet.
+  - **Myself**: The snippet is only visible to you.
+  - **Teams**: Choose one or more teams to share the snippet with their members.
+  - **Services**: Choose one or more services. The snippet becomes available to all teams that support those services.
 
-Insert variables into the Content text box by selecting the appropriate variable from the drop down list at the required points in the sentences and paragraphs of the Snippet text.
+Select **Save** to create the snippet.
 
-## Using Snippets
-Once Snippets have been created and shared, they will be available to use from the Snippets button on the Email, Resolution and Update actions on a request. To insert a Snippet simply choose the snippet from the list of Snippets which are available to you. The Snippets will be available from one of three options:
+Snippet lists
 
-* **Myself**<br>Snippets you have created.
-* **Teams**<br>Any Snippets which have been shared with teams you are a member of
-* **Services**<br>Any Snippet that has been shared and is available to the Service which the ticket is raised against.
+The manager organizes snippets into three lists:
 
-The above options will only appear if Snippets exist and have been shared with you, or you have created Snippets yourself.
+- **All**: Visible only to users with the **Service Desk Admin** role. This list contains every snippet in the system.
+- **Shared**: Contains snippets that other users have shared with you.
+- **My Snippets**: Contains snippets that you created.
+
+### Bulk actions
+
+Use the checkboxes next to snippets in the list to perform bulk actions:
+
+- **Change Owner**: Available only to Service Desk Admins. Use this to transfer snippet ownership to another user.
+- **Make Me Owner**: Available only to Service Desk Admins. Use this to quickly take ownership of the selected snippets.
+- **Delete**: Permanently removes the selected snippets from the system.
+
+### Edit a snippet
+
+To modify an existing snippet, select the name of the snippet in the list. This opens the **Snippet Editor**. After making your changes, select **Update** to save.
+
+## Use request variables
+
+Variables allow you to pull specific data from a request automatically. This prevents the need to type details like reference numbers or names manually.
+
+To insert a variable, select the variable from the dropdown menu while editing the **Content** field. The system inserts the variable at your current cursor position.
+
+Available variables:
+
+- Customer First Name
+- Customer Last Name
+- Reference
+- Summary
+- Description
+- Owner Name
+- Service Name
+- Priority
+- Response Target
+- Resolve Target
+- Current Time
+- Current Date
+- Current Date / Time
+
+## Use HAi with snippets
+
+![HAi logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) You can combine snippets with request variables and the **Ask HAi** feature of [**Text Assist**](/servicemanager-user-guide/hai/text-assist) to generate custom AI prompts.
+
+For example, you can create a snippet to generate clarifying questions based on the request details:
+
+```text
+{{summary}}
+{{description}}
+Write 4 clarifying questions to solve this issue.
+```
+
+![Snippet Tip](/_books/servicemanager-user-guide/images/hai-snippet.png)
+
+To use a snippet with HAi Text Assist:
+
+1. Go to the **Update** action on a request.
+2. Select the **Snippets** dropdown and choose the snippet containing your HAi prompt.
+3. Select **Ask HAi** from the **HAi Text Assist** dropdown menu.
+4. Select **Update** to add the snippet content to the request.
+
+![Snippet Response](/_books/servicemanager-user-guide/images/hai-snippet-2.png)
+
+## Apply a snippet to a request
+
+When you are ready to use a snippet in a ticket:
+
+1. Open the **Email**, **Resolution**, or **Update** action.
+2. Select the **Snippets** button.
+3. Choose a snippet from one of the following categories:
+    - **Myself**: Snippets you created.
+    - **Teams**: Snippets shared with your teams.
+    - **Services**: Snippets associated with the service assigned to the ticket.
+
+The categories only appear if there are snippets available for you to use.
