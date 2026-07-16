@@ -51,6 +51,9 @@ To ensure customers receive these emails, verify the following configurations:
 * **Email Notification Setting**: Change the **guest.app.requests.notification.emailMailbox** setting to the name of the mailbox you want to use for Service Manager notifications. This defaults to "helpdesk" upon installation.
 * **Notify Customer**: Enable the **Notify Customer** option in the Request Action configuration.
 
+> **Note:**
+> With customer email notifications enabled, workflow automations that update a request with the timeline visibility set to **Customer** under the category of **Update** will also trigger an email notification to the customer.
+
 ## Update linked requests
 
 If a request has linked requests, you can send updates to the timelines of those linked requests simultaneously. After linking a request, the **Update** button includes an arrow.
