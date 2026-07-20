@@ -1,30 +1,51 @@
 # Resolve and close
 
-Use the **Resolve and Close** action to update a request status to **Resolved** or **Closed**. This action allows you to document the resolution details and select a **Closure Category** to help with reporting and tracking.
+Use the **Resolve and Close** action to update a request status to **Resolved** or **Closed**. This action allows you to document the resolution description and select a **Closure Category** to help with reporting and tracking.
 
-## Configuration options
+![Resolve and Close Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/resolve-and-close-action.png)
 
-When you use this action, you can interact with the following elements:
+## Resolving a request
 
-* **Resolve**: Sets the request status to **Resolved**.
-* **Close**: Sets the request status to **Closed**.
-* **Closure Category**: A dropdown menu to categorize why or how the request was finished.
-* **Resolution Text**: A text field to provide details about the fix or the reason for the status change.
-* **Editing**: Allows for modifications to the resolution details.
+When a request has an open status, the resolution action is available to record the resolution details and to progress the status to being resolved.
 
-:::tip
-If you set the visibility to **Customer**, the resolution tab and the resolution text become visible to the customer on the service portal.
-:::
+### Resolution description
 
-## HAi Text Assist
+This field is used to add a description of how the resolution was achieved. It is important to provide detailed and clear information as this resolution may be presented to the customer or used for knowledge article creation.
 
-![HAi Assist logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) [HAi Text Assist](/servicemanager-user-guide/hai/text-assist) is an AI tool that helps you write resolution information. Clear and concise resolutions improve communication with your team and customers.
+#### HAi Text Assist
+
+![HAi Assist logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) [HAi Text Assist](/servicemanager-user-guide/hai/text-assist) is an AI tool that helps you write the resolution description. Clear and concise resolutions improve communication with your team and customers.
 
 * **Ask HAi**: Enter an open-ended prompt to find solutions for common issues. For example, type "How to set up an email signature in Outlook in Office 365."
 * **Change Tone**: Adjust the tone of your text to suit your audience. Options include Apologetic, Professional, Friendly, and Technical.
 * **Improve Text**: Correct spelling and grammar mistakes to improve readability.
 * **Shorten Text**: Remove unnecessary words from your update.
 * **Listify**: Convert blocks of text into a list format.
+
+### Category
+
+A closure category can be selected when the request is being either resolved or closed. This category is often used as a way to specify how the request was resolved, for example, a patch, a setting change, training, or a system restart. This can be a great way to contribute toward reporting and statistics on how requests are being resolved.
+
+* [Mandatory Category Selection](/servicemanager-config/advanced-tools-and-settings/application-settings#category-settings): A setting is available that enforces the selection of a category, before the resolution can be applied.
+* [Last Item Selection](/servicemanager-config/advanced-tools-and-settings/application-settings#category-settings): A setting is available that enforces the selection of the last item of a branch.
+
+## Closing a request
+
+Once a request is in a resolved state, additional options are available as part of a request closure.
+
+* **Reopen**: In a case where the resolution didn't solve the issue, the **Reopen** option can set the status of the request back to **Open**.
+* **Edit**: Allows for modifications to the resolution description and the category.
+* **Knowledge**: This option includes viewing any existing articles and the creation of a new article that is based on the resolution.
+  * *Create Article*: Selecting this option will take the request summary and the resolution description and add it to a new knowledge article.
+  * ![HAi Assist logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) *HAi Generate Article*: Use the [HAi Knowledge Generator](/servicemanager-user-guide/hai/knowledge-generator) to automatically create a knowledge article based on the information stored in the request.
+
+## Locking the resolution and closure
+
+Both the resolve and close on a request can be locked manually or automatically. When locked, only someone with appropriate rights can make any changes to the resolution or closure information.
+
+## Timeline visibility
+
+If you set the visibility to **Customer**, the resolution tab and the resolution text become visible to the customer in the self service portals.
 
 ## System settings
 
