@@ -1,15 +1,27 @@
 # Configuration
+
 In the Articles Configuration view, you can work with the Article Editor as well as update the article's details such as its knowledge base, topic, article type, and tags. You can also create translations of the article.
 
 ## Article
+
 This section includes the main editor that is used for creating and updating the main content of the article. In addition, here you can change some of the article's details.
 
 ### Article Editor
+
 * Toolbar
 * Section context formatter
 
+#### ![HAi logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png) HAi Text Assist and Knowledge Generator
+
+Within the article editor, the HAi Text Assist and Knowledge Generator become available using the HAi logo (![HAi logo](/_books/servicemanager-user-guide/images/hai-logo-22x22.png)) located at the top right of the editor.
+
+* [HAi Text Assist](/servicemanager-user-guide/hai/text-assist): After adding some text to an article, you can use HAi to help improve what you have written.  You can either select some text to pass to HAi or you can have it check the entire article.
+* [Knowledge Generation](/servicemanager-user-guide/hai/knowledge-generator): Use the first line of your article as a prompt for AI to automatically generate the content.
+
 ## Details
+
 The Details section contains key information about the article. The settings and controls for the article can all be found here.
+
 * **Id.** A unique ID for the article. This cannot be changed.
 * **Default Language.** The language that the article was created in. This cannot be changed.  
 * **Title.** Displayed in many of the lists and within the structure of the associated knowledge base. Because this title is important when users search for knowledge content, make sure to use a title that represents the article's information in a way that helps users find the article.
@@ -27,9 +39,11 @@ The Details section contains key information about the article. The settings and
 * **Last Modified By.** The last person to modify the article.  
 
 ## Translations
+
 Here you can add and view translations for the article.
 
 ## Article status lifecycle
+
 Each article will work through several statuses throughout its life.  
 
 * **Draft**. An article that has the status of draft is not visible to users when browsing or searching a knowledge base.  All new articles will start with the draft status.
@@ -61,7 +75,6 @@ G -- No --> B
 I --> J
 J --> C
 ```
-
 
 :::note
 At any point within the lifecycle, an article can be deleted.  This action cannot be reversed.  Deleting will permanently remove the article.
