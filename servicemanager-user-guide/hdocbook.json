@@ -38,6 +38,10 @@
             "link": "/servicemanager-user-guide/request-list/my-dashboard"
           },
           {
+            "text": "HAi Request List Insights",
+            "link": "/servicemanager-user-guide/request-list/hai-insights"
+          },
+          {
             "text": "Requests",
             "items": [
               {
@@ -138,7 +142,7 @@
                 ]
               },
               {
-                "text": "Request Insights",
+                "text": "HAi Request Insights",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-insights"
               },
               {
