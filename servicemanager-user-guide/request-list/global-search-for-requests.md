@@ -1,75 +1,148 @@
 # Searching for Requests
 
-## Global Search for Requests
+## Global search for requests
 
-The Global Search for Requests allows you to locate Service Manager requests, including incidents, problems, changes, and service requests. When using the Global Search a number of entities can be selected on the left hand side of the service. The Requests entity will only be available when Service Manager is installed and will only be visible to user that have rights to use Service Manager.
+The **Global Search for Requests** allows you to quickly locate Service Manager requests, including Incidents, Service Requests, Problems, Changes, Known Errors and Releases.
 
-### Search Bar
+![Global Search bar](/_books/servicemanager-user-guide/request-list/images/global-search-for-requests.png)
 
-The search is a natural language search where you can type in anything from a single word to a sentence into the Search Bar. The text typed into the search bar will search the following fields of a request
+The Requests search option is available from the platform's Global Search when Service Manager is installed. It is only visible to users who have permission to use Service Manager.
+
+### Search bar
+
+The search is a natural language search where you can type anything from a single word to a sentence into the search bar. The text typed into the search bar will search the following fields of a request:
 
 * Request ID
 * Summary
 * Description
 * External Reference Number
 
-### Search Tools
+## Search tools
 
-The Search Tools are accessed by an arrow located on the right-hand side of the search field. By clicking on this arrow the following search options are made available to improve your search.
+Search tools are available from the arrow on the right-hand side of the Global Search field. These filters help narrow the search results before the search is performed.
 
-* **Any Type**: Allows you to select a single request type to be included in the results page. The requests types include Incident, Service Request, Change, Problem, and Known Error.
-* **Any Status**: Allows you to select a single status of requests to be included in the results page. The statuses include New, Open, Close, and Resolved
-* **Any Owner**: A single owner can be selected using the Co-worker search. Once a co-worker is select, only the requests where that co-worker is the owner, will be in the results
-* **Any Customer**: A single customer can be selected using the customer search. The Search Customer will return both contacts and co-workers. Once a customer is selected, only requests where that contact or co-worker is the customer of the request will be displayed.
-* **Any Service**: Select a single service from the list of services to produce search results that only contain requests belonging to that service
-* **Details or Timeline**: When searching you can select if you want to search the details of the requests or the Timelines. The Details search is the default search where the provided search string will match with information held in the Summary, Details, Owner, Customer, and Request ID. If Timeline is selected, the provided search string will be match information held in the Timeline of the requests.
+| Filter | Description |
+| --- | --- |
+| **Any Type** | Limits results to a specific request type including Incident, Service Request, Change, Problem, Known Error and Release. |
+| **Any Status** | Filters requests by status including New, Open, On Hold, Resolved, Closed and Canceled. |
+| **Any Owner** | Returns only requests owned by the selected co-worker. |
+| **Any Customer** | Returns only requests where the selected customer (contact, co-worker or basic user) is the customer of the request. |
+| **Any Service** | Limits the search to requests belonging to a selected service. |
+| **Details** | Searches Request ID, Summary, Description and External Reference Number. |
+| **Timeline** | Searches request timeline entries. |
+| **Historic Updates** | Searches historic updates imported from Hornbill Supportworks. This option is displayed only when historic request data exists. |
 
-:::tip
-If a migration from the Supportworks application has included the importing of request records, the history on these records will be available on an option titled Historic Requests.
-:::
+> **Note**: The **Historic Updates** option is displayed only when historic request data has been imported into Service Manager.
 
-### Advanced Search
+## Search results
 
-There is a selection of operators and syntax available to perform advanced searches from the Global Search Bar. Some that are commonly used include:
+Search results are displayed in pages. Depending on the selected search type, results are presented differently.
 
-#### Boolean Operators: AND (+), OR, NOT (-)
+### Details search results
+
+The Details search displays:
+
+* Request ID
+* Summary
+* Logged Date
+* Status
+* Owner
+* Customer
+* Team
+* Service
+* External Reference Number (when available)
+
+Users with permission to view a request can open it directly from the search results.
+
+### Timeline search results
+
+The Timeline search displays:
+
+* Request ID
+* Matching timeline content
+* Published Date
+* User who created the timeline entry
+
+Each result includes an **Open Post** button that opens the original timeline entry within the request.
+
+### Historic updates search results
+
+The Historic Updates search displays:
+
+* Request ID
+* Matching historic update content
+* Updated Date
+* User who performed the update
+
+> **Note**: Historic Updates are read-only records imported from Hornbill Supportworks.
+
+## Ordering search results
+
+Results can be reordered using the **Order By** drop-down. The available options depend on the selected search type.
+
+### Details ordering
+
+* Relevance (default)
+* Logged Date (Newest)
+* Logged Date (Oldest)
+* Last Modified (Newest)
+* Last Modified (Oldest)
+
+### Timeline ordering
+
+* Relevance (default)
+* Published Date (Newest)
+* Published Date (Oldest)
+
+### Historic updates ordering
+
+* Relevance (default)
+* Updated Date (Newest)
+* Updated Date (Oldest)
+
+> **Tip**: Selecting **Relevance** restores the default ranking calculated by the search engine.
+
+## Advanced search syntax
+
+There is a selection of operators and syntax available to perform advanced searches from the Global Search bar. Some that are commonly used include:
+
+### Boolean operators: AND (+), OR, NOT (-)
 
 * Must be in ALL CAPS
 * OR is the default
 * AND matches posts and comments that contain both words
 * NOT excludes posts and comments that contain that word
 
-#### Wildcard Searches: *, ?
+### Wildcard searches: *, ?
 
 * An * is used for a multiple character wildcard search
 * A ? is used for a single character wildcard search
 * Wildcards cannot be used at the beginning of a search term
 
-#### String Search with Quotations
+### String search with quotations
 
 * Placing two or more words within "double quotes" will search for that exact string.
 
-### Search Results
+## Request visibility
 
-You may not be able to access some search results because of the Service Manager visibility model
-When browsing your list of search results, you may notice that the link to some requests is inactive. This is due to the Service Manager visibility model. During a search, the application checks a number of criteria about the request to understand if you should be allowed to access it.
+Some search results may be displayed but cannot be opened because of the Service Manager visibility model.
 
-The visibility logic is as follows:
+A request can be opened when one or more of the following conditions are true:
 
-* Are you the owner of the Request?
-* Are you a member of the team that the Request is assigned to?
-* Are you a member of a team that supports the Service that the Request has been raised against?
-* Are you a member of the Request?
-* Are you the customer of the Request?
-* Did you raise the Request?
+* You are the request owner.
+* You belong to the team assigned to the request.
+* You belong to a team that supports the request's service.
+* You are a member of the request.
+* You are the customer of the request.
+* You raised the request.
 
-If any of these are true, you will be able to click on the request summary and view it in its entirety.
+If none of these conditions are met, the request reference is displayed but cannot be opened.
 
-## Quick Search
+## Quick search
+
+You can also use the quick search tool to find a specific request from any page in Hornbill. This is helpful when you have a reference ID and need to access a request immediately, such as during a phone call with a customer or a colleague.
 
 ![Quick Search for Requests](/_books/servicemanager-user-guide/images/request-quick-search.png)
-
-You can use the quick search tool to find a specific request from any page in Hornbill. This is helpful when you have a reference ID and need to access a request immediately, such as during a phone call with a customer or a colleague.
 
 ### Steps
 
