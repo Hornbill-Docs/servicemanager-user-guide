@@ -142,7 +142,7 @@
                 ]
               },
               {
-                "text": "HAi Request Insights",
+                "text": "Request Insights",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-insights"
               },
               {
@@ -170,8 +170,13 @@
                 "link": "/servicemanager-user-guide/service-portfolio/requests/request-email-contacts"
               },
               {
-                "text": "HAi Request Summarizer",
+                "text": "HAi Summarizer",
                 "link": "/servicemanager-user-guide/hai/request-summarizer"
+              },
+              {
+                "text": "HAi Insights",
+                "draft": true,
+                "link": "/servicemanager-user-guide/service-portfolio/requests/hai-request-insights"
               },
               {
                 "text": "Request Timeline",
