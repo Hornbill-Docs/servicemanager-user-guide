@@ -1,11 +1,5 @@
 # Asset record
 
-<!-- #JA rename file to asset-record and add redirect -->
-
-:::note
-[[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/service-manager/new-assets-note.md]]
-:::
-
 The asset record provides a comprehensive overview of the asset's attributes, relationships, and history. The asset record is organized into several sections, each providing different types of information about the asset.
 
 ## Summary

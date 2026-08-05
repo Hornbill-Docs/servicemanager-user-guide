@@ -3,10 +3,6 @@ layout: article-toc
 ---
 # Assets overview
 
-:::note
-[[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/service-manager/new-assets-note.md]]
-:::
-
 Use asset management to capture and detail information for your organization's assets. This includes tracking ownership, costs, relationships, and the life cycle of assets to support strategic decision-making for your IT environment.
 
 Asset data helps IT teams support asset users and make informed decisions about hardware and software purchases and redistribution.

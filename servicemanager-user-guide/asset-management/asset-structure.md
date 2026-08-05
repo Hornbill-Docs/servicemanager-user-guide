@@ -13,14 +13,17 @@ Each Asset Class has a set of available attributes that can be hidden or made av
 > If Customers identify additional Asset Classes, or Class specific Attributes that they require, please inform Hornbill and we will review and if accepted look to include in future updates.
 
 ## Asset Types
+
 Default Asset Types are provided for each Asset Class for customers to use.
 
 Customers can create any additional Asset Type to sit within an Asset Class. The Asset Type can be created and can be configured to use all, or only the relevant Asset Class Attributes required for the specific Asset Type. When defining the Asset Type, you can also specify which of the Asset Type attributes are mandatory and must be populated when creating an asset of this Type. Asset Types are covered in more detail in the [Manage Asset Types](/servicemanager-user-guide/asset-management/manage-asset-types) documentation.
 
 ## Assets
+
 Assets can be created against any available Asset Type. Details on adding, editing, or deleting Assets is covered in the [Manage Asset Types](/servicemanager-user-guide/asset-management/manage-asset-types) documentation.
 
 ## Asset Attributes
+
 There are attributes common to all asset records, which are available to all asset Classes. However each asset class also has its own additional attributes that are unique to the class.
 
 :::tip

@@ -4,10 +4,6 @@ draft: false
 ---
 # Asset list
 
-:::note
-[[INCLUDE https://raw.githubusercontent.com/Hornbill-Docs/hdoc-library/main/hdoc-library/service-manager/new-assets-note.md]]
-:::
-
 Asset lists are available when selecting the [All Assets view](/servicemanager-user-guide/asset-management/overview#asset-views) or when an [asset type](/servicemanager-user-guide/asset-management/overview#asset-navigation) is selected from the navigation panel.
 
 ![Asset list](/_books/servicemanager-user-guide/images/asset-list.png)

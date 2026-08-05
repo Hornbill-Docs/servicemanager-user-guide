@@ -2,9 +2,11 @@
 layout: article-toc
 ---
 # Manage Assets
+
 The Manage Assets feature lets you add, update, and remove assets. You do this within an asset list, where you can search for assets, then open and view them.
 
 ## Assets landing page
+
 When you first select the Manage Assets option, a tiled Assets landing page is displayed, showing the different available asset classes. Clicking on any of the tiles  displays an asset list with all the assets belonging to that class.
 
 The available classes include:
@@ -21,15 +23,16 @@ The available classes include:
 * **Systems.** Business information such as ownership and authorizing contacts.
 * **Data Processing Record.** Record of Processing Activity (ROPA).
 
-
 ## Assets list
+
 The Assets List lets you access all the available assets. The following features are available to help you locate your assets and view and export information about these assets.
 
 ### Toolbar features
+
 * **Add a new asset.** You can add an asset manually. Click **+ New Asset** to create an asset.
     :::tip
-    * You can add multiple assets as a batch using the [Upload Assets CSV](/servicemanager-user-guide/asset-management/upload-assets).
-    * You can do automated processing using an external data source via the [Hornbill Asset Import utility](/data-imports-guide/assets/overview).
+  * You can add multiple assets as a batch using the [Upload Assets CSV](/servicemanager-user-guide/asset-management/upload-assets).
+  * You can do automated processing using an external data source via the [Hornbill Asset Import utility](/data-imports-guide/assets/overview).
     :::
 * **Quick filter.** Use this filter to quickly focus on those asset records that are important to you. The filter  operates on the asset records in the current list and  returns records where a match is found in any of the asset attributes.
     :::tip
@@ -43,8 +46,7 @@ The Assets List lets you access all the available assets. The following features
 * **Customize columns.** The available columns are specific to the asset type the list is using. The available columns are a combination of the common attributes that all asset types share, and the type-specific attributes for the selected asset type. If you choose to display all assets, only the shared asset attributes will be available to select from.
 
 ## List features
+
 * **Column sorting.** On each column header, you can re-order the list by clicking the column name.
 * **View an asset.** Each asset in the list contains links to open the Asset Details form.
 * **Delete an asset.** Using the multi-select check boxes, select one or more assets. Once selected, the **Delete** button becomes available next to the **Advanced** button. To select multiple assets, click on one asset, and then while holding down the Shift key, select another asset. All assets between these two assets will be selected and available for deleting.
-
-<!-- https://wiki.hornbill.com/index.php?title=Manage_Assets -->
