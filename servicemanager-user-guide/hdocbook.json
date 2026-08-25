@@ -4,7 +4,7 @@
   "description": "A guide for the day-to-day use of the Service Manager application",
   "publicSource": "https://github.com/Hornbill-Docs/servicemanager-user-guide",
   "productFamily": "com.hornbill.servicemanager",
-  "version": "1.1.5",
+  "version": "1.2.0",
   "audience": [
     "public"
   ],
@@ -38,7 +38,7 @@
             "link": "/servicemanager-user-guide/request-list/my-dashboard"
           },
           {
-            "text": "HAi Request List Insights",
+            "text": "HAi Insights for the request list",
             "link": "/servicemanager-user-guide/request-list/hai-insights"
           },
           {
@@ -174,8 +174,7 @@
                 "link": "/servicemanager-user-guide/hai/request-summarizer"
               },
               {
-                "text": "HAi Insights",
-                "draft": true,
+                "text": "HAi Insights for requests",
                 "link": "/servicemanager-user-guide/service-portfolio/requests/hai-request-insights"
               },
               {
