@@ -86,6 +86,6 @@ To view the specific list of assets for a time frame, select the corresponding c
 
 ## Asset navigation
 
-Use the Assets navigation to browse assets by selecting from the list of available [asset types](/servicemanager-config/assets/manage-asset-types). Related asset types can be grouped under definable [categories](/servicemanager-config/assets/manage-asset-types#asset-categories) to make navigation easier. Selecting an asset type displays a [list](/servicemanager-user-guide/asset-management/asset-list) of all assets belonging to that type.
+Use the Assets navigation to browse assets by selecting from the list of available [asset types](/servicemanager-config/assets/manage-asset-types). Related asset types can be grouped under definable [categories](/servicemanager-config/assets/asset-categories) to make navigation easier. Selecting an asset type displays a [list](/servicemanager-user-guide/asset-management/asset-list) of all assets belonging to that type.
 
 ![Assets navigation](/_books/servicemanager-user-guide/images/assets-navigation.png)

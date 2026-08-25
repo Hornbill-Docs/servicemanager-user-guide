@@ -121,7 +121,7 @@ The Customer section displays information about the person who is being supporte
 
 ![Customer Information](/_books/servicemanager-user-guide/images/request-customer-information.png)
 
-The available fields can be configured in the [application settings](/servicemanager-config/advanced-tools-and-settings/application-settings#customer-information-section).
+The available fields can be configured in the [application settings](/servicemanager-config/administration/request-settings#customer-section).
 
 ## Details
 
