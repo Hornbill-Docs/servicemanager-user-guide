@@ -5,7 +5,15 @@
     "exclude_paths": []
   },
   "validation": {
-    "exclude_links": []
+    "exclude_links": [],
+    "exclude_spellcheck": [
+      {
+        "document_path": "servicemanager-user-guide/service-portfolio/requests/cancel-action",
+        "words": [
+          "cancellation"
+        ]
+      }
+    ]
   },
   "redirects": [
     { 

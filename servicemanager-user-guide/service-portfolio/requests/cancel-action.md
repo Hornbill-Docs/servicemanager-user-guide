@@ -1,10 +1,20 @@
-# Cancel
-The Cancel Action within a request provides the facility to cancel the request.
+# Cancel action
 
-## Cancelation Reasons
-A number of default cancelation reasons are provided, and one needs to be chosen and a supporting description provided before the request can be canceled.
+The Cancel Action allows you to cancel the request. The cancellation of a request is a permanent action and canceled requests can't be reinstated.  
 
-Cancelation reasons:
+When a request is canceled:
+
+* The status is changed to **Canceled**.
+* The workflow is canceled.
+* The active tasks are canceled.  
+
+![Cancel Action](/_books/servicemanager-user-guide/service-portfolio/requests/images/cancel-action.png)
+
+## Cancellation reasons
+
+A number of default cancellation reasons are provided, and one needs to be chosen and a supporting description provided before the request can be canceled.
+
+Cancellation reasons:
 
 * Created in error
 * Duplicate
@@ -12,16 +22,18 @@ Cancelation reasons:
 * Other
 
 ## Roles
+
 Only users with the appropriate Cancel application right will see the option to cancel a request. By default this includes the following roles:
 
-* Incident Management Full Access (can cancel Incidents)
-* Problem Management Full Access (can cancel Problems and Known Errors)
-* Change Management Full Access (can cancel Change requests)
-* Release Management Full Access (can cancel Releases)
-* Service Desk Admin (can cancel all request types)
+* Incident Management Full Access (can cancel Incidents).
+* Problem Management Full Access (can cancel Problems and KnownErrors).
+* Change Management Full Access (can cancel Change requests).
+* Release Management Full Access (can cancel Releases).
+* Service Desk Admin (can cancel all request types).
 
-## System Settings
-The following system settings can be managed by your system administrator to control the behavior once a request has been canceled. 
+## System settings
+
+The following system settings can be managed by your system administrator to control the behavior once a request has been canceled.
 
 |Setting|Description|
 |-|-|
