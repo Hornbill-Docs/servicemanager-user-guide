@@ -31,6 +31,11 @@
       "url": "/servicemanager-user-guide/asset-management/assets",
       "location": "/servicemanager-user-guide/asset-management/asset-list",
       "code": 301
+    },
+    {
+      "url": "/servicemanager-user-guide/service-portfolio/services/service-dependancies",
+      "location": "/servicemanager-user-guide/service-portfolio/services/service-dependencies",
+      "code": 301
     }
   ]
 }
