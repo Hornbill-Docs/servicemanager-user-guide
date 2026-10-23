@@ -48,6 +48,7 @@ To ensure customers receive these emails, verify the following configurations:
 
 * **Default Email Template**: Use the provided **CustomerTimelineUpdateNotification** template or a custom version.
 * **Email Template Setting**: If you use a custom template, update the **guest.app.requests.notification.emailTemplate.customerTimelineUpdate** system setting with the new template name.
+* **Service Default Mailbox**: The email notification will use the [service's default mailbox](/servicemanager-user-guide/service-portfolio/services/service-details#default-mailbox). If this is not set, the mailbox defined in the **Email Notification Setting** will be used.
 * **Email Notification Setting**: Change the **guest.app.requests.notification.emailMailbox** setting to the name of the mailbox you want to use for Service Manager notifications. This defaults to "helpdesk" upon installation.
 * **Notify Customer**: Enable the **Notify Customer** option in the Request Action configuration.
 
