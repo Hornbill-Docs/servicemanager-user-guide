@@ -347,32 +347,15 @@
         "expand": false,
         "items": [
           {
-            "text": "Overview",
-            "items": [
-              {
-                "text": "Welcome to Hornbill Knowledge",
+                "text": "Overview",
                 "link": "/servicemanager-user-guide/knowledge/overview/welcome"
-              },
-              {
-                "text": "Why knowledge management matters",
-                "link": "/servicemanager-user-guide/knowledge/overview/knowledge-management"
-              },
-              {
-                "text": "About the Knowledge structure",
-                "link": "/servicemanager-user-guide/knowledge/overview/structure"
-              },
-              {
-                "text": "Accessing Knowledge content",
-                "link": "/servicemanager-user-guide/knowledge/overview/searching-knowledge"
-              }
-            ]
           },
           {
-            "text": "Search/Browse",
+            "text": "Browse",
             "link": "/servicemanager-user-guide/knowledge/search-and-browse"
           },
           {
-            "text": "Knowledge Bases",
+            "text": "Manage Knowledge",
             "items": [
               {
                 "text": "Configuration",
@@ -435,12 +418,13 @@
             ]
           },
           {
-            "text": "Dashboard",
-            "link": "/servicemanager-user-guide/knowledge/dashboard"
+            "text": "Approvals",
+            "link": "/servicemanager-user-guide/knowledge/approvals",
+            "draft": true
           },
           {
-            "text": "Search Data",
-            "link": "/servicemanager-user-guide/knowledge/search-data"
+            "text": "Analytics",
+            "link": "/servicemanager-user-guide/knowledge/dashboard"
           }
         ]
       },

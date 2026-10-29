@@ -1,4 +1,4 @@
-# Search/Browse
+# Browse Knowledge
 
 This view is shared by all Knowledge users as a place to find and read the Knowledge content that is available to them. From here, you can browse through knowledge bases by topic, or use the search bar to find specific articles.
 
