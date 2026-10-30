@@ -357,32 +357,20 @@
           {
             "text": "Manage Knowledge",
             "items": [
-              {
-                "text": "Configuration",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration"
-              },
-              {
-                "text": "Topic Structure",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure"
-              },
-              {
-                "text": "Contributor Access",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access"
-              },
-              {
-                "text": "Subscriptions",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions"
-              },
-              {
-                "text": "Activity & Audit Log",
-                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit"
-              },
-              {
+             {
                 "text": "Articles",
                 "items": [
                   {
-                    "text": "Configuration",
+                    "text": "Article",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/article"
+                  },
+                  {
+                    "text": "Details",
                     "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/configuration"
+                  },
+                  {
+                    "text": "Translations",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/translations"
                   },
                   {
                     "text": "Approvals",
@@ -391,6 +379,10 @@
                   {
                     "text": "Related Articles",
                     "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/related-articles"
+                  },
+                  {
+                    "text": "Attachments",
+                    "link": "/servicemanager-user-guide/knowledge/knowledge-bases/articles/attachments"
                   },
                   {
                     "text": "Reviews",
@@ -407,9 +399,33 @@
                   }
                 ]
               },
+               {
+                "text": "Details",
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration"
+              },
+              {
+                "text": "Translations",
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/translations"
+              },
+               {
+                "text": "Subscriptions",
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/subscriptions"
+              },
+              {
+                "text": "Contributor Access",
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/contributor-access"
+              },
               {
                 "text": "Explore",
                 "link": "/servicemanager-user-guide/knowledge/knowledge-bases/explore"
+              },
+              {
+                "text": "Topic Structure",
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/topic-structure"
+              },
+              {
+                "text": "Activity Log",
+                "link": "/servicemanager-user-guide/knowledge/knowledge-bases/activity-and-audit"
               },
               {
                 "text": "Statistics",

@@ -6,7 +6,7 @@ This view is shared by all Knowledge users as a place to find and read the Knowl
 
 ## Before you begin
 
-To access the Search/Browse view:
+To access the **Browse** view:
 
 * You must have the [Knowledge User Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) assigned to your Hornbill account.
 * You must have access to at least one active knowledge base.
