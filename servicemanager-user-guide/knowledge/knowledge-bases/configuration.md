@@ -1,18 +1,23 @@
-# Configuration
-In the Knowledge Bases Configuration view, you can update the knowledge base title, its visibility in portals, its status, and other options.
+# Details
+
+On the **Details** tab, you can update the knowledge base title, its visibility in portals, its status, and other options.
 
 ## Before you begin
-* Users with the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the configuration on all knowledge bases.
-* Users with the [Knowledge Base Manager Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the configuration on the knowledge bases that they own.
-* Know the audience for the knowledge base.  Will the articles be for everyone, for support, for a particular team, or for external customers?
+
+* Users with the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the details on all knowledge bases.
+* Users with the [Knowledge Base Manager Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the details on the knowledge bases that they own.
 
 ## How to access
+
 1. Select **Knowledge** from the Service Manager menu item in the left-hand menu bar.
-1. Select **Configuration** from the navigation pane.
+1. Select **Manage Knowledge** from the navigation pane.
+1. Select the knowledge base.
+1. Select the **Details** tab.
 
-![Configuration Navigation Menu](/_books/servicemanager-user-guide/knowledge/images/menu-configuration.png)
+![Details tab](/_books/servicemanager-user-guide/knowledge/images/kb-details.png)
 
-## Details
+## Available options
+
 * **Id.** The Knowledge Base (KB) number. Once created the ID cannot be changed.
 * **Default Language.** The default language of the knowledge base (e.g. en-GB).
 * **Name.** The name of the knowledge base. This name will be displayed on the Search/Browse View and visible to readers.
@@ -26,18 +31,5 @@ In the Knowledge Bases Configuration view, you can update the knowledge base tit
 * **Last Modified By.** When these knowledge base details were last modified, for example, someone switches the toggle to show the knowledge base in the Customer Portal.
 
 ### Deleting a knowledge base
+
 You can only delete a knowledge base if it doesn't contain any articles. This is a safeguard to prevent the accidental deletion of multiple articles. Individual articles can be deleted or moved to a different knowledge base.
-
-## Translations
-The translation option provides language translations for the name and description of the knowledge base.  
-
-![Knowledge Base Translations](/_books/servicemanager-user-guide/knowledge/images/knowledge-base-translations.png)
-
-1. On the `Translated Language` field, select the language that you want to add a translation for.
-1. Click on the `Translate` button.
-1. Make any required modifications to the provided translation.
-1. Click on `Create`.
-
-:::tip
-The **Translated Language** field will only list [supported languages](/esp-config/localization/supported-languages).
-:::
