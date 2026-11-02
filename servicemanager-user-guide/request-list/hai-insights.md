@@ -8,7 +8,7 @@ HAi Insights provides a quick view of which requests are the most important to b
 
 To use HAi Insights with the request list, you need the following:
 
-* **Register for the closed beta program**: HAi features are currently in a closed beta. You can access these features after you register. Contact your Hornbill customer success representative to join the program.
+* **Request for access**: Access to HAi is currently by request only. This request can be made through the [Hornbill Success Portal](https://success.hornbill.com/hornbill) or by contacting your Hornbill customer success representative.
 * [HAi Insights Role](/esp-config/organizational-data/roles#hai-roles): Your user account must have this platform role.
 * [HAi Request User](/servicemanager-config/setup/service-manager-roles#hai-roles): Your user account must have this Service Manager role.
 
