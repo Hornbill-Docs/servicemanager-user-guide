@@ -5,7 +5,7 @@ On the **Details** tab, you can update the knowledge base title, its visibility 
 ## Before you begin
 
 * Users with the [Knowledge Administrator Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the details on all knowledge bases.
-* Users with the [Knowledge Base Manager Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the details on the knowledge bases that they own.
+* Users with the [Knowledge Manager Role](/servicemanager-config/setup/service-manager-roles#knowledge-roles) can access the details on the knowledge bases that they own.
 
 ## How to access
 
@@ -18,17 +18,17 @@ On the **Details** tab, you can update the knowledge base title, its visibility 
 
 ## Available options
 
-* **Id.** The Knowledge Base (KB) number. Once created the ID cannot be changed.
+* **Id.** The Knowledge Base (KB) number. Once created, the Id cannot be changed.
 * **Default Language.** The default language of the knowledge base (e.g. en-GB).
-* **Name.** The name of the knowledge base. This name will be displayed on the Search/Browse View and visible to readers.
+* **Name.** The name of the knowledge base. This name will be displayed on the **Browse** view and visible to readers.
 * **Icon.** Select an icon for the knowledge base. This is most visible on the knowledge base cards on the Search/Browse View.
 * **Description.** Add a brief, helpful description of the knowledge base written with your audience in mind.
 * **Status.** The status of the knowledge base. Select from **Active**, **In Development**, or **Retired**. Only active knowledge bases will be visible to readers.
 * **New Articles Require Approval.** Use this toggle to require each new article to be [approved](/servicemanager-user-guide/knowledge/knowledge-bases/articles/approvals) before being published.
-* **Use In Employee Portal.** Use this toggle to make the knowledge base visible in the Employee Portal. This can ensure that the content is available for the correct audience.  Setting this option to `No` will prevent the knowledge base from being available on the Employee Portal, also known as the [Company Home](/esp-user-guide/company-home). 
-* **Use In Customer Portal.** Use this toggle to make the knowledge base visible in the Customer Portal. This can ensure that the content is available for the correct audience.  Setting this option to `No` will prevent the knowledge base from being available on the [customer portal](/esp-config/customize/customer-portal/configure-customer-portal).
-* **Owned By.** The owner of the knowledge base. Only users that have been assigned the [Knowledge Manager](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role will be available as a knowledge base owner.
-* **Last Modified By.** When these knowledge base details were last modified, for example, someone switches the toggle to show the knowledge base in the Customer Portal.
+* **Use In Employee Portal.** Use this toggle to make the knowledge base visible in the Employee Portal. This can ensure that the content is available for the correct audience. Setting this option to `No` will prevent the knowledge base from being available on the Employee Portal, also known as the [Company Home](/esp-user-guide/company-home).
+* **Use In Customer Portal.** Use this toggle to make the knowledge base visible in the Customer Portal. This can ensure that the content is available for the correct audience. Setting this option to `No` will prevent the knowledge base from being available on the [Customer Portal](/esp-config/customize/customer-portal/configure-customer-portal).
+* **Owned By.** The owner of the knowledge base. Only users who have been assigned the [Knowledge Manager](/servicemanager-config/setup/service-manager-roles#knowledge-roles) role will be available as a knowledge base owner.
+* **Last Modified By.** The user who last modified these knowledge base details, for example, by switching the toggle to show the knowledge base in the Customer Portal.
 
 ### Deleting a knowledge base
 

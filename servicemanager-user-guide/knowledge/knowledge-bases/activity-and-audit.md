@@ -16,7 +16,7 @@ The activity stream includes an option to follow. When you follow an activity st
 
 The Audit log is a valuable tool for a knowledge manager to track what has been changed.
 
-![Audit Log](/_books/servicemanager-user-guide/knowledge/images/kb-audit-log.png)
+![Audit log](/_books/servicemanager-user-guide/knowledge/images/kb-audit-log.png)
 
 ### Audit entry details
 
