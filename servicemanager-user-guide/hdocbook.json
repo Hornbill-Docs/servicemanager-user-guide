@@ -347,8 +347,8 @@
         "expand": false,
         "items": [
           {
-                "text": "Overview",
-                "link": "/servicemanager-user-guide/knowledge/overview/welcome"
+            "text": "Overview",
+            "link": "/servicemanager-user-guide/knowledge/overview"
           },
           {
             "text": "Browse",
