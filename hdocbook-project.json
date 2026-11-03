@@ -36,6 +36,11 @@
       "url": "/servicemanager-user-guide/service-portfolio/services/service-dependancies",
       "location": "/servicemanager-user-guide/service-portfolio/services/service-dependencies",
       "code": 301
+    },
+    {
+      "url": "/servicemanager-user-guide/knowledge/knowledge-bases/configuration",
+      "location": "/servicemanager-user-guide/knowledge/knowledge-bases/details",
+      "code": 301
     }
   ]
 }
