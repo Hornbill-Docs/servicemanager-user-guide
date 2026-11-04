@@ -11,7 +11,7 @@ The **Overview** is a landing page for knowledge managers and contributors that 
 
 |Card|Who|Each item shows|Links and buttons|
 |--|--|--|--|
-|Pending my approval|Knowledge managers|Article title, how many days it has waited (colored by age), author and knowledge base. Oldest first|View all pending approvals (only when some are waiting)|
+|Pending my approval|Knowledge managers|Article title, how many days it has waited (colored by age: 0–1 days: green, 2–4 days: yellow, 5–9 days: orange, 10+ days: red), author and knowledge base. Oldest first|View all pending approvals (only when some are waiting)|
 |Due for review|Knowledge managers|Article title, knowledge base, reviewer and due date. Soonest first.|Opens the article's Reviews tab|
 |My reviews|Contributors|Article title, knowledge base and due date. Soonest first.|Opens the article's Reviews tab|
 |Latest articles|Knowledge managers|Article title, knowledge base, status, author and date created. Newest first|New Article|

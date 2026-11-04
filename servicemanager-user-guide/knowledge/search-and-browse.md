@@ -40,7 +40,7 @@ Users with a basic user account can access the **Browse** view from the Employee
     Using [the Links widget](/esp-config/customize/employee-portal/employee-portal-widgets#links-widget), an Employee Portal designer can create an easy-to-access link to Knowledge that can be added to any page.
     :::
 
-## Search Knowledge from within Browse/Search
+## Searching Knowledge
 
 The search bar in the top right of the **Browse** view allows you to search for articles across all knowledge bases that you have access to. You can search by keywords or tags.
 
