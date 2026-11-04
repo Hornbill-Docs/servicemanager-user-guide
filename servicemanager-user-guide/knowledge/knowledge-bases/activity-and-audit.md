@@ -14,12 +14,12 @@ The activity stream includes an option to follow. When you follow an activity st
 
 ## Audit log
 
-The Audit log is a valuable tool for a knowledge manager to track what has been changed.
+The audit log is a valuable tool for a knowledge manager to track what has been changed.
 
 ![Audit log](/_books/servicemanager-user-guide/knowledge/images/kb-audit-log.png)
 
 ### Audit entry details
 
-You can click any entry in the audit log to view more detail. One important piece of information is what was changed, for example, the previous and new values of the Status.
+You can click any entry in the audit log to view more detail. One important piece of information is what was changed, such as the previous and new values of the Status.
 
 ![Audit Entry](/_books/servicemanager-user-guide/knowledge/images/kb-audit-entry.png)
