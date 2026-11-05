@@ -1,1 +1,5 @@
+---
+status: draft
+---
+
 # Article Translations
