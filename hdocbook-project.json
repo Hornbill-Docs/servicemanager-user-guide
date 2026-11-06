@@ -45,7 +45,8 @@
     {
       "url": "/servicemanager-user-guide/knowledge/search-data",
       "location": "/servicemanager-config/knowledge/search-log",
-      "code": 301
+      "code": 301,
+       "skip_location_validation": true
     }
   ]
 }
