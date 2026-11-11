@@ -6,7 +6,7 @@ The **Overview** is a landing page for knowledge managers and contributors that 
 
 ## Before you begin
 
-* You must have the **Knowledge Administrator**, **Knowledge Manager**, or **KnowledgeContributor** role to access the Overview.
+* You must have the **Knowledge Administrator**, **Knowledge Manager**, or **Knowledge Contributor** role to access the Overview.
 * If you have more than one of the roles listed above, you will only see the cards for the highest role you have. For example, if you are a Knowledge Manager and a Knowledge Contributor, you will only see the Knowledge Manager cards.
 
 |Card|Who|Each item shows|Links and buttons|

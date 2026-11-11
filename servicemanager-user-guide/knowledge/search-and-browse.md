@@ -49,7 +49,7 @@ The search bar in the top right of the **Browse** view allows you to search for 
 1. On the search bar, select to search on either keywords or tags.
 1. Select the search text box to enter your search query.
 1. In the Search box, enter your search text.
-1. The results page will display a list of articles that match your search query.
+1. The results page will display a list of articles that match your search query as you type in the Search box.
 1. Select an article to view.
 
 ### Search results
