@@ -32,7 +32,7 @@ Summarize a request/ticket at the click of a button. One fewer task for your age
 
 ## Where to find it
 
-In any request record, you'll see the new HAi Overview box. Simply click the HAi icon on the right-hand side to generate the request overview including the summary.
+In any request record, you'll see the new HAi Overview box. Simply click the HAi icon on the right-hand side to generate the request overview, including the summary.
 
 ![Hornbill AI](/_books/servicemanager-user-guide/images/hai-logo-small.png)
 
@@ -44,7 +44,11 @@ In any request record, you'll see the new HAi Overview box. Simply click the HAi
 2. HAi generates the content. Review and edit the content and then save by clicking the icon in the bottom right corner. The summary will be automatically date and time stamped.
     ![Hornbill Request Summarizer](/_books/servicemanager-user-guide/images/hai-request-summarizer-2.png)
 
-## Template Variables
+## Template variables
 
-Request Summary can be used in email templates as the variable is available with the others.
+The Request Summary can be used in email templates, where it is available as a variable alongside the others.
 ![Hornbill Request Summarizer - Email](/_books/servicemanager-user-guide/images/hai-request-summarizer-3.png)
+
+## Advanced configuration
+
+A setting is available to control whether the summary is automatically updated each time the request is opened. This is useful if you want to ensure the summary is always up to date with the latest information. To enable this setting, a Hornbill administrator can go to Service Manager Configuration, navigate to [Administration > HAi > Request Summarizer](/servicemanager-config/administration/hai-settings#hai-features), and toggle the option for automatic updates.
