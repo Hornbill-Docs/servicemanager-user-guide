@@ -47,6 +47,12 @@
       "location": "/servicemanager-config/knowledge/search-log",
       "code": 301,
       "skip_location_validation": true
+    },
+    {
+      "url": "/servicemanager-user-guide/knowledge/overview/welcome",
+      "location": "/servicemanager-fundamentals/knowledge-management/overview",
+      "code": 301,
+      "skip_location_validation": true
     }
   ]
 }
