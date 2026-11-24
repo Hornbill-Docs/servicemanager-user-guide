@@ -5,7 +5,9 @@
     "exclude_paths": []
   },
   "validation": {
-    "exclude_links": [],
+    "exclude_links": [
+      "https://community.hornbill.com/topic/29556-new-update-service-manager-3470/"
+    ],
     "exclude_spellcheck": [
       {
         "document_path": "servicemanager-user-guide/service-portfolio/requests/cancel-action",
