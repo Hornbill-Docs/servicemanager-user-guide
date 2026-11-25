@@ -23,7 +23,7 @@ The connection types are defined in a [Simple List](/servicemanager-config/setup
 
 When adding a connection to a request, a connection type must be selected.  The selected connection type will determine what access is provided to the connected user.
 
-#### View Request
+### View Request
 
 Each connection type allows you to select from incidents, service requests, and changes as request types that can be viewed by the connected user on the Employee Portal when that connection type is used.
 
@@ -35,11 +35,7 @@ Connections will have the following levels of access on these requests:
 * View who else is a connection to the request.
 * The connected users will not be able to interact with the request, add updates or comments, add/view attachments, resolve, cancel or provide feedback on the closure of the request.
 
-:::tip
-In order for Connections to view and download attachments, the setting `guest.servicemanager.portal.request.canConnectionsViewAttachments` needs to be enabled.
-:::
-
-#### Allow Collaboration
+### Allow Collaboration
 
 If you allow collaboration on any of the available request types, the connections added using this connection type will have all the View Requests visibility options plus the following:
 
@@ -52,17 +48,17 @@ If you allow collaboration on any of the available request types, the connection
 To collaborate on a request the connection must also have view access.  When selecting a request type under collaboration, if the View Request is not enabled for that request type, it will be automatically enabled.
 :::
 
-#### Customer Can Add Connection
+### Customer Can Add Connection
 
 When at least one connection type has the `Customer Can Add Connection` enabled, the customer of the request can add connections to the request. Only the connection types that have this enabled will be available to the customer to select from.
 
 ![Available to Portal User](/_books/servicemanager-user-guide/images/service-connections-portal-access.png)
 
-#### Email on Add
+### Email on Add
 
 * Notify the connected user that they have been added as a connection
 
-#### Email on Request Update
+### Email on Request Update
 
 * Notify the connected user when there has been a customer-facing update to the request.  The [Notify Customer](/servicemanager-user-guide/service-portfolio/requests/update-action#customer-email-notifications) option needs to be enabled for this to work.
 
